@@ -8,7 +8,7 @@ import requests
 class User:
     def __init__(self):
         self.port = "8080"
-        self.host = 'localhost'
+        self.host = '127.0.0.1'
         self.method = "http"
         self.url = '{}://{}:{}/api'.format(self.method, self.host, self.port)
         self.reset_db()

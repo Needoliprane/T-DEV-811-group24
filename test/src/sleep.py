@@ -6,7 +6,7 @@ import requests
 class Sleep:
     def __init__(self) -> None:
         self.port = "8080"
-        self.host = 'localhost'
+        self.host = '127.0.0.1'
         self.method = "http"
         self.url = '{}://{}:{}/api'.format(self.method, self.host, self.port)
 
