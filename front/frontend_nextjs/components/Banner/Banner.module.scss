@@ -1,0 +1,23 @@
+.container {
+  @apply relative h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px];
+}
+
+.discoverContainer {
+  @apply absolute text-white w-full top-1/2 flex justify-center flex-col gap-1;
+  transform: translateY(-50%);
+}
+
+.text {
+  @apply bg-black bg-opacity-60 w-fit mx-auto text-lg md:text-xl p-2;
+}
+
+.button {
+  @apply bg-white text-red-500 hover:bg-red-500 hover:text-white py-2 px-3 rounded-full mx-auto text-xl shadow-md;
+  @apply transition duration-100;
+  &:hover {
+    @apply shadow-xl;
+  }
+  &:active {
+    @apply scale-90;
+  }
+}

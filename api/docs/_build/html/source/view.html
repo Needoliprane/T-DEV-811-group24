@@ -1,0 +1,545 @@
+<!doctype html>
+<html class="no-js">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" />
+
+    <meta name="generator" content="sphinx-4.3.2, furo 2022.02.23"/>
+        <title>view package - Follow up documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=3c656993158f05539f962c5cea52a5e6c184bb8c" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=25ceb02ed1c46dc30f2321ff83e92799f69dfdb9" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  body[data-theme="dark"] {
+    --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+  }
+  @media (prefers-color-scheme: dark) {
+    body:not([data-theme="light"]) {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+  }
+</style></head>
+  <body>
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">Follow up  documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">Follow up  documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container"><div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="view-package">
+<h1>view package<a class="headerlink" href="#view-package" title="Permalink to this headline">#</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">#</a></h2>
+</section>
+<section id="view-admin-module">
+<h2>view.admin module<a class="headerlink" href="#view-admin-module" title="Permalink to this headline">#</a></h2>
+</section>
+<section id="module-view.covid">
+<span id="view-covid-module"></span><h2>view.covid module<a class="headerlink" href="#module-view.covid" title="Permalink to this headline">#</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.covid.add_caching">
+<span class="sig-prename descclassname"><span class="pre">view.covid.</span></span><span class="sig-name descname"><span class="pre">add_caching</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.covid.add_caching" title="Permalink to this definition">#</a></dt>
+<dd><p>add caching</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.covid.caching_handler">
+<span class="sig-prename descclassname"><span class="pre">view.covid.</span></span><span class="sig-name descname"><span class="pre">caching_handler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.covid.caching_handler" title="Permalink to this definition">#</a></dt>
+<dd><p>caching handler</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.covid.get_stat_by_country">
+<span class="sig-prename descclassname"><span class="pre">view.covid.</span></span><span class="sig-name descname"><span class="pre">get_stat_by_country</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">country</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.covid.get_stat_by_country" title="Permalink to this definition">#</a></dt>
+<dd><p>get covid statics by country</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>country (str): country code</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.covid.ping">
+<span class="sig-prename descclassname"><span class="pre">view.covid.</span></span><span class="sig-name descname"><span class="pre">ping</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.covid.ping" title="Permalink to this definition">#</a></dt>
+<dd><p>ping/pong</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>Response html: pong</p>
+</dd>
+</dl>
+</dd></dl>
+</section>
+<section id="module-view.drink">
+<span id="view-drink-module"></span><h2>view.drink module<a class="headerlink" href="#module-view.drink" title="Permalink to this headline">#</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.drink.add_caching">
+<span class="sig-prename descclassname"><span class="pre">view.drink.</span></span><span class="sig-name descname"><span class="pre">add_caching</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.drink.add_caching" title="Permalink to this definition">#</a></dt>
+<dd><p>add caching</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.drink.caching_handler">
+<span class="sig-prename descclassname"><span class="pre">view.drink.</span></span><span class="sig-name descname"><span class="pre">caching_handler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.drink.caching_handler" title="Permalink to this definition">#</a></dt>
+<dd><p>caching handler</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.drink.find_drink_by_city">
+<span class="sig-prename descclassname"><span class="pre">view.drink.</span></span><span class="sig-name descname"><span class="pre">find_drink_by_city</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">city</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.drink.find_drink_by_city" title="Permalink to this definition">#</a></dt>
+<dd><p>find all bar/nightclub by city</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>city (str): city name</p>
+</dd>
+<dt>Returns:</dt><dd><p>dict: all bar/nightclub by city</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.drink.find_type_by_city">
+<span class="sig-prename descclassname"><span class="pre">view.drink.</span></span><span class="sig-name descname"><span class="pre">find_type_by_city</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">service_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">city</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.drink.find_type_by_city" title="Permalink to this definition">#</a></dt>
+<dd><p>get all services type by city name</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>service_type (str): wanted services provided by get_list_service_type
+city (str): name of the city</p>
+</dd>
+<dt>Returns:</dt><dd><p>dict: result</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.drink.get_list_of_provided_services">
+<span class="sig-prename descclassname"><span class="pre">view.drink.</span></span><span class="sig-name descname"><span class="pre">get_list_of_provided_services</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.drink.get_list_of_provided_services" title="Permalink to this definition">#</a></dt>
+<dd><p>get list of provided services</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>dict: list of all provided services</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.drink.ping">
+<span class="sig-prename descclassname"><span class="pre">view.drink.</span></span><span class="sig-name descname"><span class="pre">ping</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.drink.ping" title="Permalink to this definition">#</a></dt>
+<dd><p>ping/pong</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>Response html: pong</p>
+</dd>
+</dl>
+</dd></dl>
+</section>
+<section id="module-view.eat">
+<span id="view-eat-module"></span><h2>view.eat module<a class="headerlink" href="#module-view.eat" title="Permalink to this headline">#</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.eat.add_caching">
+<span class="sig-prename descclassname"><span class="pre">view.eat.</span></span><span class="sig-name descname"><span class="pre">add_caching</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.eat.add_caching" title="Permalink to this definition">#</a></dt>
+<dd><p>add caching</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.eat.caching_handler">
+<span class="sig-prename descclassname"><span class="pre">view.eat.</span></span><span class="sig-name descname"><span class="pre">caching_handler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.eat.caching_handler" title="Permalink to this definition">#</a></dt>
+<dd><p>caching handler</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.eat.get_city_id">
+<span class="sig-prename descclassname"><span class="pre">view.eat.</span></span><span class="sig-name descname"><span class="pre">get_city_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">city</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.eat.get_city_id" title="Permalink to this definition">#</a></dt>
+<dd><p>get city id</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>city (string): name of the city</p>
+</dd>
+<dt>Returns:</dt><dd><p>dict: result</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.eat.get_restaurant">
+<span class="sig-prename descclassname"><span class="pre">view.eat.</span></span><span class="sig-name descname"><span class="pre">get_restaurant</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">city_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.eat.get_restaurant" title="Permalink to this definition">#</a></dt>
+<dd><p>get restaurant</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>city_id (str):id of the city</p>
+</dd>
+<dt>Returns:</dt><dd><p>dict: restaurant data</p>
+</dd>
+</dl>
+</dd></dl>
+</section>
+<section id="module-view.enjoy">
+<span id="view-enjoy-module"></span><h2>view.enjoy module<a class="headerlink" href="#module-view.enjoy" title="Permalink to this headline">#</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.enjoy.add_caching">
+<span class="sig-prename descclassname"><span class="pre">view.enjoy.</span></span><span class="sig-name descname"><span class="pre">add_caching</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.enjoy.add_caching" title="Permalink to this definition">#</a></dt>
+<dd><p>add caching</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.enjoy.caching_handler">
+<span class="sig-prename descclassname"><span class="pre">view.enjoy.</span></span><span class="sig-name descname"><span class="pre">caching_handler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.enjoy.caching_handler" title="Permalink to this definition">#</a></dt>
+<dd><p>caching handler</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.enjoy.get_event_by_city_name">
+<span class="sig-prename descclassname"><span class="pre">view.enjoy.</span></span><span class="sig-name descname"><span class="pre">get_event_by_city_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">city</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.enjoy.get_event_by_city_name" title="Permalink to this definition">#</a></dt>
+<dd><p>get all event by city name</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>city (string): name of the city</p>
+</dd>
+<dt>Returns:</dt><dd><p>dict: result</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.enjoy.get_event_by_id">
+<span class="sig-prename descclassname"><span class="pre">view.enjoy.</span></span><span class="sig-name descname"><span class="pre">get_event_by_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">event_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.enjoy.get_event_by_id" title="Permalink to this definition">#</a></dt>
+<dd><p>get event by event_id</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>event_id (string): event_id</p>
+</dd>
+<dt>Returns:</dt><dd><p>dict: result</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.enjoy.get_event_by_search">
+<span class="sig-prename descclassname"><span class="pre">view.enjoy.</span></span><span class="sig-name descname"><span class="pre">get_event_by_search</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.enjoy.get_event_by_search" title="Permalink to this definition">#</a></dt>
+<dd><p>get all event by search</p>
+</dd></dl>
+</section>
+<section id="module-view.sleep">
+<span id="view-sleep-module"></span><h2>view.sleep module<a class="headerlink" href="#module-view.sleep" title="Permalink to this headline">#</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.sleep.add_caching">
+<span class="sig-prename descclassname"><span class="pre">view.sleep.</span></span><span class="sig-name descname"><span class="pre">add_caching</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.sleep.add_caching" title="Permalink to this definition">#</a></dt>
+<dd><p>add caching</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.sleep.autocomplete">
+<span class="sig-prename descclassname"><span class="pre">view.sleep.</span></span><span class="sig-name descname"><span class="pre">autocomplete</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.sleep.autocomplete" title="Permalink to this definition">#</a></dt>
+<dd><p>Autocomplete for hotels</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.sleep.caching_handler">
+<span class="sig-prename descclassname"><span class="pre">view.sleep.</span></span><span class="sig-name descname"><span class="pre">caching_handler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.sleep.caching_handler" title="Permalink to this definition">#</a></dt>
+<dd><p>caching handler</p>
+</dd></dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="view.sleep.headers">
+<span class="sig-prename descclassname"><span class="pre">view.sleep.</span></span><span class="sig-name descname"><span class="pre">headers</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'Content-Type':</span> <span class="pre">'application/json',</span> <span class="pre">'X-RapidAPI-Host':</span> <span class="pre">'hotels4.p.rapidapi.com',</span> <span class="pre">'X-RapidAPI-Key':</span> <span class="pre">'6636c7db21mshf2bc4d2c45de869p161483jsndc66b70663d9'}</span></em><a class="headerlink" href="#view.sleep.headers" title="Permalink to this definition">#</a></dt>
+<dd><p># To do adapt better handling of number of person 
+nb of person : 2
+adult1, adult2
+not adult1:2</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.sleep.hotel_by_id">
+<span class="sig-prename descclassname"><span class="pre">view.sleep.</span></span><span class="sig-name descname"><span class="pre">hotel_by_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.sleep.hotel_by_id" title="Permalink to this definition">#</a></dt>
+<dd><p>Get hotels by id</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.sleep.hotel_by_location">
+<span class="sig-prename descclassname"><span class="pre">view.sleep.</span></span><span class="sig-name descname"><span class="pre">hotel_by_location</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.sleep.hotel_by_location" title="Permalink to this definition">#</a></dt>
+<dd><p>Get hotels by location</p>
+</dd></dl>
+</section>
+<section id="module-view.travel">
+<span id="view-travel-module"></span><h2>view.travel module<a class="headerlink" href="#module-view.travel" title="Permalink to this headline">#</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.travel.add_caching">
+<span class="sig-prename descclassname"><span class="pre">view.travel.</span></span><span class="sig-name descname"><span class="pre">add_caching</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.travel.add_caching" title="Permalink to this definition">#</a></dt>
+<dd><p>add caching</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.travel.caching_handler">
+<span class="sig-prename descclassname"><span class="pre">view.travel.</span></span><span class="sig-name descname"><span class="pre">caching_handler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.travel.caching_handler" title="Permalink to this definition">#</a></dt>
+<dd><p>caching handler</p>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.travel.format_date">
+<span class="sig-prename descclassname"><span class="pre">view.travel.</span></span><span class="sig-name descname"><span class="pre">format_date</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.travel.format_date" title="Permalink to this definition">#</a></dt>
+<dd><p>formate date</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>date (string): date</p>
+</dd>
+<dt>Returns:</dt><dd><p>string: date formated for the api</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.travel.get_airport_by_city_code">
+<span class="sig-prename descclassname"><span class="pre">view.travel.</span></span><span class="sig-name descname"><span class="pre">get_airport_by_city_code</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">city_code</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.travel.get_airport_by_city_code" title="Permalink to this definition">#</a></dt>
+<dd><p>find airport by city code</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>city_code (str): city code find by get_city_code</p>
+</dd>
+<dt>Returns:</dt><dd><p>dict: result</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.travel.travel_get_city_code">
+<span class="sig-prename descclassname"><span class="pre">view.travel.</span></span><span class="sig-name descname"><span class="pre">travel_get_city_code</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">city</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.travel.travel_get_city_code" title="Permalink to this definition">#</a></dt>
+<dd><p>get city code from city name</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>city (str): name of the city</p>
+</dd>
+<dt>Returns:</dt><dd><p>dict: result of the request</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.travel.travel_plane_departure">
+<span class="sig-prename descclassname"><span class="pre">view.travel.</span></span><span class="sig-name descname"><span class="pre">travel_plane_departure</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.travel.travel_plane_departure" title="Permalink to this definition">#</a></dt>
+<dd><p>get all plane departure for a given date</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>dict: result</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.travel.travel_plane_departure_all">
+<span class="sig-prename descclassname"><span class="pre">view.travel.</span></span><span class="sig-name descname"><span class="pre">travel_plane_departure_all</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.travel.travel_plane_departure_all" title="Permalink to this definition">#</a></dt>
+<dd><p>get all plane departure for a given month</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>dict: result</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.travel.travel_plane_return">
+<span class="sig-prename descclassname"><span class="pre">view.travel.</span></span><span class="sig-name descname"><span class="pre">travel_plane_return</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.travel.travel_plane_return" title="Permalink to this definition">#</a></dt>
+<dd><p>get all plane for a given date</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>dict: result</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="view.travel.travel_plane_return_all">
+<span class="sig-prename descclassname"><span class="pre">view.travel.</span></span><span class="sig-name descname"><span class="pre">travel_plane_return_all</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.travel.travel_plane_return_all" title="Permalink to this definition">#</a></dt>
+<dd><p>get all plane return for a given mothn</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>dict: response</p>
+</dd>
+</dl>
+</dd></dl>
+</section>
+<section id="view-user-module">
+<h2>view.user module<a class="headerlink" href="#view-user-module" title="Permalink to this headline">#</a></h2>
+</section>
+<section id="module-view">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-view" title="Permalink to this headline">#</a></h2>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2022, Louis
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            <div class="icons">
+              
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">view package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#view-admin-module">view.admin module</a></li>
+<li><a class="reference internal" href="#module-view.covid">view.covid module</a></li>
+<li><a class="reference internal" href="#module-view.drink">view.drink module</a></li>
+<li><a class="reference internal" href="#module-view.eat">view.eat module</a></li>
+<li><a class="reference internal" href="#module-view.enjoy">view.enjoy module</a></li>
+<li><a class="reference internal" href="#module-view.sleep">view.sleep module</a></li>
+<li><a class="reference internal" href="#module-view.travel">view.travel module</a></li>
+<li><a class="reference internal" href="#view-user-module">view.user module</a></li>
+<li><a class="reference internal" href="#module-view">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/furo.js"></script>
+    </body>
+</html>

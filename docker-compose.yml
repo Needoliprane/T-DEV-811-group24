@@ -1,0 +1,49 @@
+version: '3'
+services:
+  api:
+    build: ./api
+    networks:
+      - backend
+      - frontend
+    ports:
+      - 443:443
+      - 8080:8080
+
+  frontend:
+    build: ./front
+    networks:
+      - frontend
+    ports:
+      - 3000:3000
+
+  mail_api:
+    build: ./mail_api
+    networks:
+      - backend
+    ports:
+      - 7979:8080
+
+  redis:
+    image: redis
+    networks:
+      - backend
+    ports:
+      - 6379:6379
+
+  mongodb:
+    image: mongo
+    networks:
+      - backend
+    ports:
+      - 27017:27017
+    volumes:
+      - ~/apps/mongo:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=admin
+
+networks:
+  backend:
+    driver: bridge
+  frontend:
+    driver: bridge
