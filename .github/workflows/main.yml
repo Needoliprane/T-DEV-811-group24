@@ -17,9 +17,9 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
       - name: Installing project dependencies
-        run: cd ./front && npm install
+        run: cd ./front/frontend_nextjs && npm install
       - name: Building the project
-        run: cd ./front && npm run build
+        run: cd ./front/frontend_nextjs && npm run build
 
   backendtest:
     runs-on: ubuntu-latest
