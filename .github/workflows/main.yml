@@ -1,0 +1,51 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on:
+  push:
+    branches: [ devops, master ]
+  pull_request:
+    branches: [ devops, master ]
+  workflow_dispatch:
+
+jobs:
+    
+  frontendtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+      - name: Installing project dependencies
+        run: cd ./front && npm install
+      - name: Building the project
+        run: cd ./front && npm run build
+
+  backendtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 #install the python needed
+      - name: Installing project dependencies
+        run: docker-compose up --build --detach
+      - name: test backend
+        run: cd ./test && python3 main.py
+  
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.REMOTE_HOST }}
+        username: ${{ secrets.REMOTE_USER }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        port: 22
+        script: |
+          cd T-WEB-800-T-WEB-800_msc2023
+          sudo docker-compose stop
+          git pull origin main
+          sudo docker-compose up --build --detach
