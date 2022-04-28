@@ -6,7 +6,7 @@ import requests
 class Covid:
     def __init__(self) -> None:
         self.port = "8080"
-        self.host = '127.0.0.1'
+        self.host = 'api'
         self.method = "http"
         self.url = '{}://{}:{}/api'.format(self.method, self.host, self.port)
 

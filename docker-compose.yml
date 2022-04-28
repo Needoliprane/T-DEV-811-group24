@@ -42,6 +42,12 @@ services:
       - MONGO_INITDB_ROOT_USERNAME=root
       - MONGO_INITDB_ROOT_PASSWORD=admin
 
+  test:
+    build: ./test
+    networks:
+      - backend
+    
+
 networks:
   backend:
     driver: bridge

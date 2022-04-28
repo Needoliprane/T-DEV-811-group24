@@ -80,12 +80,14 @@ import sys
 
 if __name__ == '__main__':
     print("starting tests...")
-    test_direction()
-    test_enjoy()
-    test_user()
-    test_eat()
-    test_covid()
-    test_drink()
-    test_sleep()
-    print("All tests done, no error")
-
+    try:
+        test_direction()
+        test_enjoy()
+        test_user()
+        test_eat()
+        test_covid()
+        test_drink()
+        test_sleep()
+        print("All tests done, no error")
+    except:
+        print("Error in tests")
