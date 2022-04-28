@@ -31,6 +31,8 @@ jobs:
           python-version: 3.8 #install the python needed
       - name: Installing project dependencies
         run: docker-compose up --build --detach
+      - name: setup test environnement
+        run: python -m pip install requests
       - name: test backend
         run: cd ./test && python3 main.py
   
