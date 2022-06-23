@@ -7,6 +7,7 @@ const EatRouter = require("./eat/eat.router")
 const ServiceTypeRouter = require("./serviceType/serviceType.router")
 const EnjoyRouter = require("./enjoy/enjoy.router")
 const SleepRouter = require("./sleep/sleep.router")
+const TravelRouter = require("./travel/travel.router")
 // const MeRouter = require('./me/me.router');
 const { isAuthenticated, isAuthorized } = require('../middlewares/auth.middleware');
 
@@ -19,5 +20,6 @@ router.use("/api/eat", EatRouter);
 router.use("/api/serviceType", ServiceTypeRouter)
 router.use("/api/enjoy", EnjoyRouter)
 router.use("/api/sleep", SleepRouter)
+router.use("/api/travel", TravelRouter)
 
 module.exports = router;
