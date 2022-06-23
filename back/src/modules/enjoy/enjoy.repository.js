@@ -1,4 +1,4 @@
-axios = require("axios");
+const axios = require("axios");
 
 const EnjoyRepository = {
 	getBySearch: async (geohash, country_code, search) => {
