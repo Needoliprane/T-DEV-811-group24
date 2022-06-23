@@ -75,7 +75,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     if: ${{ always() && contains(join(needs.*.result, ','), 'success') }}
-    needs: [backendtest, frontendtest]
+    needs: [backendtest, frontendtest, tdd_api]
     steps:
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
