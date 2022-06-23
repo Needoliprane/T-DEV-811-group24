@@ -4,9 +4,9 @@ name: CI
 
 on:
   push:
-    branches: [ devops, master, main ]
+    branches: [ devops, master, main, tdd_api ]
   pull_request:
-    branches: [ devops, master, main ]
+    branches: [ devops, master, main, tdd_api]
   workflow_dispatch:
 
 jobs:
