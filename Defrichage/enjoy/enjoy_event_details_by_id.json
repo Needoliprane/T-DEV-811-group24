@@ -1,0 +1,362 @@
+{
+  "data": {
+    "_embedded": {
+      "attractions": [
+        {
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/attractions/K8vZ917pENf?locale=en-us"
+            }
+          },
+          "classifications": [
+            {
+              "family": false,
+              "genre": {
+                "id": "KnvZfZ7vAv1",
+                "name": "Hip-Hop/Rap"
+              },
+              "primary": true,
+              "segment": {
+                "id": "KZFzniwnSyZfZ7v7nJ",
+                "name": "Music"
+              },
+              "subGenre": {
+                "id": "KZazBEonSMnZfZ7vkvl",
+                "name": "Hip-Hop/Rap"
+              },
+              "subType": {
+                "id": "KZFzBErXgnZfZ7vAdn",
+                "name": "Artist"
+              },
+              "type": {
+                "id": "KZAyXgnZfZ7v7la",
+                "name": "Individual"
+              }
+            }
+          ],
+          "externalLinks": {
+            "facebook": [
+              {
+                "url": "https://www.facebook.com/DADJU"
+              }
+            ],
+            "homepage": [
+              {
+                "url": "https://dadju.store"
+              }
+            ],
+            "instagram": [
+              {
+                "url": "https://www.instagram.com/dadju/"
+              }
+            ],
+            "itunes": [
+              {
+                "url": "https://music.apple.com/us/artist/dadju/513595194"
+              }
+            ],
+            "spotify": [
+              {
+                "url": "https://open.spotify.com/artist/4sbXXFzEWJY2zsZjelerjX"
+              }
+            ],
+            "twitter": [
+              {
+                "url": "https://twitter.com/Dadju"
+              }
+            ],
+            "youtube": [
+              {
+                "url": "https://www.youtube.com/channel/UC8HMvOLE0etpO_eVjJ98bHA"
+              }
+            ]
+          },
+          "id": "K8vZ917pENf",
+          "images": [
+            {
+              "fallback": false,
+              "height": 427,
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_RETINA_PORTRAIT_3_2.jpg",
+              "width": 640
+            },
+            {
+              "fallback": false,
+              "height": 225,
+              "ratio": "4_3",
+              "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_CUSTOM.jpg",
+              "width": 305
+            },
+            {
+              "fallback": false,
+              "height": 360,
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_RETINA_PORTRAIT_16_9.jpg",
+              "width": 640
+            },
+            {
+              "fallback": false,
+              "height": 1152,
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+              "width": 2048
+            },
+            {
+              "fallback": false,
+              "height": 203,
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_ARTIST_PAGE_3_2.jpg",
+              "width": 305
+            },
+            {
+              "fallback": false,
+              "height": 576,
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_TABLET_LANDSCAPE_16_9.jpg",
+              "width": 1024
+            },
+            {
+              "fallback": false,
+              "height": 56,
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_RECOMENDATION_16_9.jpg",
+              "width": 100
+            },
+            {
+              "fallback": false,
+              "height": 683,
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_TABLET_LANDSCAPE_3_2.jpg",
+              "width": 1024
+            },
+            {
+              "fallback": false,
+              "height": 639,
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_RETINA_LANDSCAPE_16_9.jpg",
+              "width": 1136
+            },
+            {
+              "fallback": false,
+              "height": 115,
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_EVENT_DETAIL_PAGE_16_9.jpg",
+              "width": 205
+            }
+          ],
+          "locale": "en-us",
+          "name": "Dadju",
+          "test": false,
+          "type": "attraction",
+          "upcomingEvents": {
+            "_filtered": 0,
+            "_total": 2,
+            "mfx-be": 1,
+            "ticketmaster": 1
+          },
+          "url": "http://www.ticketmaster.fr/artist/993371"
+        }
+      ],
+      "venues": [
+        {
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/venues/rZ7SnyZa7Ps?locale=fr-fr"
+            }
+          },
+          "address": {
+            "line1": "24 RUE DU COMMANDANT GUILBAUD"
+          },
+          "city": {
+            "name": "Paris"
+          },
+          "country": {
+            "countryCode": "FR",
+            "name": "France"
+          },
+          "id": "rZ7SnyZa7Ps",
+          "images": [
+            {
+              "fallback": false,
+              "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_397_4.jpg"
+            }
+          ],
+          "locale": "fr-fr",
+          "location": {
+            "latitude": "48.841935",
+            "longitude": "2.2514"
+          },
+          "name": "PARC DES PRINCES",
+          "postalCode": "75016",
+          "state": {
+            "name": "Idf",
+            "stateCode": "75"
+          },
+          "test": false,
+          "timezone": "Europe/Paris",
+          "type": "venue",
+          "upcomingEvents": {
+            "_filtered": 0,
+            "_total": 0
+          },
+          "url": "https://www.ticketmaster.fr/fr/salle/parc-des-princes/idsite/397"
+        }
+      ]
+    },
+    "_links": {
+      "attractions": [
+        {
+          "href": "/discovery/v2/attractions/K8vZ917pENf?locale=en-us"
+        }
+      ],
+      "self": {
+        "href": "/discovery/v2/events/rZ7SnyZ1Ad7Fjf?locale=fr-fr"
+      },
+      "venues": [
+        {
+          "href": "/discovery/v2/venues/rZ7SnyZa7Ps?locale=fr-fr"
+        }
+      ]
+    },
+    "classifications": [
+      {
+        "family": false,
+        "genre": {
+          "id": "KnvZfZ7vAv1",
+          "name": "Hip-Hop/Rap"
+        },
+        "primary": true,
+        "segment": {
+          "id": "KZFzniwnSyZfZ7v7nJ",
+          "name": "Music"
+        },
+        "subGenre": {
+          "id": "KZazBEonSMnZfZ7vkvl",
+          "name": "Hip-Hop/Rap"
+        }
+      }
+    ],
+    "dates": {
+      "spanMultipleDays": false,
+      "start": {
+        "dateTBA": false,
+        "dateTBD": false,
+        "dateTime": "2022-06-18T18:00:00Z",
+        "localDate": "2022-06-18",
+        "localTime": "20:00:00",
+        "noSpecificTime": false,
+        "timeTBA": false
+      },
+      "status": {
+        "code": "rescheduled"
+      },
+      "timezone": "Europe/Paris"
+    },
+    "description": "Le concert du samedi 12 juin 2021 au Parc des Princes (initialement prévu le 7 juin 2020) est reporté au samedi 18 juin 2022. La représentation initialement prévue au Parc des Princes le vendredi 11 juin 2021 ne pourra avoir lieu. Cette représentation n’étant pas reportée, vos billets actuels ne sont plus valables. En 2017, Dadju lançait sa carrière solo. Trois ans plus tard, il s’impose désormais comme l’un des artistes majeurs de la scène musicale de sa génération avec près d’un million d’albums vendus, 32 singles d’Or, 13 singles de Platine et 9 singles de Diamant !Son dernier album « Poison ou Antidote », sorti le 18 novembre 2019, s’est écoulé à plus de 280 000 exemplaires.Après une Cigale, un Olympia, un Zénith de Paris, un Accor Arena et une tournée des Zéniths sold out…  Dadju vous donne rendez-vous en 2021 et 2022 pour le P.O.A. Miel Tour à partir du 16 septembre au Zénith de Strasbourg.",
+    "id": "rZ7SnyZ1Ad7Fjf",
+    "images": [
+      {
+        "fallback": false,
+        "height": 427,
+        "ratio": "3_2",
+        "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_RETINA_PORTRAIT_3_2.jpg",
+        "width": 640
+      },
+      {
+        "fallback": false,
+        "height": 225,
+        "ratio": "4_3",
+        "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_CUSTOM.jpg",
+        "width": 305
+      },
+      {
+        "fallback": false,
+        "height": 360,
+        "ratio": "16_9",
+        "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_RETINA_PORTRAIT_16_9.jpg",
+        "width": 640
+      },
+      {
+        "fallback": false,
+        "height": 1152,
+        "ratio": "16_9",
+        "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+        "width": 2048
+      },
+      {
+        "fallback": false,
+        "height": 203,
+        "ratio": "3_2",
+        "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_ARTIST_PAGE_3_2.jpg",
+        "width": 305
+      },
+      {
+        "fallback": false,
+        "height": 576,
+        "ratio": "16_9",
+        "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_TABLET_LANDSCAPE_16_9.jpg",
+        "width": 1024
+      },
+      {
+        "fallback": false,
+        "height": 56,
+        "ratio": "16_9",
+        "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_RECOMENDATION_16_9.jpg",
+        "width": 100
+      },
+      {
+        "fallback": false,
+        "height": 683,
+        "ratio": "3_2",
+        "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_TABLET_LANDSCAPE_3_2.jpg",
+        "width": 1024
+      },
+      {
+        "fallback": false,
+        "height": 639,
+        "ratio": "16_9",
+        "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_RETINA_LANDSCAPE_16_9.jpg",
+        "width": 1136
+      },
+      {
+        "fallback": false,
+        "height": 115,
+        "ratio": "16_9",
+        "url": "https://s1.ticketm.net/dam/a/009/ebf83cc0-22af-41b4-97bf-c8586a76b009_1602681_EVENT_DETAIL_PAGE_16_9.jpg",
+        "width": 205
+      }
+    ],
+    "locale": "fr-fr",
+    "name": "DADJU",
+    "priceRanges": [
+      {
+        "currency": "EUR",
+        "max": 111.5,
+        "min": 29.0,
+        "type": "standard"
+      }
+    ],
+    "promoter": {
+      "id": "19564390",
+      "name": "OLYMPIA PRODUCTION"
+    },
+    "promoters": [
+      {
+        "id": "19564390",
+        "name": "OLYMPIA PRODUCTION"
+      }
+    ],
+    "sales": {
+      "public": {
+        "endDateTime": "2022-06-18T18:00:00Z",
+        "startDateTime": "2020-06-30T16:00:00Z",
+        "startTBA": false,
+        "startTBD": false
+      }
+    },
+    "test": false,
+    "type": "event",
+    "url": "https://www.ticketmaster.fr/fr/manifestation/dadju-billet/idmanif/480770/idtier/18864121"
+  },
+  "status": "success"
+}

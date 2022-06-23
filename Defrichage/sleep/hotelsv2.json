@@ -1,0 +1,532 @@
+{
+  "header": "Guemene-Penfao, Loire-Atlantique, France",
+  "query": {
+    "destination": {
+      "id": "522661",
+      "value": "Guemene-Penfao, Loire-Atlantique, France",
+      "resolvedLocation": "CITY:522661:UNKNOWN:UNKNOWN"
+    }
+  },
+  "searchResults": {
+    "totalCount": 70,
+    "results": [
+      {
+        "id": 207009,
+        "name": "Domaine De La Bretesche",
+        "starRating": 5,
+        "urls": {},
+        "address": {
+          "streetAddress": "Domaine de la Bretesche",
+          "extendedAddress": "",
+          "locality": "Missillac",
+          "postalCode": "44780",
+          "region": "Loire-Atlantique",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.6,
+          "rating": "4.6",
+          "total": 66,
+          "scale": 5,
+          "badge": "superb",
+          "badgeText": "Superb"
+        },
+        "landmarks": [
+          {
+            "label": "Guemene-Penfao",
+            "distance": "19 miles"
+          },
+          {
+            "label": "Redon Besle Station",
+            "distance": "21 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "311 €",
+            "exactCurrent": 310.9,
+            "old": "345 €",
+            "fullyBundledPricePerStay": "total 352 € for 1&nbsp;room, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": true,
+            "paymentPreference": true,
+            "noCCRequired": false
+          },
+          "type": "Dual"
+        },
+        "neighbourhood": "Missillac",
+        "deals": {
+          "secretPrice": {
+            "dealText": "Save more with Secret Prices"
+          },
+          "priceReasoning": "DRR-443"
+        },
+        "messaging": {},
+        "badging": {},
+        "pimmsAttributes": "DoubleStamps|D13|showFrequentlyAskedQuestionsenUS|TESCO",
+        "coordinate": {
+          "lat": 47.48081,
+          "lon": -2.17054
+        },
+        "providerType": "LOCAL",
+        "supplierHotelId": 907882,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/910000/907900/907882/172256bb_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      }
+    ],
+    "pagination": {
+      "currentPage": 1,
+      "pageGroup": "EXPEDIA_EXPANDED",
+      "nextPageStartIndex": 1,
+      "nextPageNumber": 1,
+      "nextPageGroup": "TPI_EXPANDED"
+    }
+  },
+  "sortResults": {
+    "options": [
+      {
+        "label": "Featured",
+        "itemMeta": "popular",
+        "choices": [
+          {
+            "label": "Featured",
+            "value": "BEST_SELLER",
+            "selected": false
+          }
+        ],
+        "enhancedChoices": []
+      },
+      {
+        "label": "Star rating",
+        "itemMeta": "star",
+        "selectedChoiceLabel": "Stars (high to low)",
+        "choices": [
+          {
+            "label": "Stars (high to low)",
+            "value": "STAR_RATING_HIGHEST_FIRST",
+            "selected": true
+          },
+          {
+            "label": "Stars (low to high)",
+            "value": "STAR_RATING_LOWEST_FIRST",
+            "selected": false
+          }
+        ],
+        "enhancedChoices": []
+      },
+      {
+        "label": "Distance",
+        "itemMeta": "distance",
+        "choices": [
+          {
+            "label": "Distance to city center",
+            "value": "DISTANCE_FROM_LANDMARK",
+            "selected": false
+          }
+        ],
+        "enhancedChoices": [
+          {
+            "label": "Landmarks",
+            "itemMeta": "landmarks",
+            "choices": [
+              {
+                "label": "City center",
+                "id": 522661
+              }
+            ]
+          },
+          {
+            "label": "Train stations",
+            "itemMeta": "stations",
+            "choices": [
+              {
+                "label": "Redon Besle Station",
+                "id": 1698209
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Guest rating",
+        "itemMeta": "rating",
+        "choices": [
+          {
+            "label": "Guest rating",
+            "value": "GUEST_RATING",
+            "selected": false
+          }
+        ],
+        "enhancedChoices": []
+      },
+      {
+        "label": "Price",
+        "itemMeta": "price",
+        "choices": [
+          {
+            "label": "Price (high to low)",
+            "value": "PRICE_HIGHEST_FIRST",
+            "selected": false
+          },
+          {
+            "label": "Price (low to high)",
+            "value": "PRICE",
+            "selected": false
+          }
+        ],
+        "enhancedChoices": []
+      }
+    ],
+    "distanceOptionLandmarkId": 522661
+  },
+  "filters": {
+    "applied": true,
+    "name": {
+      "item": {
+        "value": ""
+      },
+      "autosuggest": {
+        "additionalUrlParams": {
+          "resolved-location": "CITY:522661:UNKNOWN:UNKNOWN",
+          "q-destination": "Guemene-Penfao, Loire-Atlantique, France",
+          "destination-id": "522661"
+        }
+      }
+    },
+    "starRating": {
+      "applied": true,
+      "items": [
+        {
+          "value": 5,
+          "applied": true
+        },
+        {
+          "value": 4,
+          "applied": true
+        },
+        {
+          "value": 3,
+          "applied": true
+        },
+        {
+          "value": 2,
+          "disabled": true
+        },
+        {
+          "value": 1,
+          "disabled": true
+        }
+      ]
+    },
+    "guestRating": {
+      "applied": true,
+      "range": {
+        "min": {
+          "defaultValue": 0,
+          "value": 1
+        },
+        "max": {
+          "defaultValue": 5
+        }
+      }
+    },
+    "landmarks": {
+      "selectedOrder": [],
+      "items": [
+        {
+          "label": "City center",
+          "value": "522661"
+        },
+        {
+          "label": "Redon Besle Station",
+          "value": "1698209"
+        }
+      ],
+      "distance": []
+    },
+    "accommodationType": {
+      "applied": true,
+      "items": [
+        {
+          "label": "Apartments",
+          "value": "15",
+          "applied": true
+        },
+        {
+          "label": "B&Bs",
+          "value": "5",
+          "applied": true
+        },
+        {
+          "label": "Caravan parks",
+          "value": "21",
+          "disabled": true
+        },
+        {
+          "label": "Country houses",
+          "value": "24",
+          "disabled": true
+        },
+        {
+          "label": "Guest houses",
+          "value": "30",
+          "disabled": true
+        },
+        {
+          "label": "Hotels",
+          "value": "1",
+          "applied": true
+        },
+        {
+          "label": "Resorts",
+          "value": "3",
+          "disabled": true
+        }
+      ]
+    },
+    "facilities": {
+      "applied": true,
+      "items": [
+        {
+          "label": "24-hour front desk",
+          "value": "2063",
+          "applied": true
+        },
+        {
+          "label": "Airport transfers",
+          "value": "513",
+          "disabled": true
+        },
+        {
+          "label": "Bar",
+          "value": "515"
+        },
+        {
+          "label": "Bathtub in room",
+          "value": "517",
+          "disabled": true
+        },
+        {
+          "label": "Breakfast included",
+          "value": "2048",
+          "disabled": true
+        },
+        {
+          "label": "Business facilities",
+          "value": "519"
+        },
+        {
+          "label": "Childcare",
+          "value": "521"
+        },
+        {
+          "label": "Connecting rooms available",
+          "value": "523",
+          "disabled": true
+        },
+        {
+          "label": "Cribs available",
+          "value": "525"
+        },
+        {
+          "label": "Electric vehicle charging point",
+          "value": "1073743315",
+          "disabled": true
+        },
+        {
+          "label": "Gym",
+          "value": "2"
+        },
+        {
+          "label": "Internet Access",
+          "value": "8"
+        },
+        {
+          "label": "Kitchen",
+          "value": "32",
+          "disabled": true
+        },
+        {
+          "label": "Meeting Facilities",
+          "value": "1"
+        },
+        {
+          "label": "Non-smoking",
+          "value": "529"
+        },
+        {
+          "label": "Parking",
+          "value": "134234112"
+        },
+        {
+          "label": "Pet Friendly",
+          "value": "64"
+        },
+        {
+          "label": "Pool",
+          "value": "128"
+        },
+        {
+          "label": "Restaurant",
+          "value": "256"
+        },
+        {
+          "label": "Smoking areas",
+          "value": "537"
+        },
+        {
+          "label": "Spa",
+          "value": "539"
+        },
+        {
+          "label": "WiFi included",
+          "value": "527",
+          "applied": true
+        }
+      ]
+    },
+    "accessibility": {
+      "applied": false,
+      "items": [
+        {
+          "label": "Accessibility equipment for the deaf",
+          "value": "2097152",
+          "disabled": true
+        },
+        {
+          "label": "Accessible bathroom",
+          "value": "131072"
+        },
+        {
+          "label": "Accessible parking",
+          "value": "524288"
+        },
+        {
+          "label": "Accessible path of travel",
+          "value": "65536"
+        },
+        {
+          "label": "Braille or raised signage",
+          "value": "4194304",
+          "disabled": true
+        },
+        {
+          "label": "In-room accessibility",
+          "value": "1048576"
+        },
+        {
+          "label": "Roll-in shower",
+          "value": "262144"
+        },
+        {
+          "label": "Wheelchair accessible rooms",
+          "value": "541"
+        }
+      ]
+    },
+    "themesAndTypes": {
+      "applied": true,
+      "items": [
+        {
+          "label": "Adventure",
+          "value": "18"
+        },
+        {
+          "label": "Beach",
+          "value": "6",
+          "disabled": true
+        },
+        {
+          "label": "Boutique",
+          "value": "4"
+        },
+        {
+          "label": "Business",
+          "value": "14",
+          "applied": true
+        },
+        {
+          "label": "Family-friendly",
+          "value": "25",
+          "applied": true
+        },
+        {
+          "label": "Golf",
+          "value": "26"
+        },
+        {
+          "label": "LGBTQ Welcoming",
+          "value": "21",
+          "disabled": true
+        },
+        {
+          "label": "Luxury",
+          "value": "15"
+        },
+        {
+          "label": "Spa Hotel",
+          "value": "27",
+          "applied": true
+        }
+      ]
+    },
+    "price": {
+      "label": "Nightly Price",
+      "range": {
+        "min": {
+          "defaultValue": 0,
+          "value": 10
+        },
+        "max": {
+          "defaultValue": 500,
+          "value": 500
+        },
+        "increments": 5
+      },
+      "multiplier": 1,
+      "applied": true
+    },
+    "paymentPreference": {
+      "items": [
+        {
+          "label": "Fully refundable",
+          "value": "fc"
+        },
+        {
+          "label": "Pay with Hotels.com gift card",
+          "value": "gc"
+        }
+      ]
+    },
+    "welcomeRewards": {
+      "label": "Hotels.com® Rewards",
+      "items": [
+        {
+          "label": "Collect stamps",
+          "value": "collect"
+        },
+        {
+          "label": "Redeem reward* nights",
+          "value": "redeem"
+        }
+      ]
+    }
+  },
+  "pointOfSale": {
+    "currency": {
+      "code": "EUR",
+      "symbol": "€",
+      "separators": ".,",
+      "format": "{0}€"
+    }
+  }
+}

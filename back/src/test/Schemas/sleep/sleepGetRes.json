@@ -1,0 +1,17 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "address": { "type": "string" },
+            "location": {
+                "type": "object",
+                "properties": {
+                    "lat": { "type": "float" },
+                    "lng": { "type": "float" }
+                }
+            },
+            "description": { "type": "string"}
+        }
+    }
+}

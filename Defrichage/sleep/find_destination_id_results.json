@@ -1,0 +1,205 @@
+{
+  "data": [
+    {
+      "entities": [
+        {
+          "caption": "<span class='highlighted'>Versailles</span>, Yvelines (département), France",
+          "destinationId": "529015",
+          "geoId": "5570",
+          "landmarkCityDestinationId": null,
+          "latitude": 48.80236,
+          "longitude": 2.12978,
+          "name": "Versailles",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "CITY"
+        },
+        {
+          "caption": "Chantiers, <span class='highlighted'>Versailles</span>, Yvelines (département), France",
+          "destinationId": "11117917",
+          "geoId": "553248635212958472",
+          "landmarkCityDestinationId": null,
+          "latitude": 48.79502309867788,
+          "longitude": 2.136113792844306,
+          "name": "Chantiers",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "NEIGHBORHOOD"
+        }
+      ],
+      "group": "CITY_GROUP"
+    },
+    {
+      "entities": [
+        {
+          "caption": "Hôtel <span class='highlighted'>Versailles</span> Chantiers, Versailles, Yvelines (département), France",
+          "destinationId": "551221",
+          "geoId": "12493395",
+          "landmarkCityDestinationId": null,
+          "latitude": 48.79752,
+          "longitude": 2.13579,
+          "name": "Hôtel Versailles Chantiers",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "HOTEL"
+        },
+        {
+          "caption": "Waldorf Astoria <span class='highlighted'>Versailles</span> - Trianon Palace, Versailles, Yvelines (département), France",
+          "destinationId": "129705",
+          "geoId": "14079",
+          "landmarkCityDestinationId": null,
+          "latitude": 48.810368,
+          "longitude": 2.120433,
+          "name": "Waldorf Astoria Versailles - Trianon Palace",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "HOTEL"
+        },
+        {
+          "caption": "Appart'City <span class='highlighted'>Versailles</span> St Cyr l'Ecole, Saint-Cyr-l'École, Yvelines (département), France",
+          "destinationId": "400813",
+          "geoId": "4868107",
+          "landmarkCityDestinationId": null,
+          "latitude": 48.806788,
+          "longitude": 2.052966,
+          "name": "Appart'City Versailles St Cyr l'Ecole",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "HOTEL"
+        },
+        {
+          "caption": "Novotel Chateau De <span class='highlighted'>Versailles</span>, Versailles, Yvelines (département), France",
+          "destinationId": "180056",
+          "geoId": "13756",
+          "landmarkCityDestinationId": null,
+          "latitude": 48.815573,
+          "longitude": 2.128364,
+          "name": "Novotel Chateau De Versailles",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "HOTEL"
+        },
+        {
+          "caption": "Campanile <span class='highlighted'>Versailles</span> - Buc, Buc, Yvelines (département), France",
+          "destinationId": "252122",
+          "geoId": "1608865",
+          "landmarkCityDestinationId": null,
+          "latitude": 48.76093,
+          "longitude": 2.12113,
+          "name": "Campanile Versailles - Buc",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "HOTEL"
+        },
+        {
+          "caption": "Hotel Le Louis <span class='highlighted'>Versailles</span> Château MGallery, Versailles, Yvelines (département), France",
+          "destinationId": "181072",
+          "geoId": "20251",
+          "landmarkCityDestinationId": null,
+          "latitude": 48.80205,
+          "longitude": 2.12903,
+          "name": "Hotel Le Louis Versailles Château MGallery",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "HOTEL"
+        },
+        {
+          "caption": "Royal Hôtel, <span class='highlighted'>Versailles</span>, Yvelines (département), France",
+          "destinationId": "429802",
+          "geoId": "5973291",
+          "landmarkCityDestinationId": null,
+          "latitude": 48.798156,
+          "longitude": 2.127162,
+          "name": "Royal Hôtel",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "HOTEL"
+        }
+      ],
+      "group": "HOTEL_GROUP"
+    },
+    {
+      "entities": [
+        {
+          "caption": "Palais de <span class='highlighted'>Versailles</span>, Versailles, Yvelines (département), France",
+          "destinationId": "10234702",
+          "geoId": "6065249",
+          "landmarkCityDestinationId": "529015",
+          "latitude": 48.80447676222137,
+          "longitude": 2.121372136590136,
+          "name": "Palais de Versailles",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "LANDMARK"
+        },
+        {
+          "caption": "Paris Expo Porte de <span class='highlighted'>Versailles</span>, Paris, France",
+          "destinationId": "1636081",
+          "geoId": "6145088",
+          "landmarkCityDestinationId": "504261",
+          "latitude": 48.830153,
+          "longitude": 2.287346,
+          "name": "Paris Expo Porte de Versailles",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "LANDMARK"
+        },
+        {
+          "caption": "Château de <span class='highlighted'>Versailles</span> Gardens & Park, Versailles, Yvelines, France",
+          "destinationId": "10654800",
+          "geoId": "553248621533049477",
+          "landmarkCityDestinationId": "529015",
+          "latitude": 48.80569,
+          "longitude": 2.116992,
+          "name": "Château de Versailles Gardens & Park",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "LANDMARK"
+        }
+      ],
+      "group": "LANDMARK_GROUP"
+    },
+    {
+      "entities": [
+        {
+          "caption": "Gare de <span class='highlighted'>Versailles</span>-Chantiers, Versailles, Yvelines (département), France",
+          "destinationId": "1701026",
+          "geoId": "6019068",
+          "landmarkCityDestinationId": null,
+          "latitude": 48.7958,
+          "longitude": 2.135875,
+          "name": "Gare de Versailles-Chantiers",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "TRAIN_STATION"
+        },
+        {
+          "caption": "Gare de <span class='highlighted'>Versailles</span>-Rive-Droite, Versailles, Yvelines (département), France",
+          "destinationId": "1701027",
+          "geoId": "6019020",
+          "landmarkCityDestinationId": null,
+          "latitude": 48.809774,
+          "longitude": 2.134531,
+          "name": "Gare de Versailles-Rive-Droite",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "TRAIN_STATION"
+        },
+        {
+          "caption": "Station RER de <span class='highlighted'>Versailles</span>-Château-Rive-Gauche, Versailles, Yvelines (département), France",
+          "destinationId": "1701035",
+          "geoId": "6019088",
+          "landmarkCityDestinationId": null,
+          "latitude": 48.800369,
+          "longitude": 2.128622,
+          "name": "Station RER de Versailles-Château-Rive-Gauche",
+          "redirectPage": "DEFAULT_PAGE",
+          "searchDetail": null,
+          "type": "METRO_STATION"
+        }
+      ],
+      "group": "TRANSPORT_GROUP"
+    }
+  ],
+  "status": "success"
+}

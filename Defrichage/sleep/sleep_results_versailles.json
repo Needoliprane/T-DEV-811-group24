@@ -1,0 +1,1457 @@
+{
+  "data": [
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "Yvelines",
+        "streetAddress": "2 Bis Avenue De Paris"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.80205,
+        "lon": 2.12903
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "superb",
+        "badgeText": "Excellent",
+        "rating": "9,2",
+        "scale": 10,
+        "total": 349,
+        "unformattedRating": 9.2
+      },
+      "id": 181072,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,1 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "39 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hotel Le Louis Versailles Château MGallery",
+      "neighbourhood": "Saint-Louis",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/30000/20300/20251/5055f9a7_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|XMPV2|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "231 €",
+          "exactCurrent": 231.05
+        }
+      },
+      "starRating": 4.0,
+      "supplierHotelId": 20251,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "Yvelines",
+        "streetAddress": "4 Avenue Du General De Gaulle"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.800862,
+        "lon": 2.128852
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,8",
+        "scale": 10,
+        "total": 76,
+        "unformattedRating": 7.8
+      },
+      "id": 1647104,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,2 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "39 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "ibis Versailles Château",
+      "neighbourhood": "Saint-Louis",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/30000/20300/20222/eada7f3a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "97 €",
+          "exactCurrent": 96.88
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 20222,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "Yvelines",
+        "streetAddress": "14, Av de Paris"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.801122,
+        "lon": 2.132645
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "very-good",
+        "badgeText": "Très bien",
+        "rating": "8,0",
+        "scale": 10,
+        "total": 572,
+        "unformattedRating": 8.0
+      },
+      "id": 432409,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,3 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "39 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "A l'Hotel des Roys",
+      "neighbourhood": "Chantiers",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/7000000/6100000/6099700/6099672/09a70739_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "108 €",
+          "exactCurrent": 108.46
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 6099672,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "Angle rue Montbauron",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "7800",
+        "region": "Yvelines",
+        "streetAddress": "19 rue Philippe de Dangeau"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.80324,
+        "lon": 2.13468
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "fabulous",
+        "badgeText": "Fantastique",
+        "rating": "8,8",
+        "scale": 10,
+        "total": 36,
+        "unformattedRating": 8.8
+      },
+      "id": 178958,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,4 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "39 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Mercure Versailles Chateau",
+      "neighbourhood": "Notre-Dame",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/50000/48300/48288/24c31f61_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|XMPV2|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "105 €",
+          "exactCurrent": 105.32
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 48288,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "",
+        "streetAddress": "10 rue de Satory"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.80093,
+        "lon": 2.12507
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "very-good",
+        "badgeText": "Très bien",
+        "rating": "8,4",
+        "scale": 10,
+        "total": 42,
+        "unformattedRating": 8.4
+      },
+      "id": 805474048,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,4 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "40 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Les Apparts de l'Oncle Louis",
+      "neighbourhood": "Saint-Louis",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/26000000/25140000/25139900/25139814/92d7d757_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|HRW|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "145 €",
+          "exactCurrent": 144.66
+        }
+      },
+      "starRating": 0.0,
+      "supplierHotelId": 25139814,
+      "urls": {},
+      "vrBadge": "Appart’hôtel"
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "Yvelines",
+        "streetAddress": "5 bis rue de Fontenay"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.801366,
+        "lon": 2.123965
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "fabulous",
+        "badgeText": "Fantastique",
+        "rating": "8,8",
+        "scale": 10,
+        "total": 158,
+        "unformattedRating": 8.8
+      },
+      "id": 480531,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,4 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "40 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hôtel du Jeu de Paume",
+      "neighbourhood": "Saint-Louis",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/10000000/9430000/9423900/9423811/8aa0d163_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "103 €",
+          "exactCurrent": 102.83
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 9423811,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "Yvelines",
+        "streetAddress": "7 Rue Sainte Anne"
+      },
+      "badging": {
+        "hotelBadge": {
+          "label": "VIP",
+          "type": "vipBasic"
+        }
+      },
+      "coordinate": {
+        "lat": 48.80533,
+        "lon": 2.12516
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "very-good",
+        "badgeText": "Très bien",
+        "rating": "8,4",
+        "scale": 10,
+        "total": 784,
+        "unformattedRating": 8.4
+      },
+      "id": 204171,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,5 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "39 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hotel Le Versailles",
+      "neighbourhood": "Notre-Dame",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/900000/891400/891397/492d00e4_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "165 €",
+          "exactCurrent": 165.41
+        }
+      },
+      "starRating": 4.0,
+      "supplierHotelId": 891397,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "Yvelines",
+        "streetAddress": "2 bis rue de Fontenay"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.801373,
+        "lon": 2.123309
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "very-good",
+        "badgeText": "Très bien",
+        "rating": "8,4",
+        "scale": 10,
+        "total": 241,
+        "unformattedRating": 8.4
+      },
+      "id": 480532,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,5 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "40 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hôtel d'Angleterre",
+      "neighbourhood": "Saint-Louis",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1390000/1383600/1383515/bf3dbf80_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "106 €",
+          "exactCurrent": 106.08
+        }
+      },
+      "starRating": 2.0,
+      "supplierHotelId": 1383515,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "Yvelines",
+        "streetAddress": "23 rue Royale"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.798156,
+        "lon": 2.127162
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "superb",
+        "badgeText": "Excellent",
+        "rating": "9,0",
+        "scale": 10,
+        "total": 82,
+        "unformattedRating": 9.0
+      },
+      "id": 429802,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,5 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "40 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Royal Hôtel",
+      "neighbourhood": "Saint-Louis",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/6000000/5980000/5973300/5973291/fd877259_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "112 €",
+          "exactCurrent": 112.08
+        }
+      },
+      "starRating": 2.0,
+      "supplierHotelId": 5973291,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "Yvelines",
+        "streetAddress": "18 Rue André Chénier"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.806892,
+        "lon": 2.133243
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "very-good",
+        "badgeText": "Très bien",
+        "rating": "8,2",
+        "scale": 10,
+        "total": 15,
+        "unformattedRating": 8.2
+      },
+      "id": 1659686112,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,6 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "39 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hotel du Cheval Rouge",
+      "neighbourhood": "Notre-Dame",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/52000000/51840000/51834000/51833941/1d85922a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "D13",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "138 €",
+          "exactCurrent": 138.46
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 51833941,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "",
+        "streetAddress": "16 Rue Richaud"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.807247,
+        "lon": 2.13409
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "fabulous",
+        "badgeText": "Fantastique",
+        "rating": "8,8",
+        "scale": 10,
+        "total": 202,
+        "unformattedRating": 8.8
+      },
+      "id": 646245024,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,6 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "39 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hotel Des Lys",
+      "neighbourhood": "Notre-Dame",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/21000000/20170000/20164000/20163907/8b9206e5_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|HRW|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "116 €",
+          "exactCurrent": 116.46
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 20163907,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "Yvelines",
+        "streetAddress": "14 rue d'Anjou"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.79737,
+        "lon": 2.12484
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "fabulous",
+        "badgeText": "Fantastique",
+        "rating": "8,6",
+        "scale": 10,
+        "total": 274,
+        "unformattedRating": 8.6
+      },
+      "id": 288609,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,7 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "40 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hotel la Residence du Berry",
+      "neighbourhood": "Saint-Louis",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/90000/81800/81715/041bc83c_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|HRW|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "123 €",
+          "exactCurrent": 123.46
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 81715,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "",
+        "streetAddress": "18 rue Benjamin Franklin"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.79752,
+        "lon": 2.13579
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "fabulous",
+        "badgeText": "Fantastique",
+        "rating": "8,6",
+        "scale": 10,
+        "total": 252,
+        "unformattedRating": 8.6
+      },
+      "id": 551221,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,7 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "39 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hôtel Versailles Chantiers",
+      "neighbourhood": "Chantiers",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/13000000/12500000/12493400/12493395/30af00a2_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "118 €",
+          "exactCurrent": 118.46
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 12493395,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "Yvelines",
+        "streetAddress": "28 Rue Saint Louis"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.794689,
+        "lon": 2.126753
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,2",
+        "scale": 10,
+        "total": 136,
+        "unformattedRating": 7.2
+      },
+      "id": 300272,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,9 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "40 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Le Home Saint Louis",
+      "neighbourhood": "Saint-Louis",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/910000/901200/901153/bdbd770a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "78 €",
+          "exactCurrent": 77.9
+        }
+      },
+      "starRating": 2.0,
+      "supplierHotelId": 901153,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "Yvelines",
+        "streetAddress": "1 Boulevard De La Reine"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.810368,
+        "lon": 2.120433
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "fabulous",
+        "badgeText": "Fantastique",
+        "rating": "8,8",
+        "scale": 10,
+        "total": 1016,
+        "unformattedRating": 8.8
+      },
+      "id": 129705,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "1,1 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "39 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Waldorf Astoria Versailles - Trianon Palace",
+      "neighbourhood": "Notre-Dame",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/20000/14100/14079/0b97a8ea_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "257 €",
+          "exactCurrent": 256.89
+        }
+      },
+      "starRating": 5.0,
+      "supplierHotelId": 14079,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78150",
+        "region": "Yvelines",
+        "streetAddress": "04 Boulevard Saint Antoine"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.815573,
+        "lon": 2.128364
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "very-good",
+        "badgeText": "Très bien",
+        "rating": "8,4",
+        "scale": 10,
+        "total": 794,
+        "unformattedRating": 8.4
+      },
+      "id": 180056,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "1,5 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "39 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Novotel Chateau De Versailles",
+      "neighbourhood": "Notre-Dame",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/20000/13800/13756/446226dd_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|XMPV2|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "138 €",
+          "exactCurrent": 137.59
+        }
+      },
+      "starRating": 4.0,
+      "supplierHotelId": 13756,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Versailles",
+        "obfuscate": false,
+        "postalCode": "78000",
+        "region": "",
+        "streetAddress": "31 Rue Berthelot"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.794272,
+        "lon": 2.160957
+      },
+      "deals": {},
+      "geoBullets": [],
+      "id": 1432182016,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "2,5 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "38 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Huttopia Versailles",
+      "neighbourhood": "Porchefontaine",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/45000000/44730000/44724500/44724438/84622e40_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "D13",
+      "providerType": "LOCAL",
+      "starRating": 0.0,
+      "supplierHotelId": 44724438,
+      "urls": {},
+      "vrBadge": "Camping"
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Le Chesnay-Rocquencourt",
+        "obfuscate": false,
+        "postalCode": "78150",
+        "region": "Yvelines",
+        "streetAddress": "61 Rue de Versailles"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.821208,
+        "lon": 2.127196
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "exceptional",
+        "badgeText": "Exceptionnel",
+        "rating": "10,0",
+        "scale": 10,
+        "total": 4,
+        "unformattedRating": 10.0
+      },
+      "hostType": "Hôte privé",
+      "id": 1119297664,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "2,1 km",
+          "label": "Versailles"
+        },
+        {
+          "distance": "38 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Villa Trianon Versailles",
+      "neighbourhood": "Le Chesnay-Rocquencourt",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/35000000/34950000/34946900/34946802/21ebb6b0_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "starRating": 0.0,
+      "supplierHotelId": 34946802,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Le Chesnay-Rocquencourt",
+        "obfuscate": false,
+        "postalCode": "78150",
+        "region": "Yvelines",
+        "streetAddress": "44 Avenue Dutartre"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.826283,
+        "lon": 2.118767
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,6",
+        "scale": 10,
+        "total": 330,
+        "unformattedRating": 7.6
+      },
+      "id": 355503,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "2,8 km",
+          "label": "Versailles"
+        },
+        {
+          "distance": "39 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "B&B Hotel Paris Versailles",
+      "neighbourhood": "Le Chesnay-Rocquencourt",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/10000/6700/6648/753e2bed_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|XMPV2|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "65 €",
+          "exactCurrent": 65.0
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 6648,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Le Chesnay-Rocquencourt",
+        "obfuscate": false,
+        "postalCode": "78150",
+        "region": "Yvelines",
+        "streetAddress": "Rue de Marly-le-Roi"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.829594,
+        "lon": 2.117714
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,6",
+        "scale": 10,
+        "total": 340,
+        "unformattedRating": 7.6
+      },
+      "id": 274061,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "3,2 km",
+          "label": "Versailles"
+        },
+        {
+          "distance": "38 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Mercure Versailles Parly 2",
+      "neighbourhood": "Le Chesnay-Rocquencourt",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/10000/2100/2013/226fe9a6_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|XMPV2|HRW|increaseNumberOfReviewsRequired|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "88 €",
+          "exactCurrent": 88.2
+        }
+      },
+      "starRating": 4.0,
+      "supplierHotelId": 2013,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Buc",
+        "obfuscate": false,
+        "postalCode": "78530",
+        "region": "Yvelines",
+        "streetAddress": "12 Rue Louis Massotte"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.772023,
+        "lon": 2.124459
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,2",
+        "scale": 10,
+        "total": 61,
+        "unformattedRating": 7.2
+      },
+      "id": 496175,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "3,4 km",
+          "label": "Versailles"
+        },
+        {
+          "distance": "42 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Buc Lounge Hotel",
+      "neighbourhood": "Buc",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4120000/4115900/4115848/w344h230x3y3-fe7c833f_b.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "starRating": 2.0,
+      "supplierHotelId": 4115848,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Buc",
+        "obfuscate": false,
+        "postalCode": "78530",
+        "region": "Yvelines",
+        "streetAddress": "rue Morane Saulnier"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.767208,
+        "lon": 2.117984
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "very-good",
+        "badgeText": "Très bien",
+        "rating": "8,4",
+        "scale": 10,
+        "total": 273,
+        "unformattedRating": 8.4
+      },
+      "id": 315956,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "4,0 km",
+          "label": "Versailles"
+        },
+        {
+          "distance": "42 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Best Western The Hotel Versailles",
+      "neighbourhood": "Buc",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1070000/1065700/1065635/5167faa2_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "92 €",
+          "exactCurrent": 92.15
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 1065635,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Saint-Cyr-l'Ecole",
+        "obfuscate": false,
+        "postalCode": "78210",
+        "region": "",
+        "streetAddress": "88 Rue du Docteur Vaillant"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.80539,
+        "lon": 2.07465
+      },
+      "deals": {},
+      "geoBullets": [],
+      "id": 629913856,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "4,1 km",
+          "label": "Versailles"
+        },
+        {
+          "distance": "43 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hôtel Le Pavillon de l'Aéro",
+      "neighbourhood": "Saint-Cyr-l'Ecole",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/20000000/19660000/19653600/19653558/442cce53_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13",
+      "providerType": "LOCAL",
+      "starRating": 3.0,
+      "supplierHotelId": 19653558,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Saint-Cyr-l'Ecole",
+        "obfuscate": false,
+        "postalCode": "78210",
+        "region": "Yvelines",
+        "streetAddress": "88 Rue Du Docteur Vaillant"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.805462,
+        "lon": 2.074324
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,8",
+        "scale": 10,
+        "total": 274,
+        "unformattedRating": 7.8
+      },
+      "id": 375811,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "4,1 km",
+          "label": "Versailles"
+        },
+        {
+          "distance": "43 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "HOTEL AEROTEL l’étape du silence",
+      "neighbourhood": "Saint-Cyr-l'Ecole",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4310000/4306500/4306428/900f81ed_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "84 €",
+          "exactCurrent": 84.11
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 4306428,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Saint-Cyr-l'Ecole",
+        "obfuscate": false,
+        "postalCode": "78210",
+        "region": "",
+        "streetAddress": "4 Boulevard Henri Barbusse"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 48.794535,
+        "lon": 2.069845
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,0",
+        "scale": 10,
+        "total": 135,
+        "unformattedRating": 7.0
+      },
+      "id": 571710,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "4,5 km",
+          "label": "Versailles"
+        },
+        {
+          "distance": "43 km",
+          "label": "Aéroport de Paris Roissy - Charles de Gaulle (CDG)"
+        }
+      ],
+      "messaging": {},
+      "name": "ibis budget Versailles Chateau Saint Cyr",
+      "neighbourhood": "Saint-Cyr-l'Ecole",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/14000000/13450000/13441700/13441699/bb989e60_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "51 €",
+          "exactCurrent": 51.15
+        }
+      },
+      "starRating": 0.0,
+      "supplierHotelId": 13441699,
+      "urls": {}
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,26 @@
+{
+	"scripts": {
+		"start": "node src/app.js",
+		"watch": "nodemon src/app.js",
+		"test:integration": "jest ./src/test/ --runInBand --testMatch **/*.spec.js --config ./src/test/jest.config.js --forceExit",
+		"seed": "node src/database/seed.js",
+		"install": "ssh-keygen -t rsa -b 4096 -m PEM -f epicRoadTrip.key -N '' && openssl rsa -in epicRoadTrip.key -pubout -outform PEM -out epicRoadTrip.key.pub"
+	},
+	"devDependencies": {
+		"jest": "^28.0.3",
+		"jsonschema": "^1.4.0"
+	},
+	"dependencies": {
+		"axios": "^0.26.1",
+		"bcryptjs": "^2.4.3",
+		"cli-color": "^2.0.2",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.0",
+		"express": "^4.18.1",
+		"express-jwt": "^7.7.1",
+		"joi": "^17.6.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.3.2",
+		"ngeohash": "^0.6.3"
+	}
+}

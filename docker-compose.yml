@@ -46,7 +46,45 @@ services:
     build: ./test
     networks:
       - backend
-    
+
+  mongodb-tdd:
+    name: mongodb-tdd
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: create mongodb container
+        run: |
+          docker-compose up --build --detach
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+      - name: Install dependencies
+        run: cd back/ && yes | yarn install
+      - name: 'Create env file'
+        run: |
+          cd back
+          touch .env
+          echo DB_USERNAME=${{ secrets.DB_USERNAME }} >> .env
+          echo DB_PASSWORD=${{ secrets.DB_PASSWORD }} >> .env
+          echo DB_DATABASE=${{ secrets.DB_DATABASE }} >> .env
+          echo DB_HOST=${{ secrets.DB_HOST }} >> .env
+          echo FRONT_URL=${{ secrets.FRONT_URL }} >> .env
+          echo PORT=${{ secrets.PORT }} >> .env
+          echo AUTH_PRIVATE_KEY_FILE=${{ secrets.AUTH_PRIVATE_KEY_FILE }} >> .env
+          echo AUTH_PUBLIC_KEY_FILE=${{ secrets.AUTH_PUBLIC_KEY_FILE }} >> .env
+          echo AUTH_ISS=${{ secrets.AUTH_ISS }} >> .env
+          echo AUTH_AUD=${{ secrets.AUTH_AUD }} >> .env
+          echo AUTH_ALGORITHM=${{ secrets.AUTH_ALGORITHM }} >> .env
+          echo RAPID_API_KEY=${{ secrets.RAPID_API_KEY }} >> .env
+          echo LYKO_API_KEY=${{ secrets.LYKO_API_KEY }} >> .env
+          echo TICKETMASTER_API_KEY=${{ secrets.TICKETMASTER_API_KEY }} >> .env
+          cat .env
+      - name: Start the api
+        run: cd back/ && yarn start &
+      - name: Integration test
+        run: cd back/ && yarn test:integration
+
 
 networks:
   backend:

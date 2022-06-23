@@ -1,0 +1,1367 @@
+{
+  "name": "Pullman Paris La Défense",
+  "address": {
+    "countryName": "France",
+    "addressLine2": "Paris La Defense 6 Cedex",
+    "cityName": "Courbevoie",
+    "postalCode": "92400",
+    "addressLine1": "11 Avenue de l'Arche",
+    "countryCode": "FRA",
+    "pattern": "AddressLine1,#AddressLine2,#CityName,#ProvinceName,#PostalCode,#CountryName",
+    "fullAddress": "11 Avenue de l'Arche, Paris La Defense 6 Cedex, Courbevoie, 92400, France"
+  },
+  "localisedAddress": null,
+  "header": {
+    "hotelId": "243956",
+    "destinationId": "1634646",
+    "pointOfSaleId": "HCOM_US",
+    "currencyCode": "EUR",
+    "occupancyKey": "A1C0C4",
+    "hotelLocation": {
+      "coordinates": {
+        "latitude": 48.89537,
+        "longitude": 2.2389
+      },
+      "resolvedLocation": "CITY:1634646:PROVIDED:PROVIDED",
+      "locationName": "Courbevoie"
+    }
+  },
+  "roomsAndRates": {
+    "bookingUrl": "https://www.hotels.com/bookingInitialise.do",
+    "rooms": [
+      {
+        "name": "Family Room, Multiple Beds, Connecting Rooms (2 connecting rooms)",
+        "images": [
+          {
+            "caption": "Children's theme room",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/cbb52abc_e.jpg",
+            "fullSizeUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/cbb52abc_b.jpg"
+          },
+          {
+            "caption": "Children's theme room",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/2ec6338e_e.jpg",
+            "fullSizeUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/2ec6338e_b.jpg"
+          },
+          {
+            "caption": "In-room dining",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/5b0d99c8_e.jpg",
+            "fullSizeUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/5b0d99c8_b.jpg"
+          },
+          {
+            "caption": "Bathroom",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/6739ef35_e.jpg",
+            "fullSizeUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/6739ef35_b.jpg"
+          },
+          {
+            "caption": "Bathroom",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/2addeee1_e.jpg",
+            "fullSizeUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/2addeee1_b.jpg"
+          },
+          {
+            "caption": "Bathroom amenities",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/2c2a2ea9_e.jpg",
+            "fullSizeUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/2c2a2ea9_b.jpg"
+          },
+          {
+            "caption": "City view",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/26ee9f0a_e.jpg",
+            "fullSizeUrl": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/26ee9f0a_b.jpg"
+          }
+        ],
+        "maxOccupancy": {
+          "children": 3,
+          "total": 4,
+          "messageChildren": "(including up to 3 children)",
+          "messageTotal": "Sleeps 4 people"
+        },
+        "additionalInfo": {
+          "description": "<p><strong>1 King Bed and 2 Twin Beds</strong></p><p>516-sq-foot room with city views </p><br/><p><b>Internet</b> - Free WiFi and wired Internet access</p><p><b>Entertainment</b> - LCD television with premium channels</p><p><b>Food & Drink</b> - Coffee/tea maker, 24-hour room service, and free bottled water</p><p><b>Sleep</b> - Premium bedding, blackout drapes/curtains, turndown service, and bed sheets </p><p><b>Bathroom</b> - Private bathroom, bathtub or shower, bathrobes, and designer toiletries</p><p><b>Practical</b> - Safe, free newspaper, and iron/ironing board; rollaway/extra beds and free cribs/infant beds available on request</p><p><b>Comfort</b> - Climate-controlled air conditioning and daily housekeeping</p><p>Non-Smoking</p><p>Connecting/adjoining rooms can be requested, subject to availability </p>",
+          "details": {
+            "amenities": [
+              "Bathrobes",
+              "Bathtub or shower",
+              "Bedsheets provided",
+              "Blackout drapes/curtains",
+              "Coffee/tea maker",
+              "Connecting/adjoining rooms available",
+              "Daily housekeeping",
+              "Designer toiletries",
+              "Desk",
+              "Free bottled water",
+              "Free cribs/infant beds",
+              "Free newspaper",
+              "Free toiletries",
+              "Free WiFi",
+              "Free wired internet",
+              "Hair dryer",
+              "Hypo-allergenic bedding available",
+              "In-room childcare (surcharge)",
+              "In-room climate control (air conditioning)",
+              "In-room safe",
+              "Iron/ironing board",
+              "LCD TV",
+              "Number of bathrooms - 1",
+              "Phone",
+              "Premium bedding",
+              "Premium TV channels",
+              "Private bathroom",
+              "Rollaway/extra beds (surcharge)",
+              "Room service (24 hours)",
+              "Satellite TV service",
+              "Soundproofed rooms",
+              "Television",
+              "Turndown service"
+            ]
+          }
+        },
+        "ratePlans": [
+          {
+            "occupancy": {
+              "maxAdults": 2,
+              "maxChildren": 2
+            },
+            "cancellation": {
+              "title": "Fully refundable",
+              "free": true,
+              "info": "You can cancel this booking right up to 06/19/22 for free. You may be charged if you cancel or change your booking after that. And we can’t refund you if you check out early or don’t turn up at the property.",
+              "additionalInfo": "Until Jun 19, 2022",
+              "cancellationDate": "2022-06-19Z",
+              "refundable": true
+            },
+            "cancellations": [
+              {
+                "title": "Fully refundable",
+                "free": true,
+                "info": "You can cancel this booking right up to 06/19/22 for free. You may be charged if you cancel or change your booking after that. And we can’t refund you if you check out early or don’t turn up at the property.",
+                "additionalInfo": "Until 06/19/22",
+                "period": "06/26/22 - 06/27/22 for 1 night",
+                "refundable": true
+              }
+            ],
+            "features": [
+              {
+                "featureType": "wifi",
+                "title": "Free Wi-Fi",
+                "info": "Free Wi-Fi is available in this room",
+                "dataSourceInfo": "1dc3313f-9d1b-4886-8226-12ae4c1b3571"
+              },
+              {
+                "featureType": "breakfast",
+                "title": "Breakfast available (pay at the property)",
+                "info": "Breakfast is offered for an extra charge of EUR 27 per person (approximately).",
+                "dataSourceInfo": "2336db56-4751-406e-a853-c03b27a4ccb9"
+              }
+            ],
+            "welcomeRewards": {
+              "info": "Our loyalty program lets you collect 10 stamps and get 1 reward* night. And you can redeem reward* nights with this room.",
+              "collect": true,
+              "redeem": true
+            },
+            "offers": {
+              "valueAdds": []
+            },
+            "price": {
+              "current": "388 €",
+              "unformattedCurrent": 388,
+              "fullyBundledPricePerStay": "total 430 € for 1&nbsp;room, 3&nbsp;guests"
+            },
+            "payment": {
+              "book": {
+                "caption": "Let’s book",
+                "bookingParamsMixedRatePlan": {
+                  "init": true,
+                  "bookingApiVersion": "v3",
+                  "numberOfRoomType": "0",
+                  "orderItems": [
+                    {
+                      "supplierType": "EXPEDIA",
+                      "rateCode": "209074544",
+                      "roomTypeCode": "201781999",
+                      "businessModel": "MERCHANT",
+                      "ratePlanConfiguration": "REGULAR",
+                      "arrivalDate": "06/26/22",
+                      "departureDate": "06/27/22",
+                      "destinationId": "1634646",
+                      "hotelCityId": "1634646",
+                      "hotelId": "243956",
+                      "sequenceNumber": "0",
+                      "tripId": "",
+                      "tspid": 24
+                    }
+                  ],
+                  "propertyDetailsDisplayRate": "c..zkgwuAR6yiM4YqiPtGUVfQ..",
+                  "currency": "EUR",
+                  "minPrice": "c..zkgwuAR6yiM4YqiPtGUVfQ..",
+                  "marketingChannelCode": "20",
+                  "interstitial": "",
+                  "priceConfigurationId": "22"
+                }
+              },
+              "noCCRequired": false
+            },
+            "ratePlanDetails": {
+              "hideInstallments": false,
+              "localCurrencySuppression": false
+            }
+          },
+          {
+            "occupancy": {
+              "maxAdults": 2,
+              "maxChildren": 2
+            },
+            "cancellation": {
+              "title": "Fully refundable",
+              "free": true,
+              "info": "You can cancel this booking right up to 06/19/22 for free. You may be charged if you cancel or change your booking after that. And we can’t refund you if you check out early or don’t turn up at the property.",
+              "additionalInfo": "Until Jun 19, 2022",
+              "cancellationDate": "2022-06-19Z",
+              "refundable": true
+            },
+            "cancellations": [
+              {
+                "title": "Fully refundable",
+                "free": true,
+                "info": "You can cancel this booking right up to 06/19/22 for free. You may be charged if you cancel or change your booking after that. And we can’t refund you if you check out early or don’t turn up at the property.",
+                "additionalInfo": "Until 06/19/22",
+                "period": "06/26/22 - 06/27/22 for 1 night",
+                "refundable": true
+              }
+            ],
+            "features": [
+              {
+                "featureType": "wifi",
+                "title": "Free Wi-Fi",
+                "info": "Free Wi-Fi is available in this room",
+                "dataSourceInfo": "1dc3313f-9d1b-4886-8226-12ae4c1b3571"
+              },
+              {
+                "featureType": "breakfast",
+                "title": "Breakfast for 3 people",
+                "info": "Breakfast is included in your stay",
+                "dataSourceInfo": "0f2a2bfb-28f8-4925-9932-1b7a37929d30"
+              }
+            ],
+            "welcomeRewards": {
+              "info": "Our loyalty program lets you collect 10 stamps and get 1 reward* night. And you can redeem reward* nights with this room.",
+              "collect": true,
+              "redeem": true
+            },
+            "offers": {
+              "valueAdds": []
+            },
+            "price": {
+              "current": "417 €",
+              "unformattedCurrent": 417,
+              "fullyBundledPricePerStay": "total 462 € for 1&nbsp;room, 3&nbsp;guests"
+            },
+            "payment": {
+              "book": {
+                "caption": "Let’s book",
+                "bookingParamsMixedRatePlan": {
+                  "init": true,
+                  "bookingApiVersion": "v3",
+                  "numberOfRoomType": "1",
+                  "orderItems": [
+                    {
+                      "supplierType": "EXPEDIA",
+                      "rateCode": "209074535",
+                      "roomTypeCode": "201781999",
+                      "businessModel": "MERCHANT",
+                      "ratePlanConfiguration": "REGULAR",
+                      "arrivalDate": "06/26/22",
+                      "departureDate": "06/27/22",
+                      "destinationId": "1634646",
+                      "hotelCityId": "1634646",
+                      "hotelId": "243956",
+                      "sequenceNumber": "0",
+                      "tripId": "",
+                      "tspid": 24
+                    }
+                  ],
+                  "propertyDetailsDisplayRate": "c..LMTkRBQU7nk4YqiPtGUVfQ..",
+                  "currency": "EUR",
+                  "minPrice": "c..zkgwuAR6yiM4YqiPtGUVfQ..",
+                  "marketingChannelCode": "20",
+                  "interstitial": "",
+                  "priceConfigurationId": "22"
+                }
+              },
+              "noCCRequired": false
+            },
+            "ratePlanDetails": {
+              "hideInstallments": false,
+              "localCurrencySuppression": false
+            }
+          },
+          {
+            "occupancy": {
+              "maxAdults": 2,
+              "maxChildren": 2
+            },
+            "cancellation": {
+              "title": "Fully refundable",
+              "free": true,
+              "info": "You can cancel this booking right up to 06/26/22 for free. You may be charged if you cancel or change your booking after that. And we can’t refund you if you check out early or don’t turn up at the property.",
+              "additionalInfo": "Until Jun 26, 2022",
+              "cancellationDate": "2022-06-26Z",
+              "refundable": true
+            },
+            "cancellations": [
+              {
+                "title": "Fully refundable",
+                "free": true,
+                "info": "You can cancel this booking right up to 06/26/22 for free. You may be charged if you cancel or change your booking after that. And we can’t refund you if you check out early or don’t turn up at the property.",
+                "additionalInfo": "Until 06/26/22",
+                "period": "06/26/22 - 06/27/22 for 1 night",
+                "refundable": true
+              }
+            ],
+            "features": [
+              {
+                "featureType": "wifi",
+                "title": "Free Wi-Fi",
+                "info": "Free Wi-Fi is available in this room",
+                "dataSourceInfo": "1dc3313f-9d1b-4886-8226-12ae4c1b3571"
+              },
+              {
+                "featureType": "breakfast",
+                "title": "Breakfast available (pay at the property)",
+                "info": "Breakfast is offered for an extra charge of EUR 27 per person (approximately).",
+                "dataSourceInfo": "2336db56-4751-406e-a853-c03b27a4ccb9"
+              }
+            ],
+            "welcomeRewards": {
+              "info": "Our loyalty program lets you collect 10 stamps and get 1 reward* night. And you can redeem reward* nights with this room.",
+              "collect": true,
+              "redeem": true
+            },
+            "offers": {
+              "valueAdds": []
+            },
+            "price": {
+              "current": "422 €",
+              "unformattedCurrent": 422,
+              "fullyBundledPricePerStay": "total 467 € for 1&nbsp;room, 3&nbsp;guests"
+            },
+            "payment": {
+              "book": {
+                "caption": "Let’s book",
+                "bookingParamsMixedRatePlan": {
+                  "init": true,
+                  "bookingApiVersion": "v3",
+                  "numberOfRoomType": "2",
+                  "orderItems": [
+                    {
+                      "supplierType": "EXPEDIA",
+                      "rateCode": "209074540",
+                      "roomTypeCode": "201781999",
+                      "businessModel": "MERCHANT",
+                      "ratePlanConfiguration": "HYBRID",
+                      "arrivalDate": "06/26/22",
+                      "departureDate": "06/27/22",
+                      "destinationId": "1634646",
+                      "hotelCityId": "1634646",
+                      "hotelId": "243956",
+                      "sequenceNumber": "0",
+                      "tripId": "",
+                      "tspid": 24
+                    }
+                  ],
+                  "propertyDetailsDisplayRate": "c..qR-i4S5-L3E4YqiPtGUVfQ..",
+                  "currency": "EUR",
+                  "minPrice": "c..zkgwuAR6yiM4YqiPtGUVfQ..",
+                  "marketingChannelCode": "20",
+                  "interstitial": "",
+                  "priceConfigurationId": "22"
+                },
+                "paymentPreference": {
+                  "options": {
+                    "payNow": {
+                      "displayedPrice": {
+                        "displayedPrice": "422 €",
+                        "approximated": false
+                      },
+                      "payInCurrency": true,
+                      "welcomeRewards": "Collect and redeem Hotels.com® Rewards nights",
+                      "giftCard": "You can pay with your Hotels.com gift card",
+                      "overrideBookingParams": {
+                        "businessModel": "MERCHANT",
+                        "displayedCurrentPrice": "c..qR-i4S5-L3E4YqiPtGUVfQ.."
+                      },
+                      "fullyBundledPricePerStay": "total 467 € for 1&nbsp;room, 3&nbsp;guests"
+                    },
+                    "payLater": {
+                      "displayedPrice": {
+                        "displayedPrice": "422 €",
+                        "approximated": false
+                      },
+                      "welcomeRewards": "You can collect Hotels.com® Rewards nights",
+                      "overrideBookingParams": {
+                        "businessModel": "AGENCY",
+                        "displayedCurrentPrice": "c..qR-i4S5-L3E4YqiPtGUVfQ.."
+                      },
+                      "fullyBundledPricePerStay": "total 467 € for 1&nbsp;room, 3&nbsp;guests"
+                    }
+                  },
+                  "roomTracking": {
+                    "prop49": "243956|201781999|209074540",
+                    "prop71": "INT::Choice::CA::ETP Dep avail",
+                    "prop75": "INT Dep|440.5430809399478|440.5430809399478|1|NA;ETP interstitial|prices equivalent"
+                  }
+                }
+              },
+              "noCCRequired": false
+            },
+            "ratePlanDetails": {
+              "hideInstallments": false,
+              "localCurrencySuppression": false
+            }
+          },
+          {
+            "occupancy": {
+              "maxAdults": 2,
+              "maxChildren": 2
+            },
+            "cancellation": {
+              "title": "Fully refundable",
+              "free": true,
+              "info": "You can cancel this booking right up to 06/26/22 for free. You may be charged if you cancel or change your booking after that. And we can’t refund you if you check out early or don’t turn up at the property.",
+              "additionalInfo": "Until Jun 26, 2022",
+              "cancellationDate": "2022-06-26Z",
+              "refundable": true
+            },
+            "cancellations": [
+              {
+                "title": "Fully refundable",
+                "free": true,
+                "info": "You can cancel this booking right up to 06/26/22 for free. You may be charged if you cancel or change your booking after that. And we can’t refund you if you check out early or don’t turn up at the property.",
+                "additionalInfo": "Until 06/26/22",
+                "period": "06/26/22 - 06/27/22 for 1 night",
+                "refundable": true
+              }
+            ],
+            "features": [
+              {
+                "featureType": "wifi",
+                "title": "Free Wi-Fi",
+                "info": "Free Wi-Fi is available in this room",
+                "dataSourceInfo": "1dc3313f-9d1b-4886-8226-12ae4c1b3571"
+              },
+              {
+                "featureType": "breakfast",
+                "title": "Breakfast for 3 people",
+                "info": "Breakfast is included in your stay",
+                "dataSourceInfo": "0f2a2bfb-28f8-4925-9932-1b7a37929d30"
+              }
+            ],
+            "welcomeRewards": {
+              "info": "Our loyalty program lets you collect 10 stamps and get 1 reward* night. And you can redeem reward* nights with this room.",
+              "collect": true,
+              "redeem": true
+            },
+            "offers": {
+              "valueAdds": []
+            },
+            "price": {
+              "current": "451 €",
+              "unformattedCurrent": 451,
+              "fullyBundledPricePerStay": "total 499 € for 1&nbsp;room, 3&nbsp;guests"
+            },
+            "payment": {
+              "book": {
+                "caption": "Let’s book",
+                "bookingParamsMixedRatePlan": {
+                  "init": true,
+                  "bookingApiVersion": "v3",
+                  "numberOfRoomType": "3",
+                  "orderItems": [
+                    {
+                      "supplierType": "EXPEDIA",
+                      "rateCode": "209074546",
+                      "roomTypeCode": "201781999",
+                      "businessModel": "MERCHANT",
+                      "ratePlanConfiguration": "HYBRID",
+                      "arrivalDate": "06/26/22",
+                      "departureDate": "06/27/22",
+                      "destinationId": "1634646",
+                      "hotelCityId": "1634646",
+                      "hotelId": "243956",
+                      "sequenceNumber": "0",
+                      "tripId": "",
+                      "tspid": 24
+                    }
+                  ],
+                  "propertyDetailsDisplayRate": "c..RHK5-f3uwK44YqiPtGUVfQ..",
+                  "currency": "EUR",
+                  "minPrice": "c..zkgwuAR6yiM4YqiPtGUVfQ..",
+                  "marketingChannelCode": "20",
+                  "interstitial": "",
+                  "priceConfigurationId": "22"
+                },
+                "paymentPreference": {
+                  "options": {
+                    "payNow": {
+                      "displayedPrice": {
+                        "displayedPrice": "451 €",
+                        "approximated": false
+                      },
+                      "payInCurrency": true,
+                      "welcomeRewards": "Collect and redeem Hotels.com® Rewards nights",
+                      "giftCard": "You can pay with your Hotels.com gift card",
+                      "overrideBookingParams": {
+                        "businessModel": "MERCHANT",
+                        "displayedCurrentPrice": "c..RHK5-f3uwK44YqiPtGUVfQ.."
+                      },
+                      "fullyBundledPricePerStay": "total 499 € for 1&nbsp;room, 3&nbsp;guests"
+                    },
+                    "payLater": {
+                      "displayedPrice": {
+                        "displayedPrice": "451 €",
+                        "approximated": false
+                      },
+                      "welcomeRewards": "You can collect Hotels.com® Rewards nights",
+                      "overrideBookingParams": {
+                        "businessModel": "AGENCY",
+                        "displayedCurrentPrice": "c..RHK5-f3uwK44YqiPtGUVfQ.."
+                      },
+                      "fullyBundledPricePerStay": "total 499 € for 1&nbsp;room, 3&nbsp;guests"
+                    }
+                  },
+                  "roomTracking": {
+                    "prop49": "243956|201781999|209074546",
+                    "prop71": "INT::Choice::CA::ETP Dep avail",
+                    "prop75": "INT Dep|470.9242819843342|470.9242819843342|1|NA;ETP interstitial|prices equivalent"
+                  }
+                }
+              },
+              "noCCRequired": false
+            },
+            "ratePlanDetails": {
+              "hideInstallments": false,
+              "localCurrencySuppression": false
+            }
+          },
+          {
+            "occupancy": {
+              "maxAdults": 2,
+              "maxChildren": 2
+            },
+            "cancellation": {
+              "title": "Fully refundable",
+              "free": true,
+              "info": "You can cancel this booking right up to 06/19/22 for free. You may be charged if you cancel or change your booking after that. And we can’t refund you if you check out early or don’t turn up at the property.",
+              "additionalInfo": "Until Jun 19, 2022",
+              "cancellationDate": "2022-06-19Z",
+              "refundable": true
+            },
+            "cancellations": [
+              {
+                "title": "Fully refundable",
+                "free": true,
+                "info": "You can cancel this booking right up to 06/19/22 for free. You may be charged if you cancel or change your booking after that. And we can’t refund you if you check out early or don’t turn up at the property.",
+                "additionalInfo": "Until 06/19/22",
+                "period": "06/26/22 - 06/27/22 for 1 night",
+                "refundable": true
+              }
+            ],
+            "features": [
+              {
+                "featureType": "wifi",
+                "title": "Free Wi-Fi",
+                "info": "Free Wi-Fi is available in this room",
+                "dataSourceInfo": "1dc3313f-9d1b-4886-8226-12ae4c1b3571"
+              },
+              {
+                "featureType": "multiple-meals",
+                "title": "Includes breakfast and dinner",
+                "info": "Breakfast and dinner are included in your stay",
+                "dataSourceInfo": "cea40122-d4e9-440d-a799-bf45336f2625"
+              }
+            ],
+            "welcomeRewards": {
+              "info": "Our loyalty program lets you collect 10 stamps and get 1 reward* night. And you can redeem reward* nights with this room.",
+              "collect": true,
+              "redeem": true
+            },
+            "offers": {
+              "valueAdds": []
+            },
+            "price": {
+              "current": "468 €",
+              "unformattedCurrent": 468,
+              "fullyBundledPricePerStay": "total 518 € for 1&nbsp;room, 3&nbsp;guests"
+            },
+            "payment": {
+              "book": {
+                "caption": "Let’s book",
+                "bookingParamsMixedRatePlan": {
+                  "init": true,
+                  "bookingApiVersion": "v3",
+                  "numberOfRoomType": "4",
+                  "orderItems": [
+                    {
+                      "supplierType": "EXPEDIA",
+                      "rateCode": "383383219",
+                      "roomTypeCode": "201781999",
+                      "businessModel": "MERCHANT",
+                      "ratePlanConfiguration": "REGULAR",
+                      "arrivalDate": "06/26/22",
+                      "departureDate": "06/27/22",
+                      "destinationId": "1634646",
+                      "hotelCityId": "1634646",
+                      "hotelId": "243956",
+                      "sequenceNumber": "0",
+                      "tripId": "",
+                      "tspid": 24
+                    }
+                  ],
+                  "propertyDetailsDisplayRate": "c..ymK9y5P-uB04YqiPtGUVfQ..",
+                  "currency": "EUR",
+                  "minPrice": "c..zkgwuAR6yiM4YqiPtGUVfQ..",
+                  "marketingChannelCode": "20",
+                  "interstitial": "",
+                  "priceConfigurationId": "22"
+                }
+              },
+              "noCCRequired": false
+            },
+            "ratePlanDetails": {
+              "hideInstallments": false,
+              "localCurrencySuppression": false
+            }
+          }
+        ]
+      }
+    ],
+    "ratePlanWithOffersExists": false,
+    "priceColumnHeading": "Today’s Price"
+  },
+  "starRatingTitle": "This property has received its official star rating from the French Tourism Development Agency, ATOUT France. ",
+  "starRating": 5,
+  "featuredPrice": {
+    "currentPrice": {
+      "formatted": "388 €",
+      "plain": 388
+    },
+    "taxInclusiveFormatting": false,
+    "bookNowButton": true,
+    "fullyBundledPricePerStay": "total 430 € for 1&nbsp;room, 3&nbsp;guests"
+  },
+  "mapWidget": {
+    "staticMapUrl": "https://maps-api-ssl.google.com/maps/api/staticmap?center=48.89537,2.2389&format=jpg&sensor=false&key=AIzaSyDaDqDNrxWrxcURixO2l6TbtV68X0Klf4U&zoom=16&size=834x443&scale&signature&signature=Y4JWSLFYr0TVwQzqm2WNGOzzu5s="
+  },
+  "roomTypeNames": [
+    "Superior Room, 2 Twin Beds, View (La Defense View)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "xDeluxe room",
+    "Junior Suite, 1 King Bed, View (180° view)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Classic Room, 1 Queen Bed, View (La Defense View)",
+    "",
+    "X-Superior Double for 2 persons",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "xJunior suite with 1 king size bed",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Deluxe Room, 1 King Bed, View (Upper Floor, La Defense View)",
+    "",
+    "",
+    "X-Deluxe Suite Senior for 2 persons",
+    "",
+    "",
+    "",
+    "Superior Room, 1 Queen Bed, View (La Defense View)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "xSuite with 1 king bed or 2 single bed",
+    "",
+    "X-Deluxe Queen for 2 persons",
+    "",
+    "",
+    "",
+    "",
+    "xROH",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Presidential Suite, Multiple Beds, View",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Classic Room, 2 Twin Beds, View (La Defense View)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "xSuperior Room",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Family Suite, 1 King Bed with Sofa bed, View (High Floor, 180° View)",
+    "",
+    "",
+    "Family Room, Multiple Beds, Connecting Rooms (2 connecting rooms)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "X-Standard Double for 2 persons",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "X-Junior Suite for 2 persons",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Deluxe Room, 2 Twin Beds, View (Upper Floor, La Defense View)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "tagline": [
+    "<b>Luxury hotel with spa, near Paris La Défense Arena </b>"
+  ],
+  "freebies": [
+    "Free WiFi"
+  ],
+  "reviews": {
+    "brands": {
+      "scale": 10,
+      "formattedScale": "10",
+      "rating": 8.6,
+      "formattedRating": "8.6",
+      "lowRating": false,
+      "badgeText": "Fabulous",
+      "total": 755
+    }
+  },
+  "atAGlance": {
+    "keyFacts": {
+      "hotelSize": [
+        "This hotel has 382 rooms",
+        "This hotel is arranged over 19 floors"
+      ],
+      "arrivingLeaving": [
+        "Check-in time 2 PM-anytime",
+        "Check-out time is  noon",
+        "Express check-in/out"
+      ],
+      "specialCheckInInstructions": [
+        "Front desk staff will greet guests on arrival. "
+      ],
+      "requiredAtCheckIn": [
+        "Credit card, debit card, or cash deposit required for incidental charges",
+        "Government-issued photo ID may be required",
+        "Minimum check-in age is 18"
+      ]
+    },
+    "travellingOrInternet": {
+      "travelling": {
+        "children": [
+          "Up to 3 children stay free when occupying the parent or guardian's room, using existing bedding",
+          "Babysitting*"
+        ],
+        "pets": [
+          "Pets allowed*"
+        ],
+        "extraPeople": []
+      },
+      "internet": [
+        "Free WiFi and wired Internet access in public areas",
+        "Free WiFi and wired Internet access in rooms"
+      ]
+    },
+    "transportAndOther": {
+      "transport": {
+        "transfers": [],
+        "parking": [
+          "Onsite self parking (EUR 26 per day)",
+          "Wheelchair-accessible parking on site"
+        ],
+        "offsiteTransfer": []
+      },
+      "otherInformation": [
+        "Smoke-free property"
+      ],
+      "otherInclusions": []
+    }
+  },
+  "amenities": [
+    {
+      "heading": "In the hotel",
+      "listItems": [
+        {
+          "heading": "Taking the kids?",
+          "listItems": [
+            "In-room childcare (surcharge)"
+          ]
+        },
+        {
+          "heading": "Food and drink",
+          "listItems": [
+            "Buffet breakfast daily (surcharge)",
+            "Restaurant",
+            "Bar/lounge",
+            "Snack bar/deli",
+            "24-hour room service"
+          ]
+        },
+        {
+          "heading": "Things to do",
+          "listItems": [
+            "Fitness facilities",
+            "Full-service spa",
+            "Steam room"
+          ]
+        },
+        {
+          "heading": "Working away",
+          "listItems": [
+            "Business center",
+            "Number of meeting rooms -  13",
+            "Conference space",
+            "Conference space size (feet) -  2045",
+            "Conference space size (meters) -  190",
+            "Conference center",
+            "Computer station"
+          ]
+        },
+        {
+          "heading": "Services",
+          "listItems": [
+            "24-hour front desk",
+            "Concierge services",
+            "Tours/ticket assistance",
+            "Dry cleaning/laundry service",
+            "Laundry facilities",
+            "Luggage storage",
+            "Multilingual staff",
+            "Porter/bellhop"
+          ]
+        },
+        {
+          "heading": "Facilities",
+          "listItems": [
+            "Number of buildings/towers -  1",
+            "Year Built -  2000",
+            "Elevator",
+            "Safe-deposit box at front desk",
+            "Terrace"
+          ]
+        },
+        {
+          "heading": "Accessibility",
+          "listItems": [
+            "Wheelchair accessible",
+            "Accessible bathroom",
+            "In-room accessibility",
+            "Roll-in shower",
+            "Wheelchair-accessible path of travel",
+            "Wheelchair-accessible parking",
+            "Assistive listening devices available"
+          ]
+        },
+        {
+          "heading": "Languages Spoken",
+          "listItems": [
+            "English",
+            "French",
+            "German",
+            "Italian",
+            "Japanese",
+            "Russian",
+            "Spanish"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "In the room",
+      "listItems": [
+        {
+          "heading": "Home comforts",
+          "listItems": [
+            "In-room climate control (air conditioning)",
+            "Coffee/tea maker",
+            "Bathrobes",
+            "Iron/ironing board"
+          ]
+        },
+        {
+          "heading": "Sleep well",
+          "listItems": [
+            "Hypo-allergenic bedding available",
+            "Blackout drapes/curtains",
+            "Soundproofed rooms",
+            "Turndown service",
+            "Premium bedding"
+          ]
+        },
+        {
+          "heading": "Freshen up",
+          "listItems": [
+            "Private bathroom",
+            "Bathtub or shower",
+            "Designer toiletries",
+            "Hair dryer"
+          ]
+        },
+        {
+          "heading": "Be entertained",
+          "listItems": [
+            "LCD TV",
+            "Premium TV channels"
+          ]
+        },
+        {
+          "heading": "Stay connected",
+          "listItems": [
+            "Desk",
+            "Free newspaper",
+            "Free WiFi",
+            "Phone"
+          ]
+        },
+        {
+          "heading": "Food and drink",
+          "listItems": [
+            "Free bottled water"
+          ]
+        },
+        {
+          "heading": "More",
+          "listItems": [
+            "Daily housekeeping",
+            "In-room safe",
+            "Connecting/adjoining rooms available"
+          ]
+        }
+      ]
+    }
+  ],
+  "hygieneAndCleanliness": {
+    "title": "COVID-19: Hygiene and cleanliness",
+    "hygieneQualifications": {
+      "title": "Official standards",
+      "qualifications": [
+        "This property advises that it adheres to ALLSAFE (Accor Hotels) cleaning and disinfection practices. "
+      ]
+    },
+    "healthAndSafetyMeasures": {
+      "title": "Enhanced health and safety measures",
+      "description": "This property advises that enhanced cleaning and guest safety measures are currently in place.",
+      "measures": [
+        "Property is cleaned with disinfectant",
+        "Staff wears personal protective equipment",
+        "Property confirms they are implementing enhanced cleaning measures",
+        "Shield between guests and staff in main contact areas",
+        "Social distancing measures are in place",
+        "Gap period enforced between guest stays - 24 hours",
+        "Contactless check-in is available",
+        "Protective clothing is available to guests",
+        "Masks are available to guests",
+        "Individually-wrapped food options are available",
+        "Guests are provided with free hand sanitizer"
+      ]
+    }
+  },
+  "smallPrint": {
+    "alternativeNames": [
+      "Pullman Paris La Défense Hotel",
+      "Pullman Paris Défense",
+      "Pullman Paris Défense Courbevoie",
+      "Pullman Paris Défense Hotel",
+      "Pullman Paris Défense Hotel Courbevoie",
+      "Pullman Paris La Defense Hotel La Defense",
+      "Pullman Paris La Défense Courbevoie",
+      "Pullman Paris La Défense Hotel Courbevoie"
+    ],
+    "mandatoryFees": [
+      "<ul><li>A tax is imposed by the city and collected at the property. Exemptions or reductions might apply. For more details, please contact the property using the information on the reservation confirmation received after booking. </li><li>A tax is imposed by the city: EUR 3.00 per person, per night. This tax does not apply to children under 18 years of age. </li></ul>"
+    ],
+    "optionalExtras": [
+      "<p><strong>Early check-in</strong> can be arranged for an extra charge of EUR 50 (subject to availability)</p><p><strong>Late check-out</strong> can be arranged for an extra charge of EUR 50 (subject to availability)</p>",
+      "<p><strong>Self parking</strong> costs EUR 26 per day</p>",
+      "<p><strong>Rollaway</strong> beds are available for EUR 50.0 per night</p>",
+      "<p><strong>Buffet breakfast</strong> is offered for an extra charge of EUR 27 per person (approximately)</p>",
+      "<p><strong>Babysitting</strong> is available for an extra charge</p>",
+      "<p><strong>Pets</strong> are allowed for an extra charge of EUR 15 per pet, per night</p>"
+    ],
+    "policies": [
+      "<p>The property has connecting/adjoining rooms, which are subject to availability and can be requested by contacting the property using the number on the booking confirmation. </p><p>Guests can rest easy knowing there's a smoke detector on site.</p><p>This property advises that enhanced cleaning and guest safety measures are currently in place.</p><p>Disinfectant is used to clean the property; commonly-touched surfaces are cleaned with disinfectant between stays; bed sheets and towels are laundered at a temperature of at least 60°C/140°F.</p><p>Personal protective equipment, including masks, will be available to guests.</p><p>Social distancing measures are in place; staff at the property wear personal protective equipment; a shield is in place between staff and guests in main contact areas; periodic temperature checks are conducted on staff; guests are provided with hand sanitizer; cashless payment methods are available for all transactions; contactless room service is available; masks are required in public areas.</p><p>Contactless check-in and contactless check-out are available.</p><p>Enhanced food service safety measures are in place.</p><p>Individually-wrapped food options are available through room service.</p><p>Each guestroom is kept vacant for a minimum of 24 hours between bookings.</p><p>This property affirms that it follows the cleaning and disinfection practices of ALLSAFE (Accor Hotels).</p>",
+      "<p>Reservations are required for spa treatments and can be made by contacting the property before arrival at the number on the booking confirmation. </p><p>This property accepts credit cards and cash.</p>"
+    ],
+    "mandatoryTaxesOrFees": true,
+    "display": true
+  },
+  "specialFeatures": {
+    "sections": [
+      {
+        "heading": "Spa",
+        "freeText": "Guests can indulge in a pampering treatment at the hotel's full-service spa, Spa Pullman. Services include hot stone massages and massages. <p>The spa is open daily. </p>",
+        "listItems": [],
+        "subsections": []
+      },
+      {
+        "heading": "Dining",
+        "freeText": "<strong>QUINTE ET SENS</strong> - This restaurant specializes in French cuisine and serves breakfast, lunch, and dinner. Guests can enjoy drinks at the bar. A children's menu is available. <br/>\n<p></p><strong>ARTI</strong> - This bar serves breakfast, lunch, dinner, and light fare. Open daily. ",
+        "listItems": [],
+        "subsections": []
+      },
+      {
+        "heading": "Awards and affiliations",
+        "freeText": "This property has signed the UNESCO Sustainable Travel Pledge.",
+        "listItems": [],
+        "subsections": []
+      }
+    ]
+  },
+  "overview": {
+    "overviewSections": [
+      {
+        "title": "Main amenities",
+        "type": "HOTEL_FEATURE",
+        "content": [
+          "Daily housekeeping",
+          "Restaurant and bar/lounge",
+          "Full-service spa",
+          "Breakfast available",
+          "Fitness center",
+          "Self parking",
+          "Conference center",
+          "In-room childcare",
+          "UNESCO Sustainable Property",
+          "Terrace",
+          "24-hour front desk",
+          "Car rentals on site",
+          "Free WiFi "
+        ],
+        "contentType": "LIST"
+      },
+      {
+        "title": "For families",
+        "type": "FAMILY_FRIENDLY_SECTION",
+        "content": [
+          "Free cribs/infant beds",
+          "In-room childcare (surcharge)",
+          "Babysitting or childcare (surcharge)",
+          "Rollaway/extra beds (surcharge)",
+          "Connecting/adjoining rooms available",
+          "Private bathroom"
+        ],
+        "contentType": "LIST"
+      },
+      {
+        "title": "What’s around",
+        "type": "LOCATION_SECTION",
+        "content": [
+          "In Faubourg de l'Arche",
+          "Paris La Défense Arena - 14 min walk",
+          "Bois de Boulogne - 35 min walk",
+          "Luis Vuitton Foundation Museum - 41 min walk",
+          "Palais des Congres de Paris - 2.5 mi / 4 km",
+          "ParisLongchamp Racecourse - 3.1 mi / 4.9 km",
+          "Rue du Faubourg Saint-Honore - 3.6 mi / 5.8 km",
+          "Lido - 3.8 mi / 6.1 km",
+          "Champs-Elysees - 3.8 mi / 6.2 km",
+          "Arc de Triomphe - 3.9 mi / 6.2 km",
+          "Place du Trocadero - 4 mi / 6.4 km"
+        ],
+        "contentType": "LIST"
+      },
+      {
+        "type": "TAGLINE",
+        "content": [
+          "<b>Luxury hotel with spa, near Paris La Défense Arena </b>"
+        ],
+        "contentType": "LIST"
+      },
+      {
+        "type": "HOTEL_FREEBIES",
+        "content": [
+          "Free WiFi"
+        ],
+        "contentType": "LIST"
+      }
+    ]
+  },
+  "transportation": {
+    "transportLocations": [
+      {
+        "category": "airport",
+        "locations": [
+          {
+            "name": "Paris Charles de Gaulle Airport (CDG) -",
+            "distance": "",
+            "distanceInTime": "45 min drive"
+          },
+          {
+            "name": "Paris Orly Airport (ORY) -",
+            "distance": "",
+            "distanceInTime": "41 min drive"
+          }
+        ]
+      },
+      {
+        "category": "train-station",
+        "locations": [
+          {
+            "name": "La Defense Station -",
+            "distance": "",
+            "distanceInTime": "9 min walk"
+          },
+          {
+            "name": "Courbevoie (QEV-Courbevoie Train Station) -",
+            "distance": "",
+            "distanceInTime": "10 min walk"
+          },
+          {
+            "name": "Courbevoie Station -",
+            "distance": "",
+            "distanceInTime": "16 min walk"
+          }
+        ]
+      },
+      {
+        "category": "metro",
+        "locations": [
+          {
+            "name": "La Defense - Grande Arche Station -",
+            "distance": "",
+            "distanceInTime": "8 min walk"
+          },
+          {
+            "name": "Esplanade de la Defense Station -",
+            "distance": "",
+            "distanceInTime": "18 min walk"
+          },
+          {
+            "name": "Nanterre Préfecture RER Station -",
+            "distance": "",
+            "distanceInTime": "20 min walk"
+          }
+        ]
+      }
+    ]
+  },
+  "neighborhood": {
+    "neighborhoodName": "15th Arrondissement"
+  }
+}
