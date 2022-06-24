@@ -14,8 +14,8 @@ jobs:
   secrets:
     runs-on: ubuntu-latest
     steps:
-        uses: actions/setup-node@v3
-      - name: "Create env file"
+      - uses: actions/setup-node@v3
+        name: "Create env file"
         run: |
           cd back
           touch .env
@@ -34,7 +34,3 @@ jobs:
           echo LYKO_API_KEY=${{ secrets.LYKO_API_KEY }} >> .env
           echo TICKETMASTER_API_KEY=${{ secrets.TICKETMASTER_API_KEY }} >> .env
           cat .env
-      - name: Start the api
-        run: cd back/ && yarn start &
-      - name: Integration test
-        run: cd back/ && yarn test:integration
