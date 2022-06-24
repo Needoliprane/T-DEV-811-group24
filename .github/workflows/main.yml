@@ -63,7 +63,7 @@ jobs:
           echo AUTH_AUD=${{ secrets.AUTH_AUD }} >> .env
           echo AUTH_ALGORITHM=${{ secrets.AUTH_ALGORITHM }} >> .env
           echo RAPID_API_KEY=${{ secrets.RAPID_API_KEY }} >> .env
-          echo LYKO_API_KEY=${{ secrets.LYCO_API_KEY }} >> .env
+          echo LYKO_API_KEY=${{ secrets.LYKO_API_KEY }} >> .env
           echo TICKETMASTER_API_KEY=${{ secrets.TICKETMASTER_API_KEY }} >> .env
           cat .env
       - name: Start the api
