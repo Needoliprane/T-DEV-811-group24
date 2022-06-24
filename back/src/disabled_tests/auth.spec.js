@@ -1,14 +1,15 @@
 const axios = require("axios");
-const userPostReq = require("./schemas/user/userPostReq.json");
-const userPostRes = require("./schemas/user/userPostRes.json");
-const userDelReq = require("./schemas/user/userDelReq.json");
-const userDelRes = require("./schemas/user/userDelRes.json");
+const userPostReq = require("../test/schemas/user/userPostReq.json");
+const userPostRes = require("../test/schemas/user/userPostRes.json");
+const userDelReq = require("../test/schemas/user/userDelReq.json");
+const userDelRes = require("../test/schemas/user/userDelRes.json");
 const allResErrorSchema = require("./schemas/error/allResErrorSchema");
 const Validator = require("jsonschema").Validator;
 const v = new Validator();
 const BASE_URL = "http://localhost:" + process.env.PORT + "/api";
 const { User } = require("../database/connection").models;
 describe("/auth", () => {
+  /*
   let token = "";
   let refreshtoken = "";
   let axiosConfig = {
@@ -39,5 +40,5 @@ describe("/auth", () => {
       expect(response.data).toBeTruthy();
       expect(v.validate(response.data, allResErrorSchema)).toBeTruthy();
     });
-  });
+  });*/
 });

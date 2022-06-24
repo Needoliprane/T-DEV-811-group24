@@ -8,6 +8,7 @@ const BASE_URL = "http://localhost:" + process.env.PORT + "/api";
 const route = "/drink";
 
 describe("routes", () => {
+  /*
   let token = "";
   let refreshtoken = "";
 
@@ -18,5 +19,5 @@ describe("routes", () => {
     expect(response.data).toBeTruthy();
     expect(v.validate(response.data, drinkGetResSchema)).toBeTruthy();
     expect(response.status).toEqual(200);
-  });
+  });*/
 });

@@ -12,6 +12,7 @@ const userCredentials = { email: "leo.levacher@epitech.eu", password: "pwd" };
 const adminCredentials = { email: "bobmarcel73@gmail.com", password: "pwd" };
 
 describe("/users", () => {
+  /*
   const axiosRequest = axios.create({
     baseURL: `${BASE_URL}/users`,
     validateStatus: () => true,
@@ -151,5 +152,5 @@ describe("/users", () => {
         expect(await models.User.findOne({ _id: user.id })).toBeFalsy();
       });
     });
-  });
+  });*/
 });

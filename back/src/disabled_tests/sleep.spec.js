@@ -8,6 +8,7 @@ const BASE_URL = "http://localhost:" + process.env.PORT + "/api";
 const route = "/sleep";
 
 describe("routes", () => {
+  /*
   let token = "";
   let refreshtoken = "";
 
@@ -19,5 +20,5 @@ describe("routes", () => {
     expect(response.data).toMatchObject(sleepGetResSchema);
     expect(v.validate(response.data, sleepGetResSchema)).toBeTruthy();
     expect(response.data.status).toEqual(200);
-  });
+  });*/
 });

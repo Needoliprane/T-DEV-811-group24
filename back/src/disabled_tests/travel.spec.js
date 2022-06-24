@@ -8,6 +8,7 @@ const BASE_URL = "http://localhost:" + process.env.PORT + "/api";
 const route = "/travel";
 
 describe("routes", () => {
+  /*
   let token = "";
   let refreshtoken = "";
 
@@ -19,5 +20,5 @@ describe("routes", () => {
     expect(response.data).toMatchObject(travelGetResSchema);
     expect(v.validate(response.data, travelGetResSchema)).toBeTruthy();
     expect(response.data.status).toEqual(200);
-  });
+  });*/
 });

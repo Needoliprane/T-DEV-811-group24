@@ -9,7 +9,7 @@ const BASE_URL = "http://localhost:8000/";
 describe("routes", () => {
   let token = "";
   let refreshtoken = "";
-
+  /*
   it("Verify user does not exist yet", async () => {
     let body = {
       username: "pingouin",
@@ -65,5 +65,5 @@ describe("routes", () => {
     expect(response.data).toBeTruthy();
     // expect(response.data.status).toEqual('ok');
     console.log(response.data);
-  });
+  });*/
 });
