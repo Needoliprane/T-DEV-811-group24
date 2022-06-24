@@ -24,6 +24,11 @@ jobs:
           echo DB_HOST=${{ secrets.DB_HOST }} >> .env
           echo FRONT_URL=${{ secrets.FRONT_URL }} >> .env
           echo PORT=${{ secrets.PORT }} >> .env
-          echo AUTH_PRIVATE_KEY_FILE=${{ secrets.AUTH_PRIVATE_KEY_FILE }} >> .env
-
+          echo AUTH_PUBLIC_KEY_FILE=${{ secrets.AUTH_PUBLIC_KEY_FILE }} >> .env
+          echo AUTH_ISS=${{ secrets.AUTH_ISS }} >> .env
+          echo AUTH_AUD=${{ secrets.AUTH_AUD }} >> .env
+          echo AUTH_ALGORITHM=${{ secrets.AUTH_ALGORITHM }} >> .env
+          echo RAPID_API_KEY=${{ secrets.RAPID_API_KEY }} >> .env
+          echo LYKO_API_KEY=${{ secrets.LYKO_API_KEY }} >> .env
+          echo TICKETMASTER_API_KEY=${{ secrets.TICKETMASTER_API_KEY }} >> .env
           cat .env
