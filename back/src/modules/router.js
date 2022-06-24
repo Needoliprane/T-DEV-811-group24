@@ -12,14 +12,14 @@ const TravelRouter = require("./travel/travel.router")
 const { isAuthenticated, isAuthorized } = require('../middlewares/auth.middleware');
 
 // router.use("ping")
-router.use("/api/users", isAuthenticated, isAuthorized('admin'), UsersRouter);
+router.use("/users", isAuthenticated, isAuthorized('admin'), UsersRouter);
 // router.use('/me', isAuthenticated, meRouter);
-router.use("/api/auth", AuthRouter);
-router.use("/api/drink", DrinkRouter);
-router.use("/api/eat", EatRouter);
-router.use("/api/serviceType", ServiceTypeRouter)
-router.use("/api/enjoy", EnjoyRouter)
-router.use("/api/sleep", SleepRouter)
-router.use("/api/travel", TravelRouter)
+router.use("/auth", AuthRouter);
+router.use("/drink", DrinkRouter);
+router.use("/eat", EatRouter);
+router.use("/serviceType", ServiceTypeRouter)
+router.use("/enjoy", EnjoyRouter)
+router.use("/sleep", SleepRouter)
+router.use("/travel", TravelRouter)
 
 module.exports = router;
