@@ -18,4 +18,5 @@ jobs:
       - name: "Create env file"
         run: |  
           touch .env
+          echo DB_USERNAME=${{ secrets.DB_USERNAME }} >> .env
           cat .env
