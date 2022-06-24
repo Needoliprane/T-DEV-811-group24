@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   api:
     build: ./api
@@ -47,8 +47,8 @@ services:
     networks:
       - backend
 
-  mongodb-tdd:
-    name: mongodb-tdd
+  api-tdd:
+    name: api-tdd
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -58,10 +58,10 @@ services:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16.x'
+          node-version: "16.x"
       - name: Install dependencies
         run: cd back/ && yes | yarn install
-      - name: 'Create env file'
+      - name: "Create env file"
         run: |
           cd back
           touch .env
@@ -71,8 +71,6 @@ services:
           echo DB_HOST=${{ secrets.DB_HOST }} >> .env
           echo FRONT_URL=${{ secrets.FRONT_URL }} >> .env
           echo PORT=${{ secrets.PORT }} >> .env
-          echo AUTH_PRIVATE_KEY_FILE=${{ secrets.AUTH_PRIVATE_KEY_FILE }} >> .env
-          echo AUTH_PUBLIC_KEY_FILE=${{ secrets.AUTH_PUBLIC_KEY_FILE }} >> .env
           echo AUTH_ISS=${{ secrets.AUTH_ISS }} >> .env
           echo AUTH_AUD=${{ secrets.AUTH_AUD }} >> .env
           echo AUTH_ALGORITHM=${{ secrets.AUTH_ALGORITHM }} >> .env
@@ -84,7 +82,6 @@ services:
         run: cd back/ && yarn start &
       - name: Integration test
         run: cd back/ && yarn test:integration
-
 
 networks:
   backend:
