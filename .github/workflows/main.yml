@@ -24,5 +24,6 @@ jobs:
           echo DB_HOST=${{ secrets.DB_HOST }} >> .env
           echo FRONT_URL=${{ secrets.FRONT_URL }} >> .env
           echo PORT=${{ secrets.PORT }} >> .env
+          echo AUTH_PRIVATE_KEY_FILE=${{ secrets.AUTH_PRIVATE_KEY_FILE }} >> .env
 
           cat .env
