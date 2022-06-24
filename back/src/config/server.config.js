@@ -21,8 +21,8 @@ const config = {
     privateKey: fs.readFileSync("./epicRoadTrip.key").toString(),
     publicKey: fs.readFileSync("./epicRoadTrip.key.pub").toString(),
     expiresIn: 3600,
-    iss: process.env.AUTH_ISS || `http://localhost:${PORT}`,
-    aud: process.env.AUTH_AUD || `http://localhost:${PORT}`,
+    iss: process.env.AUTH_ISS || `http://localhost:${process.env.PORT}`,
+    aud: process.env.AUTH_AUD || `http://localhost:${process.env.PORT}`,
     algorithm: process.env.AUTH_ALGORITHM || "RS256",
   },
   client: {
