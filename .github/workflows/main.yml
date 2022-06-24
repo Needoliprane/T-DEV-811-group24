@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v3
-        name: "Create env file"
+      - name: "Create env file"
         run: |
           cd back
           touch .env
