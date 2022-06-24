@@ -17,7 +17,6 @@ jobs:
       - uses: actions/setup-node@v3
       - name: "Create env file"
         run: |
-          cd back
           touch .env
           echo DB_USERNAME=${{ secrets.DB_USERNAME }} >> .env
           echo DB_PASSWORD=${{ secrets.DB_PASSWORD }} >> .env
