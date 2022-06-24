@@ -28,6 +28,7 @@ const config = {
   client: {
     url: process.env.FRONT_URL || "http://localhost:3000",
   },
+
   apis: {
     lyco: {
       apiKey: process.env.LYCO_API_KEY || null,
