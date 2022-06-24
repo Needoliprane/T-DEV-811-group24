@@ -1,17 +1,55 @@
 {
-    "type": "array",
-    "items": {
-        "type": "object",
-        "properties": {
-            "address": { "type": "string" },
-            "location": {
-                "type": "object",
-                "properties": {
-                    "lat": { "type": "float" },
-                    "lng": { "type": "float" }
-                }
-            },
-            "description": { "type": "string"}
-        }
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "labels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "location": {
+      "type": "array",
+      "length": 2,
+      "items": {
+        "type": "float"
+      }
+    },
+    "address": {
+      "type": ["string", "null"]
+    },
+    "description": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "start": {
+      "type": "string"
+    },
+    "end": {
+      "type": "string"
     }
+  },
+  "required": [
+    "address",
+    "country",
+    "description",
+    "end",
+    "id",
+    "labels",
+    "location",
+    "start",
+    "timezone",
+    "title"
+  ],
+  "additionalProperties": false
 }

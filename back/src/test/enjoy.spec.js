@@ -54,24 +54,24 @@ describe("/enjoy", () => {
       expect(response.data).toBeTruthy();
       expect(v.validate(eventGetResSchema).errors).toHaveLength(0);
     });
-    describe("/:location", () => {
-      it("should send a status 400 if an invalid param was added", async () => {
-        const response = await axiosRequest.get("/Paris", {
-          params: { foo: "bar" },
-        });
-        expect(response.status).toEqual(400);
-        expect(response.data).toMatchObject({
-          message: "bar is not allowed",
-        });
+  });
+  describe("/:location", () => {
+    it("should send a status 400 if an invalid param was added", async () => {
+      const response = await axiosRequest.get("/Paris", {
+        params: { foo: "bar" },
       });
-      it("should send a status 200 and a series of events", async () => {
-        const response = await axiosRequest.get("/Paris");
-        expect(response.status).toEqual(200);
-        expect(response.data).toBeTruthy();
-        expect(
-          v.validate(response.data, eventGetResSchema).errors
-        ).toHaveLength(0);
+      expect(response.status).toEqual(400);
+      expect(response.data).toMatchObject({
+        message: "bar is not allowed",
       });
+    });
+    it("should send a status 200 and a series of events", async () => {
+      const response = await axiosRequest.get("/Paris");
+      expect(response.status).toEqual(200);
+      expect(response.data).toBeTruthy();
+      expect(v.validate(response.data, eventGetResSchema).errors).toHaveLength(
+        0
+      );
     });
   });
 });
