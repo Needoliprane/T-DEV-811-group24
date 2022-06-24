@@ -30,8 +30,8 @@ const config = {
   },
 
   apis: {
-    lyco: {
-      apiKey: process.env.LYCO_API_KEY || null,
+    lyko: {
+      apiKey: process.env.LYKO_API_KEY || null,
     },
     rapidApi: {
       apiKey: process.env.RAPID_API_KEY || null,
