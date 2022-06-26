@@ -11,7 +11,7 @@ const axiosRequest = axios.create({
 });
 
 describe("/enjoy", () => {
-  describe("/", () => {
+  describe("GET /", () => {
     it("should send a status 400 if neither a query or an id was provided", async () => {
       const response = await axiosRequest.get("/");
       expect(response.status).toEqual(400);
@@ -55,7 +55,7 @@ describe("/enjoy", () => {
       expect(v.validate(eventGetResSchema).errors).toHaveLength(0);
     });
   });
-  describe("/:location", () => {
+  describe("GET /:location", () => {
     it("should send a status 400 if an invalid param was added", async () => {
       const response = await axiosRequest.get("/Paris", {
         params: { foo: "bar" },
@@ -72,6 +72,24 @@ describe("/enjoy", () => {
       expect(v.validate(response.data, eventGetResSchema).errors).toHaveLength(
         0
       );
+    });
+  });
+  describe("GET /categories", () => {
+    it("should return a series of categories", async () => {
+      const response = await axiosRequest.get("/categories");
+      expect(response.status).toEqual(200);
+      expect(response.data).toMatchObject({
+        categories: [
+          "academic",
+          "conferences",
+          "expos",
+          "concerts",
+          "festivals",
+          "performing-arts",
+          "sports",
+          "community",
+        ],
+      });
     });
   });
 });
