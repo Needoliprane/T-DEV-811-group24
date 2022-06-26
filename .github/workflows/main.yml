@@ -55,6 +55,7 @@ jobs:
           echo LYKO_API_KEY=${{ secrets.LYKO_API_KEY }} >> .env
           echo TICKETMASTER_API_KEY=${{ secrets.TICKETMASTER_API_KEY }} >> .env
           cat .env
+          source .env
       - name: create mongodb container
         run: |
           docker-compose up --build --detach
