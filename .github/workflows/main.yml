@@ -38,15 +38,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: create mongodb container
-        run: |
-          docker-compose up --build --detach
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "16.x"
-      - name: Install dependencies
-        run: cd back/ && yes | yarn install
       - name: "Create env file"
         run: |
           cd back
@@ -64,6 +55,15 @@ jobs:
           echo LYKO_API_KEY=${{ secrets.LYKO_API_KEY }} >> .env
           echo TICKETMASTER_API_KEY=${{ secrets.TICKETMASTER_API_KEY }} >> .env
           cat .env
+      - name: create mongodb container
+        run: |
+          docker-compose up --build --detach
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+      - name: Install dependencies
+        run: cd back/ && yes | yarn install
       - name: Start the api
         run: cd back/ && yarn start &
       - name: Integration test
