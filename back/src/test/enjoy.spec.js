@@ -46,21 +46,21 @@ describe("/enjoy", () => {
           id: "6bZvTWrnzgfw3Gp6mm",
         },
       });
-      expect(response.status).toEqual(200);
-      expect(response.data).toBeTruthy();
       expect(v.validate(response.data, eventsGetResSchema).errors).toHaveLength(
         0
       );
+      expect(response.status).toEqual(200);
+      expect(response.data).toBeTruthy();
     });
     it("should send a status 200 and a series of events if a query was provided", async () => {
       const response = await axiosRequest.get("/", {
         params: { q: "agriculture" },
       });
-      expect(response.status).toEqual(200);
-      expect(response.data).toBeTruthy();
       expect(v.validate(response.data, eventsGetResSchema).errors).toHaveLength(
         0
       );
+      expect(response.status).toEqual(200);
+      expect(response.data).toBeTruthy();
     });
   });
   describe("GET /:location", () => {
@@ -75,11 +75,11 @@ describe("/enjoy", () => {
     });
     it("should send a status 200 and a series of events", async () => {
       const response = await axiosRequest.get("/Paris");
-      expect(response.status).toEqual(200);
-      expect(response.data).toBeTruthy();
       expect(v.validate(response.data, eventsGetResSchema).errors).toHaveLength(
         0
       );
+      expect(response.status).toEqual(200);
+      expect(response.data).toBeTruthy();
     });
   });
   describe("GET /categories", () => {
