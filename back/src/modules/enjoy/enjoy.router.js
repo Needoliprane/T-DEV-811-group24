@@ -6,14 +6,18 @@ const router = require("express").Router();
 // id or query
 router.get(
   "/",
-  Validator.params(EnjoyDtos.queryParams),
+  Validator.query(EnjoyDtos.searchByQueryQuery),
   EnjoyController.getEventsByQuery
 );
+
+router.get("/categories", EnjoyController.getEventCategories);
 
 //location
 router.get(
   "/:location",
-  Validator.params(EnjoyDtos.locationParams),
+  Validator.params(EnjoyDtos.getByLocationParams),
+  Validator.query(EnjoyDtos.getByLocationQuery),
   EnjoyController.getEventsByLocation
 );
+
 module.exports = router;
