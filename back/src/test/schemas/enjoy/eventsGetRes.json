@@ -1,58 +1,71 @@
 {
-  "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
-      "id": {
-        "type": "string"
-      },
-      "title": {
-        "type": "string"
-      },
-      "labels": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "location": {
-        "type": "array",
-        "length": 2,
-        "items": {
-          "type": "float"
-        }
-      },
-      "address": {
-        "type": ["string", "null"]
-      },
-      "description": {
-        "type": "string"
-      },
-      "country": {
-        "type": "string"
-      },
-      "timezone": {
-        "type": "string"
-      },
-      "start": {
-        "type": "string"
-      },
-      "end": {
-        "type": "string"
-      }
+  "type": "object",
+  "properties": {
+    "count": {
+      "type": "integer"
     },
-    "required": [
-      "address",
-      "country",
-      "description",
-      "end",
-      "id",
-      "labels",
-      "location",
-      "start",
-      "timezone",
-      "title"
-    ],
-    "additionalProperties": false
-  }
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "labels": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "location": {
+            "type": "array",
+            "length": 2,
+            "items": {
+              "type": "float"
+            }
+          },
+          "venue_name": {
+            "type": ["string", "null"]
+          },
+          "address": {
+            "type": ["string", "null"]
+          },
+          "description": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          },
+          "timezone": {
+            "type": "string"
+          },
+          "start": {
+            "type": "string"
+          },
+          "end": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "address",
+          "country",
+          "description",
+          "end",
+          "id",
+          "labels",
+          "location",
+          "start",
+          "timezone",
+          "title"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["count", "events"],
+  "additionalProperties": false
 }
