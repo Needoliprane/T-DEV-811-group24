@@ -57,7 +57,7 @@ describe("/enjoy", () => {
         params: { q: "agriculture" },
       });
       console.log(response.status);
-      console.log(JSON.stringify(response.data));
+      console.log(JSON.stringify(response));
       expect(v.validate(response.data, eventsGetResSchema).errors).toHaveLength(
         0
       );
