@@ -5,6 +5,8 @@ const yamljs = require("yamljs");
 const { initConnection } = require("./database/connection.js");
 const router = require("./modules/router");
 var clc = require("cli-color");
+const editSwaggerYaml = require('./config/editSwaggerYaml')
+editSwaggerYaml()
 
 const swaggerUi = require("swagger-ui-express");
 const swaggerDocument = yamljs.load("./swagger.yaml");
