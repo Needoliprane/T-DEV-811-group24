@@ -29,6 +29,7 @@ const EventService = {
   getByLocation: async ({ location }, query) => {
     const { page = null, radius = 10, category = null } = query;
     const geoCoordinates = await LyKoRepository.queryToGeoloc(location);
+    return geoCoordinates;
     if (!geoCoordinates) return { results: [] };
     let results = await PredictHQRepository.getByLocation(
       geoCoordinates.lng,
