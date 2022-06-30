@@ -17,18 +17,12 @@ const AuthController = {
 	},
 	signup: async (req, res) => {
 		try {
-			const user = {
-				_id: result._id,
-				firstName: result.firstName,
-				lastName: result.lastName,
-				email: result.email,
-				role: 'user',
-			};
-			await UsersService.insert(req.body);
+			await UsersService.register(req.body);
 			return res.status(201).send();
 		} catch (err) {
 			if (err.code === 11000)
 				return res.status(400).json({ message: err.message });
+				console.log(err)
 			return res.status(500).json({ message: "Internal Server Error" });
 		}
 	},
