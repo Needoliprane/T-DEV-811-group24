@@ -370,7 +370,301 @@ paths:
                                 properties:
                                   srpDesktop:
                                     type: string
-
+  /sleep/details:
+    get:
+      summary: Services by type and location
+      operationId: sleepDetailsGet
+      tags:
+        - sleep
+      description: Returns hotel details and photos by id
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  hotel_info:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                      address:
+                        type: object
+                        properties:
+                          countryName:
+                            type: string
+                          cityName:
+                            type: string
+                          provinceName:
+                            type: string
+                          addressLine1:
+                            type: string
+                          countryCode:
+                            type: string
+                          pattern:
+                            type: string
+                          fullAddress:
+                            type: string
+                      localisedAddress:
+                        type: string
+                      header:
+                        type: object
+                        properties:
+                          hotelId:
+                            type: string
+                          destinationId:
+                            type: string
+                          pointOfSaleId:
+                            type: string
+                          currencyCode:
+                            type: string
+                          occupancyKey:
+                            type: string
+                          hotelLocation:
+                            type: object
+                            properties:
+                              coordinates:
+                                type: object
+                                properties:
+                                  latitude:
+                                    type: number
+                                  longitude:
+                                    type: number
+                              resolvedLocation:
+                                type: string
+                              locationName:
+                                type: string
+                      roomsAndRates:
+                        type: object
+                      starRatingTitle:
+                        type: string
+                      starRating:
+                        type: integer
+                      featuredPrice:
+                        type: string
+                      mapWidget:
+                        type: object
+                        properties:
+                          staticMapUrl:
+                            type: string
+                      roomTypeNames:
+                        type: array
+                        items:
+                          type: string
+                      tagline:
+                        type: array
+                        items:
+                          type: string
+                      freebies:
+                        type: array
+                        items:
+                          type: string
+                      reviews:
+                        type: object
+                        properties:
+                          brands:
+                            type: object
+                            properties:
+                              scale:
+                                type: number
+                              formattedScale:
+                                type: string
+                              rating:
+                                type: number
+                              formattedRating:
+                                type: string
+                              lowRating:
+                                type: boolean
+                              badgeText:
+                                type: string
+                              total:
+                                type: number
+                      atAGlance:
+                        type: object
+                        properties:
+                          keyFacts:
+                            type: object
+                            properties:
+                              hotelSize:
+                                type: array
+                                items:
+                                  type: object
+                              arrivingLeaving:
+                                type: array
+                                items:
+                                  type: object
+                              specialCheckInInstructions:
+                                type: array
+                                items:
+                                  type: string
+                              requiredAtCheckIn:
+                                type: array
+                                items:
+                                  type: string
+                          travellingOrInternet:
+                            type: object
+                            properties:
+                              travelling:
+                                type: object
+                                properties:
+                                  children:
+                                    type: array
+                                    items:
+                                      type: string
+                                  pets:
+                                    type: array
+                                    items:
+                                      type: string
+                                  extraPeople:
+                                    type: array
+                                    items:
+                                      type: string
+                              internet:
+                                type: array
+                                items:
+                                  type: string
+                          transportAndOther:
+                            type: object
+                            properties:
+                              transport:
+                                type: object
+                                properties:
+                                  transfers:
+                                    type: array
+                                    items:
+                                      type: string
+                                  parking:
+                                    type: array
+                                    items:
+                                      type: string
+                                  offsiteTransfer:
+                                    type: array
+                                    items:
+                                      type: string
+                              otherInformation:
+                                type: array
+                                items:
+                                  type: string
+                              otherInclusions:
+                                type: array
+                                items:
+                                  type: string
+                      amenities:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            heading:
+                              type: string
+                            listItems:
+                              type: array
+                              items:
+                                type: object
+                                properties:
+                                  heading:
+                                    type: string
+                                  listItems:
+                                    type: array
+                                    items:
+                                      type: string
+                      hygieneAndCleanliness:
+                        type: string
+                      smallPrint:
+                        type: object
+                        properties:
+                          alternativeNames:
+                            type: array
+                            items:
+                              type: string
+                          mandatoryFees:
+                            type: array
+                            items:
+                              type: string
+                          optionalExtras:
+                            type: array
+                            items:
+                              type: string
+                          policies:
+                            type: array
+                            items:
+                              type: string
+                          mandatoryTaxesOrFees:
+                            type: boolean
+                          display:
+                            type: boolean
+                      specialFeatures:
+                        type: object
+                        properties:
+                          sections:
+                            type: array
+                            items:
+                              type: string
+                      overview:
+                        type: object
+                        properties:
+                          overviewSections:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                                type:
+                                  type: string
+                                content:
+                                  type: array
+                                  items:
+                                    type: string
+                                contentType:
+                                  type: string
+                      transportation:
+                        type: object
+                        properties:
+                          transportLocations:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                category:
+                                  type: string
+                                locations:
+                                  type: object
+                                  properties:
+                                    name:
+                                      type: string
+                                    distance:
+                                      type: string
+                                    distanceInTime:
+                                      type: string
+                      neighborhood:
+                        type: object
+                        properties:
+                          neighborhoodName:
+                            type: string
+                          neighborhoodLongDescription:
+                            type: string
+                  hotel_photo:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        baseUrl:
+                          type: string
+                        mainUrl:
+                          type: string
+                        imageId:
+                          type: number
+                        sizes:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              type:
+                                type: number
+                              suffix:
+                                type: string
 
 servers:
   - url: http://localhost:${PORT}
