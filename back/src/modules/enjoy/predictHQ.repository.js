@@ -2,6 +2,8 @@ const axios = require("axios");
 const config = require("../../config/server.config");
 const API_BASE_URL = "https://api.predicthq.com/v1/events/";
 
+// api docs: https://docs.predicthq.com/resources/events/#search-events
+
 const PredictHQRepository = {
   getBySearch: async (q, country = "FR", category = null) => {
     const params = {
@@ -9,16 +11,16 @@ const PredictHQRepository = {
       country,
     };
     if (category) params.category = category;
-    return await axios.get(API_BASE_URL, {
-      validateStatus: () => true,
-      params,
-      headers: { Authorization: `Bearer ${config.apis.predictHq.apiKey}` },
-    });
+    return (
+      await axios.get(API_BASE_URL, {
+        params,
+        headers: { Authorization: `Bearer ${config.apis.predictHq.apiKey}` },
+      })
+    ).data;
   },
   getById: async (id) =>
     (
       await axios.get(API_BASE_URL, {
-        validateStatus: () => true,
         params: { id },
         headers: { Authorization: `Bearer ${config.apis.predictHq.apiKey}` },
       })
@@ -30,11 +32,11 @@ const PredictHQRepository = {
       }@${lat.toString()},${lng.toString()}`,
       limit: 20,
     };
-    if (page) params.page = page;
+    if (page) params.offset = params.limit * (page - 1);
     if (category) params.category = category;
+    else params.category = PredictHQRepository.getCategories().join(",");
     return (
       await axios.get(API_BASE_URL, {
-        validateStatus: () => true,
         params,
         headers: { Authorization: `Bearer ${config.apis.predictHq.apiKey}` },
       })

@@ -5,13 +5,8 @@ const EventService = {
   getBySearch: async (query) => {
     const { q, id, country = "FR", category = null } = query;
     let result;
-    try {
-      if (id) result = await PredictHQRepository.getById(id);
-      else result = await PredictHQRepository.getBySearch(q, country, category);
-      return result;
-    } catch (err) {
-      return err;
-    }
+    if (id) result = await PredictHQRepository.getById(id);
+    else result = await PredictHQRepository.getBySearch(q, country, category);
     return {
       count: result.count,
       events: result.results.map((e) => {
