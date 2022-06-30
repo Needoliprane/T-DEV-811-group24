@@ -5,3 +5,4 @@ notes.txt
 *.log
 *.pub
 *.key
+swagger.yaml
