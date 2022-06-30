@@ -54,6 +54,7 @@ jobs:
           echo RAPID_API_KEY=${{ secrets.RAPID_API_KEY }} >> .env
           echo LYKO_API_KEY=${{ secrets.LYKO_API_KEY }} >> .env
           echo TICKETMASTER_API_KEY=${{ secrets.TICKETMASTER_API_KEY }} >> .env
+          echo PREDICTHQ_API_KEY=${{ secrets.PREDICTHQ_API_KEY}} >> .env
           cat .env
           source .env
       - name: create mongodb container
