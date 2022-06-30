@@ -1,0 +1,161 @@
+@import 'styles/colors';
+
+.name {
+	@apply font-semibold;
+	font-size: 1.3rem;
+	width: calc(100% - 30px);
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.container {
+	@apply shadow-md p-4;
+	border: 1px solid $gray-1;
+	gap: 10px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.tagContainer {
+	@apply flex flex-wrap;
+	gap: 10px;
+	@apply hidden md:flex;
+	margin-top: 15px;
+}
+
+.tag {
+	border: 1px solid $gray-1;
+	border-radius: 15px;
+	padding: 5px 10px;
+	margin: 5px 0;
+}
+
+.icon {
+	height: 1rem;
+	width: 1rem;
+}
+
+.infoContainer {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin: 5px 0;
+}
+
+.activated {
+	border-color: $salmon-5;
+	background-color: white;
+	// color: white;
+}
+
+.listButton {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.heartIcon {
+	color: $salmon-4;
+	&:hover {
+		cursor: pointer;
+		fill: $salmon-4;
+		transform: scale(1.1);
+		transition: transform 0.1s ease-in-out;
+
+		& .favorite {
+			fill: transparent;
+		}
+	}
+}
+
+.orderButton {
+	background-color: $salmon-4;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&:hover {
+		// color: $salmon-4;
+		cursor: pointer;
+		// -webkit-box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.4);
+		// box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.4);
+		background-color: $salmon-6;
+		transform: scale(1.1);
+		transition: transform 0.1s ease-in-out;
+
+		.positionNb {
+			color: $salmon-4;
+		}
+		.orderIcon {
+			display: block;
+		}
+	}
+}
+
+.positionNb {
+	color: white;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.orderIcon {
+	color: white;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	display: none;
+}
+
+.preview {
+	width: 215px;
+	border-radius: 10px;
+	object-fit: cover;
+	height: 100%;
+}
+
+.starsContainer {
+	display: flex;
+
+	.star {
+		color: $gold-1;
+		height: 15px;
+	}
+}
+
+.city {
+	font-size: 0.9rem;
+	color: $gray-5;
+}
+.address {
+	font-size: 0.8rem;
+	color: $gray-5;
+}
+
+.reviews {
+	font-size: 1rem;
+	font-weight: 600;
+	color: $gray-9;
+}
+
+.reviewsContainer {
+	color: $gray-5;
+}
+
+.priceInfos {
+	text-align: end;
+	color: $gray-9;
+	font-size: 0.9rem;
+	line-height: 0.9rem;
+}
+.price {
+	text-align: end;
+	color: $gray-9;
+	font-size: 1.4rem;
+	line-height: 1.4rem;
+	font-weight: 600;
+}

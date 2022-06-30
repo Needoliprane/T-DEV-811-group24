@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.titlesContainer {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-weight: 900;
+  padding-right: 10px;
+  margin-right: 10px;
+  @apply border-r-2 border-gray-900;
+}
+
+.imageContainer {
+  position: relative;
+  height: 300px;
+  min-width: 300px;
+  margin-bottom: 20px;
+}

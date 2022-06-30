@@ -1,0 +1,104 @@
+@import 'styles/colors';
+
+.container {
+	// width: 70%;
+	margin: auto;
+	@apply w-full md:w-9/12;
+}
+
+.infosContainer {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	padding: 1rem;
+}
+
+.card {
+	margin: 1rem 0;
+	padding: 1rem;
+}
+
+.title {
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: $gray-9;
+}
+
+.swiper {
+	height: 500px;
+	@apply h-[200px] md:h-[400px];
+	width: 100%;
+
+	.image {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+
+.starsContainer {
+	height: 1.5rem;
+}
+
+.tagline {
+	font-size: 0.9rem;
+	color: $gray-6;
+}
+
+.price {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: $gray-9;
+}
+
+.overview {
+	@apply px-8 py-4 md:px-0 md:py-4;
+}
+
+.sectionTitle {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: $gray-9;
+}
+
+.subsectionTitle {
+	font-size: 1rem;
+	font-weight: bold;
+	color: $gray-9;
+}
+
+.featureTitle {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: $gray-9;
+}
+
+.featuresContainer {
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 50px;
+	margin: 2rem 0;
+	@apply block md:grid;
+	.featureDescription {
+		font-size: 0.9rem;
+		color: $gray-6;
+	}
+}
+
+.section {
+	@apply mx-0 my-4 md:my-0;
+}
+
+.header {
+	@apply block md:flex;
+	gap: 10px;
+}
+
+.mapContainer {
+	height: 400px;
+	@apply h-[200px] md:h-[300px];
+	margin: auto;
+	@apply w-full md:w-[500px];
+}
+
+.amenitiesSection {
+	padding: 0 10px;
+}

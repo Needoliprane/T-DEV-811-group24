@@ -1,0 +1,77 @@
+@import 'styles/utils.module.scss';
+@import 'styles/colors';
+
+.container {
+	display: flex;
+}
+
+.searchInfo {
+	@apply text-xs;
+}
+
+.title {
+	@apply text-3xl font-semibold;
+	margin: 10px 0;
+}
+
+.filtersContainer {
+	gap: 10px;
+	margin-bottom: 20px;
+	// @apply hidden md:flex;
+	display: flex;
+}
+
+.section {
+	padding: 0 10px;
+	padding-top: 20px;
+	flex-grow: 1;
+}
+
+.activitiesList {
+	max-height: 300px;
+	overflow-y: auto;
+	@apply max-w-lg md:max-w-3xl;
+	box-shadow: 0 6px 12px 3px rgb(0 0 0 / 32%);
+}
+
+.infoCardContainer {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	gap: 10px;
+}
+
+.mapContainer {
+	@apply hidden md:block;
+	width: 60%;
+	position: sticky;
+	top: 0;
+	bottom: 0;
+	height: 100vh;
+}
+
+@media (max-width: 420px) {
+	.infoCardContainer {
+		grid-template-columns: 1fr;
+	}
+}
+
+.searchbar {
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	width: 100%;
+	height: 2rem;
+	padding: 0 5px;
+	max-width: 300px;
+	border-color: #cbcdcf;
+	margin: 15px 0;
+}
+
+.delimiter {
+	border: 1px solid #6b7280;
+	margin: 10px 20px;
+}
+
+.selectedTitle {
+	@apply text-2xl font-semibold;
+	margin: 10px 0;
+}

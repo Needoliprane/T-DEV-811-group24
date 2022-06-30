@@ -1,0 +1,26 @@
+@import '../../styles/utils.module.scss';
+
+.container {
+	@apply relative mx-8 sm:mx-16 my-5;
+	max-width: 1000px;
+}
+
+.infos {
+	@apply absolute top-12 left-12 text-white text-6xl;
+}
+.title {
+	font-weight: 700;
+	@include lightShadow;
+	color: white;
+}
+.button {
+	@apply rounded-lg bg-white text-[1.1rem] text-black text-center px-6 py-3;
+	font-weight: 600;
+}
+
+.imageContainer {
+	@apply relative h-96;
+	min-width: 300px;
+	width: 100%;
+	object-fit: cover;
+}
