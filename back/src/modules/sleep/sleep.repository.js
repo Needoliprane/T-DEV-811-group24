@@ -11,7 +11,7 @@ const SleepRepository = {
         }
 
         const params = {locale: 'fr_FR', currency: 'EUR', query: search}
-        
+        console.log('ici?')
         console.log("headers: ", headers)
         console.log("params:", params)
         try {
@@ -29,7 +29,11 @@ const SleepRepository = {
         }
 
 	},
-    getHotels: async (id, adults_number, checkin_date, checkout_date) => {
+    getHotels: async (search, adults_number, checkin_date, checkout_date) => {
+        const destinationsById = await SleepRepository.getDestinationIdBySearch(search)
+        const destination = destinationsById.suggestions.find(elem => elem.group === 'CITY_GROUP')
+        const id = destination.entities[0].destinationId
+
         // api docs https://rapidapi.com/tipsters/api/hotels-com-provider/
         const urlHotelsCom = "https://hotels-com-provider.p.rapidapi.com/v1/hotels/search"
 
@@ -60,7 +64,7 @@ const SleepRepository = {
             )
             return responseHotelsCom.data
         } catch (e) {
-            console.log('sleep getByDestinationId hotels com error:',e.message)
+            console.log('sleep getHotels hotels com error:',e.message)
             return e.message
         }
 
@@ -95,7 +99,7 @@ const SleepRepository = {
             )
             return responseHotelsCom.data
         } catch (e) {
-            console.log('sleep getByDestinationId hotels com error:',e.message)
+            console.log('sleep getHotelInfo hotels com error:',e.message)
             return e.message
         }
 

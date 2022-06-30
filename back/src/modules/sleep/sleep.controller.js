@@ -12,12 +12,12 @@ const SleepController = {
 	},
 	getHotels: async (req,res) => {
 		try {
-			const id = req.query.id
+			const search = req.query.search
 			const adults_number = req.query.adults_number
 			const checkin_date = req.query.checkin_date
 			const checkout_date = req.query.checkout_date
 			
-			const addresses = await SleepService.getHotels(id, adults_number, checkin_date, checkout_date);
+			const addresses = await SleepService.getHotels(search, adults_number, checkin_date, checkout_date);
 			return res.status(200).json(addresses);
 		} catch (err) {
 			console.log(err)
