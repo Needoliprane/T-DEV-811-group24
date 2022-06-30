@@ -56,8 +56,6 @@ describe("/enjoy", () => {
       const response = await axiosRequest.get("/", {
         params: { q: "agriculture" },
       });
-      console.log(response.status);
-      console.log(JSON.stringify(response));
       expect(v.validate(response.data, eventsGetResSchema).errors).toHaveLength(
         0
       );
@@ -77,10 +75,6 @@ describe("/enjoy", () => {
     });
     it("should send a status 200 and a series of events", async () => {
       const response = await axiosRequest.get("/Paris");
-      console.log(response.status);
-      console.log(JSON.stringify(response.data));
-      console.log(response.status);
-      console.log(JSON.stringify(response.data));
       expect(v.validate(response.data, eventsGetResSchema).errors).toHaveLength(
         0
       );
