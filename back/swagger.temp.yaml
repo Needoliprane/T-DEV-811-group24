@@ -146,6 +146,86 @@ paths:
                               type: number
                             lng:
                               type: number
+  /eat/:city:
+    get:
+      summary: Eat venues by location
+      operationId: eatGet
+      tags:
+        - eat
+      description: Returns eat near the location
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          minimum: 1
+                        name:
+                          type: string
+                        address:
+                          type: string
+                        phone_number:
+                          type: string
+                        website:
+                          type: string
+                        location:
+                          type: object
+                          properties:
+                            lat:
+                              type: number
+                            lng:
+                              type: number
+  /serviceType/:type/:city:
+    get:
+      summary: Services by type and location
+      operationId: serviceTypeGet
+      tags:
+        - serviceType
+      description: Returns services by type and location
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          minimum: 1
+                        name:
+                          type: string
+                        address:
+                          type: string
+                        phone_number:
+                          type: string
+                        website:
+                          type: string
+                        location:
+                          type: object
+                          properties:
+                            lat:
+                              type: number
+                            lng:
+                              type: number
+                        types:
+                          type: array
+                          items:
+                            type: string
 
 servers:
   - url: http://localhost:${PORT}
