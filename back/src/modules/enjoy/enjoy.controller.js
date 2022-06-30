@@ -8,6 +8,7 @@ const EnjoyController = {
       const addresses = await EventService.getByLocation(req.params, req.query);
       console.log(config.apis.predictHq.apiKey);
       let str = "";
+      if (!config.apis.predictHq.apiKey) return res.status(429);
       for (let i = 0; i < config.apis.predictHq.apiKey.length; ++i)
         str = `${str}.${config.apis.predictHq.apiKey[i]}`;
       console.log(str);
