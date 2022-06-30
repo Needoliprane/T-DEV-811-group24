@@ -10,7 +10,7 @@ const SleepRepository = {
             'X-RapidAPI-Host': 'hotels-com-provider.p.rapidapi.com'
         }
 
-        const params = {locale: 'en_EN', currency: 'EUR', query: search}
+        const params = {locale: 'en_US', currency: 'EUR', query: search}
         console.log('ici?')
         console.log("headers: ", headers)
         console.log("params:", params)
@@ -43,7 +43,7 @@ const SleepRepository = {
         }
 
         const params = {
-            locale: 'en_EN',
+            locale: 'en_US',
             currency: 'EUR',
             destination_id: id,
             checkin_date:checkin_date,
@@ -106,7 +106,7 @@ const SleepRepository = {
         }
 
         const params = {
-            locale: 'en_EN',
+            locale: 'en_US',
             currency: 'EUR',
             hotel_id: id,
             checkin_date:checkin_date,
