@@ -46,6 +46,7 @@ describe("/enjoy", () => {
           id: "6bZvTWrnzgfw3Gp6mm",
         },
       });
+      console.log(JSON.stringify(response.data));
       expect(v.validate(response.data, eventsGetResSchema).errors).toHaveLength(
         0
       );
@@ -56,6 +57,7 @@ describe("/enjoy", () => {
       const response = await axiosRequest.get("/", {
         params: { q: "agriculture" },
       });
+      console.log(JSON.stringify(response.data));
       expect(v.validate(response.data, eventsGetResSchema).errors).toHaveLength(
         0
       );
@@ -68,6 +70,7 @@ describe("/enjoy", () => {
       const response = await axiosRequest.get("/Paris", {
         params: { foo: "bar" },
       });
+
       expect(response.status).toEqual(400);
       expect(response.data).toMatchObject({
         message: "params.query.foo is not allowed",
@@ -78,6 +81,8 @@ describe("/enjoy", () => {
       expect(v.validate(response.data, eventsGetResSchema).errors).toHaveLength(
         0
       );
+      console.log(JSON.stringify(response.data));
+
       expect(response.status).toEqual(200);
       expect(response.data).toBeTruthy();
     });
