@@ -226,6 +226,151 @@ paths:
                           type: array
                           items:
                             type: string
+  /sleep/hotels:
+    get:
+      summary: Services by type and location
+      operationId: sleepGet
+      tags:
+        - sleep
+      description: Returns services by type and location
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  header:
+                    type: string
+                  query:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                      value:
+                        type: string
+                      resolvedLocation:
+                        type: string
+                  searchResults:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        totalCount:
+                          type: integer
+                        results:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              id:
+                                type: integer
+                                minimum: 1
+                              name:
+                                type: string
+                              starRating:
+                                type: integer
+                              urls:
+                                type: object
+                              address:
+                                type: object
+                                properties:
+                                  streetAddress:
+                                    type: string
+                                  locality:
+                                    type: string
+                                  postalCode:
+                                    type: string
+                                  region:
+                                    type: string
+                                  countryName:
+                                    type: string
+                                  countryCode:
+                                    type: string
+                                  obfuscate:
+                                    type: boolean
+                              welcomeRewards:
+                                type: object
+                                properties:
+                                  collect:
+                                    type: boolean
+                              guestReviews:
+                                type: object
+                                properties:
+                                  unformattedRating:
+                                    type: number
+                                  rating:
+                                    type: number
+                                  total:
+                                    type: number
+                                  scale:
+                                    type: number
+                                  badge:
+                                    type: string
+                                  badgeText:
+                                    type: string
+                              landmarks:
+                                type: array
+                                items:
+                                  type: object
+                                  properties:
+                                    label:
+                                      type: string
+                                    distance:
+                                      type: string
+                              ratePlan:
+                                type: object
+                                properties:
+                                  price:
+                                    type: object
+                                    properties:
+                                      current:
+                                        type: string
+                                      exactCurrent:
+                                        type: number
+                                      fullyBundledPricePerStay:
+                                        type: string
+                                  features:
+                                    type: object
+                                    properties:
+                                      freeCancellation:
+                                        type: boolean
+                                      paymentPreference:
+                                        type: boolean
+                                      noCCRequired:
+                                        type: boolean
+                                  type:
+                                    type: string
+                              neighbourhood:
+                                type: string
+                              deals:
+                                type: object
+                              messaging:
+                                type: object
+                              badging:
+                                type: object
+                              pimmsAttributes:
+                                type: string
+                              coordinate:
+                                type: object
+                                properties:
+                                  lat:
+                                    type: number
+                                  lng:
+                                    type: number
+                              providerType:
+                                type: string
+                              supplierHotelId:
+                                type: integer
+                              isAlternative:
+                                type: boolean
+                              optimizedThumbUrls:
+                                type: object
+                                properties:
+                                  srpDesktop:
+                                    type: string
+
 
 servers:
   - url: http://localhost:${PORT}
