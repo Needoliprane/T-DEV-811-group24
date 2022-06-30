@@ -54,6 +54,7 @@ jobs:
           echo RAPID_API_KEY=${{ secrets.RAPID_API_KEY }} >> .env
           echo LYKO_API_KEY=${{ secrets.LYKO_API_KEY }} >> .env
           echo TICKETMASTER_API_KEY=${{ secrets.TICKETMASTER_API_KEY }} >> .env
+          echo PREDICTHQ_API_KEY=${{ secrets.PREDICTHQ_API_KEY}} >> .env
           cat .env
           source .env
       - name: create mongodb container
@@ -85,5 +86,5 @@ jobs:
           script: |
             cd T-WEB-800-T-WEB-800_msc2023
             sudo docker-compose stop
-            git pull origin main
-            sudo docker-compose up --build --detach mongodb redis mail_api frontend api
+            git pull origin tdd_api
+            sudo docker-compose up --build --detach
