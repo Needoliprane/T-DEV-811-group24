@@ -69,6 +69,33 @@ const SleepRepository = {
         }
 
 	},
+    getHotelPhotos: async (id) => {
+        // api docs https://rapidapi.com/tipsters/api/hotels-com-provider/
+        const urlHotelsCom = "https://hotels-com-provider.p.rapidapi.com/v1/hotels/photos"
+
+        const headers = {
+            'X-RapidAPI-Key': process.env.RAPID_API_KEY || null,
+            'X-RapidAPI-Host': 'hotels-com-provider.p.rapidapi.com'
+        }
+
+        const params = {
+            hotel_id: id,
+        }
+
+        try {
+            const responseHotelsCom = await axios.get(
+                urlHotelsCom,
+                {
+                    headers:headers,
+                    params:params
+                },
+            )
+            return responseHotelsCom.data
+        } catch (e) {
+            console.log('sleep getHotelInfo hotels com error:',e.message)
+            return e.message
+        }
+    },
     getHotelInfo: async (id, adults_number, checkin_date, checkout_date) => {
         // api docs https://rapidapi.com/tipsters/api/hotels-com-provider/
         const urlHotelsCom = "https://hotels-com-provider.p.rapidapi.com/v1/hotels/booking-details"
@@ -97,7 +124,11 @@ const SleepRepository = {
                     params:params
                 },
             )
-            return responseHotelsCom.data
+            const photosResponseHotelsCom = await SleepRepository.getHotelPhotos(id)
+            return {
+                hotel_info: responseHotelsCom, 
+                hotel_photo: photosResponseHotelsCom
+            }
         } catch (e) {
             console.log('sleep getHotelInfo hotels com error:',e.message)
             return e.message
