@@ -23,12 +23,13 @@ paths:
                     type: string
                     default: "pong"
 
-  /users:
+  /users/:
     get:
       summary: Admin protected route to get all users
+      operationId: usersGet
       tags:
         - users
-      description: This route protected by 2 middlewares (user & admin) is used by the admin to get all users
+      description: Returns all users from the db if the user is identified as an administrator
       responses:
         "200":
           description: OK
@@ -41,6 +42,110 @@ paths:
                     type: string
                   email:
                     type: string
+    post:
+      summary: Admin protected route to create a user
+      operationId: usersPost
+      tags:
+        - users
+      description: Creates to the db and returns the user created by an identified admin
+      responses:
+        "201":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  username:
+                    type: string
+                  email:
+                    type: string
+    delete:
+      summary: Admin protected route to delete a user
+      operationId: usersDel
+      tags:
+        - users
+      description: Deletes an user from the db using the id passed as a parameter when requested by an admin.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  username:
+                    type: string
+                  email:
+                    type: string
+  /auth/login:
+    post:
+      summary: Unprotected route to log in a user
+      operationId: authLogin
+      tags:
+        - auth
+      description: Finds user by email, verifies password, returns a token
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  accessToken:
+                    type: string
+                  tokenType:
+                    type: string
+                    default: "Bearer"
+  /auth/sign-up:
+    post:
+      summary: Unprotected route to create a user
+      operationId: authSignup
+      tags:
+        - auth
+      description: Creates user by email, password, firstName, lastName returns a token
+      responses:
+        "201":
+          description: OK
+  /drink/:city:
+    get:
+      summary: Drink venues by location
+      operationId: drinksGet
+      tags:
+        - drink
+      description: Returns drinks near the location
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          minimum: 1
+                        name:
+                          type: string
+                        address:
+                          type: string
+                        phone_number:
+                          type: string
+                        website:
+                          type: string
+                        location:
+                          type: object
+                          properties:
+                            lat:
+                              type: number
+                            lng:
+                              type: number
 
 servers:
   - url: http://localhost:${PORT}
