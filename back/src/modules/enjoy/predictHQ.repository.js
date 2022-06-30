@@ -9,16 +9,16 @@ const PredictHQRepository = {
       country,
     };
     if (category) params.category = category;
-    return (
-      await axios.get(API_BASE_URL, {
-        params,
-        headers: { Authorization: `Bearer ${config.apis.predictHq.apiKey}` },
-      })
-    ).data;
+    return await axios.get(API_BASE_URL, {
+      validateStatus: () => true,
+      params,
+      headers: { Authorization: `Bearer ${config.apis.predictHq.apiKey}` },
+    });
   },
   getById: async (id) =>
     (
       await axios.get(API_BASE_URL, {
+        validateStatus: () => true,
         params: { id },
         headers: { Authorization: `Bearer ${config.apis.predictHq.apiKey}` },
       })
@@ -34,6 +34,7 @@ const PredictHQRepository = {
     if (category) params.category = category;
     return (
       await axios.get(API_BASE_URL, {
+        validateStatus: () => true,
         params,
         headers: { Authorization: `Bearer ${config.apis.predictHq.apiKey}` },
       })
