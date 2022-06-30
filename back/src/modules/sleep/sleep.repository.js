@@ -125,8 +125,12 @@ const SleepRepository = {
                 },
             )
             const photosResponseHotelsCom = await SleepRepository.getHotelPhotos(id)
+            console.log('responseHotelsCom')
+            console.log(responseHotelsCom)
+            console.log('photosResponseHotelsCom')
+            console.log(photosResponseHotelsCom)
             return {
-                hotel_info: responseHotelsCom, 
+                hotel_info: responseHotelsCom.data, 
                 hotel_photo: photosResponseHotelsCom
             }
         } catch (e) {
