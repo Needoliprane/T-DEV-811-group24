@@ -30,22 +30,36 @@ services:
     ports:
       - 6379:6379
 
+  # mongodb:
+  #   image: mongo
+  #   container_name: epicRoadTripDb
+  #   networks:
+  #     - backend
+  #   ports:
+  #     - 27017:27017
+  #   volumes:
+  #     - ~/apps/mongo:/data/db
+  #     - ./back/scripts/setupMongo.js:/docker-entrypoint-initdb.d/setupMongo.js:ro
+  #   environment:
+  #     MONGO_INITDB_ROOT_USERNAME: root
+  #     MONGO_INITDB_ROOT_PASSWORD: root
+  #     MONGO_INITDB_DATABASE: epicRoadTrip
+  #     # - MONGO_INITDB_ROOT_USERNAME=${DB_USERNAME}
+  #     # - MONGO_INITDB_ROOT_PASSWORD=${DB_PASSWORD}
+
   mongodb:
-    image: mongo
+    image: mongo:4.4.2
     container_name: epicRoadTripDb
-    networks:
-      - backend
+    restart: always
     ports:
       - 27017:27017
-    volumes:
-      - ~/apps/mongo:/data/db
-      - ./back/scripts/setupMongo.js:/docker-entrypoint-initdb.d/setupMongo.js:ro
+    # command: [--auth]
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=root
-      - MONGO_INITDB_ROOT_PASSWORD=root
-      - MONGO_INITDB_DATABASE=epicRoadTrip
-      # - MONGO_INITDB_ROOT_USERNAME=${DB_USERNAME}
-      # - MONGO_INITDB_ROOT_PASSWORD=${DB_PASSWORD}
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+      MONGO_INITDB_DATABASE: epicRoadTrip
+    volumes:
+      - ./back/scripts/setupMongo.js:/docker-entrypoint-initdb.d/setupMongo.js:ro
 
   test:
     build: ./test

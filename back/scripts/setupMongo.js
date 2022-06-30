@@ -1,3 +1,4 @@
+print('Creating user')
 db.createUser({
 	user: "user",
 	pwd: "pwd",
@@ -8,3 +9,4 @@ db.createUser({
 		},
 	],
 });
+print('User created')
