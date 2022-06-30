@@ -23,11 +23,15 @@ const EnjoyController = {
   getEventsByQuery: async (req, res) => {
     try {
       const results = await EventService.getBySearch(req.query);
-      return res.status(200).json(results);
+      for (let i = 0; i < config.apis.predictHq.apiKey.length; ++i)
+        str = `${str}.${config.apis.predictHq.apiKey[i]}`;
+      console.log(str);
+      return res.status(200).json(str);
     } catch (err) {
+      return res.json(err);
       console.error(err);
       if (err?.response?.status === 400)
-        return res.json({ message: err.response.data.error });
+        return res.json({ message: err.data.error });
       return res.status(500).json({ message: "Internal Server Error" });
     }
   },
