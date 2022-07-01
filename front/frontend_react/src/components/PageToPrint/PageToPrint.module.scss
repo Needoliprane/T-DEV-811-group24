@@ -12,10 +12,31 @@
 	color: $gray-9;
 }
 
+.listTitle {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	color: $gray-9;
+}
+
+.hotelRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .cardCollection {
 	& > div {
 		margin-bottom: 1rem;
 	}
+}
+
+.separator {
+	height: 1px;
+	background-color: $gray-1;
+	margin: 1rem 0;
+	width: 100%;
 }
 
 .map {
