@@ -41,3 +41,11 @@
 	height: 1rem;
 	width: 1rem;
 }
+
+.description {
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+}
