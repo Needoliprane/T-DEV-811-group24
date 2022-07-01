@@ -680,10 +680,40 @@ paths:
               schema:
                 type: object
                 properties:
-                  username:
-                    type: string
+                  count:
+                    type: number
                   email:
-                    type: string
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        title:
+                          type: string
+                        description:
+                          type: string
+                        labels:
+                          type: array
+                          items:
+                            type: string
+                        location:
+                          type: array
+                          items:
+                            type: number
+                        venue_name:
+                          type: string
+                        address:
+                          type: string
+                        country:
+                          type: string
+                        start:
+                          type: string
+                        end:
+                          type: string
+                        timezone:
+                          type: string
+
 servers:
   - url: http://localhost:${PORT}
     description: Local server
