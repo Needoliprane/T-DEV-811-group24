@@ -321,6 +321,27 @@ paths:
       tags:
         - sleep
       description: Returns services by type and location
+      parameters:
+        - in: query
+          name: search
+          schema:
+            type: string
+          description: Location name
+        - in: query
+          name: adults_number
+          schema:
+            type: string
+          description: Number of adults for this stay
+        - in: query
+          name: checkin_date
+          schema:
+            type: string
+          description: Checkin date AAAA-MM-DD
+        - in: query
+          name: checkout_date
+          schema:
+            type: string
+          description: Checkout date AAAA-MM-DD
       responses:
         "200":
           description: OK
@@ -465,6 +486,27 @@ paths:
       tags:
         - sleep
       description: Returns hotel details and photos by id
+      parameters:
+        - in: query
+          name: id
+          schema:
+            type: number
+          description: Hotel id gotten from /sleep/hotel
+        - in: query
+          name: adults_number
+          schema:
+            type: string
+          description: Number of adults for this stay
+        - in: query
+          name: checkin_date
+          schema:
+            type: string
+          description: Checkin date AAAA-MM-DD
+        - in: query
+          name: checkout_date
+          schema:
+            type: string
+          description: Checkout date AAAA-MM-DD
       responses:
         "200":
           description: OK
@@ -760,6 +802,13 @@ paths:
       tags:
         - enjoy
       description: Returns events venues around the desired location
+      parameters:
+        - in: path
+          name: location
+          required: true
+          schema:
+            type: string
+          description: The location name
       responses:
         "200":
           description: OK
@@ -808,6 +857,18 @@ paths:
       tags:
         - travel
       description: Returns nearby ways to travel by type 
+      parameters:
+        - in: query
+          name: location
+          schema:
+            type: string
+          description: location name
+        - in: query
+          name: transport_type
+          schema:
+            type: string
+            enum: [bicycle_store, bus_station, car_rental, gas_station, parking, rail_station, subway_station, taxi_stand, train_station, transit_station]
+          description: transport type required
       responses:
         "200":
           description: OK
