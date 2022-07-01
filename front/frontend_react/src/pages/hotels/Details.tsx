@@ -73,7 +73,6 @@ const Details = () => {
 		getActivitiesResults();
 	}, [getActivitiesResults]);
 
-	console.log(hotelDetails);
 	const { latitude: lat, longitude: lon } = hotelDetails?.hotel_info.header.hotelLocation
 		.coordinates || { latitude: 0, longitude: 0 };
 

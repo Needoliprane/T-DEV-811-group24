@@ -31,7 +31,6 @@ const InfoCard = ({
 	order,
 	url,
 }: Props) => {
-	console.log(hotel);
 	return (
 		<div
 			className={cn(utilsStyles.card, styles.container, { [styles.activated]: isActivated })}

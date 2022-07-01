@@ -27,7 +27,6 @@ paths:
     get:
       summary: Admin protected route to get all users
       tags:
-        - admin
         - users
       description: This route protected by 2 middlewares (user & admin) is used by the admin to get all users
       responses:
@@ -44,5 +43,5 @@ paths:
                     type: string
 
 servers:
-  - url: `http://localhost:9000`
+  - url: http://localhost:9000
     description: Local server

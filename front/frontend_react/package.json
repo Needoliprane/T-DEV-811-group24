@@ -3,6 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"@googlemaps/polyline-codec": "^1.0.28",
 		"@heroicons/react": "^1.0.6",
 		"@mapbox/mapbox-gl-directions": "^4.1.0",
 		"@testing-library/jest-dom": "^5.16.4",
@@ -29,7 +30,6 @@
 		"mapbox-gl": "^2.8.2",
 		"moment": "^2.29.3",
 		"next": "12.1.4",
-		"polyline-encoded": "^0.0.9",
 		"react": "^18.1.0",
 		"react-date-range": "^1.4.0",
 		"react-dom": "^18.1.0",
