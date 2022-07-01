@@ -665,7 +665,25 @@ paths:
                                 type: number
                               suffix:
                                 type: string
-
+  /enjoy/:location:
+    get:
+      summary: Get enjoy by location
+      operationId: enjoyGet
+      tags:
+        - enjoy
+      description: Returns events venues around the desired location
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  username:
+                    type: string
+                  email:
+                    type: string
 servers:
   - url: http://localhost:${PORT}
     description: Local server
