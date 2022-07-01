@@ -176,6 +176,13 @@ paths:
       tags:
         - drink
       description: Returns drinks near the location
+      parameters:
+        - in: path
+          name: city
+          required: true
+          schema:
+            type: string
+          description: The location name
       responses:
         "200":
           description: OK
@@ -214,6 +221,13 @@ paths:
       tags:
         - eat
       description: Returns eat near the location
+      parameters:
+        - in: path
+          name: city
+          required: true
+          schema:
+            type: string
+          description: The location name
       responses:
         "200":
           description: OK
@@ -245,13 +259,26 @@ paths:
                               type: number
                             lng:
                               type: number
-  /serviceType/:type/{city}:
+  /serviceType/{type}/{city}:
     get:
       summary: Services by type and location
       operationId: serviceTypeGet
       tags:
         - serviceType
       description: Returns services by type and location
+      parameters:
+        - in: path
+          name: type
+          required: true
+          schema:
+            type: string
+          description: The type of service requested
+        - in: path
+          name: city
+          required: true
+          schema:
+            type: string
+          description: The location name
       responses:
         "200":
           description: OK
@@ -726,7 +753,7 @@ paths:
                                 type: number
                               suffix:
                                 type: string
-  /enjoy/{location}
+  /enjoy/{location}:
     get:
       summary: Get enjoy by location
       operationId: enjoyGet
