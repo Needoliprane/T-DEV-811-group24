@@ -1,5 +1,4 @@
 const axios = require("axios");
-const { describe, expect, it } = require("@jest/globals");
 const eventsGetResSchema = require("./schemas/enjoy/eventsGetRes.json");
 const Validator = require("jsonschema").Validator;
 const v = new Validator();
