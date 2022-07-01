@@ -57,6 +57,17 @@ export type DrinkResults = {
 	results: DrinkActivity[];
 };
 
+export type EatActivity = {
+	id: string;
+	name: string;
+	latitude: number;
+	longitude: number;
+	description: string;
+	address: string;
+	cuisine: { name: string; key: number }[];
+	phone: string;
+};
+
 export type Hotel = {
 	address: {
 		locality: string; // City

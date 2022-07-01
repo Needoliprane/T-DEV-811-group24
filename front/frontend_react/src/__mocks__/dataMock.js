@@ -1,5 +1,330 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 
+export const mockedEatActivity = {
+	location_id: '1903734',
+	name: 'Frog XVI',
+	latitude: '48.864555',
+	longitude: '2.288379',
+	num_reviews: '1756',
+	timezone: 'Europe/Paris',
+	location_string: 'Paris, Ile-de-France',
+	photo: {
+		images: {
+			small: {
+				width: '150',
+				url: 'https://media-cdn.tripadvisor.com/media/photo-l/1a/ae/af/6f/photo0jpg.jpg',
+				height: '150',
+			},
+			thumbnail: {
+				width: '50',
+				url: 'https://media-cdn.tripadvisor.com/media/photo-t/1a/ae/af/6f/photo0jpg.jpg',
+				height: '50',
+			},
+			original: {
+				width: '1280',
+				url: 'https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/ae/af/6f/photo0jpg.jpg',
+				height: '1280',
+			},
+			large: {
+				width: '550',
+				url: 'https://media-cdn.tripadvisor.com/media/photo-p/1a/ae/af/6f/photo0jpg.jpg',
+				height: '550',
+			},
+			medium: {
+				width: '450',
+				url: 'https://media-cdn.tripadvisor.com/media/photo-s/1a/ae/af/6f/photo0jpg.jpg',
+				height: '450',
+			},
+		},
+		is_blessed: true,
+		uploaded_date: '2020-01-23T04:00:25-0500',
+		caption: '',
+		id: '447655791',
+		helpful_votes: '0',
+		published_date: '2020-01-23T04:00:25-0500',
+		user: {
+			user_id: null,
+			member_id: '0',
+			type: 'user',
+		},
+	},
+	api_detail_url: 'https://api.tripadvisor.com/api/internal/1.14/location/1903734',
+	awards: [
+		{
+			award_type: 'CERTIFICATE_OF_EXCELLENCE',
+			year: '2021',
+			images: {
+				small:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg',
+				large:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2021_en_US_large-0-5.jpg',
+			},
+			categories: [],
+			display_name: 'Certificate of Excellence 2021',
+		},
+		{
+			award_type: 'CERTIFICATE_OF_EXCELLENCE',
+			year: '2020',
+			images: {
+				small:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg',
+				large:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2020_en_US_large-0-5.jpg',
+			},
+			categories: [],
+			display_name: 'Certificate of Excellence 2020',
+		},
+		{
+			award_type: 'CERTIFICATE_OF_EXCELLENCE',
+			year: '2019',
+			images: {
+				small:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg',
+				large:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2019_en_US_large-0-5.jpg',
+			},
+			categories: [],
+			display_name: 'Certificate of Excellence 2019',
+		},
+		{
+			award_type: 'CERTIFICATE_OF_EXCELLENCE',
+			year: '2018',
+			images: {
+				small:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg',
+				large:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2018_en_US_large-0-5.jpg',
+			},
+			categories: [],
+			display_name: 'Certificate of Excellence 2018',
+		},
+		{
+			award_type: 'CERTIFICATE_OF_EXCELLENCE',
+			year: '2017',
+			images: {
+				small:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg',
+				large:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2017_en_US_large-0-5.jpg',
+			},
+			categories: [],
+			display_name: 'Certificate of Excellence 2017',
+		},
+		{
+			award_type: 'CERTIFICATE_OF_EXCELLENCE',
+			year: '2014',
+			images: {
+				small:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg',
+				large:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-0-5.jpg',
+			},
+			categories: [],
+			display_name: 'Certificate of Excellence 2014',
+		},
+		{
+			award_type: 'CERTIFICATE_OF_EXCELLENCE',
+			year: '2013',
+			images: {
+				small:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg',
+				large:
+					'https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2013_en_US_large-0-5.jpg',
+			},
+			categories: [],
+			display_name: 'Certificate of Excellence 2013',
+		},
+	],
+	doubleclick_zone: 'eu.france.paris',
+	preferred_map_engine: 'default',
+	raw_ranking: '4.859592437744141',
+	ranking_geo: 'Paris',
+	ranking_geo_id: '187147',
+	ranking_position: '2',
+	ranking_denominator: '16973',
+	ranking_category: 'restaurant',
+	ranking: '#2 of 17,838 Restaurants in Paris',
+	distance: null,
+	distance_string: null,
+	bearing: null,
+	rating: '4.5',
+	is_closed: false,
+	open_now_text: 'Open Now',
+	is_long_closed: false,
+	price_level: '$$ - $$$',
+	price: '€11 - €16',
+	neighborhood_info: [
+		{
+			location_id: '15621642',
+			name: '16th Arr. - Passy',
+		},
+		{
+			location_id: '15621584',
+			name: 'Chaillot',
+		},
+		{
+			location_id: '7239105',
+			name: 'Trocadero',
+		},
+	],
+	description:
+		"FROG XVI is situated in the 16th arrondissement, one of the capital's most cosmopolitan quarters, popular with tourists and Parisians alike. FROG XVI is stylishly decorated whilst conserving the warmth and conviviality of an English pub. We're proud to boast a magnificent microbrewery and a bar/restaurant on two levels.",
+	web_url:
+		'https://www.tripadvisor.com/Restaurant_Review-g187147-d1903734-Reviews-Frog_XVI-Paris_Ile_de_France.html',
+	write_review:
+		'https://www.tripadvisor.com/UserReview-g187147-d1903734-Frog_XVI-Paris_Ile_de_France.html',
+	ancestors: [
+		{
+			subcategory: [
+				{
+					key: 'city',
+					name: 'City',
+				},
+			],
+			name: 'Paris',
+			abbrv: null,
+			location_id: '187147',
+		},
+		{
+			subcategory: [
+				{
+					key: 'region',
+					name: 'Region',
+				},
+			],
+			name: 'Ile-de-France',
+			abbrv: null,
+			location_id: '187144',
+		},
+		{
+			subcategory: [
+				{
+					key: 'country',
+					name: 'Country',
+				},
+			],
+			name: 'France',
+			abbrv: null,
+			location_id: '187070',
+		},
+	],
+	category: {
+		key: 'restaurant',
+		name: 'Restaurant',
+	},
+	subcategory: [
+		{
+			key: 'sit_down',
+			name: 'Sit down',
+		},
+	],
+	parent_display_name: 'Paris',
+	is_jfy_enabled: false,
+	nearest_metro_station: [],
+	phone: '+33 1 42 77 08 21',
+	website: 'http://www.frogpubs.com/pub-frog-xvi-paris-5.php',
+	email: 'jonathan.frey@frogpubs.com',
+	address_obj: {
+		street1: '110 B avenue Kleber',
+		street2: null,
+		city: 'Paris',
+		state: null,
+		country: 'France',
+		postalcode: '75116',
+	},
+	address: '110 B avenue Kleber, 75116 Paris France',
+	hours: {
+		week_ranges: [
+			[
+				{
+					open_time: 720,
+					close_time: 1470,
+				},
+			],
+			[
+				{
+					open_time: 720,
+					close_time: 1470,
+				},
+			],
+			[
+				{
+					open_time: 720,
+					close_time: 1470,
+				},
+			],
+			[
+				{
+					open_time: 720,
+					close_time: 1560,
+				},
+			],
+			[
+				{
+					open_time: 720,
+					close_time: 1560,
+				},
+			],
+			[
+				{
+					open_time: 720,
+					close_time: 1560,
+				},
+			],
+			[
+				{
+					open_time: 720,
+					close_time: 1470,
+				},
+			],
+		],
+		timezone: 'Europe/Paris',
+	},
+	is_candidate_for_contact_info_suppression: false,
+	cuisine: [
+		{
+			key: '9908',
+			name: 'American',
+		},
+		{
+			key: '10640',
+			name: 'Bar',
+		},
+		{
+			key: '10670',
+			name: 'Pub',
+		},
+		{
+			key: '10621',
+			name: 'Brew Pub',
+		},
+		{
+			key: '10665',
+			name: 'Vegetarian Friendly',
+		},
+		{
+			key: '10697',
+			name: 'Vegan Options',
+		},
+	],
+	dietary_restrictions: [
+		{
+			key: '10665',
+			name: 'Vegetarian Friendly',
+		},
+		{
+			key: '10697',
+			name: 'Vegan Options',
+		},
+	],
+	establishment_types: [
+		{
+			key: '10591',
+			name: 'Restaurants',
+		},
+	],
+};
+
 export const mockedEnjoyActivitiesResults = {
 	count: 5000,
 	events: [

@@ -1,5 +1,5 @@
 import { ActivityCard, Header, Loading, Stars } from 'components';
-import { DrinkActivity, EnjoyActivity, HotelDetails } from 'lib/data.types';
+import { DrinkActivity, EatActivity, EnjoyActivity, HotelDetails } from 'lib/data.types';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -21,6 +21,7 @@ const Details = () => {
 	const [hotelDetails, setHotelDetails] = useState<HotelDetails>();
 	const [nearbyEnjoyActivities, setNearbyEnjoyActivities] = useState<EnjoyActivity[]>();
 	const [nearbyDrinkActivities, setNearbyDrinkActivities] = useState<DrinkActivity[]>();
+	const [nearbyEatActivities, setNearbyEatActivities] = useState<EatActivity[]>();
 	const [isLoading, setIsLoading] = React.useState(true);
 	const [searchParams] = useSearchParams();
 
@@ -44,6 +45,10 @@ const Details = () => {
 				`${process.env.REACT_APP_API_URI}/drink/${hotelDetails.hotel_info.address.cityName}`
 			);
 			setNearbyDrinkActivities(drinkActivitiesResult.data.results);
+			const eatActivitiesResult = await axios.get(
+				`${process.env.REACT_APP_API_URI}/eat/${hotelDetails.hotel_info.address.cityName}`
+			);
+			setNearbyEatActivities(eatActivitiesResult.data);
 		} catch (err) {}
 	}, [hotelDetails]);
 
@@ -116,6 +121,12 @@ const Details = () => {
 	const formattedDrink =
 		nearbyDrinkActivities?.map((activity) => ({
 			coordinates: { lat: activity.location.lat, lon: activity.location.lng },
+			name: activity.name,
+			address: activity.address,
+		})) || [];
+	const formattedEat =
+		nearbyEatActivities?.map((activity) => ({
+			coordinates: { lat: activity.latitude, lon: activity.longitude },
 			name: activity.name,
 			address: activity.address,
 		})) || [];
@@ -233,11 +244,11 @@ const Details = () => {
 						</div>
 					))}
 				</div>
-				{formattedDrink.length > 0 && formattedEnjoy.length > 0 && (
+				{(formattedDrink.length || formattedEnjoy.length || formattedEat.length) && (
 					<div className={cn(utilsStyles.card, styles.card)}>
 						<h3 className={styles.sectionTitle}>Activities nearby</h3>
 						<div className={styles.activitiesMapContainer}>
-							<Map results={[...formattedEnjoy, ...formattedDrink]} zoom={11} />
+							<Map results={[...formattedEnjoy, ...formattedDrink, ...formattedEat]} zoom={11} />
 						</div>
 						<h5 className={styles.featureTitle}>Enjoy</h5>
 						<div className={styles.activiyContainer}>
@@ -256,6 +267,21 @@ const Details = () => {
 										title: event.name,
 										labels: event.types,
 										description: 'Drink activity',
+									}}
+								/>
+							))}
+						</div>
+						<h5 className={styles.featureTitle}>Eat</h5>
+						<div className={styles.activiyContainer}>
+							{nearbyEatActivities?.map((event, index) => (
+								<ActivityCard
+									key={index}
+									activity={{
+										...event,
+										venueName: event.name,
+										title: event.name,
+										labels: event.cuisine.map((cuisine) => cuisine.name),
+										description: event.description,
 									}}
 								/>
 							))}
