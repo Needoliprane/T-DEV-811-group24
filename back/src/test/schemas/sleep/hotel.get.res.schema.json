@@ -1,0 +1,279 @@
+{
+  "type": "object",
+  "properties": {
+    "hotel_info": {
+      "properties": {
+        "address": {
+          "type": "object",
+          "properties": {
+            "adressLine1": { "type": "string" },
+            "cityName": { "type": "string" },
+            "countryCode": { "type": "string" },
+            "countryName": { "type": "string" },
+            "fullAddress": { "type": "string" },
+            "pattern": { "type": "string" },
+            "postalCode": { "type": "string" },
+            "provinceName": { "type": "string" }
+          }
+        },
+        "amenities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "heading": { "type": "string" },
+              "listItems": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "atGlance": {
+          "type": "object",
+          "properties": {
+            "keyFacts": {
+              "type": "object",
+              "properties": {
+                "arrivingLeaving": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "hotelSize": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "requiredAtCheckin": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "specialCheckInInstructions": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              }
+            },
+            "transportAndOther": {
+              "type": "object",
+              "properties": {
+                "otherInclusions": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "otherInformation": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "transport": {
+                  "parking": { "type": "array", "items": { "type": "string" } },
+                  "transfers": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  }
+                }
+              }
+            },
+            "travellingOrInternet": {
+              "type": "object",
+              "properties": {
+                "internet": { "type": "array", "items": { "type": "string" } },
+                "travelling": {
+                  "type": "object",
+                  "properties": {
+                    "children": {
+                      "type": "array",
+                      "items": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "featuredPrice": {
+          "type": "object",
+          "properties": {
+            "afterPriceText": { "type": "string" },
+            "beforePriceText": { "type": "string" },
+            "bookNowButton": { "type": "boolean" },
+            "currentPrice": { "type": "string" },
+            "pricingAvalaibility": { "type": "boolean" },
+            "pricingTooltip": { "type": "string" },
+            "taxInclusiveFormatting": { "type": "boolean" }
+          }
+        },
+        "freebies": { "type": "array", "items": { "type": "string" } },
+        "header": {
+          "type": "object",
+          "properties": {
+            "currencyCode": { "type": "string" },
+            "destinationId": { "type": "string" },
+            "hotelId": { "type": "string" },
+            "hotelLocation": {
+              "type": "object",
+              "properties": {
+                "coordinates": {
+                  "type": "object",
+                  "properties": {
+                    "latitude": { "type": "number" },
+                    "longitude": { "type": "number" }
+                  }
+                },
+                "locationName": { "type": "string" }
+              }
+            }
+          }
+        },
+        "hygieneAndCleanliness": {
+          "type": "object",
+          "properties": {
+            "healthAndSafetyMeasures": {
+              "properties": {
+                "description": { "type": "string" },
+                "measures": { "type": "array", "items": { "type": "string" } },
+                "title": { "type": "string" }
+              }
+            },
+            "hygieneQualifications": {
+              "qualifications": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "title": { "type": "string" }
+            },
+            "title": { "type": "string" }
+          }
+        },
+        "mapWidget": {
+          "type": "object",
+          "properties": { "statiMapUrl": { "type": "string" } }
+        },
+        "name": { "type": "string" },
+        "neighbourhood": {
+          "type": "object",
+          "properties": {
+            "neighborhoodName": { "type": "string" }
+          }
+        },
+        "overview": {
+          "overviewSections": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "content": { "type": "string" },
+                "title": { "type": ["string", "null"] }
+              }
+            }
+          }
+        },
+        "reviews": {
+          "type": "object",
+          "properties": {
+            "brands": {
+              "type": "object",
+              "properties": {
+                "badgeText": { "type": "string" },
+                "formattedRating": { "type": "string" },
+                "formattedScale": { "type": "string" },
+                "lowRating": { "type": "boolean" },
+                "rating": { "type": "number" },
+                "scale": { "type": "number" },
+                "total": { "type": "number" }
+              }
+            }
+          }
+        },
+        "specialFeatures": {
+          "type": "object",
+          "properties": {
+            "sections": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "freeText": { "type": "string" },
+                  "heading": { "type": "string" },
+                  "listItems": { "type": "string" },
+                  "subsections": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "headings": { "type": "string" },
+                        "listItems": {
+                          "type": "array",
+                          "items": { "type": "string" }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "starRating": { "type": "integer" },
+        "starRatingTitle": { "type": "string" },
+        "tagline": { "type": "array", "items": { "type": "string" } },
+        "transportation": {
+          "type": "object",
+          "properties": {
+            "transportationLocations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "category": { "type": "string" },
+                  "locations": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "distance": { "type": ["string", "null"] },
+                        "distanceInTime": { "type": ["string", "null"] },
+                        "name": { "type": "string" }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hotel_photo": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "mainUrl": { "type": "string" }
+            }
+          }
+        }
+      },
+      "required": [
+        "address",
+        "amenities",
+        "atGlance",
+        "featuredPrice",
+        "freebies",
+        "header",
+        "hygieneAndCleanliness",
+        "mapWidget",
+        "name",
+        "neighbourhood",
+        "overview",
+        "reviews",
+        "specialFeatures",
+        "starRating",
+        "starRatingTitle",
+        "tagline",
+        "transportation",
+        "hotel_photo"
+      ]
+    }
+  },
+  "required": ["hotel_info"]
+}
