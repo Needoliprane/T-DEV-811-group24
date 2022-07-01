@@ -4,21 +4,21 @@ import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-describe('Header display', () => {
-	beforeEach(() => {
-		// eslint-disable-next-line testing-library/no-render-in-setup
-		render(
-			<Router>
-				<Header />
-			</Router>
-		);
-	});
+const renderHeader = () => {
+	// eslint-disable-next-line testing-library/no-render-in-setup
+	render(
+		<Router>
+			<Header />
+		</Router>
+	);
+};
 
-	it('renders a heading', () => {
-		const heading = screen.getByRole('heading', {
-			name: /Web project/i,
-		});
-		expect(heading).toBeInTheDocument();
+describe('Header display', () => {
+	beforeEach(renderHeader);
+
+	it('should display the logo', () => {
+		const logo = screen.getByAltText('Epic trip');
+		expect(logo).toBeInTheDocument();
 	});
 
 	it('renders a input', () => {
@@ -54,14 +54,7 @@ describe('Header display', () => {
 });
 
 describe('Header behaviour', () => {
-	beforeEach(() => {
-		// eslint-disable-next-line testing-library/no-render-in-setup
-		render(
-			<Router>
-				<Header />
-			</Router>
-		);
-	});
+	beforeEach(renderHeader);
 
 	it('renders a search input and when not empty display a popover', async () => {
 		const user = userEvent.setup();

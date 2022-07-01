@@ -1,12 +1,13 @@
 const SleepController = require("./sleep.controller.js");
-const SleepDtos = require("./sleep.dtos.js");
+const Validator = require("../../middlewares/dtoValidator.middleware");
+const sleepDtos = require("./sleep.dtos.js");
 const router = require("express").Router();
 
 router.get(
-  "/find_destination_id/:search",
-  SleepController.getDestinationIdBySearch
+  "/hotels",
+  Validator.query(sleepDtos.query),
+  SleepController.getHotels
 );
-router.get("/hotels", SleepController.getHotels);
 router.get("/details", SleepController.getHotelInfo);
 
 module.exports = router;

@@ -11,6 +11,7 @@ const staticMapResquestExample =
 
 const routeUrl =
 	'https://api.mapbox.com/directions/v5/mapbox/driving/2.327068%2C48.867158%3B2.320805%2C48.869835%3B2.300932%2C48.868744?alternatives=true&geometries=geojson&language=en&overview=simplified&steps=true&access_token=pk.eyJ1IjoibGVvc2hlZWNvb2wiLCJhIjoiY2wzY3N0NGN6MDBkMzNjdWxnb2dyZDJ0YiJ9.WeGtzvtdmHHN0oU5JR_GQw';
+
 export const mockedGetPathRequest = {
 	routes: [
 		{

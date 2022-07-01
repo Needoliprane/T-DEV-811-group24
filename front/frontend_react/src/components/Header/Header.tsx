@@ -1,4 +1,4 @@
-import React, { startTransition, useState } from 'react';
+import React, { useState } from 'react';
 import { MenuIcon, SearchIcon, UserCircleIcon, UsersIcon } from '@heroicons/react/outline';
 import { default as cn } from 'classnames';
 import { Popover } from '../';
@@ -9,6 +9,7 @@ import { DateRange, DefinedRange, RangeKeyDict } from 'react-date-range';
 import { inputRanges, staticRanges } from '../../lib/utils';
 import { useForm } from 'react-hook-form';
 import { createSearchParams, Link, useNavigate } from 'react-router-dom';
+import Logo from 'assets/images/logo trip 1.png';
 
 type Inputs = {
 	location: string;
@@ -83,18 +84,7 @@ const Header = ({ locationValue }: Props) => {
 	return (
 		<header className={styles.header}>
 			<div className={styles.container}>
-				<h1 className={styles.logo} onClick={() => navigate('/')}>
-					Web project
-				</h1>
-				{/* <div>
-        <Image
-          src="https://media.discordapp.net/attachments/961992723005575238/962007200618922065/unknown.png"
-          objectFit="contain"
-          objectPosition="left"
-          layout="fill"
-          alt="logo"
-        />
-      </div> */}
+				<img src={Logo} alt="Epic trip" className={styles.logo} onClick={() => navigate('/')} />
 				<div className={styles.inputContainer}>
 					<input
 						type="text"

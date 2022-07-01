@@ -1,0 +1,154 @@
+{
+  "type": "object",
+  "properties": {
+    "header": { "type": "string" },
+    "searchResults": {
+      "type": "object",
+      "properties": {
+        "totalCount": { "type": "integer" },
+        "results": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "address": {
+                "type": "object",
+                "properties": {
+                  "locality": { "type": "string" },
+                  "postalCode": { "type": "string" },
+                  "region": { "type": "string" },
+                  "streetAddress": { "type": "string" }
+                },
+                "required": [
+                  "locality",
+                  "postalCode",
+                  "region",
+                  "streetAddress"
+                ]
+              },
+              "coordinate": {
+                "type": "object",
+                "properties": {
+                  "lat": { "type": "number" },
+                  "lon": { "type": "number" }
+                },
+                "required": ["lat", "lon"]
+              },
+              "guestReviews": {
+                "type": "object",
+                "properties": {
+                  "badge": { "type": "string" },
+                  "badgeText": { "type": "string" },
+                  "rating": { "type": "string" },
+                  "scale": { "type": "number" },
+                  "total": { "type": "number" },
+                  "unformattedRating": { "type": "number" }
+                },
+                "required": [
+                  "badge",
+                  "badgeText",
+                  "rating",
+                  "scale",
+                  "total",
+                  "unformattedRating"
+                ]
+              },
+              "id": { "type": "integer" },
+              "name": { "type": "string" },
+              "optimizedThumbUrls": {
+                "type": "object",
+                "properties": { "srpDesktop": { "type": "string" } },
+                "required": ["srpDesktop"]
+              },
+              "ratePlan": {
+                "type": "object",
+                "properties": {
+                  "price": {
+                    "type": "object",
+                    "properties": {
+                      "current": { "type": "string" },
+                      "exactCurrent": { "type": "number" },
+                      "fullyBundledPricePerStay": {
+                        "type": ["string", "null"]
+                      },
+                      "old": { "type": ["string", "null"] }
+                    }
+                  }
+                },
+                "required": ["price"]
+              },
+              "starRating": { "type": "integer" }
+            },
+            "required": [
+              "address",
+              "coordinate",
+              "guestReviews",
+              "id",
+              "name",
+              "optimizedThumbUrls",
+              "ratePlan"
+            ]
+          }
+        }
+      }
+    },
+    "filters": {
+      "type": "object",
+      "properties": {
+        "landmarks": {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "propeties": {
+                  "label": { "type": "string" },
+                  "value": { "type": "string" }
+                },
+                "required": ["label", "value"]
+              }
+            }
+          },
+          "required": ["items"]
+        },
+        "neighbourhood": {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "propeties": {
+                  "label": { "type": "string" },
+                  "value": { "type": "string" }
+                },
+                "required": ["label", "value"]
+              }
+            }
+          },
+          "required": ["items"]
+        },
+        "themesAndTypes": {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "label": { "type": "string" },
+                  "value": { "type": "string" }
+                },
+                "required": ["label", "value"]
+              }
+            }
+          },
+          "required": ["items"]
+        }
+      },
+      "required": ["landmarks", "themesAndTypes"]
+    }
+  },
+  "required": ["header", "searchResults", "filters"]
+}
