@@ -48,6 +48,26 @@ paths:
       tags:
         - users
       description: Creates to the db and returns the user created by an identified admin
+      parameters:
+        - in: body
+          name: user
+          description: The user to create.
+          schema:
+            type: object
+            required:
+              - email
+              - password
+            properties:
+              first_name:
+                type: string
+              last_name:
+                type: string
+              email:
+                type: string
+              password:
+                type: string
+              role:
+                type: string
       responses:
         "201":
           description: OK
@@ -60,12 +80,21 @@ paths:
                     type: string
                   email:
                     type: string
+  /users/{id}:
     delete:
       summary: Admin protected route to delete a user
       operationId: usersDel
       tags:
         - users
       description: Deletes an user from the db using the id passed as a parameter when requested by an admin.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+            minimum: 1
+          description: The user ID
       responses:
         "200":
           description: OK
@@ -108,7 +137,7 @@ paths:
       responses:
         "201":
           description: OK
-  /drink/:city:
+  /drink/{city}:
     get:
       summary: Drink venues by location
       operationId: drinksGet
@@ -146,7 +175,7 @@ paths:
                               type: number
                             lng:
                               type: number
-  /eat/:city:
+  /eat/{city}:
     get:
       summary: Eat venues by location
       operationId: eatGet
@@ -184,7 +213,7 @@ paths:
                               type: number
                             lng:
                               type: number
-  /serviceType/:type/:city:
+  /serviceType/:type/{city}:
     get:
       summary: Services by type and location
       operationId: serviceTypeGet
@@ -665,7 +694,7 @@ paths:
                                 type: number
                               suffix:
                                 type: string
-  /enjoy/:location:
+  /enjoy/{location}
     get:
       summary: Get enjoy by location
       operationId: enjoyGet
