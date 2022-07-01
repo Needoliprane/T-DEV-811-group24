@@ -1,31 +1,12 @@
-const Joi = require('joi');
+const Joi = require("joi");
 
-const joiOptions = {
-    convert:true, 
-    abortEarly: false,
-    allowUnknown: false,
-    errors: {
-        wrap: {
-            label: false,
-        }
-    }
+const sleepDtos = {
+  query: Joi.object().keys({
+    search: Joi.string().required(),
+    adults_number: Joi.number().integer().required(),
+    checkin_date: Joi.string().required(),
+    checkout_date: Joi.string().required(),
+  }),
 };
 
-const DTOValidator = {
-    params: (schema, options) => (req, res, next) => {
-        const schemaWithAddress = Joi.object()
-            .keys({
-                address: Joi.string().optional(),
-            })
-		const { error } = schemaWithAddress.validate(req.params, {
-			...joiOptions,
-			...options,
-		});
-		if (!error) next();
-		const { details } = error;
-		const message = details.map((i) => `params.${i.message}`).join(', ');
-		return res.status(400).json({message});
-    },
-}
-
-module.exports = DTOValidator;
+module.exports = sleepDtos;
