@@ -19,10 +19,11 @@ const EatRepository = {
           const citiesWorlwideRestaurant = await axios.post('https://worldwide-restaurants.p.rapidapi.com/typeahead', encodedParams, {headers:headers_worldwide_restaurant})
           const cityId = citiesWorlwideRestaurant.data.results.data[0].result_object.location_id
           encodedParams.append("location_id", cityId);
+          console.log(cityId)
           encodedParams.append("limit", 30);
           encodedParams.append("currency", "EUR");
           const responseWorlwideRestaurant = await axios.post('https://worldwide-restaurants.p.rapidapi.com/search', encodedParams, {headers:headers_worldwide_restaurant})
-          return responseWorlwideRestaurant.data
+          return responseWorlwideRestaurant.data.results.data
         } catch(e){
             console.log(e)
             return e.data.message;
