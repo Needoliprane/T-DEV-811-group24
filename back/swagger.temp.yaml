@@ -23,12 +23,13 @@ paths:
                     type: string
                     default: "pong"
 
-  /users:
+  /users/:
     get:
       summary: Admin protected route to get all users
+      operationId: usersGet
       tags:
         - users
-      description: This route protected by 2 middlewares (user & admin) is used by the admin to get all users
+      description: Returns all users from the db if the user is identified as an administrator
       responses:
         "200":
           description: OK
@@ -41,7 +42,1097 @@ paths:
                     type: string
                   email:
                     type: string
-
+    post:
+      summary: Admin protected route to create a user
+      operationId: usersPost
+      tags:
+        - users
+      description: Creates to the db and returns the user created by an identified admin
+      parameters:
+        - in: body
+          name: user
+          description: The user to create.
+          schema:
+            type: object
+            required:
+              - email
+              - password
+            properties:
+              first_name:
+                type: string
+              last_name:
+                type: string
+              email:
+                type: string
+              password:
+                type: string
+              role:
+                type: string
+      responses:
+        "201":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  username:
+                    type: string
+                  email:
+                    type: string
+  /users/{id}:
+    delete:
+      summary: Admin protected route to delete a user
+      operationId: usersDel
+      tags:
+        - users
+      description: Deletes an user from the db using the id passed as a parameter when requested by an admin.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+            minimum: 1
+          description: The user ID
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  username:
+                    type: string
+                  email:
+                    type: string
+  /auth/login:
+    post:
+      summary: Unprotected route to log in a user
+      operationId: authLogin
+      tags:
+        - auth
+      description: Finds user by email, verifies password, returns a token
+      parameters:
+      - in: body
+        name: user
+        description: The user to create.
+        schema:
+          type: object
+          required:
+            - email
+            - password
+          properties:
+            email:
+              type: string
+            password:
+              type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  accessToken:
+                    type: string
+                  tokenType:
+                    type: string
+                    default: "Bearer"
+  /auth/sign-up:
+    post:
+      summary: Unprotected route to create a user
+      operationId: authSignup
+      tags:
+        - auth
+      description: Creates user by email, password, firstName, lastName returns a token
+      parameters:
+      - in: body
+        name: user
+        description: The user to create.
+        schema:
+          type: object
+          required:
+            - email
+            - password
+          properties:
+            first_name:
+              type: string
+            last_name:
+              type: string
+            email:
+              type: string
+            password:
+              type: string
+      responses:
+        "201":
+          description: OK
+  /drink/{city}:
+    get:
+      summary: Drink venues by location
+      operationId: drinksGet
+      tags:
+        - drink
+      description: Returns drinks near the location
+      parameters:
+        - in: path
+          name: city
+          required: true
+          schema:
+            type: string
+          description: The location name
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          minimum: 1
+                        name:
+                          type: string
+                        address:
+                          type: string
+                        phone_number:
+                          type: string
+                        website:
+                          type: string
+                        location:
+                          type: object
+                          properties:
+                            lat:
+                              type: number
+                            lng:
+                              type: number
+  /eat/{city}:
+    get:
+      summary: Eat venues by location
+      operationId: eatGet
+      tags:
+        - eat
+      description: Returns eat near the location
+      parameters:
+        - in: path
+          name: city
+          required: true
+          schema:
+            type: string
+          description: The location name
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    location_id:
+                      type: string
+                    name:
+                      type: string
+                    latitude:
+                      type: string
+                    longitude:
+                      type: string
+                    num_reviews:
+                      type: string
+                    timezone:
+                      type: string
+                    location_string:
+                      type: string
+                    photo:
+                      type: object
+                      properties:
+                        images:
+                          type: object
+                          properties:
+                            small:
+                              type: object
+                              properties:
+                                width:
+                                  type: string
+                                url:
+                                  type: string
+                                height:
+                                  type: string
+                            thumbnail:
+                              type: object
+                              properties:
+                                width:
+                                  type: string
+                                url:
+                                  type: string
+                                height:
+                                  type: string
+                            original:
+                              type: object
+                              properties:
+                                width:
+                                  type: string
+                                url:
+                                  type: string
+                                height:
+                                  type: string
+                            large:
+                              type: object
+                              properties:
+                                width:
+                                  type: string
+                                url:
+                                  type: string
+                                height:
+                                  type: string
+                            medium:
+                              type: object
+                              properties:
+                                width:
+                                  type: string
+                                url:
+                                  type: string
+                                height:
+                                  type: string
+                        is_blessed:
+                          type: boolean
+                        uploaded_date:
+                          type: string
+                        caption:
+                          type: string
+                        id:
+                          type: number
+                        helpful_votes:
+                          type: number
+                        published_date:
+                          type: string
+                        user:
+                          type: object
+                          properties:
+                            user_id:
+                              type: number
+                            member_id:
+                              type: number
+                            type:
+                              type: string
+                    api_detail_url:
+                      type: string
+                    awards:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          award_type:
+                            type: string
+                          year:
+                            type: number
+                          images:
+                            type: object
+                            properties:
+                              small:
+                                type: string
+                              large:
+                                type: string
+                          categories:
+                            type: array
+                            items:
+                              type: string
+                          display_name:
+                            type: string
+                    doubleclick_zone:
+                      type: string
+                    preferred_map_engine:
+                      type: string
+                    raw_ranking:
+                      type: string
+                    ranking_geo:
+                      type: string
+                    ranking_geo_id:
+                      type: string
+                    ranking_position:
+                      type: string
+                    ranking_denominator:
+                      type: string
+                    ranking_category:
+                      type: string
+                    ranking:
+                      type: string
+                    distance:
+                      type: string
+                    distance_string:
+                      type: string
+                    bearing:
+                      type: string
+                    rating:
+                      type: string
+                    is_closed:
+                      type: boolean
+                    open_now_text:
+                      type: string
+                    is_long_closed:
+                      type: boolean
+                    price_level:
+                      type: string
+                    price:
+                      type: string
+                    description:
+                      type: string
+                    web_url:
+                      type: string
+                    write_review:
+                      type: string
+                    ancestors:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          subcategory:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                key:
+                                  type: string
+                                name:
+                                  type: string
+                          name:
+                            type: string
+                          abbrv:
+                            type: string
+                          location_id:
+                            type: number
+                    category:
+                      type: object
+                      properties:
+                        key:
+                          type: string
+                        name:
+                          type: string
+                    subcategory:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          key:
+                            type: string
+                          name:
+                            type: string
+                    parent_display_name:
+                      type: string
+                    is_jfy_enabled:
+                      type: boolean
+                    nearest_metro_station:
+                      type: array
+                      items:
+                        type: string
+                    phone:
+                      type: string
+                    website:
+                      type: string
+                    email:
+                      type: string
+                    address_obj:
+                      type: object
+                      properties:
+                        street1:
+                          type: string
+                        street2:
+                          type: string
+                        city:
+                          type: string
+                        state:
+                          type: string
+                        country:
+                          type: string
+                        postalcode:
+                          type: string
+                    address:
+                      type: string
+                    hours:
+                      type: object
+                      properties:
+                        week_ranges:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              open_time:
+                                type: number
+                              close_time:
+                                type: string
+                    is_candidate_for_contact_info_suppression:
+                      type: boolean
+                    cuisine:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          key:
+                            type: string
+                          name:
+                            type: string
+                    dietary_restrictions:
+                      type: array
+                      items:
+                        type: string
+                    establishment_types:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          key:
+                            type: string
+                          name:
+                            type: string
+  /serviceType/{type}/{city}:
+    get:
+      summary: Services by type and location
+      operationId: serviceTypeGet
+      tags:
+        - serviceType
+      description: Returns services by type and location
+      parameters:
+        - in: path
+          name: type
+          required: true
+          schema:
+            type: string
+          description: The type of service requested
+        - in: path
+          name: city
+          required: true
+          schema:
+            type: string
+          description: The location name
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          minimum: 1
+                        name:
+                          type: string
+                        address:
+                          type: string
+                        phone_number:
+                          type: string
+                        website:
+                          type: string
+                        location:
+                          type: object
+                          properties:
+                            lat:
+                              type: number
+                            lng:
+                              type: number
+                        types:
+                          type: array
+                          items:
+                            type: string
+  /sleep/hotels:
+    get:
+      summary: Services by type and location
+      operationId: sleepGet
+      tags:
+        - sleep
+      description: Returns services by type and location
+      parameters:
+        - in: query
+          name: search
+          schema:
+            type: string
+          description: Location name
+        - in: query
+          name: adults_number
+          schema:
+            type: string
+          description: Number of adults for this stay
+        - in: query
+          name: checkin_date
+          schema:
+            type: string
+          description: Checkin date AAAA-MM-DD
+        - in: query
+          name: checkout_date
+          schema:
+            type: string
+          description: Checkout date AAAA-MM-DD
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  header:
+                    type: string
+                  query:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                      value:
+                        type: string
+                      resolvedLocation:
+                        type: string
+                  searchResults:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        totalCount:
+                          type: integer
+                        results:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              id:
+                                type: integer
+                                minimum: 1
+                              name:
+                                type: string
+                              starRating:
+                                type: integer
+                              urls:
+                                type: object
+                              address:
+                                type: object
+                                properties:
+                                  streetAddress:
+                                    type: string
+                                  locality:
+                                    type: string
+                                  postalCode:
+                                    type: string
+                                  region:
+                                    type: string
+                                  countryName:
+                                    type: string
+                                  countryCode:
+                                    type: string
+                                  obfuscate:
+                                    type: boolean
+                              welcomeRewards:
+                                type: object
+                                properties:
+                                  collect:
+                                    type: boolean
+                              guestReviews:
+                                type: object
+                                properties:
+                                  unformattedRating:
+                                    type: number
+                                  rating:
+                                    type: number
+                                  total:
+                                    type: number
+                                  scale:
+                                    type: number
+                                  badge:
+                                    type: string
+                                  badgeText:
+                                    type: string
+                              landmarks:
+                                type: array
+                                items:
+                                  type: object
+                                  properties:
+                                    label:
+                                      type: string
+                                    distance:
+                                      type: string
+                              ratePlan:
+                                type: object
+                                properties:
+                                  price:
+                                    type: object
+                                    properties:
+                                      current:
+                                        type: string
+                                      exactCurrent:
+                                        type: number
+                                      fullyBundledPricePerStay:
+                                        type: string
+                                  features:
+                                    type: object
+                                    properties:
+                                      freeCancellation:
+                                        type: boolean
+                                      paymentPreference:
+                                        type: boolean
+                                      noCCRequired:
+                                        type: boolean
+                                  type:
+                                    type: string
+                              neighbourhood:
+                                type: string
+                              deals:
+                                type: object
+                              messaging:
+                                type: object
+                              badging:
+                                type: object
+                              pimmsAttributes:
+                                type: string
+                              coordinate:
+                                type: object
+                                properties:
+                                  lat:
+                                    type: number
+                                  lng:
+                                    type: number
+                              providerType:
+                                type: string
+                              supplierHotelId:
+                                type: integer
+                              isAlternative:
+                                type: boolean
+                              optimizedThumbUrls:
+                                type: object
+                                properties:
+                                  srpDesktop:
+                                    type: string
+  /sleep/details:
+    get:
+      summary: Services by type and location
+      operationId: sleepDetailsGet
+      tags:
+        - sleep
+      description: Returns hotel details and photos by id
+      parameters:
+        - in: query
+          name: id
+          schema:
+            type: number
+          description: Hotel id gotten from /sleep/hotel
+        - in: query
+          name: adults_number
+          schema:
+            type: string
+          description: Number of adults for this stay
+        - in: query
+          name: checkin_date
+          schema:
+            type: string
+          description: Checkin date AAAA-MM-DD
+        - in: query
+          name: checkout_date
+          schema:
+            type: string
+          description: Checkout date AAAA-MM-DD
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  hotel_info:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                      address:
+                        type: object
+                        properties:
+                          countryName:
+                            type: string
+                          cityName:
+                            type: string
+                          provinceName:
+                            type: string
+                          addressLine1:
+                            type: string
+                          countryCode:
+                            type: string
+                          pattern:
+                            type: string
+                          fullAddress:
+                            type: string
+                      localisedAddress:
+                        type: string
+                      header:
+                        type: object
+                        properties:
+                          hotelId:
+                            type: string
+                          destinationId:
+                            type: string
+                          pointOfSaleId:
+                            type: string
+                          currencyCode:
+                            type: string
+                          occupancyKey:
+                            type: string
+                          hotelLocation:
+                            type: object
+                            properties:
+                              coordinates:
+                                type: object
+                                properties:
+                                  latitude:
+                                    type: number
+                                  longitude:
+                                    type: number
+                              resolvedLocation:
+                                type: string
+                              locationName:
+                                type: string
+                      roomsAndRates:
+                        type: object
+                      starRatingTitle:
+                        type: string
+                      starRating:
+                        type: integer
+                      featuredPrice:
+                        type: string
+                      mapWidget:
+                        type: object
+                        properties:
+                          staticMapUrl:
+                            type: string
+                      roomTypeNames:
+                        type: array
+                        items:
+                          type: string
+                      tagline:
+                        type: array
+                        items:
+                          type: string
+                      freebies:
+                        type: array
+                        items:
+                          type: string
+                      reviews:
+                        type: object
+                        properties:
+                          brands:
+                            type: object
+                            properties:
+                              scale:
+                                type: number
+                              formattedScale:
+                                type: string
+                              rating:
+                                type: number
+                              formattedRating:
+                                type: string
+                              lowRating:
+                                type: boolean
+                              badgeText:
+                                type: string
+                              total:
+                                type: number
+                      atAGlance:
+                        type: object
+                        properties:
+                          keyFacts:
+                            type: object
+                            properties:
+                              hotelSize:
+                                type: array
+                                items:
+                                  type: object
+                              arrivingLeaving:
+                                type: array
+                                items:
+                                  type: object
+                              specialCheckInInstructions:
+                                type: array
+                                items:
+                                  type: string
+                              requiredAtCheckIn:
+                                type: array
+                                items:
+                                  type: string
+                          travellingOrInternet:
+                            type: object
+                            properties:
+                              travelling:
+                                type: object
+                                properties:
+                                  children:
+                                    type: array
+                                    items:
+                                      type: string
+                                  pets:
+                                    type: array
+                                    items:
+                                      type: string
+                                  extraPeople:
+                                    type: array
+                                    items:
+                                      type: string
+                              internet:
+                                type: array
+                                items:
+                                  type: string
+                          transportAndOther:
+                            type: object
+                            properties:
+                              transport:
+                                type: object
+                                properties:
+                                  transfers:
+                                    type: array
+                                    items:
+                                      type: string
+                                  parking:
+                                    type: array
+                                    items:
+                                      type: string
+                                  offsiteTransfer:
+                                    type: array
+                                    items:
+                                      type: string
+                              otherInformation:
+                                type: array
+                                items:
+                                  type: string
+                              otherInclusions:
+                                type: array
+                                items:
+                                  type: string
+                      amenities:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            heading:
+                              type: string
+                            listItems:
+                              type: array
+                              items:
+                                type: object
+                                properties:
+                                  heading:
+                                    type: string
+                                  listItems:
+                                    type: array
+                                    items:
+                                      type: string
+                      hygieneAndCleanliness:
+                        type: string
+                      smallPrint:
+                        type: object
+                        properties:
+                          alternativeNames:
+                            type: array
+                            items:
+                              type: string
+                          mandatoryFees:
+                            type: array
+                            items:
+                              type: string
+                          optionalExtras:
+                            type: array
+                            items:
+                              type: string
+                          policies:
+                            type: array
+                            items:
+                              type: string
+                          mandatoryTaxesOrFees:
+                            type: boolean
+                          display:
+                            type: boolean
+                      specialFeatures:
+                        type: object
+                        properties:
+                          sections:
+                            type: array
+                            items:
+                              type: string
+                      overview:
+                        type: object
+                        properties:
+                          overviewSections:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                                type:
+                                  type: string
+                                content:
+                                  type: array
+                                  items:
+                                    type: string
+                                contentType:
+                                  type: string
+                      transportation:
+                        type: object
+                        properties:
+                          transportLocations:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                category:
+                                  type: string
+                                locations:
+                                  type: object
+                                  properties:
+                                    name:
+                                      type: string
+                                    distance:
+                                      type: string
+                                    distanceInTime:
+                                      type: string
+                      neighborhood:
+                        type: object
+                        properties:
+                          neighborhoodName:
+                            type: string
+                          neighborhoodLongDescription:
+                            type: string
+                  hotel_photo:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        baseUrl:
+                          type: string
+                        mainUrl:
+                          type: string
+                        imageId:
+                          type: number
+                        sizes:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              type:
+                                type: number
+                              suffix:
+                                type: string
+  /enjoy/{location}:
+    get:
+      summary: Get enjoy by location
+      operationId: enjoyGet
+      tags:
+        - enjoy
+      description: Returns events venues around the desired location
+      parameters:
+        - in: path
+          name: location
+          required: true
+          schema:
+            type: string
+          description: The location name
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  count:
+                    type: number
+                  events:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        title:
+                          type: string
+                        description:
+                          type: string
+                        labels:
+                          type: array
+                          items:
+                            type: string
+                        location:
+                          type: array
+                          items:
+                            type: number
+                        venue_name:
+                          type: string
+                        address:
+                          type: string
+                        country:
+                          type: string
+                        start:
+                          type: string
+                        end:
+                          type: string
+                        timezone:
+                          type: string
+  /travel:
+    get:
+      summary: Get travel by location
+      operationId: travelGet
+      tags:
+        - travel
+      description: Returns nearby ways to travel by type 
+      parameters:
+        - in: query
+          name: location
+          schema:
+            type: string
+          description: location name
+        - in: query
+          name: transport_type
+          schema:
+            type: string
+            enum: [bicycle_store, bus_station, car_rental, gas_station, parking, rail_station, subway_station, taxi_stand, train_station, transit_station]
+          description: transport type required
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        name:
+                          type: string
+                        location:
+                          type: object
+                          properties:
+                            lat:
+                              type: number
+                            lng:
+                              type: number
+                        types:
+                          type: array
+                          items:
+                            type: string
+                        distance:
+                          type: number
 servers:
   - url: http://localhost:${PORT}
     description: Local server
