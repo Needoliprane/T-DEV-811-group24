@@ -12,9 +12,13 @@ import Map from 'components/Map/Map';
 import { createSearchParams, useSearchParams } from 'react-router-dom';
 import { mockedHotelResult } from '__mocks__/dataMock';
 import { Helmet } from 'react-helmet-async';
+import ReactToPrint from 'react-to-print';
+import PageToPrint from 'components/PageToPrint/PageToPrint';
 
 const Search = () => {
 	const [Hotels, setHotels] = useState<HotelResults>(mockedHotelResult.data);
+	const pageToPrintRef = React.useRef<HTMLDivElement>(null);
+	const printBtnRef = React.useRef<HTMLButtonElement>(null);
 	const [isLoading, setIsLoading] = useState(true);
 	const filters = useMemo(
 		() =>
@@ -157,6 +161,14 @@ const Search = () => {
 					</p>
 					<h1 className={styles.title}>Stays in {queryParams.location}</h1>
 					<input placeholder="Name of place" onChange={handleSearch} className={styles.searchbar} />
+					<ReactToPrint
+						trigger={() => (
+							<button className={styles.button} ref={printBtnRef}>
+								Print selected results
+							</button>
+						)}
+						content={() => pageToPrintRef.current}
+					/>
 					<div className={styles.filtersContainer}>
 						<MultiSelect
 							onSearch={handleFiltersSearch}
@@ -217,6 +229,15 @@ const Search = () => {
 					/>
 				</section>
 			</main>
+			<div style={{ display: 'none' }}>
+				<PageToPrint
+					hotels={hotelsToDisplay
+						.filter((hotel) => selectedLocations?.some((a) => a.id === hotel.id))
+						.sort((a, b) => (getPosition(a) || -1) - (getPosition(b) || -1))}
+					onGetPosition={getPosition}
+					ref={pageToPrintRef}
+				/>
+			</div>
 		</div>
 	);
 };

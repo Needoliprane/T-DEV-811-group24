@@ -5,6 +5,12 @@
 	display: flex;
 }
 
+.button {
+	@apply rounded-lg text-[1.1rem] text-white text-center px-6 py-3;
+	background-color: $salmon-5;
+	font-weight: 600;
+}
+
 .searchInfo {
 	@apply text-xs;
 }
