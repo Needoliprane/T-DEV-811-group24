@@ -234,31 +234,265 @@ paths:
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  results:
-                    type: array
-                    items:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    location_id:
+                      type: string
+                    name:
+                      type: string
+                    latitude:
+                      type: string
+                    longitude:
+                      type: string
+                    num_reviews:
+                      type: string
+                    timezone:
+                      type: string
+                    location_string:
+                      type: string
+                    photo:
                       type: object
                       properties:
-                        id:
-                          type: integer
-                          minimum: 1
-                        name:
-                          type: string
-                        address:
-                          type: string
-                        phone_number:
-                          type: string
-                        website:
-                          type: string
-                        location:
+                        images:
                           type: object
                           properties:
-                            lat:
+                            small:
+                              type: object
+                              properties:
+                                width:
+                                  type: string
+                                url:
+                                  type: string
+                                height:
+                                  type: string
+                            thumbnail:
+                              type: object
+                              properties:
+                                width:
+                                  type: string
+                                url:
+                                  type: string
+                                height:
+                                  type: string
+                            original:
+                              type: object
+                              properties:
+                                width:
+                                  type: string
+                                url:
+                                  type: string
+                                height:
+                                  type: string
+                            large:
+                              type: object
+                              properties:
+                                width:
+                                  type: string
+                                url:
+                                  type: string
+                                height:
+                                  type: string
+                            medium:
+                              type: object
+                              properties:
+                                width:
+                                  type: string
+                                url:
+                                  type: string
+                                height:
+                                  type: string
+                        is_blessed:
+                          type: boolean
+                        uploaded_date:
+                          type: string
+                        caption:
+                          type: string
+                        id:
+                          type: number
+                        helpful_votes:
+                          type: number
+                        published_date:
+                          type: string
+                        user:
+                          type: object
+                          properties:
+                            user_id:
                               type: number
-                            lng:
+                            member_id:
                               type: number
+                            type:
+                              type: string
+                    api_detail_url:
+                      type: string
+                    awards:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          award_type:
+                            type: string
+                          year:
+                            type: number
+                          images:
+                            type: object
+                            properties:
+                              small:
+                                type: string
+                              large:
+                                type: string
+                          categories:
+                            type: array
+                            items:
+                              type: string
+                          display_name:
+                            type: string
+                    doubleclick_zone:
+                      type: string
+                    preferred_map_engine:
+                      type: string
+                    raw_ranking:
+                      type: string
+                    ranking_geo:
+                      type: string
+                    ranking_geo_id:
+                      type: string
+                    ranking_position:
+                      type: string
+                    ranking_denominator:
+                      type: string
+                    ranking_category:
+                      type: string
+                    ranking:
+                      type: string
+                    distance:
+                      type: string
+                    distance_string:
+                      type: string
+                    bearing:
+                      type: string
+                    rating:
+                      type: string
+                    is_closed:
+                      type: boolean
+                    open_now_text:
+                      type: string
+                    is_long_closed:
+                      type: boolean
+                    price_level:
+                      type: string
+                    price:
+                      type: string
+                    description:
+                      type: string
+                    web_url:
+                      type: string
+                    write_review:
+                      type: string
+                    ancestors:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          subcategory:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                key:
+                                  type: string
+                                name:
+                                  type: string
+                          name:
+                            type: string
+                          abbrv:
+                            type: string
+                          location_id:
+                            type: number
+                    category:
+                      type: object
+                      properties:
+                        key:
+                          type: string
+                        name:
+                          type: string
+                    subcategory:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          key:
+                            type: string
+                          name:
+                            type: string
+                    parent_display_name:
+                      type: string
+                    is_jfy_enabled:
+                      type: boolean
+                    nearest_metro_station:
+                      type: array
+                      items:
+                        type: string
+                    phone:
+                      type: string
+                    website:
+                      type: string
+                    email:
+                      type: string
+                    address_obj:
+                      type: object
+                      properties:
+                        street1:
+                          type: string
+                        street2:
+                          type: string
+                        city:
+                          type: string
+                        state:
+                          type: string
+                        country:
+                          type: string
+                        postalcode:
+                          type: string
+                    address:
+                      type: string
+                    hours:
+                      type: object
+                      properties:
+                        week_ranges:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              open_time:
+                                type: number
+                              close_time:
+                                type: string
+                    is_candidate_for_contact_info_suppression:
+                      type: boolean
+                    cuisine:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          key:
+                            type: string
+                          name:
+                            type: string
+                    dietary_restrictions:
+                      type: array
+                      items:
+                        type: string
+                    establishment_types:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          key:
+                            type: string
+                          name:
+                            type: string
   /serviceType/{type}/{city}:
     get:
       summary: Services by type and location
