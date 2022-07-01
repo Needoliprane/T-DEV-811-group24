@@ -114,6 +114,20 @@ paths:
       tags:
         - auth
       description: Finds user by email, verifies password, returns a token
+      parameters:
+      - in: body
+        name: user
+        description: The user to create.
+        schema:
+          type: object
+          required:
+            - email
+            - password
+          properties:
+            email:
+              type: string
+            password:
+              type: string
       responses:
         "200":
           description: OK
@@ -134,6 +148,24 @@ paths:
       tags:
         - auth
       description: Creates user by email, password, firstName, lastName returns a token
+      parameters:
+      - in: body
+        name: user
+        description: The user to create.
+        schema:
+          type: object
+          required:
+            - email
+            - password
+          properties:
+            first_name:
+              type: string
+            last_name:
+              type: string
+            email:
+              type: string
+            password:
+              type: string
       responses:
         "201":
           description: OK
