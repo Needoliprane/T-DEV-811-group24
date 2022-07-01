@@ -1,0 +1,48 @@
+openapi: 3.0.0
+
+info:
+  version: "1.0.0"
+  title: EpicRoadTrip API
+
+paths:
+  /ping:
+    get:
+      summary: Ping the API
+      tags:
+        - ping
+      description: This route is used to check the API liveness.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    default: "pong"
+
+  /users:
+    get:
+      summary: Admin protected route to get all users
+      tags:
+        - admin
+        - users
+      description: This route protected by 2 middlewares (user & admin) is used by the admin to get all users
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  username:
+                    type: string
+                  email:
+                    type: string
+
+servers:
+  - url: `http://localhost:9000`
+    description: Local server

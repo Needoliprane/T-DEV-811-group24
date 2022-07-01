@@ -4,13 +4,12 @@ name: CI
 
 on:
   push:
-    branches: [ devops, master, main ]
+    branches: [devops, master, main, tdd_api]
   pull_request:
-    branches: [ devops, master, main ]
+    branches: [devops, master, main, tdd_api]
   workflow_dispatch:
 
 jobs:
-    
   frontendtest:
     runs-on: ubuntu-latest
     steps:
@@ -33,21 +32,59 @@ jobs:
         run: docker-compose up --build --detach mongodb redis mail_api frontend api
       - name: test backend
         run: docker-compose up --build test
-  
+
+  tdd_api:
+    name: tdd_api
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: "Create env file"
+        run: |
+          cd back
+          touch .env
+          echo DB_USERNAME=${{ secrets.DB_USERNAME }} >> .env
+          echo DB_PASSWORD=${{ secrets.DB_PASSWORD }} >> .env
+          echo DB_DATABASE=${{ secrets.DB_DATABASE }} >> .env
+          echo DB_HOST=${{ secrets.DB_HOST }} >> .env
+          echo FRONT_URL=${{ secrets.FRONT_URL }} >> .env
+          echo PORT=${{ secrets.PORT }} >> .env
+          echo AUTH_ISS=${{ secrets.AUTH_ISS }} >> .env
+          echo AUTH_AUD=${{ secrets.AUTH_AUD }} >> .env
+          echo AUTH_ALGORITHM=${{ secrets.AUTH_ALGORITHM }} >> .env
+          echo RAPID_API_KEY=${{ secrets.RAPID_API_KEY }} >> .env
+          echo LYKO_API_KEY=${{ secrets.LYKO_API_KEY }} >> .env
+          echo TICKETMASTER_API_KEY=${{ secrets.TICKETMASTER_API_KEY }} >> .env
+          echo PREDICTHQ_API_KEY=${{ secrets.PREDICTHQ_API_KEY}} >> .env
+          cat .env
+          source .env
+      - name: create mongodb container
+        run: |
+          docker-compose up --build --detach
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+      - name: Install dependencies
+        run: cd back/ && yes | yarn install
+      - name: Start the api
+        run: cd back/ && yarn start &
+      - name: Integration test
+        run: cd back/ && yarn test:integration
+
   deploy:
     runs-on: ubuntu-latest
     if: ${{ always() && contains(join(needs.*.result, ','), 'success') }}
-    needs: [backendtest, frontendtest]
+    needs: [backendtest, frontendtest, tdd_api]
     steps:
-    - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.REMOTE_HOST }}
-        username: ${{ secrets.REMOTE_USER }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        port: 22
-        script: |
-          cd T-WEB-800-T-WEB-800_msc2023
-          sudo docker-compose stop
-          git pull origin tdd_api
-          sudo docker-compose up --build --detach mongodb redis mail_api frontend api
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          script: |
+            cd T-WEB-800-T-WEB-800_msc2023
+            sudo docker-compose stop
+            git pull origin tdd_api
+            sudo docker-compose up --build --detach

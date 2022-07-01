@@ -1,0 +1,8 @@
+node_modules
+*.pdf
+notes.txt
+.env
+*.log
+*.pub
+*.key
+swagger.yaml

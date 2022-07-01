@@ -1,0 +1,206 @@
+{
+  "query": "Versailles",
+  "moresuggestions": 10,
+  "suggestions": [
+    {
+      "group": "CITY_GROUP",
+      "entities": [
+        {
+          "geoId": "5570",
+          "destinationId": "529015",
+          "landmarkCityDestinationId": null,
+          "type": "CITY",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 48.80236,
+          "longitude": 2.12978,
+          "searchDetail": null,
+          "caption": "<span class='highlighted'>Versailles</span>, Yvelines, France",
+          "name": "Versailles"
+        },
+        {
+          "geoId": "7459",
+          "destinationId": "1520996",
+          "landmarkCityDestinationId": null,
+          "type": "CITY",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 38.052574,
+          "longitude": -84.72995,
+          "searchDetail": null,
+          "caption": "<span class='highlighted'>Versailles</span>, Kentucky, United States of America",
+          "name": "Versailles"
+        },
+        {
+          "geoId": "553248635976481409",
+          "destinationId": "12526338",
+          "landmarkCityDestinationId": null,
+          "type": "NEIGHBORHOOD",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 26.626570223472548,
+          "longitude": -80.2125463524724,
+          "searchDetail": null,
+          "caption": "<span class='highlighted'>Versailles</span>, Lake Worth, Florida, United States of America",
+          "name": "Versailles"
+        },
+        {
+          "geoId": "553248635976471702",
+          "destinationId": "12539765",
+          "landmarkCityDestinationId": null,
+          "type": "NEIGHBORHOOD",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 33.789398478928454,
+          "longitude": -116.39402698487977,
+          "searchDetail": null,
+          "caption": "<span class='highlighted'>Versailles</span>, Rancho Mirage, California, United States of America",
+          "name": "Versailles"
+        },
+        {
+          "geoId": "3000445555",
+          "destinationId": "10422477",
+          "landmarkCityDestinationId": null,
+          "type": "CITY",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 38.431414,
+          "longitude": -92.841027,
+          "searchDetail": null,
+          "caption": "<span class='highlighted'>Versailles</span>, Missouri, United States of America",
+          "name": "Versailles"
+        },
+        {
+          "geoId": "183811",
+          "destinationId": "1472976",
+          "landmarkCityDestinationId": null,
+          "type": "CITY",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 40.222548,
+          "longitude": -84.484396,
+          "searchDetail": null,
+          "caption": "<span class='highlighted'>Versailles</span>, Ohio, United States of America",
+          "name": "Versailles"
+        }
+      ]
+    },
+    {
+      "group": "HOTEL_GROUP",
+      "entities": [
+        {
+          "geoId": "18784",
+          "destinationId": "179283",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 48.838389,
+          "longitude": 2.290676,
+          "searchDetail": null,
+          "caption": "Hôtel Mercure Paris 15 Porte de <span class='highlighted'>Versailles</span>, Paris, France",
+          "name": "Hôtel Mercure Paris 15 Porte de Versailles"
+        },
+        {
+          "geoId": "19614",
+          "destinationId": "236655",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 48.830375,
+          "longitude": 2.284712,
+          "searchDetail": null,
+          "caption": "Hotel Oceania Paris Porte de <span class='highlighted'>Versailles</span>, Paris, France",
+          "name": "Hotel Oceania Paris Porte de Versailles"
+        },
+        {
+          "geoId": "1122113",
+          "destinationId": "283137",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 48.835002,
+          "longitude": 2.282398,
+          "searchDetail": null,
+          "caption": "Porte de <span class='highlighted'>Versailles</span> Hotel, Paris, France",
+          "name": "Porte de Versailles Hotel"
+        }
+      ]
+    },
+    {
+      "group": "LANDMARK_GROUP",
+      "entities": [
+        {
+          "geoId": "501984",
+          "destinationId": "1660646",
+          "landmarkCityDestinationId": "1633054",
+          "type": "LANDMARK",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 25.080847,
+          "longitude": -77.310014,
+          "searchDetail": null,
+          "caption": "<span class='highlighted'>Versailles</span> Gardens, Paradise Island, New Providence Island, Bahamas",
+          "name": "Versailles Gardens"
+        },
+        {
+          "geoId": "553248621532504264",
+          "destinationId": "10613877",
+          "landmarkCityDestinationId": "529015",
+          "type": "LANDMARK",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 48.80208,
+          "longitude": 2.12531,
+          "searchDetail": null,
+          "caption": "Academy of Equestrian Arts, <span class='highlighted'>Versailles</span>, Yvelines, France",
+          "name": "Academy of Equestrian Arts"
+        },
+        {
+          "geoId": "553248621532656314",
+          "destinationId": "10528152",
+          "landmarkCityDestinationId": null,
+          "type": "LANDMARK",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 39.06167,
+          "longitude": -85.21531,
+          "searchDetail": null,
+          "caption": "<span class='highlighted'>Versailles</span> State Park, Milan, Indiana, United States of America",
+          "name": "Versailles State Park"
+        }
+      ]
+    },
+    {
+      "group": "TRANSPORT_GROUP",
+      "entities": [
+        {
+          "geoId": "6019020",
+          "destinationId": "1701027",
+          "landmarkCityDestinationId": null,
+          "type": "TRAIN_STATION",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 48.809774,
+          "longitude": 2.134531,
+          "searchDetail": null,
+          "caption": "<span class='highlighted'>Versailles</span>-Rive-Droite Station, Versailles, Yvelines, France",
+          "name": "Versailles-Rive-Droite Station"
+        },
+        {
+          "geoId": "6019088",
+          "destinationId": "1701035",
+          "landmarkCityDestinationId": null,
+          "type": "METRO_STATION",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 48.800369,
+          "longitude": 2.128622,
+          "searchDetail": null,
+          "caption": "<span class='highlighted'>Versailles</span> Château Rive Gauche RER Station, Versailles, Yvelines, France",
+          "name": "Versailles Château Rive Gauche RER Station"
+        },
+        {
+          "geoId": "6019068",
+          "destinationId": "1701026",
+          "landmarkCityDestinationId": null,
+          "type": "TRAIN_STATION",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 48.7958,
+          "longitude": 2.135875,
+          "searchDetail": null,
+          "caption": "<span class='highlighted'>Versailles</span>-Chantiers Station, Versailles, Yvelines, France",
+          "name": "Versailles-Chantiers Station"
+        }
+      ]
+    }
+  ]
+}

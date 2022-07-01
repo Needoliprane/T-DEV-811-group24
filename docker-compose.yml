@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   api:
     build: ./api
@@ -31,22 +31,23 @@ services:
       - 6379:6379
 
   mongodb:
-    image: mongo
-    networks:
-      - backend
+    image: mongo:4.4.2
+    container_name: epicRoadTripDb
+    restart: always
     ports:
       - 27017:27017
-    volumes:
-      - ~/apps/mongo:/data/db
+    # command: [--auth]
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=root
-      - MONGO_INITDB_ROOT_PASSWORD=admin
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+      MONGO_INITDB_DATABASE: epicRoadTrip
+    volumes:
+      - ./back/scripts/setupMongo.js:/docker-entrypoint-initdb.d/setupMongo.js:ro
 
   test:
     build: ./test
     networks:
       - backend
-    
 
 networks:
   backend:

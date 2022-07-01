@@ -1,0 +1,1415 @@
+{
+  "data": [
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "14-16 Rue De La Vieille Tour"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.841251,
+        "lon": -0.579553
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,8",
+        "scale": 10,
+        "total": 424,
+        "unformattedRating": 7.8
+      },
+      "id": 406452,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,1 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,0 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "La Tour Intendance",
+      "neighbourhood": "Centre-ville de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4860000/4853100/4853099/7c0de7b1_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "140 €",
+          "exactCurrent": 139.7
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 4853099,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "4 Rue Bouffard"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.840433,
+        "lon": -0.580028
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,2",
+        "scale": 10,
+        "total": 351,
+        "unformattedRating": 7.2
+      },
+      "id": 431003,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,1 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "8,9 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hotel La Porte Dijeaux",
+      "neighbourhood": "Hôtel de Ville - Quinconces",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/7000000/6030000/6029400/6029385/7b645200_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "starRating": 2.0,
+      "supplierHotelId": 6029385,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "4 Cours Georges Clemenceau"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.84197,
+        "lon": -0.57981
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,0",
+        "scale": 10,
+        "total": 656,
+        "unformattedRating": 7.0
+      },
+      "id": 247775,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,1 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,0 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Cœur de City Hôtel Bordeaux Clemenceau by Happyculture",
+      "neighbourhood": "Centre-ville de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1550000/1545200/1545195/9ae7278f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "83 €",
+          "exactCurrent": 82.71
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 1545195,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "12 Rue Toulouse Lautrec"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.840115,
+        "lon": -0.580799
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "exceptional",
+        "badgeText": "Exceptionnel",
+        "rating": "9,6",
+        "scale": 10,
+        "total": 11,
+        "unformattedRating": 9.6
+      },
+      "id": 1255909856,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,1 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "8,9 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hôtel Singulier Bordeaux",
+      "neighbourhood": "Hôtel de Ville - Quinconces",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/40000000/39220000/39216000/39215933/00404e14_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13",
+      "providerType": "LOCAL",
+      "starRating": 0.0,
+      "supplierHotelId": 39215933,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "66 Rue Porte Dijeaux"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.840695,
+        "lon": -0.578367
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,4",
+        "scale": 10,
+        "total": 344,
+        "unformattedRating": 7.4
+      },
+      "id": 283553,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,1 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,1 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hotel Gambetta",
+      "neighbourhood": "Hôtel de Ville - Quinconces",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1590000/1582300/1582293/ead2dbd1_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "103 €",
+          "exactCurrent": 102.8
+        }
+      },
+      "starRating": 2.0,
+      "supplierHotelId": 1582293,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "12 Rue Du Temple"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.84128,
+        "lon": -0.57796
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "fabulous",
+        "badgeText": "Fantastique",
+        "rating": "8,8",
+        "scale": 10,
+        "total": 594,
+        "unformattedRating": 8.8
+      },
+      "id": 210057,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,2 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,1 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Best Western Grand Hotel Francais",
+      "neighbourhood": "Hôtel de Ville - Quinconces",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/10000/8900/8806/31eb94f6_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "151 €",
+          "exactCurrent": 151.22
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 8806,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "",
+        "streetAddress": "4 Rue de la Boétie"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.83946,
+        "lon": -0.58004
+      },
+      "deals": {},
+      "geoBullets": [],
+      "id": 599562528,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,2 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "8,9 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hôtel de la Boëtie",
+      "neighbourhood": "Hôtel de Ville - Quinconces",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/19000000/18710000/18705100/18705079/bddba60e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "providerType": "LOCAL",
+      "starRating": 0.0,
+      "supplierHotelId": 18705079,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "7 Rue Franklin"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.842109,
+        "lon": -0.578263
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,6",
+        "scale": 10,
+        "total": 207,
+        "unformattedRating": 7.6
+      },
+      "id": 283552,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,2 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,1 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Brit Hotel Des Grands Hommes - Bordeaux Centre",
+      "neighbourhood": "Triangle d’or de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2530000/2524800/2524774/f4aad82c_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "D13|HRW",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "107 €",
+          "exactCurrent": 106.79
+        }
+      },
+      "starRating": 2.0,
+      "supplierHotelId": 2524774,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "10 Rue Montesquieu"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.842409,
+        "lon": -0.578574
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "very-good",
+        "badgeText": "Très bien",
+        "rating": "8,2",
+        "scale": 10,
+        "total": 265,
+        "unformattedRating": 8.2
+      },
+      "id": 276423,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,2 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,1 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hotel Konti by HappyCulture",
+      "neighbourhood": "Triangle d’or de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1210000/1201900/1201856/d9770113_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|priceRangeCA|D13|increaseNumberOfReviewsRequired|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "187 €",
+          "exactCurrent": 186.6
+        }
+      },
+      "starRating": 4.0,
+      "supplierHotelId": 1201856,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Nouvelle-Aquitaine",
+        "streetAddress": "29 Rue du Temple"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.840165,
+        "lon": -0.577795
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,4",
+        "scale": 10,
+        "total": 3,
+        "unformattedRating": 7.4
+      },
+      "id": 1029650304,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,2 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,1 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "L'escapade Bordelaise - Chambres D'hôtes",
+      "neighbourhood": "Hôtel de Ville - Quinconces",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/33000000/32150000/32145400/32145322/a4f9bdf7_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "119 €",
+          "exactCurrent": 119.24
+        }
+      },
+      "starRating": 0.0,
+      "supplierHotelId": 32145322,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "40 Rue Edmond Michelet"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.83995,
+        "lon": -0.58244
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "fabulous",
+        "badgeText": "Fantastique",
+        "rating": "8,6",
+        "scale": 10,
+        "total": 1227,
+        "unformattedRating": 8.6
+      },
+      "id": 270852,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,2 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "8,7 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Aparthotel Adagio Bordeaux Gambetta",
+      "neighbourhood": "Centre-ville de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2150000/2141900/2141872/b47b0bb0_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|XMPV2|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "116 €",
+          "exactCurrent": 116.0
+        }
+      },
+      "starRating": 4.0,
+      "supplierHotelId": 2141872,
+      "urls": {},
+      "vrBadge": "Appart’hôtel"
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "3 Rue Lafaurie de Monbadon"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.843073,
+        "lon": -0.579517
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "superb",
+        "badgeText": "Excellent",
+        "rating": "9,2",
+        "scale": 10,
+        "total": 302,
+        "unformattedRating": 9.2
+      },
+      "id": 382082,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,2 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,0 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Le Boutique Hotel & Spa",
+      "neighbourhood": "Centre-ville de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4470000/4461000/4460928/ea026d5c_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "298 €",
+          "exactCurrent": 297.56
+        }
+      },
+      "starRating": 5.0,
+      "supplierHotelId": 4460928,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "",
+        "streetAddress": "13 rue castéja"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.8426,
+        "lon": -0.58222
+      },
+      "deals": {},
+      "geoBullets": [],
+      "id": 697218,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,2 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "8,8 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "S'cool Hostel",
+      "neighbourhood": "Centre-ville de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/19000000/18530000/18524200/18524105/94d2e060_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "D13|priceRangeUK",
+      "providerType": "LOCAL",
+      "starRating": 0.0,
+      "supplierHotelId": 18524105,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "",
+        "streetAddress": "77 Bis rue Abbé de l Épée"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.842085,
+        "lon": -0.58302
+      },
+      "deals": {},
+      "geoBullets": [],
+      "id": 1053975552,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,3 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "8,7 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "My Clean House",
+      "neighbourhood": "Centre-ville de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/33000000/32910000/32905500/32905486/dd88f821_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "starRating": 0.0,
+      "supplierHotelId": 32905486,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "",
+        "streetAddress": "19 Rue Poquelin Molière"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.839916,
+        "lon": -0.577069
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "fabulous",
+        "badgeText": "Fantastique",
+        "rating": "8,8",
+        "scale": 10,
+        "total": 341,
+        "unformattedRating": 8.8
+      },
+      "id": 207021216,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,3 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,2 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Mama Shelter Bordeaux",
+      "neighbourhood": "Hôtel de Ville - Quinconces",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/7000000/6440000/6438200/6438163/8cd8c1cd_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|TESCO",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "121 €",
+          "exactCurrent": 120.8
+        }
+      },
+      "starRating": 2.0,
+      "supplierHotelId": 6438163,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "44 rue Vital Carles"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.838974,
+        "lon": -0.577946
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "superb",
+        "badgeText": "Excellent",
+        "rating": "9,0",
+        "scale": 10,
+        "total": 422,
+        "unformattedRating": 9.0
+      },
+      "id": 449386,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,3 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,1 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "L'Hôtel Particulier",
+      "neighbourhood": "Hôtel de Ville - Quinconces",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/8000000/7490000/7483500/7483434/460b0b5a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|HRW|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "240 €",
+          "exactCurrent": 239.88
+        }
+      },
+      "starRating": 0.0,
+      "supplierHotelId": 7483434,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "",
+        "streetAddress": "44 rue Vital Carles"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.838995,
+        "lon": -0.577907
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "exceptional",
+        "badgeText": "Exceptionnel",
+        "rating": "9,4",
+        "scale": 10,
+        "total": 15,
+        "unformattedRating": 9.4
+      },
+      "id": 1779315488,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,3 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,1 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "L' Apparthôtel Particulier Bordeaux",
+      "neighbourhood": "Hôtel de Ville - Quinconces",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/56000000/55580000/55572400/55572359/a0bab972_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "newhotel|D13",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "149 €",
+          "exactCurrent": 149.24
+        }
+      },
+      "starRating": 0.0,
+      "supplierHotelId": 55572359,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "28 Rue Boulan"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.838524,
+        "lon": -0.58128
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "exceptional",
+        "badgeText": "Exceptionnel",
+        "rating": "9,4",
+        "scale": 10,
+        "total": 222,
+        "unformattedRating": 9.4
+      },
+      "id": 405326,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,3 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "8,8 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Les Chambres au Coeur de Bordeaux",
+      "neighbourhood": "Hôtel de Ville - Quinconces",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/5000000/4999100/4999014/1033cfdb_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "starRating": 0.0,
+      "supplierHotelId": 4999014,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "",
+        "streetAddress": "23 cours de l'Intendance"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.842015,
+        "lon": -0.576585
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "exceptional",
+        "badgeText": "Exceptionnel",
+        "rating": "10,0",
+        "scale": 10,
+        "total": 5,
+        "unformattedRating": 10.0
+      },
+      "id": 1688434784,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,3 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,2 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Patio de l'Intendance",
+      "neighbourhood": "Triangle d’or de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/53000000/52740000/52732400/52732337/1e0c04f2_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "D13",
+      "providerType": "LOCAL",
+      "starRating": 0.0,
+      "supplierHotelId": 52732337,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "4 Rue Martignac"
+      },
+      "badging": {
+        "hotelBadge": {
+          "label": "VIP",
+          "type": "vipBasic"
+        }
+      },
+      "coordinate": {
+        "lat": 44.842565,
+        "lon": -0.575741
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "fabulous",
+        "badgeText": "Fantastique",
+        "rating": "8,8",
+        "scale": 10,
+        "total": 486,
+        "unformattedRating": 8.8
+      },
+      "id": 131478,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,4 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,3 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Best Western Premier Hotel Bayonne Etche Ona - Bordeaux",
+      "neighbourhood": "Triangle d’or de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/60000/53500/53408/b40a2317_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "190 €",
+          "exactCurrent": 190.0
+        }
+      },
+      "starRating": 4.0,
+      "supplierHotelId": 53408,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "",
+        "streetAddress": "82 Rue du Palais Gallien"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.84447,
+        "lon": -0.58164
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "very-good",
+        "badgeText": "Très bien",
+        "rating": "8,0",
+        "scale": 10,
+        "total": 91,
+        "unformattedRating": 8.0
+      },
+      "id": 675100,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,4 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "8,9 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hôtel Churchill",
+      "neighbourhood": "Centre-ville de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/18000000/17750000/17744000/17743989/8eaefe66_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "178 €",
+          "exactCurrent": 178.24
+        }
+      },
+      "starRating": 0.0,
+      "supplierHotelId": 17743989,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "16 rue Huguerie"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.844682,
+        "lon": -0.579265
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "exceptional",
+        "badgeText": "Exceptionnel",
+        "rating": "9,4",
+        "scale": 10,
+        "total": 255,
+        "unformattedRating": 9.4
+      },
+      "id": 507846,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,4 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,0 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hôtel de Tourny",
+      "neighbourhood": "Centre-ville de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/11000000/10430000/10428500/10428482/ee81d3b0_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO|showGoldContentDescriptionHCOMUSenUS",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "205 €",
+          "exactCurrent": 205.09
+        }
+      },
+      "starRating": 0.0,
+      "supplierHotelId": 10428482,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "",
+        "streetAddress": "4 rue Elisée Reclus"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.83737,
+        "lon": -0.57928
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "exceptional",
+        "badgeText": "Exceptionnel",
+        "rating": "9,6",
+        "scale": 10,
+        "total": 116,
+        "unformattedRating": 9.6
+      },
+      "id": 644021344,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,4 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,0 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hôtel Cardinal",
+      "neighbourhood": "Hôtel de Ville - Quinconces",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/21000000/20100000/20094500/20094417/55071446_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "DoubleStamps|D13|TESCO",
+      "providerType": "LOCAL",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "302 €",
+          "exactCurrent": 302.24
+        }
+      },
+      "starRating": 0.0,
+      "supplierHotelId": 20094417,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "Gironde",
+        "streetAddress": "6/8 Rue Dijeaux"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.841092,
+        "lon": -0.574778
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "good",
+        "badgeText": "Bien",
+        "rating": "7,8",
+        "scale": 10,
+        "total": 176,
+        "unformattedRating": 7.8
+      },
+      "id": 400142,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,4 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "9,3 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Hotel de la Presse",
+      "neighbourhood": "Hôtel de Ville - Quinconces",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1340000/1337900/1337833/22cd7834_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "89 €",
+          "exactCurrent": 88.7
+        }
+      },
+      "starRating": 3.0,
+      "supplierHotelId": 1337833,
+      "urls": {}
+    },
+    {
+      "address": {
+        "countryCode": "fr",
+        "countryName": "France",
+        "extendedAddress": "",
+        "locality": "Bordeaux",
+        "obfuscate": false,
+        "postalCode": "33000",
+        "region": "",
+        "streetAddress": "27 rue manège"
+      },
+      "badging": {},
+      "coordinate": {
+        "lat": 44.840893,
+        "lon": -0.585558
+      },
+      "deals": {},
+      "geoBullets": [],
+      "guestReviews": {
+        "badge": "exceptional",
+        "badgeText": "Exceptionnel",
+        "rating": "10,0",
+        "scale": 10,
+        "total": 2,
+        "unformattedRating": 10.0
+      },
+      "id": 2023631744,
+      "isAlternative": false,
+      "landmarks": [
+        {
+          "distance": "0,4 km",
+          "label": "Centre-ville"
+        },
+        {
+          "distance": "8,5 km",
+          "label": "Bordeaux (BOD-Mérignac)"
+        }
+      ],
+      "messaging": {},
+      "name": "Maison Manège",
+      "neighbourhood": "Centre-ville de Bordeaux",
+      "optimizedThumbUrls": {
+        "srpDesktop": "https://exp.cdn-hotels.com/hotels/64000000/63210000/63207300/63207242/9050aaaf_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+      },
+      "pimmsAttributes": "D13|HRW",
+      "providerType": "MULTISOURCE",
+      "ratePlan": {
+        "features": {
+          "noCCRequired": false,
+          "paymentPreference": false
+        },
+        "price": {
+          "current": "123 €",
+          "exactCurrent": 122.7
+        }
+      },
+      "starRating": 0.0,
+      "supplierHotelId": 63207242,
+      "urls": {}
+    }
+  ],
+  "status": "success"
+}

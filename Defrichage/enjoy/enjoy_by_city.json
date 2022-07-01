@@ -1,0 +1,3983 @@
+{
+  "data": [
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadPj?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "Avenue Rockefeller"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadPj",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.803248",
+              "longitude": "2.126458"
+            },
+            "name": "GRANDE ECURIE DU CHATEAU DE VERSAILLES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8Kj_?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadPj?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7l1",
+            "name": "Theatre"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vAve",
+            "name": "Musical"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-18T16:00:00Z",
+          "localDate": "2022-06-18",
+          "localTime": "18:00:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "LA VOIE DE L’ECUYER – OPUS 2022Tous les samedis et dimanches à la grande Ecurie du Château de Versailles, l'Académie du spectacle équestre présente la Voie de l'écuyer, un spectacle chorégraphié par Bartabas. Ce corps de ballet unique au monde associe le travail de haute école avec d'autres disciplines telles que l'escrime, le chant ou le Kyudo.Durée 1H20, suivi de la visite libre des écuries. Arrivée conseillée 20 minutes avant le début du spectacle.",
+      "id": "rZ7SnyZ1Ad8Kj_",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LA VOIE DE L'ECUYER",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 28.2,
+          "min": 16.4,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "10279",
+        "name": "FRANCE BILLET"
+      },
+      "promoters": [
+        {
+          "id": "10279",
+          "name": "FRANCE BILLET"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-18T16:00:00Z",
+          "startDateTime": "2022-01-31T16:10:31Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/la-voie-de-l-ecuyer-billet/idmanif/519276/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadvE?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "Pl d'Armes - C.d'Honneur Porte B"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadvE",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.802326",
+              "longitude": "2.129806"
+            },
+            "name": "GALERIE DES GLACES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8_v4?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadvE?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7nE",
+            "name": "Cultural"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7v7nt",
+            "name": "Cultural"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-18T17:10:00Z",
+          "localDate": "2022-06-18",
+          "localTime": "19:10:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Les samedis soirs d’été,  après les Grandes Eaux Musicales ou avant les Grandes Eaux Nocturnes,  la Sérénade Royale de la Galerie des Glaces vous ouvre les portes des plus belles salles du Château de Versailles.En compagnie de danseurs baroques, de comédiens et de musiciens, vous serez guidés de la Chapelle Royale à la Cour Royale, en passant par la Galerie des Glaces et les Grands Appartements du Roi et de la Reine.A l’heure où le soleil se couche et à l'image de la Cour du XVIIe siècle, saynètes de théâtre, chant religieux, démonstrations de danse baroque et combats d’épée vous font revivre des scènes d’époque dont furent témoins les ors de Versailles. Informations pratiquesTous les samedis du 11 juin au 17 septembre 2022, le jeudi 14 juillet et le lundi 15 août.Séances: 18h30 - 18h50 - 19h10 - 19h30 - 20h00Parcours: Chapelle Royale, Grands Appartements, Galerie des Glaces, Cour de MarbreAccès à la Sérénade Royale de la Galerie des Glaces par la Cour d'Honneur, Porte B.Conditions d’accueil et de placement adaptées en fonction du protocole sanitaire en vigueur.Billet simple : La Sérénade Royale de la Galerie des GlacesOUBillet couplé : La Sérénade Royale de la Galerie des Glaces   Grandes Eaux Nocturnes dans les jardins (20h30)(tarifs FORFAIT)",
+      "id": "rZ7SnyZ1Ad8_v4",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LA SERENADE ROYALE 2022 - LA SERENADE ROYALE DE LA GALERIE DES GLACES",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 51.7,
+          "min": 27.5,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-18T17:10:00Z",
+          "startDateTime": "2022-02-18T14:21:26Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/la-serenade-royale-2022-billet/idmanif/520411/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadvE?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "Pl d'Armes - C.d'Honneur Porte B"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadvE",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.802326",
+              "longitude": "2.129806"
+            },
+            "name": "GALERIE DES GLACES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8_v9?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadvE?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7nE",
+            "name": "Cultural"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7v7nt",
+            "name": "Cultural"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-18T18:00:00Z",
+          "localDate": "2022-06-18",
+          "localTime": "20:00:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Les samedis soirs d’été,  après les Grandes Eaux Musicales ou avant les Grandes Eaux Nocturnes,  la Sérénade Royale de la Galerie des Glaces vous ouvre les portes des plus belles salles du Château de Versailles.En compagnie de danseurs baroques, de comédiens et de musiciens, vous serez guidés de la Chapelle Royale à la Cour Royale, en passant par la Galerie des Glaces et les Grands Appartements du Roi et de la Reine.A l’heure où le soleil se couche et à l'image de la Cour du XVIIe siècle, saynètes de théâtre, chant religieux, démonstrations de danse baroque et combats d’épée vous font revivre des scènes d’époque dont furent témoins les ors de Versailles. Informations pratiquesTous les samedis du 11 juin au 17 septembre 2022, le jeudi 14 juillet et le lundi 15 août.Séances: 18h30 - 18h50 - 19h10 - 19h30 - 20h00Parcours: Chapelle Royale, Grands Appartements, Galerie des Glaces, Cour de MarbreAccès à la Sérénade Royale de la Galerie des Glaces par la Cour d'Honneur, Porte B.Conditions d’accueil et de placement adaptées en fonction du protocole sanitaire en vigueur.Billet simple : La Sérénade Royale de la Galerie des GlacesOUBillet couplé : La Sérénade Royale de la Galerie des Glaces   Grandes Eaux Nocturnes dans les jardins (20h30)(tarifs FORFAIT)",
+      "id": "rZ7SnyZ1Ad8_v9",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LA SERENADE ROYALE 2022 - LA SERENADE ROYALE DE LA GALERIE DES GLACES",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 51.7,
+          "min": 27.5,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-18T18:00:00Z",
+          "startDateTime": "2022-02-18T14:21:26Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/la-serenade-royale-2022-billet/idmanif/520411/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadvE?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "Pl d'Armes - C.d'Honneur Porte B"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadvE",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.802326",
+              "longitude": "2.129806"
+            },
+            "name": "GALERIE DES GLACES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8_vK?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadvE?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7nE",
+            "name": "Cultural"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7v7nt",
+            "name": "Cultural"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-18T16:30:00Z",
+          "localDate": "2022-06-18",
+          "localTime": "18:30:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Les samedis soirs d’été,  après les Grandes Eaux Musicales ou avant les Grandes Eaux Nocturnes,  la Sérénade Royale de la Galerie des Glaces vous ouvre les portes des plus belles salles du Château de Versailles.En compagnie de danseurs baroques, de comédiens et de musiciens, vous serez guidés de la Chapelle Royale à la Cour Royale, en passant par la Galerie des Glaces et les Grands Appartements du Roi et de la Reine.A l’heure où le soleil se couche et à l'image de la Cour du XVIIe siècle, saynètes de théâtre, chant religieux, démonstrations de danse baroque et combats d’épée vous font revivre des scènes d’époque dont furent témoins les ors de Versailles. Informations pratiquesTous les samedis du 11 juin au 17 septembre 2022, le jeudi 14 juillet et le lundi 15 août.Séances: 18h30 - 18h50 - 19h10 - 19h30 - 20h00Parcours: Chapelle Royale, Grands Appartements, Galerie des Glaces, Cour de MarbreAccès à la Sérénade Royale de la Galerie des Glaces par la Cour d'Honneur, Porte B.Conditions d’accueil et de placement adaptées en fonction du protocole sanitaire en vigueur.Billet simple : La Sérénade Royale de la Galerie des GlacesOUBillet couplé : La Sérénade Royale de la Galerie des Glaces   Grandes Eaux Nocturnes dans les jardins (20h30)(tarifs FORFAIT)",
+      "id": "rZ7SnyZ1Ad8_vK",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LA SERENADE ROYALE 2022 - LA SERENADE ROYALE DE LA GALERIE DES GLACES",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 51.7,
+          "min": 27.5,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-18T16:30:00Z",
+          "startDateTime": "2022-02-18T14:21:26Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/la-serenade-royale-2022-billet/idmanif/520411/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadvE?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "Pl d'Armes - C.d'Honneur Porte B"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadvE",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.802326",
+              "longitude": "2.129806"
+            },
+            "name": "GALERIE DES GLACES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8_vf?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadvE?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7nE",
+            "name": "Cultural"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7v7nt",
+            "name": "Cultural"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-18T16:50:00Z",
+          "localDate": "2022-06-18",
+          "localTime": "18:50:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Les samedis soirs d’été,  après les Grandes Eaux Musicales ou avant les Grandes Eaux Nocturnes,  la Sérénade Royale de la Galerie des Glaces vous ouvre les portes des plus belles salles du Château de Versailles.En compagnie de danseurs baroques, de comédiens et de musiciens, vous serez guidés de la Chapelle Royale à la Cour Royale, en passant par la Galerie des Glaces et les Grands Appartements du Roi et de la Reine.A l’heure où le soleil se couche et à l'image de la Cour du XVIIe siècle, saynètes de théâtre, chant religieux, démonstrations de danse baroque et combats d’épée vous font revivre des scènes d’époque dont furent témoins les ors de Versailles. Informations pratiquesTous les samedis du 11 juin au 17 septembre 2022, le jeudi 14 juillet et le lundi 15 août.Séances: 18h30 - 18h50 - 19h10 - 19h30 - 20h00Parcours: Chapelle Royale, Grands Appartements, Galerie des Glaces, Cour de MarbreAccès à la Sérénade Royale de la Galerie des Glaces par la Cour d'Honneur, Porte B.Conditions d’accueil et de placement adaptées en fonction du protocole sanitaire en vigueur.Billet simple : La Sérénade Royale de la Galerie des GlacesOUBillet couplé : La Sérénade Royale de la Galerie des Glaces   Grandes Eaux Nocturnes dans les jardins (20h30)(tarifs FORFAIT)",
+      "id": "rZ7SnyZ1Ad8_vf",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LA SERENADE ROYALE 2022 - LA SERENADE ROYALE DE LA GALERIE DES GLACES",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 51.7,
+          "min": 27.5,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-18T16:50:00Z",
+          "startDateTime": "2022-02-18T14:21:26Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/la-serenade-royale-2022-billet/idmanif/520411/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadvE?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "Pl d'Armes - C.d'Honneur Porte B"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadvE",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.802326",
+              "longitude": "2.129806"
+            },
+            "name": "GALERIE DES GLACES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8_vp?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadvE?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7nE",
+            "name": "Cultural"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7v7nt",
+            "name": "Cultural"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-18T17:30:00Z",
+          "localDate": "2022-06-18",
+          "localTime": "19:30:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Les samedis soirs d’été,  après les Grandes Eaux Musicales ou avant les Grandes Eaux Nocturnes,  la Sérénade Royale de la Galerie des Glaces vous ouvre les portes des plus belles salles du Château de Versailles.En compagnie de danseurs baroques, de comédiens et de musiciens, vous serez guidés de la Chapelle Royale à la Cour Royale, en passant par la Galerie des Glaces et les Grands Appartements du Roi et de la Reine.A l’heure où le soleil se couche et à l'image de la Cour du XVIIe siècle, saynètes de théâtre, chant religieux, démonstrations de danse baroque et combats d’épée vous font revivre des scènes d’époque dont furent témoins les ors de Versailles. Informations pratiquesTous les samedis du 11 juin au 17 septembre 2022, le jeudi 14 juillet et le lundi 15 août.Séances: 18h30 - 18h50 - 19h10 - 19h30 - 20h00Parcours: Chapelle Royale, Grands Appartements, Galerie des Glaces, Cour de MarbreAccès à la Sérénade Royale de la Galerie des Glaces par la Cour d'Honneur, Porte B.Conditions d’accueil et de placement adaptées en fonction du protocole sanitaire en vigueur.Billet simple : La Sérénade Royale de la Galerie des GlacesOUBillet couplé : La Sérénade Royale de la Galerie des Glaces   Grandes Eaux Nocturnes dans les jardins (20h30)(tarifs FORFAIT)",
+      "id": "rZ7SnyZ1Ad8_vp",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LA SERENADE ROYALE 2022 - LA SERENADE ROYALE DE LA GALERIE DES GLACES",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 51.7,
+          "min": 27.5,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-18T17:30:00Z",
+          "startDateTime": "2022-02-18T14:21:26Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/la-serenade-royale-2022-billet/idmanif/520411/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZa7du?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "."
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZa7du",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.806044",
+              "longitude": "2.141024"
+            },
+            "name": "JARDINS DU CHATEAU DE VERSAILLES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8b0p?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZa7du?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7nE",
+            "name": "Cultural"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7v7nt",
+            "name": "Cultural"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-18T07:00:00Z",
+          "localDate": "2022-06-18",
+          "localTime": "09:00:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Chaque week-end, découvrez en famille ou entre amis, la splendeur des Jardins Royaux du Château de Versailles, le temps d'une promenade à travers les bosquets exceptionnellement ouverts au public. Les fontaines reprennent vie pour l’occasion et les musiques qui les ont autrefois animés raisonnent à nouveau. Mondialement connus, les jardins du Château de Versailles furent l’objet de toutes les attentions de Louis XIV. Ornés de fontaines, de vases et de statues, les bosquets du Jardin Royal auxquels on accède par des allées discrètes, vous invitent à une visite surprenante et féérique.  Les fontaines multiplient les effets pour notre plus grand plaisir. Lorsque les eaux jouent, c’est à un ballet que vous assistez. Les plus grands compositeurs baroques, de Lully à Charpentier ou Couperin, accompagnent votre flânerie royale en musique. Depuis plus de 350 ans les Grandes Eaux jouissent d’un succès jamais démenti, à votre tour de découvrir leur splendeur ! Critiques presse :Unique ! – Le Parisien Merveilleux ! – TF1Une ambiance magique digne de Louis XIV. – Sortir à ParisFéérique ! Un enchantement, fidèle à la tradition et à l'esprit d'origine. – France InfoÀ votre tour de les découvrir ou redécouvrir, en famille ou entre amis ! – France Inter Informations pratiques :Tous les samedis et dimanches du 2 avril jusqu'au 30 octobre 2022, sauf 1er mai 2022Vendredi 15 avril, jeudi 14 juillet et lundi 15 août 2022 et les tous les mardis du 3 mai au 28 juin 2022De 9h à 19h (*sauf les samedis du 11 juin au 24 septembre, jeudi 14 juillet, lundi 15 août et dimanche 30 octobre, fin à 17h30)- Le port du masque et les gestes barrières sont recommandés, notamment dans les files d’attentes.- Les Grandes Eaux Musicales ont lieu quelles que soient les conditions climatiques.- Parcours déambulatoire dans le Domaine de Versailles, pas de place assise.- Accessible aux personnes en fauteuil roulant.- Gratuit pour les moins de 5 ans- Toute sortie est définitive.",
+      "id": "rZ7SnyZ1Ad8b0p",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LES GRANDES EAUX MUSICALES 2022",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 11.5,
+          "min": 10.0,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-18T07:00:00Z",
+          "startDateTime": "2022-02-18T13:36:25Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/les-grandes-eaux-musicales-2022-billet/idmanif/520358/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZa7du?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "."
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZa7du",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.806044",
+              "longitude": "2.141024"
+            },
+            "name": "JARDINS DU CHATEAU DE VERSAILLES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8bqU?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZa7du?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7nE",
+            "name": "Cultural"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7v7nt",
+            "name": "Cultural"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-18T18:30:00Z",
+          "localDate": "2022-06-18",
+          "localTime": "20:30:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Tous les samedis soir d’été, les Jardins Royaux du Château de Versailles se parent de mille feux et vous invitent à un voyage à travers le temps au rythme de la musique du Roi Soleil. Une promenade féérique à la découverte des fontaines et un feu d’artifice final éblouissant pour les petits comme pour les grands !L’occasion unique de flâner dans les bosquets et les fontaines, habituellement fermés au public, mis en eau et en lumière. Redécouvrez au fil de votre déambulation les plus grands airs de la musique baroque de Lully à Charpentier, de Gluck à Rameau. Une expérience inédite et magique.Une promenade de 2h30 semée d'étonnement et de surprises avec en point d'orgue de magnifiques compositions de jets d'eau et des cascades de lumière au Bassin de Neptune, plus grand bassin des jardins du Château de Versailles.Pour clore cette soirée, les artificiers de Groupe F véritables magiciens de la pyrotechnie, vous donnent rendez-vous sur la Grande Perspective du parc pour vous offrir un feu d'artifice royal !Critiques presse :Féérique ! – TF1Grandiose. – KonbiniMagnifique. – Le ParisienUne soirée enchantée. – Le FigaroUn feu d'artifice royal […] pour une soirée inoubliable au Château de Versailles. – VogueA vivre absolument ! Un superbe feu d’artifice pour clôturer la soirée. – Sortir à ParisInformations pratiques :- Les Grandes Eaux Nocturnes ont lieu quelles que soient les conditions climatiques.- Parcours déambulatoire dans le Domaine de Versailles, pas de place assise.- Accessible aux personnes en fauteuil roulant.- Gratuit pour les moins de 5 ans- Toute sortie est définitive.- Parking sur la Place d'Armes devant le château (gratuit à partir de 19h00)",
+      "id": "rZ7SnyZ1Ad8bqU",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LES GRANDES EAUX NOCTURNES 2022",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 53.9,
+          "min": 27.5,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-18T18:30:00Z",
+          "startDateTime": "2022-02-18T14:20:32Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/les-grandes-eaux-nocturnes-2022-billet/idmanif/520338/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZFSnyZ7Fdk?locale=fr-fr"
+              }
+            },
+            "address": {
+              "line1": "10 rue de La Chancellerie"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZFSnyZ7Fdk",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_483_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.802493",
+              "longitude": "2.124001"
+            },
+            "name": "VERSAILLES PALAIS DES CONGRES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/versailles-palais-des-congres/idsite/483"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Adot1d?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZFSnyZ7Fdk?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7vAe1",
+            "name": "Comedy"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vF17",
+            "name": "Comedy"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-18T18:30:00Z",
+          "localDate": "2022-06-18",
+          "localTime": "20:30:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "id": "rZ7SnyZ1Adot1d",
+      "images": [
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "SANDRINE SARROCHE",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 45.0,
+          "min": 35.0,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "23552885",
+        "name": "SAS EPDC VERSAILLES"
+      },
+      "promoters": [
+        {
+          "id": "23552885",
+          "name": "SAS EPDC VERSAILLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-18T18:30:00Z",
+          "startDateTime": "2022-06-09T12:02:02Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/sandrine-sarroche-billet/idmanif/528063/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadTN?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "PLACE D'ARMES"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadTN",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.802326",
+              "longitude": "2.129806"
+            },
+            "name": "OPERA ROYAL",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Adu3P9?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadTN?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7l1",
+            "name": "Theatre"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vAve",
+            "name": "Musical"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-17T17:30:00Z",
+          "localDate": "2022-06-17",
+          "localTime": "19:30:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Lully - Molière : Le Bourgeois gentilhomme Comédie-ballet en cinq actes créée au Château de Chambord en 1670. Jean-Noël Brouté Le Maître tailleur, CovielleJulien Campani Le Maître de musique, DoranteIsabelle Candelier Madame JourdainManon Combes NicoleBénédicte Guilbert DorimèneFrancis Leplay Le Maître de philosophieLeslie Menu LucileNicolas Orlando Le Maître d’armesLaurent Podalydès Un laquaisPascal Rénéric Monsieur JourdainLéo Reynaud Un laquais, Danseur, Le Petit MuftiThibault Vinçon Le Maître de danse, CléonteWindy Antognelli, Flavie Hennion, Artemis Stavridis Danseuses Romain Champion, Cécile Grangier, Marc Labonnette, Francisco Mañalich ChanteursLes solistes de l’Ensemble La Révérence Denis Podalydès (sociétaire de la Comédie-Française) Mise en scène Christophe Coin Direction musicale Emmanuel Bourdieu Collaboration artistiqueÉric Ruf ScénographieStéphanie Daniel Lumières Christian Lacroix CostumesKaori Ito ChorégraphieVéronique Soulier-Nguyen Maquillages et coiffuresLaurent Podalydès Assistant mise en scèneDelphine Sainte-Marie Assistante scénographieJean-Philippe Pons Assistant costumes  Jeudi 9 juin – 19h30Vendredi 10 juin – 19h30Samedi 11 juin – 19hDimanche 12 juin – 15hMardi 14 juin – 19h30Mercredi 15 juin – 19h30Jeudi 16 juin – 19h30Vendredi 17 juin – 19h30Samedi 18 juin – 19hDimanche 19 juin – 15hOpéra RoyalSpectacle en français non surtitréDurée : 3h30 entracte inclusSpectacle à voir en famille Dans Le Bourgeois gentilhomme, Molière tire le portrait d’un aventurier de l’esprit n’ayant d’autre désir que d’échapper à sa condition de roturier pour poser le pied sur des territoires dont il est exclu… la découverte d’une terra incognita qui, de par sa naissance, lui est interdite. Pourquoi se moquer de Monsieur Jourdain ? Le bourgeois se pique simplement de découvrir ce qu’aujourd’hui nous nommons « la culture » et il s’attelle au vaste chantier de vivre ses rêves… Et qu’importe si ces rêves sont ceux d’un homme ridicule. En choisissant de redonner à la pièce sa forme originale d’une comédie-ballet mise en musique sur les partitions de Lully, Denis Podalydès convoque tous les arts. Avec cette fête de théâtre costumée par Christian Lacroix, il vise à cette apothéose des sens tant espérée par son héros interprété par Pascal Rénéric. Il s’agit bien évidemment de rire de la comédie. Mais, comment ne pas avoir de la tendresse pour cet homme sans qualité qui tente d’initier à lui tout seul la première révolution culturelle. Élevé après mille péripéties comiques au rang de « Mamamouchi », Monsieur Jourdain vit son heure de gloire en musique et en danse, malade de sa bourgeoisie, gentilhomme imaginaire, à la fois exaucé et battu, dupé et triomphant, en ce moment théâtral si rare où le ridicule fait place à l'émerveillement pur.Voici un monument, qui a fêté ses 350 ans en 2020, et dont la force reste intacte car l’écriture si habile de Molière parvient à nous suspendre aujourd’hui encore aux lèvres de ce bourgeois. Christophe Coin et Denis Podalydès se saisissent de ce classique et proposent une production pleine d’humour et de légèreté.Production C.I.C.T. - Théâtre des Bouffes du NordCoproduction Opéra Royal / Château de Versailles Spectacles, Les Nuits de Fourvière / Département du Rhône, Les Théâtres de la Ville de Luxembourg, Théâtre de Liège, Théâtre de Caen, Ensemble Baroque de Limoges / Fondation Laborie, Maison de la Culture d’Amiens / Pôle européen de création et de production, Châteauvallon - Scène nationale, Printemps des Comédiens / MontpellierAvec la participation artistique de l’ENSAD de Montpellier Languedoc Roussillon, de l’ENSATT et du JTNConstruction des décors Ateliers des Théâtres de la Ville de Luxembourg ; art & Oh - Benoit Probst Confection des costumes Ateliers du Théâtre de Liège",
+      "id": "rZ7SnyZ1Adu3P9",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LE BOURGEOIS GENTILHOMME - LULLY-MOLIERE : LE BOURGEOIS GENTILHOMME",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 93.5,
+          "min": 41.8,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-17T17:30:00Z",
+          "startDateTime": "2021-09-30T15:34:29Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/le-bourgeois-gentilhomme-billet/idmanif/510235/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadTN?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "PLACE D'ARMES"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadTN",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.802326",
+              "longitude": "2.129806"
+            },
+            "name": "OPERA ROYAL",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Adu3Pb?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadTN?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7l1",
+            "name": "Theatre"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vAve",
+            "name": "Musical"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-18T17:00:00Z",
+          "localDate": "2022-06-18",
+          "localTime": "19:00:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Lully - Molière : Le Bourgeois gentilhomme Comédie-ballet en cinq actes créée au Château de Chambord en 1670. Jean-Noël Brouté Le Maître tailleur, CovielleJulien Campani Le Maître de musique, DoranteIsabelle Candelier Madame JourdainManon Combes NicoleBénédicte Guilbert DorimèneFrancis Leplay Le Maître de philosophieLeslie Menu LucileNicolas Orlando Le Maître d’armesLaurent Podalydès Un laquaisPascal Rénéric Monsieur JourdainLéo Reynaud Un laquais, Danseur, Le Petit MuftiThibault Vinçon Le Maître de danse, CléonteWindy Antognelli, Flavie Hennion, Artemis Stavridis Danseuses Romain Champion, Cécile Grangier, Marc Labonnette, Francisco Mañalich ChanteursLes solistes de l’Ensemble La Révérence Denis Podalydès (sociétaire de la Comédie-Française) Mise en scène Christophe Coin Direction musicale Emmanuel Bourdieu Collaboration artistiqueÉric Ruf ScénographieStéphanie Daniel Lumières Christian Lacroix CostumesKaori Ito ChorégraphieVéronique Soulier-Nguyen Maquillages et coiffuresLaurent Podalydès Assistant mise en scèneDelphine Sainte-Marie Assistante scénographieJean-Philippe Pons Assistant costumes  Jeudi 9 juin – 19h30Vendredi 10 juin – 19h30Samedi 11 juin – 19hDimanche 12 juin – 15hMardi 14 juin – 19h30Mercredi 15 juin – 19h30Jeudi 16 juin – 19h30Vendredi 17 juin – 19h30Samedi 18 juin – 19hDimanche 19 juin – 15hOpéra RoyalSpectacle en français non surtitréDurée : 3h30 entracte inclusSpectacle à voir en famille Dans Le Bourgeois gentilhomme, Molière tire le portrait d’un aventurier de l’esprit n’ayant d’autre désir que d’échapper à sa condition de roturier pour poser le pied sur des territoires dont il est exclu… la découverte d’une terra incognita qui, de par sa naissance, lui est interdite. Pourquoi se moquer de Monsieur Jourdain ? Le bourgeois se pique simplement de découvrir ce qu’aujourd’hui nous nommons « la culture » et il s’attelle au vaste chantier de vivre ses rêves… Et qu’importe si ces rêves sont ceux d’un homme ridicule. En choisissant de redonner à la pièce sa forme originale d’une comédie-ballet mise en musique sur les partitions de Lully, Denis Podalydès convoque tous les arts. Avec cette fête de théâtre costumée par Christian Lacroix, il vise à cette apothéose des sens tant espérée par son héros interprété par Pascal Rénéric. Il s’agit bien évidemment de rire de la comédie. Mais, comment ne pas avoir de la tendresse pour cet homme sans qualité qui tente d’initier à lui tout seul la première révolution culturelle. Élevé après mille péripéties comiques au rang de « Mamamouchi », Monsieur Jourdain vit son heure de gloire en musique et en danse, malade de sa bourgeoisie, gentilhomme imaginaire, à la fois exaucé et battu, dupé et triomphant, en ce moment théâtral si rare où le ridicule fait place à l'émerveillement pur.Voici un monument, qui a fêté ses 350 ans en 2020, et dont la force reste intacte car l’écriture si habile de Molière parvient à nous suspendre aujourd’hui encore aux lèvres de ce bourgeois. Christophe Coin et Denis Podalydès se saisissent de ce classique et proposent une production pleine d’humour et de légèreté.Production C.I.C.T. - Théâtre des Bouffes du NordCoproduction Opéra Royal / Château de Versailles Spectacles, Les Nuits de Fourvière / Département du Rhône, Les Théâtres de la Ville de Luxembourg, Théâtre de Liège, Théâtre de Caen, Ensemble Baroque de Limoges / Fondation Laborie, Maison de la Culture d’Amiens / Pôle européen de création et de production, Châteauvallon - Scène nationale, Printemps des Comédiens / MontpellierAvec la participation artistique de l’ENSAD de Montpellier Languedoc Roussillon, de l’ENSATT et du JTNConstruction des décors Ateliers des Théâtres de la Ville de Luxembourg ; art & Oh - Benoit Probst Confection des costumes Ateliers du Théâtre de Liège",
+      "id": "rZ7SnyZ1Adu3Pb",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LE BOURGEOIS GENTILHOMME - LULLY-MOLIERE : LE BOURGEOIS GENTILHOMME",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 93.5,
+          "min": 41.8,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-18T17:00:00Z",
+          "startDateTime": "2021-09-30T15:34:29Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/le-bourgeois-gentilhomme-billet/idmanif/510235/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadTN?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "PLACE D'ARMES"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadTN",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.802326",
+              "longitude": "2.129806"
+            },
+            "name": "OPERA ROYAL",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Adu3Pp?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadTN?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7l1",
+            "name": "Theatre"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vAve",
+            "name": "Musical"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-16T17:30:00Z",
+          "localDate": "2022-06-16",
+          "localTime": "19:30:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "offsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Lully - Molière : Le Bourgeois gentilhomme Comédie-ballet en cinq actes créée au Château de Chambord en 1670. Jean-Noël Brouté Le Maître tailleur, CovielleJulien Campani Le Maître de musique, DoranteIsabelle Candelier Madame JourdainManon Combes NicoleBénédicte Guilbert DorimèneFrancis Leplay Le Maître de philosophieLeslie Menu LucileNicolas Orlando Le Maître d’armesLaurent Podalydès Un laquaisPascal Rénéric Monsieur JourdainLéo Reynaud Un laquais, Danseur, Le Petit MuftiThibault Vinçon Le Maître de danse, CléonteWindy Antognelli, Flavie Hennion, Artemis Stavridis Danseuses Romain Champion, Cécile Grangier, Marc Labonnette, Francisco Mañalich ChanteursLes solistes de l’Ensemble La Révérence Denis Podalydès (sociétaire de la Comédie-Française) Mise en scène Christophe Coin Direction musicale Emmanuel Bourdieu Collaboration artistiqueÉric Ruf ScénographieStéphanie Daniel Lumières Christian Lacroix CostumesKaori Ito ChorégraphieVéronique Soulier-Nguyen Maquillages et coiffuresLaurent Podalydès Assistant mise en scèneDelphine Sainte-Marie Assistante scénographieJean-Philippe Pons Assistant costumes  Jeudi 9 juin – 19h30Vendredi 10 juin – 19h30Samedi 11 juin – 19hDimanche 12 juin – 15hMardi 14 juin – 19h30Mercredi 15 juin – 19h30Jeudi 16 juin – 19h30Vendredi 17 juin – 19h30Samedi 18 juin – 19hDimanche 19 juin – 15hOpéra RoyalSpectacle en français non surtitréDurée : 3h30 entracte inclusSpectacle à voir en famille Dans Le Bourgeois gentilhomme, Molière tire le portrait d’un aventurier de l’esprit n’ayant d’autre désir que d’échapper à sa condition de roturier pour poser le pied sur des territoires dont il est exclu… la découverte d’une terra incognita qui, de par sa naissance, lui est interdite. Pourquoi se moquer de Monsieur Jourdain ? Le bourgeois se pique simplement de découvrir ce qu’aujourd’hui nous nommons « la culture » et il s’attelle au vaste chantier de vivre ses rêves… Et qu’importe si ces rêves sont ceux d’un homme ridicule. En choisissant de redonner à la pièce sa forme originale d’une comédie-ballet mise en musique sur les partitions de Lully, Denis Podalydès convoque tous les arts. Avec cette fête de théâtre costumée par Christian Lacroix, il vise à cette apothéose des sens tant espérée par son héros interprété par Pascal Rénéric. Il s’agit bien évidemment de rire de la comédie. Mais, comment ne pas avoir de la tendresse pour cet homme sans qualité qui tente d’initier à lui tout seul la première révolution culturelle. Élevé après mille péripéties comiques au rang de « Mamamouchi », Monsieur Jourdain vit son heure de gloire en musique et en danse, malade de sa bourgeoisie, gentilhomme imaginaire, à la fois exaucé et battu, dupé et triomphant, en ce moment théâtral si rare où le ridicule fait place à l'émerveillement pur.Voici un monument, qui a fêté ses 350 ans en 2020, et dont la force reste intacte car l’écriture si habile de Molière parvient à nous suspendre aujourd’hui encore aux lèvres de ce bourgeois. Christophe Coin et Denis Podalydès se saisissent de ce classique et proposent une production pleine d’humour et de légèreté.Production C.I.C.T. - Théâtre des Bouffes du NordCoproduction Opéra Royal / Château de Versailles Spectacles, Les Nuits de Fourvière / Département du Rhône, Les Théâtres de la Ville de Luxembourg, Théâtre de Liège, Théâtre de Caen, Ensemble Baroque de Limoges / Fondation Laborie, Maison de la Culture d’Amiens / Pôle européen de création et de production, Châteauvallon - Scène nationale, Printemps des Comédiens / MontpellierAvec la participation artistique de l’ENSAD de Montpellier Languedoc Roussillon, de l’ENSATT et du JTNConstruction des décors Ateliers des Théâtres de la Ville de Luxembourg ; art & Oh - Benoit Probst Confection des costumes Ateliers du Théâtre de Liège",
+      "id": "rZ7SnyZ1Adu3Pp",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LE BOURGEOIS GENTILHOMME - LULLY-MOLIERE : LE BOURGEOIS GENTILHOMME",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 93.5,
+          "min": 41.8,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-16T17:30:00Z",
+          "startDateTime": "2021-09-30T15:34:29Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/le-bourgeois-gentilhomme-billet/idmanif/510235/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadjc?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "Autoroute A13 sortie Versailles CentreStationnement des voitures (stationnement payant)Coordonnées GPS du château de Versailles : 48°48’17N2°07’15E",
+            "address": {
+              "line1": "PAVILLON DUFOUR - ENTREE A"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadjc",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_12263_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.813681",
+              "longitude": "2.102044"
+            },
+            "name": "CHATEAU DE VERSAILLES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-de-versailles/idsite/12263"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad88_P?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadjc?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7nE",
+            "name": "Cultural"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7v7nt",
+            "name": "Cultural"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-19T12:30:00Z",
+          "localDate": "2022-06-19",
+          "localTime": "14:30:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "LES GRANDES HEURES DES JARDINSEn 1686, Versailles est le théâtre d’une grande ambassade en provenance du Siam de laquelle va naître une grande passion Française pour l’exotisme. C’est dans ce contexte que Louise-Vivienne de Lésine, une demoiselle de compagnie de Madame de Palatine, belle-sœur du Roi, va tomber amoureuse de Kosa-Pan, le très sage ambassadeur de la délégation Thaïlandaise. Comment ces deux amants ont-ils su abolir les frontières culturelles et les préjugés de leur époque, et comment « deux heures enchantées » dans les jardins du palais de Versailles ont suffi pour engendrer une véritable mode pour les étoffes « Siamoises » au grand siècle ? C’est ce que vous découvrirez en compagnie d’un guide-conteur au cours d’une ballade hors du temps au cœur de la féérie des « Grandes Eaux Musicales » des jardins du Roi Soleil.Horaires & dates : Les dimanches à 15h00Durée : 2h00 Lieu de de rendez-vous : Caisse des billets Grandes-Eaux, Parterre Sud, 78000 Versailles (Devant les kiosques de billetterie des jardins, au bout du passage des princes)RER C : Versailles Château Les enfants mineurs doivent être accompagnés d’un adulteGratuit pour les enfants de moins de 8 ansLe prix du ticket d’entrée dans les jardins de Versailles est déjà compris dans le prix du billet.Merci de présenter votre réservation /billet électronique au comédien avant la visite.  Prévoir d’arriver 15 min avant le début de la visite.",
+      "id": "rZ7SnyZ1Ad88_P",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LES GRANDES HEURES DES JARDINS",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 99.0,
+          "min": 23.0,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "23589818",
+        "name": "PRODUCTIONS ADONIS"
+      },
+      "promoters": [
+        {
+          "id": "23589818",
+          "name": "PRODUCTIONS ADONIS"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-19T12:30:00Z",
+          "startDateTime": "2022-01-19T14:24:08Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/les-grandes-heures-des-jardins-billet/idmanif/497697/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadPj?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "Avenue Rockefeller"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadPj",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.803248",
+              "longitude": "2.126458"
+            },
+            "name": "GRANDE ECURIE DU CHATEAU DE VERSAILLES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8KjO?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadPj?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7l1",
+            "name": "Theatre"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vAve",
+            "name": "Musical"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-19T13:00:00Z",
+          "localDate": "2022-06-19",
+          "localTime": "15:00:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "LA VOIE DE L’ECUYER – OPUS 2022Tous les samedis et dimanches à la grande Ecurie du Château de Versailles, l'Académie du spectacle équestre présente la Voie de l'écuyer, un spectacle chorégraphié par Bartabas. Ce corps de ballet unique au monde associe le travail de haute école avec d'autres disciplines telles que l'escrime, le chant ou le Kyudo.Durée 1H20, suivi de la visite libre des écuries. Arrivée conseillée 20 minutes avant le début du spectacle.",
+      "id": "rZ7SnyZ1Ad8KjO",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LA VOIE DE L'ECUYER",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 28.2,
+          "min": 16.4,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "10279",
+        "name": "FRANCE BILLET"
+      },
+      "promoters": [
+        {
+          "id": "10279",
+          "name": "FRANCE BILLET"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-19T13:00:00Z",
+          "startDateTime": "2022-01-31T16:10:31Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/la-voie-de-l-ecuyer-billet/idmanif/519276/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZa7du?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "."
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZa7du",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.806044",
+              "longitude": "2.141024"
+            },
+            "name": "JARDINS DU CHATEAU DE VERSAILLES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8b09?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZa7du?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7nE",
+            "name": "Cultural"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7v7nt",
+            "name": "Cultural"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-19T07:00:00Z",
+          "localDate": "2022-06-19",
+          "localTime": "09:00:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Chaque week-end, découvrez en famille ou entre amis, la splendeur des Jardins Royaux du Château de Versailles, le temps d'une promenade à travers les bosquets exceptionnellement ouverts au public. Les fontaines reprennent vie pour l’occasion et les musiques qui les ont autrefois animés raisonnent à nouveau. Mondialement connus, les jardins du Château de Versailles furent l’objet de toutes les attentions de Louis XIV. Ornés de fontaines, de vases et de statues, les bosquets du Jardin Royal auxquels on accède par des allées discrètes, vous invitent à une visite surprenante et féérique.  Les fontaines multiplient les effets pour notre plus grand plaisir. Lorsque les eaux jouent, c’est à un ballet que vous assistez. Les plus grands compositeurs baroques, de Lully à Charpentier ou Couperin, accompagnent votre flânerie royale en musique. Depuis plus de 350 ans les Grandes Eaux jouissent d’un succès jamais démenti, à votre tour de découvrir leur splendeur ! Critiques presse :Unique ! – Le Parisien Merveilleux ! – TF1Une ambiance magique digne de Louis XIV. – Sortir à ParisFéérique ! Un enchantement, fidèle à la tradition et à l'esprit d'origine. – France InfoÀ votre tour de les découvrir ou redécouvrir, en famille ou entre amis ! – France Inter Informations pratiques :Tous les samedis et dimanches du 2 avril jusqu'au 30 octobre 2022, sauf 1er mai 2022Vendredi 15 avril, jeudi 14 juillet et lundi 15 août 2022 et les tous les mardis du 3 mai au 28 juin 2022De 9h à 19h (*sauf les samedis du 11 juin au 24 septembre, jeudi 14 juillet, lundi 15 août et dimanche 30 octobre, fin à 17h30)- Le port du masque et les gestes barrières sont recommandés, notamment dans les files d’attentes.- Les Grandes Eaux Musicales ont lieu quelles que soient les conditions climatiques.- Parcours déambulatoire dans le Domaine de Versailles, pas de place assise.- Accessible aux personnes en fauteuil roulant.- Gratuit pour les moins de 5 ans- Toute sortie est définitive.",
+      "id": "rZ7SnyZ1Ad8b09",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LES GRANDES EAUX MUSICALES 2022",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 11.5,
+          "min": 10.0,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-19T07:00:00Z",
+          "startDateTime": "2022-02-18T13:36:25Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/les-grandes-eaux-musicales-2022-billet/idmanif/520358/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadTN?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "PLACE D'ARMES"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadTN",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.802326",
+              "longitude": "2.129806"
+            },
+            "name": "OPERA ROYAL",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Adu3P_?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadTN?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7l1",
+            "name": "Theatre"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vAve",
+            "name": "Musical"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-19T13:00:00Z",
+          "localDate": "2022-06-19",
+          "localTime": "15:00:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Lully - Molière : Le Bourgeois gentilhomme Comédie-ballet en cinq actes créée au Château de Chambord en 1670. Jean-Noël Brouté Le Maître tailleur, CovielleJulien Campani Le Maître de musique, DoranteIsabelle Candelier Madame JourdainManon Combes NicoleBénédicte Guilbert DorimèneFrancis Leplay Le Maître de philosophieLeslie Menu LucileNicolas Orlando Le Maître d’armesLaurent Podalydès Un laquaisPascal Rénéric Monsieur JourdainLéo Reynaud Un laquais, Danseur, Le Petit MuftiThibault Vinçon Le Maître de danse, CléonteWindy Antognelli, Flavie Hennion, Artemis Stavridis Danseuses Romain Champion, Cécile Grangier, Marc Labonnette, Francisco Mañalich ChanteursLes solistes de l’Ensemble La Révérence Denis Podalydès (sociétaire de la Comédie-Française) Mise en scène Christophe Coin Direction musicale Emmanuel Bourdieu Collaboration artistiqueÉric Ruf ScénographieStéphanie Daniel Lumières Christian Lacroix CostumesKaori Ito ChorégraphieVéronique Soulier-Nguyen Maquillages et coiffuresLaurent Podalydès Assistant mise en scèneDelphine Sainte-Marie Assistante scénographieJean-Philippe Pons Assistant costumes  Jeudi 9 juin – 19h30Vendredi 10 juin – 19h30Samedi 11 juin – 19hDimanche 12 juin – 15hMardi 14 juin – 19h30Mercredi 15 juin – 19h30Jeudi 16 juin – 19h30Vendredi 17 juin – 19h30Samedi 18 juin – 19hDimanche 19 juin – 15hOpéra RoyalSpectacle en français non surtitréDurée : 3h30 entracte inclusSpectacle à voir en famille Dans Le Bourgeois gentilhomme, Molière tire le portrait d’un aventurier de l’esprit n’ayant d’autre désir que d’échapper à sa condition de roturier pour poser le pied sur des territoires dont il est exclu… la découverte d’une terra incognita qui, de par sa naissance, lui est interdite. Pourquoi se moquer de Monsieur Jourdain ? Le bourgeois se pique simplement de découvrir ce qu’aujourd’hui nous nommons « la culture » et il s’attelle au vaste chantier de vivre ses rêves… Et qu’importe si ces rêves sont ceux d’un homme ridicule. En choisissant de redonner à la pièce sa forme originale d’une comédie-ballet mise en musique sur les partitions de Lully, Denis Podalydès convoque tous les arts. Avec cette fête de théâtre costumée par Christian Lacroix, il vise à cette apothéose des sens tant espérée par son héros interprété par Pascal Rénéric. Il s’agit bien évidemment de rire de la comédie. Mais, comment ne pas avoir de la tendresse pour cet homme sans qualité qui tente d’initier à lui tout seul la première révolution culturelle. Élevé après mille péripéties comiques au rang de « Mamamouchi », Monsieur Jourdain vit son heure de gloire en musique et en danse, malade de sa bourgeoisie, gentilhomme imaginaire, à la fois exaucé et battu, dupé et triomphant, en ce moment théâtral si rare où le ridicule fait place à l'émerveillement pur.Voici un monument, qui a fêté ses 350 ans en 2020, et dont la force reste intacte car l’écriture si habile de Molière parvient à nous suspendre aujourd’hui encore aux lèvres de ce bourgeois. Christophe Coin et Denis Podalydès se saisissent de ce classique et proposent une production pleine d’humour et de légèreté.Production C.I.C.T. - Théâtre des Bouffes du NordCoproduction Opéra Royal / Château de Versailles Spectacles, Les Nuits de Fourvière / Département du Rhône, Les Théâtres de la Ville de Luxembourg, Théâtre de Liège, Théâtre de Caen, Ensemble Baroque de Limoges / Fondation Laborie, Maison de la Culture d’Amiens / Pôle européen de création et de production, Châteauvallon - Scène nationale, Printemps des Comédiens / MontpellierAvec la participation artistique de l’ENSAD de Montpellier Languedoc Roussillon, de l’ENSATT et du JTNConstruction des décors Ateliers des Théâtres de la Ville de Luxembourg ; art & Oh - Benoit Probst Confection des costumes Ateliers du Théâtre de Liège",
+      "id": "rZ7SnyZ1Adu3P_",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LE BOURGEOIS GENTILHOMME - LULLY-MOLIERE : LE BOURGEOIS GENTILHOMME",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 93.5,
+          "min": 41.8,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-19T13:00:00Z",
+          "startDateTime": "2021-09-30T15:34:29Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/le-bourgeois-gentilhomme-billet/idmanif/510235/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZa7du?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "."
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZa7du",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.806044",
+              "longitude": "2.141024"
+            },
+            "name": "JARDINS DU CHATEAU DE VERSAILLES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8b0b?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZa7du?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7nE",
+            "name": "Cultural"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7v7nt",
+            "name": "Cultural"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-21T07:00:00Z",
+          "localDate": "2022-06-21",
+          "localTime": "09:00:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Chaque week-end, découvrez en famille ou entre amis, la splendeur des Jardins Royaux du Château de Versailles, le temps d'une promenade à travers les bosquets exceptionnellement ouverts au public. Les fontaines reprennent vie pour l’occasion et les musiques qui les ont autrefois animés raisonnent à nouveau. Mondialement connus, les jardins du Château de Versailles furent l’objet de toutes les attentions de Louis XIV. Ornés de fontaines, de vases et de statues, les bosquets du Jardin Royal auxquels on accède par des allées discrètes, vous invitent à une visite surprenante et féérique.  Les fontaines multiplient les effets pour notre plus grand plaisir. Lorsque les eaux jouent, c’est à un ballet que vous assistez. Les plus grands compositeurs baroques, de Lully à Charpentier ou Couperin, accompagnent votre flânerie royale en musique. Depuis plus de 350 ans les Grandes Eaux jouissent d’un succès jamais démenti, à votre tour de découvrir leur splendeur ! Critiques presse :Unique ! – Le Parisien Merveilleux ! – TF1Une ambiance magique digne de Louis XIV. – Sortir à ParisFéérique ! Un enchantement, fidèle à la tradition et à l'esprit d'origine. – France InfoÀ votre tour de les découvrir ou redécouvrir, en famille ou entre amis ! – France Inter Informations pratiques :Tous les samedis et dimanches du 2 avril jusqu'au 30 octobre 2022, sauf 1er mai 2022Vendredi 15 avril, jeudi 14 juillet et lundi 15 août 2022 et les tous les mardis du 3 mai au 28 juin 2022De 9h à 19h (*sauf les samedis du 11 juin au 24 septembre, jeudi 14 juillet, lundi 15 août et dimanche 30 octobre, fin à 17h30)- Le port du masque et les gestes barrières sont recommandés, notamment dans les files d’attentes.- Les Grandes Eaux Musicales ont lieu quelles que soient les conditions climatiques.- Parcours déambulatoire dans le Domaine de Versailles, pas de place assise.- Accessible aux personnes en fauteuil roulant.- Gratuit pour les moins de 5 ans- Toute sortie est définitive.",
+      "id": "rZ7SnyZ1Ad8b0b",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LES GRANDES EAUX MUSICALES 2022",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 11.5,
+          "min": 10.0,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-21T07:00:00Z",
+          "startDateTime": "2022-02-18T13:36:25Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/les-grandes-eaux-musicales-2022-billet/idmanif/520358/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadTN?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "PLACE D'ARMES"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadTN",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.802326",
+              "longitude": "2.129806"
+            },
+            "name": "OPERA ROYAL",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Adu3PI?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadTN?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7nJ",
+            "name": "Classical"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7v7nE",
+            "name": "Classical/Vocal"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-23T18:00:00Z",
+          "localDate": "2022-06-23",
+          "localTime": "20:00:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Rameau : Nouvelle Symphonie Thomas Dolié BarytonLes Musiciens du LouvreMarc Minkowski DirectionJeudi 23 juin – 20hOpéra RoyalDurée : 1h15 sans entracte",
+      "id": "rZ7SnyZ1Adu3PI",
+      "images": [
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        },
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "NOUVELLE SYMPHONIE IMAGINAIRE - RAMEAU : NOUVELLE SYMPHONIE IMAGINAIRE",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 93.5,
+          "min": 41.8,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-23T18:00:00Z",
+          "startDateTime": "2021-09-30T15:34:08Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/nouvelle-symphonie-imaginaire-billet/idmanif/510240/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadPj?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "Avenue Rockefeller"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadPj",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.803248",
+              "longitude": "2.126458"
+            },
+            "name": "GRANDE ECURIE DU CHATEAU DE VERSAILLES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8Kj-?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadPj?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7l1",
+            "name": "Theatre"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vAve",
+            "name": "Musical"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-25T16:00:00Z",
+          "localDate": "2022-06-25",
+          "localTime": "18:00:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "LA VOIE DE L’ECUYER – OPUS 2022Tous les samedis et dimanches à la grande Ecurie du Château de Versailles, l'Académie du spectacle équestre présente la Voie de l'écuyer, un spectacle chorégraphié par Bartabas. Ce corps de ballet unique au monde associe le travail de haute école avec d'autres disciplines telles que l'escrime, le chant ou le Kyudo.Durée 1H20, suivi de la visite libre des écuries. Arrivée conseillée 20 minutes avant le début du spectacle.",
+      "id": "rZ7SnyZ1Ad8Kj-",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LA VOIE DE L'ECUYER",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 28.2,
+          "min": 16.4,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "10279",
+        "name": "FRANCE BILLET"
+      },
+      "promoters": [
+        {
+          "id": "10279",
+          "name": "FRANCE BILLET"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-25T16:00:00Z",
+          "startDateTime": "2022-01-31T16:10:31Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/la-voie-de-l-ecuyer-billet/idmanif/519276/idtier/18864121"
+    },
+    {
+      "_embedded": {
+        "venues": [
+          {
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/rZ7SnyZadvE?locale=fr-fr"
+              }
+            },
+            "additionalInfo": "<p>Navette Versailles Express depuis la Tour Eiffel à Paris du mardi au dimanche :<br>Départ à 7h45, retour à 15h15 <br>Départ à 9h45, retour à 15h15<br>Départ à 13h30, retour à 18h<br>Bus RATP 171 à partir de Pont de Sèvres (30 minutes sans circulation)<br>Bus TRI / réseau Phébus de Versailles entre la gare de Versailles Chantiers, la gare de Versailles Château Rive Gauche, le château de Versailles, la gare de Versailles Rive Droite et les châteaux de Trianon (terminus « Les Trianons »)</p> <p>Depuis l’autoroute A13, sortie n°5 Versailles Centre et suivre les indications pour le Château de Versailles.<br>Coordonnées GPS du château de Versailles : 48°48’17N et 2°07’15E</p>",
+            "address": {
+              "line1": "Pl d'Armes - C.d'Honneur Porte B"
+            },
+            "city": {
+              "name": "Versailles"
+            },
+            "country": {
+              "countryCode": "FR",
+              "name": "France"
+            },
+            "id": "rZ7SnyZadvE",
+            "images": [
+              {
+                "fallback": false,
+                "url": "https://static.ticketmaster.fr/static/images/photos-salles/s_679_4.jpg"
+              }
+            ],
+            "locale": "fr-fr",
+            "location": {
+              "latitude": "48.802326",
+              "longitude": "2.129806"
+            },
+            "name": "GALERIE DES GLACES",
+            "postalCode": "78000",
+            "state": {
+              "name": "Idf",
+              "stateCode": "78"
+            },
+            "test": false,
+            "timezone": "Europe/Paris",
+            "type": "venue",
+            "upcomingEvents": {
+              "_filtered": 0,
+              "_total": 0
+            },
+            "url": "https://www.ticketmaster.fr/fr/salle/chateau-versailles/idsite/679"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/rZ7SnyZ1Ad8_v-?locale=fr-fr"
+        },
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/rZ7SnyZadvE?locale=fr-fr"
+          }
+        ]
+      },
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7nE",
+            "name": "Cultural"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7na",
+            "name": "Arts & Theatre"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7v7nt",
+            "name": "Cultural"
+          }
+        }
+      ],
+      "dates": {
+        "spanMultipleDays": false,
+        "start": {
+          "dateTBA": false,
+          "dateTBD": false,
+          "dateTime": "2022-06-25T17:30:00Z",
+          "localDate": "2022-06-25",
+          "localTime": "19:30:00",
+          "noSpecificTime": false,
+          "timeTBA": false
+        },
+        "status": {
+          "code": "onsale"
+        },
+        "timezone": "Europe/Paris"
+      },
+      "description": "Les samedis soirs d’été,  après les Grandes Eaux Musicales ou avant les Grandes Eaux Nocturnes,  la Sérénade Royale de la Galerie des Glaces vous ouvre les portes des plus belles salles du Château de Versailles.En compagnie de danseurs baroques, de comédiens et de musiciens, vous serez guidés de la Chapelle Royale à la Cour Royale, en passant par la Galerie des Glaces et les Grands Appartements du Roi et de la Reine.A l’heure où le soleil se couche et à l'image de la Cour du XVIIe siècle, saynètes de théâtre, chant religieux, démonstrations de danse baroque et combats d’épée vous font revivre des scènes d’époque dont furent témoins les ors de Versailles. Informations pratiquesTous les samedis du 11 juin au 17 septembre 2022, le jeudi 14 juillet et le lundi 15 août.Séances: 18h30 - 18h50 - 19h10 - 19h30 - 20h00Parcours: Chapelle Royale, Grands Appartements, Galerie des Glaces, Cour de MarbreAccès à la Sérénade Royale de la Galerie des Glaces par la Cour d'Honneur, Porte B.Conditions d’accueil et de placement adaptées en fonction du protocole sanitaire en vigueur.Billet simple : La Sérénade Royale de la Galerie des GlacesOUBillet couplé : La Sérénade Royale de la Galerie des Glaces   Grandes Eaux Nocturnes dans les jardins (20h30)(tarifs FORFAIT)",
+      "id": "rZ7SnyZ1Ad8_v-",
+      "images": [
+        {
+          "fallback": true,
+          "height": 360,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 639,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136
+        },
+        {
+          "fallback": true,
+          "height": 427,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640
+        },
+        {
+          "fallback": true,
+          "height": 683,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 225,
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_CUSTOM.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 576,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024
+        },
+        {
+          "fallback": true,
+          "height": 203,
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_ARTIST_PAGE_3_2.jpg",
+          "width": 305
+        },
+        {
+          "fallback": true,
+          "height": 56,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_RECOMENDATION_16_9.jpg",
+          "width": 100
+        },
+        {
+          "fallback": true,
+          "height": 115,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205
+        },
+        {
+          "fallback": true,
+          "height": 1152,
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048
+        }
+      ],
+      "locale": "fr-fr",
+      "name": "LA SERENADE ROYALE 2022 - LA SERENADE ROYALE DE LA GALERIE DES GLACES",
+      "priceRanges": [
+        {
+          "currency": "EUR",
+          "max": 51.7,
+          "min": 27.5,
+          "type": "standard"
+        }
+      ],
+      "promoter": {
+        "id": "2271243",
+        "name": "CHATEAU VERSAILLES SPECTACLES"
+      },
+      "promoters": [
+        {
+          "id": "2271243",
+          "name": "CHATEAU VERSAILLES SPECTACLES"
+        }
+      ],
+      "sales": {
+        "public": {
+          "endDateTime": "2022-06-25T17:30:00Z",
+          "startDateTime": "2022-02-18T14:21:26Z",
+          "startTBA": false,
+          "startTBD": false
+        }
+      },
+      "test": false,
+      "type": "event",
+      "url": "https://www.ticketmaster.fr/fr/manifestation/la-serenade-royale-2022-billet/idmanif/520411/idtier/18864121"
+    }
+  ],
+  "status": "success"
+}

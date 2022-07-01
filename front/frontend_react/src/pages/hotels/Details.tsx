@@ -1,8 +1,7 @@
-import { Header, Stars } from 'components';
-import { HotelDetails } from 'lib/data.types';
-import React from 'react';
-import { useParams } from 'react-router-dom';
-import { mockedHotelDetailsEn } from '__mocks__/dataMock';
+import { ActivityCard, Header, Loading, Stars } from 'components';
+import { DrinkActivity, EnjoyActivity, HotelDetails } from 'lib/data.types';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation, Autoplay } from 'swiper';
 import cn from 'classnames';
@@ -12,13 +11,70 @@ import utilsStyles from 'styles/utils.module.scss';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Map from 'components/Map/Map';
+import moment from 'moment';
+import axios from 'axios';
 
 const Details = () => {
+	const navigate = useNavigate();
 	const { id } = useParams();
-	const hotelDetails: HotelDetails = mockedHotelDetailsEn.data;
+	const [hotelDetails, setHotelDetails] = useState<HotelDetails>();
+	const [nearbyEnjoyActivities, setNearbyEnjoyActivities] = useState<EnjoyActivity[]>();
+	const [nearbyDrinkActivities, setNearbyDrinkActivities] = useState<DrinkActivity[]>();
+	const [isLoading, setIsLoading] = React.useState(true);
+	const [searchParams] = useSearchParams();
 
-	const { latitude: lat, longitude: lon } =
-		hotelDetails.hotel_info.header.hotelLocation.coordinates;
+	const queryParams = useMemo(
+		() => ({
+			startDate: searchParams.get('startDate'),
+			endDate: searchParams.get('endDate'),
+			numberOfGuests: searchParams.get('numberOfGuests'),
+		}),
+		[searchParams]
+	);
+
+	const getActivitiesResults = useCallback(async () => {
+		if (!hotelDetails) return;
+		try {
+			const enjoyActivitiesResult = await axios.get(
+				`${process.env.REACT_APP_API_URI}/enjoy/${hotelDetails.hotel_info.address.cityName}`
+			);
+			setNearbyEnjoyActivities(enjoyActivitiesResult.data.events);
+			const drinkActivitiesResult = await axios.get(
+				`${process.env.REACT_APP_API_URI}/drink/${hotelDetails.hotel_info.address.cityName}`
+			);
+			setNearbyDrinkActivities(drinkActivitiesResult.data.results);
+		} catch (err) {}
+	}, [hotelDetails]);
+
+	const getResults = useCallback(async () => {
+		if (!id) return;
+		const format = 'YYYY-MM-DD';
+		let checkinDate = moment(queryParams.startDate).format(format);
+		if (checkinDate === 'Invalid date') checkinDate = moment().format(format);
+		let checkoutDate = moment(queryParams.endDate).format(format);
+		if (checkoutDate === 'Invalid date') checkoutDate = moment().format(format);
+		try {
+			const hostelIdResult = await axios.get(
+				`${process.env.REACT_APP_API_URI}/sleep/details/?id=${id}&adults_number=${
+					queryParams.numberOfGuests || 1
+				}&checkin_date=${checkinDate}&checkout_date=${checkoutDate}`
+			);
+			setHotelDetails(hostelIdResult.data);
+		} catch (err) {}
+		setIsLoading(false);
+	}, [queryParams, id]);
+
+	useEffect(() => {
+		getResults();
+	}, [getResults]);
+
+	useEffect(() => {
+		getActivitiesResults();
+	}, [getActivitiesResults]);
+
+	console.log(hotelDetails);
+	const { latitude: lat, longitude: lon } = hotelDetails?.hotel_info.header.hotelLocation
+		.coordinates || { latitude: 0, longitude: 0 };
 
 	const renderFeature = (content, index) => (
 		<p
@@ -27,6 +83,37 @@ const Details = () => {
 			className={styles.featureDescription}
 		/>
 	);
+
+	if (isLoading && !hotelDetails)
+		return (
+			<div>
+				<Header />
+				<Loading />
+			</div>
+		);
+
+	if (!isLoading && !hotelDetails) {
+		navigate('/404');
+		return <div>test 1</div>;
+	}
+
+	if (!hotelDetails) {
+		navigate('/404');
+		return <div>test</div>;
+	}
+
+	const formattedEnjoy =
+		nearbyEnjoyActivities?.map((activity) => ({
+			coordinates: { lat: activity.location[1], lon: activity.location[0] },
+			name: activity.title,
+			address: activity.address,
+		})) || [];
+	const formattedDrink =
+		nearbyDrinkActivities?.map((activity) => ({
+			coordinates: { lat: activity.location.lat, lon: activity.location.lng },
+			name: activity.name,
+			address: activity.address,
+		})) || [];
 
 	return (
 		<div>
@@ -64,8 +151,14 @@ const Details = () => {
 										key={index}
 									/>
 								))}
-								<p className={styles.price}>
-									{hotelDetails.hotel_info.featuredPrice.currentPrice.formatted}
+
+								<p>
+									<span className={styles.price}>
+										{hotelDetails.hotel_info.featuredPrice.currentPrice.formatted}
+									</span>
+									for {queryParams.numberOfGuests} from the{' '}
+									{moment(queryParams.startDate).format('dddd, MMMM Do YYYY')} to the{' '}
+									{moment(queryParams.endDate).format('dddd, MMMM Do YYYY')}
 								</p>
 							</div>
 							<div className={styles.mapContainer}>
@@ -130,6 +223,35 @@ const Details = () => {
 						</div>
 					))}
 				</div>
+				{formattedDrink.length > 0 && formattedEnjoy.length > 0 && (
+					<div className={cn(utilsStyles.card, styles.card)}>
+						<h3 className={styles.sectionTitle}>Activities nearby</h3>
+						<div className={styles.activitiesMapContainer}>
+							<Map results={[...formattedEnjoy, ...formattedDrink]} zoom={11} />
+						</div>
+						<h5 className={styles.featureTitle}>Enjoy</h5>
+						<div className={styles.activiyContainer}>
+							{nearbyEnjoyActivities?.map((event, index) => (
+								<ActivityCard key={index} activity={{ ...event, venueName: event.venue_name }} />
+							))}
+						</div>
+						<h5 className={styles.featureTitle}>Drinks</h5>
+						<div className={styles.activiyContainer}>
+							{nearbyDrinkActivities?.map((event, index) => (
+								<ActivityCard
+									key={index}
+									activity={{
+										...event,
+										venueName: event.name,
+										title: event.name,
+										labels: event.types,
+										description: 'Drink activity',
+									}}
+								/>
+							))}
+						</div>
+					</div>
+				)}
 			</div>
 		</div>
 	);

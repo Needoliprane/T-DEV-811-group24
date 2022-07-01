@@ -1,0 +1,1731 @@
+{
+  "header": "Versailles, Yvelines, France",
+  "query": {
+    "destination": {
+      "id": "529015",
+      "value": "Versailles, Yvelines, France",
+      "resolvedLocation": "CITY:529015:UNKNOWN:UNKNOWN"
+    }
+  },
+  "searchResults": {
+    "totalCount": 2677,
+    "results": [
+      {
+        "id": 243956,
+        "name": "Pullman Paris La Défense",
+        "starRating": 5,
+        "urls": {},
+        "address": {
+          "streetAddress": "11 Avenue de l'Arche",
+          "extendedAddress": "Paris La Defense 6 Cedex",
+          "locality": "Courbevoie",
+          "postalCode": "92400",
+          "region": "",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.3,
+          "rating": "4.3",
+          "total": 755,
+          "scale": 5,
+          "badge": "fabulous",
+          "badgeText": "Fabulous"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "8.1 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "17 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "388 €",
+            "exactCurrent": 388.18
+          },
+          "features": {
+            "freeCancellation": true,
+            "paymentPreference": false,
+            "noCCRequired": false
+          },
+          "type": "EC"
+        },
+        "neighbourhood": "Courbevoie",
+        "deals": {},
+        "messaging": {},
+        "badging": {},
+        "pimmsAttributes": "DoubleStamps|XMPV2|TESCO",
+        "coordinate": {
+          "lat": 48.89537,
+          "lon": 2.2389
+        },
+        "providerType": "LOCAL",
+        "supplierHotelId": 597050,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/600000/597100/597050/0d633e14_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 371971,
+        "name": "Zenitude Relais & Spa - Paris Charles de Gaulle",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "8 Allee du Verger",
+          "extendedAddress": "",
+          "locality": "Roissy-en-France",
+          "postalCode": "95700",
+          "region": "",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.1,
+          "rating": "4.1",
+          "total": 875,
+          "scale": 5,
+          "badge": "very-good",
+          "badgeText": "Very Good"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "22 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "2.4 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "183 €",
+            "exactCurrent": 182.62,
+            "old": "203 €",
+            "fullyBundledPricePerStay": "total 212 € for 1&nbsp;apartment, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": false,
+            "paymentPreference": false,
+            "noCCRequired": false
+          },
+          "type": "EC"
+        },
+        "neighbourhood": "Roissy-en-France",
+        "deals": {
+          "secretPrice": {
+            "dealText": "Save more with Secret Prices"
+          },
+          "priceReasoning": "DRR-443"
+        },
+        "messaging": {},
+        "badging": {},
+        "pimmsAttributes": "DoubleStamps|TESCO",
+        "coordinate": {
+          "lat": 49.000133,
+          "lon": 2.519218
+        },
+        "providerType": "LOCAL",
+        "supplierHotelId": 4223609,
+        "vrBadge": "Condo Hotel",
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4230000/4223700/4223609/e0996981_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 311182,
+        "name": "Best Western Plus Paris Meudon Ermitage",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "3 route du Colonel Marcel Moraine",
+          "extendedAddress": "",
+          "locality": "Meudon",
+          "postalCode": "92360",
+          "region": "Hauts-de-Seine",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.1,
+          "rating": "4.1",
+          "total": 466,
+          "scale": 5,
+          "badge": "very-good",
+          "badgeText": "Very Good"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "4.1 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "22 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "101 €",
+            "exactCurrent": 101.05,
+            "old": "112 €",
+            "fullyBundledPricePerStay": "total 114 € for 1&nbsp;room, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": true,
+            "paymentPreference": false,
+            "noCCRequired": false
+          },
+          "type": "EC"
+        },
+        "neighbourhood": "Meudon",
+        "deals": {
+          "secretPrice": {
+            "dealText": "Save more with Secret Prices"
+          },
+          "priceReasoning": "DRR-443"
+        },
+        "messaging": {
+          "scarcity": "1 left on our app"
+        },
+        "badging": {},
+        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+        "coordinate": {
+          "lat": 48.795442,
+          "lon": 2.218224
+        },
+        "roomsLeft": 1,
+        "providerType": "LOCAL",
+        "supplierHotelId": 34660,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/40000/34700/34660/354e3b22_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 180242,
+        "name": "Mercure Maurepas Saint Quentin",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "1 Rocade De Camargue",
+          "extendedAddress": "",
+          "locality": "Maurepas",
+          "postalCode": "78310",
+          "region": "Yvelines",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.2,
+          "rating": "4.2",
+          "total": 397,
+          "scale": 5,
+          "badge": "very-good",
+          "badgeText": "Very Good"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "9.0 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "33 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "115 €",
+            "exactCurrent": 115.12,
+            "old": "128 €",
+            "fullyBundledPricePerStay": "total 128 € for 1&nbsp;room, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": true,
+            "paymentPreference": false,
+            "noCCRequired": false
+          },
+          "type": "EC"
+        },
+        "neighbourhood": "Maurepas",
+        "deals": {
+          "specialDeal": {
+            "dealText": "Mobile exclusive: save 10%"
+          },
+          "priceReasoning": "DRR-444"
+        },
+        "messaging": {},
+        "badging": {},
+        "pimmsAttributes": "DoubleStamps|TESCO",
+        "coordinate": {
+          "lat": 48.75843,
+          "lon": 1.94448
+        },
+        "providerType": "LOCAL",
+        "supplierHotelId": 10142,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/20000/10200/10142/125569b9_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 118289,
+        "name": "La Villa Maillot",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "143 Avenue De Malakoff",
+          "extendedAddress": "",
+          "locality": "Paris",
+          "postalCode": "75116",
+          "region": "Paris",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.6,
+          "rating": "4.6",
+          "total": 298,
+          "scale": 5,
+          "badge": "superb",
+          "badgeText": "Superb"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "8.6 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "16 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "306 €",
+            "exactCurrent": 306.49,
+            "old": "342 €",
+            "fullyBundledPricePerStay": "total 340 € for 1&nbsp;room, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": false,
+            "paymentPreference": false,
+            "noCCRequired": false
+          },
+          "type": "EC"
+        },
+        "neighbourhood": "Paris",
+        "deals": {
+          "secretPrice": {
+            "dealText": "Save more with Secret Prices"
+          },
+          "priceReasoning": "DRR-443"
+        },
+        "messaging": {
+          "scarcity": "1 left on our app"
+        },
+        "badging": {
+          "hotelBadge": {
+            "type": "vipBasic",
+            "label": "VIP"
+          }
+        },
+        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+        "coordinate": {
+          "lat": 48.875622,
+          "lon": 2.283792
+        },
+        "roomsLeft": 1,
+        "providerType": "LOCAL",
+        "supplierHotelId": 20509,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/30000/20600/20509/ce0b9c09_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 430103,
+        "name": "Hotel Eden",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "110 Rue Blomet",
+          "extendedAddress": "",
+          "locality": "Paris",
+          "postalCode": "75015",
+          "region": "Paris",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.3,
+          "rating": "4.3",
+          "total": 840,
+          "scale": 5,
+          "badge": "fabulous",
+          "badgeText": "Fabulous"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "8.1 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "17 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "491 €",
+            "exactCurrent": 490.9,
+            "old": "545 €",
+            "fullyBundledPricePerStay": "total 543 € for 1&nbsp;room, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": false,
+            "paymentPreference": false,
+            "noCCRequired": false
+          },
+          "type": "EC"
+        },
+        "neighbourhood": "Paris",
+        "deals": {
+          "secretPrice": {
+            "dealText": "Save more with Secret Prices"
+          },
+          "priceReasoning": "DRR-443"
+        },
+        "messaging": {
+          "scarcity": "1 left on our app"
+        },
+        "badging": {
+          "hotelBadge": {
+            "type": "vipBasic",
+            "label": "VIP"
+          }
+        },
+        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+        "coordinate": {
+          "lat": 48.840476,
+          "lon": 2.299203
+        },
+        "roomsLeft": 1,
+        "providerType": "LOCAL",
+        "supplierHotelId": 5987457,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/6000000/5990000/5987500/5987457/9875a82c_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 222872,
+        "name": "Le Mathurin Hotel & Spa",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "43, rue des Mathurins",
+          "extendedAddress": "",
+          "locality": "Paris",
+          "postalCode": "75008",
+          "region": "Paris",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.4,
+          "rating": "4.4",
+          "total": 318,
+          "scale": 5,
+          "badge": "fabulous",
+          "badgeText": "Fabulous"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "10 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "14 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "466 €",
+            "exactCurrent": 465.82,
+            "old": "519 €",
+            "fullyBundledPricePerStay": "total 515 € for 1&nbsp;room, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": true,
+            "paymentPreference": true,
+            "noCCRequired": false
+          },
+          "type": "Dual"
+        },
+        "neighbourhood": "Paris",
+        "deals": {
+          "specialDeal": {
+            "dealText": "Mobile exclusive: save 10%"
+          },
+          "priceReasoning": "DRR-444"
+        },
+        "messaging": {
+          "scarcity": "1 left on our app"
+        },
+        "badging": {},
+        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+        "coordinate": {
+          "lat": 48.873338,
+          "lon": 2.323944
+        },
+        "roomsLeft": 1,
+        "providerType": "LOCAL",
+        "supplierHotelId": 7382160,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/8000000/7390000/7382200/7382160/1e7bd913_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 172574,
+        "name": "Pullman Paris Centre-Bercy",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "1 rue de Libourne",
+          "extendedAddress": "",
+          "locality": "Paris",
+          "postalCode": "75012",
+          "region": "Paris",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.5,
+          "rating": "4.5",
+          "total": 1017,
+          "scale": 5,
+          "badge": "superb",
+          "badgeText": "Superb"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "12 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "15 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "403 €",
+            "exactCurrent": 402.73
+          },
+          "features": {
+            "freeCancellation": true,
+            "paymentPreference": false,
+            "noCCRequired": false
+          },
+          "type": "EC"
+        },
+        "neighbourhood": "Paris",
+        "deals": {},
+        "messaging": {},
+        "badging": {},
+        "pimmsAttributes": "DoubleStamps|XMPV2|increaseNumberOfReviewsRequired|TESCO",
+        "coordinate": {
+          "lat": 48.830853,
+          "lon": 2.386732
+        },
+        "providerType": "LOCAL",
+        "supplierHotelId": 525269,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/530000/525300/525269/a3facd40_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 778450368,
+        "name": "Les Jardins de Mademoiselle Hotel & Spa",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "15 Rue Mademoiselle",
+          "extendedAddress": "",
+          "locality": "Paris",
+          "postalCode": "75015",
+          "region": "",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.6,
+          "rating": "4.6",
+          "total": 196,
+          "scale": 5,
+          "badge": "superb",
+          "badgeText": "Superb"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "8.0 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "17 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "461 €",
+            "exactCurrent": 460.64,
+            "old": "512 €",
+            "fullyBundledPricePerStay": "total 510 € for 1&nbsp;room, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": true,
+            "paymentPreference": true,
+            "noCCRequired": false
+          },
+          "type": "Dual"
+        },
+        "neighbourhood": "Paris",
+        "deals": {
+          "secretPrice": {
+            "dealText": "Save more with Secret Prices"
+          },
+          "priceReasoning": "DRR-443"
+        },
+        "messaging": {
+          "scarcity": "1 left on our app"
+        },
+        "badging": {},
+        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+        "coordinate": {
+          "lat": 48.84364,
+          "lon": 2.29474
+        },
+        "roomsLeft": 1,
+        "providerType": "LOCAL",
+        "supplierHotelId": 24295324,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/25000000/24300000/24295400/24295324/245c0438_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 288610,
+        "name": "Château de Villiers-le-Mahieu, Les Maisons de Campagne",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "Rue du centre",
+          "extendedAddress": "",
+          "locality": "Villiers-le-Mahieu",
+          "postalCode": "78770",
+          "region": "Yvelines",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.4,
+          "rating": "4.4",
+          "total": 120,
+          "scale": 5,
+          "badge": "fabulous",
+          "badgeText": "Fabulous"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "17 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "38 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "392 €",
+            "exactCurrent": 392.35,
+            "old": "441 €",
+            "fullyBundledPricePerStay": "total 432 € for 1&nbsp;room, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": false,
+            "paymentPreference": false,
+            "noCCRequired": false
+          },
+          "type": "EC"
+        },
+        "neighbourhood": "Villiers-le-Mahieu",
+        "deals": {
+          "secretPrice": {
+            "dealText": "Save more with Secret Prices"
+          },
+          "priceReasoning": "DRR-445"
+        },
+        "messaging": {
+          "scarcity": "2 left on our app"
+        },
+        "badging": {},
+        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+        "coordinate": {
+          "lat": 48.860806,
+          "lon": 1.773418
+        },
+        "roomsLeft": 2,
+        "providerType": "LOCAL",
+        "supplierHotelId": 913364,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/920000/913400/913364/c6b65eda_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 236655,
+        "name": "Hotel Oceania Paris Porte de Versailles",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "52 Rue d'Oradour-sur-Glane",
+          "extendedAddress": "",
+          "locality": "Paris",
+          "postalCode": "75015",
+          "region": "Paris",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.1,
+          "rating": "4.1",
+          "total": 1003,
+          "scale": 5,
+          "badge": "very-good",
+          "badgeText": "Very Good"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "7.3 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "18 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "241 €",
+            "exactCurrent": 241.44,
+            "old": "269 €",
+            "fullyBundledPricePerStay": "total 268 € for 1&nbsp;room, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": false,
+            "paymentPreference": false,
+            "noCCRequired": false
+          },
+          "type": "EC"
+        },
+        "neighbourhood": "Paris",
+        "deals": {
+          "secretPrice": {
+            "dealText": "Save more with Secret Prices"
+          },
+          "priceReasoning": "DRR-443"
+        },
+        "messaging": {
+          "scarcity": "3 left on our app"
+        },
+        "badging": {},
+        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+        "coordinate": {
+          "lat": 48.830375,
+          "lon": 2.284712
+        },
+        "roomsLeft": 3,
+        "providerType": "LOCAL",
+        "supplierHotelId": 19614,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/20000/19700/19614/f8d7b2b6_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 122232,
+        "name": "Hotel Mademoiselle",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "7 Rue Des Petits Hotels",
+          "extendedAddress": "",
+          "locality": "Paris",
+          "postalCode": "75010",
+          "region": "Paris",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.4,
+          "rating": "4.4",
+          "total": 1011,
+          "scale": 5,
+          "badge": "fabulous",
+          "badgeText": "Fabulous"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "12 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "13 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "355 €",
+            "exactCurrent": 354.55,
+            "fullyBundledPricePerStay": "total 393 € for 1&nbsp;room, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": false,
+            "paymentPreference": false,
+            "noCCRequired": false
+          },
+          "type": "EC"
+        },
+        "neighbourhood": "Paris",
+        "deals": {},
+        "messaging": {
+          "scarcity": "2 left on our app"
+        },
+        "badging": {
+          "hotelBadge": {
+            "type": "vipBasic",
+            "label": "VIP"
+          }
+        },
+        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+        "coordinate": {
+          "lat": 48.877351,
+          "lon": 2.354318
+        },
+        "roomsLeft": 2,
+        "providerType": "LOCAL",
+        "supplierHotelId": 63305,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/70000/63400/63305/25aacb24_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 460923,
+        "name": "Renaissance Paris Hippodrome De St. Cloud Hotel",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "Rue Du Lt Colonel De Montbrison 123",
+          "extendedAddress": "",
+          "locality": "Rueil-Malmaison",
+          "postalCode": "92500",
+          "region": "Hauts-de-Seine",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.4,
+          "rating": "4.4",
+          "total": 157,
+          "scale": 5,
+          "badge": "fabulous",
+          "badgeText": "Fabulous"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "4.9 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "20 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "335 €",
+            "exactCurrent": 335.45,
+            "fullyBundledPricePerStay": "total 380 € for 1&nbsp;room, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": false,
+            "paymentPreference": true,
+            "noCCRequired": false
+          },
+          "type": "Dual"
+        },
+        "neighbourhood": "Rueil-Malmaison",
+        "deals": {},
+        "messaging": {
+          "scarcity": "4 left on our app"
+        },
+        "badging": {},
+        "pimmsAttributes": "DoubleStamps|TESCO",
+        "coordinate": {
+          "lat": 48.859608,
+          "lon": 2.194765
+        },
+        "roomsLeft": 4,
+        "providerType": "LOCAL",
+        "supplierHotelId": 8124718,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/9000000/8130000/8124800/8124718/56809e64_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      },
+      {
+        "id": 1119686976,
+        "name": "Le Domaine des Vanneaux Hotel Golf & Spa MGallery",
+        "starRating": 4,
+        "urls": {},
+        "address": {
+          "streetAddress": "1 Route Du Golf Des Vanneaux",
+          "extendedAddress": "",
+          "locality": "Presles",
+          "postalCode": "95590",
+          "region": "Val-d'Oise",
+          "countryName": "France",
+          "countryCode": "fr",
+          "obfuscate": false
+        },
+        "welcomeRewards": {
+          "collect": true
+        },
+        "guestReviews": {
+          "unformattedRating": 4.7,
+          "rating": "4.7",
+          "total": 39,
+          "scale": 5,
+          "badge": "exceptional",
+          "badgeText": "Exceptional"
+        },
+        "landmarks": [
+          {
+            "label": "Versailles",
+            "distance": "23 miles"
+          },
+          {
+            "label": "Roissy - Charles de Gaulle Airport (CDG)",
+            "distance": "16 miles"
+          }
+        ],
+        "geoBullets": [],
+        "ratePlan": {
+          "price": {
+            "current": "299 €",
+            "exactCurrent": 299.09,
+            "fullyBundledPricePerStay": "total 329 € for 1&nbsp;room, 4&nbsp;guests"
+          },
+          "features": {
+            "freeCancellation": false,
+            "paymentPreference": false,
+            "noCCRequired": false
+          },
+          "type": "EC"
+        },
+        "neighbourhood": "Presles",
+        "deals": {},
+        "messaging": {},
+        "badging": {},
+        "pimmsAttributes": "DoubleStamps|TESCO",
+        "coordinate": {
+          "lat": 49.120947,
+          "lon": 2.264187
+        },
+        "providerType": "LOCAL",
+        "supplierHotelId": 34958968,
+        "isAlternative": false,
+        "optimizedThumbUrls": {
+          "srpDesktop": "https://exp.cdn-hotels.com/hotels/35000000/34960000/34959000/34958968/4380898f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+        }
+      }
+    ],
+    "pagination": {
+      "currentPage": 1,
+      "pageGroup": "EXPEDIA_EXPANDED",
+      "nextPageStartIndex": 14,
+      "nextPageNumber": 1,
+      "nextPageGroup": "TPI_EXPANDED"
+    }
+  },
+  "sortResults": {
+    "options": [
+      {
+        "label": "Featured",
+        "itemMeta": "popular",
+        "choices": [
+          {
+            "label": "Featured",
+            "value": "BEST_SELLER",
+            "selected": false
+          }
+        ],
+        "enhancedChoices": []
+      },
+      {
+        "label": "Star rating",
+        "itemMeta": "star",
+        "selectedChoiceLabel": "Stars (high to low)",
+        "choices": [
+          {
+            "label": "Stars (high to low)",
+            "value": "STAR_RATING_HIGHEST_FIRST",
+            "selected": true
+          },
+          {
+            "label": "Stars (low to high)",
+            "value": "STAR_RATING_LOWEST_FIRST",
+            "selected": false
+          }
+        ],
+        "enhancedChoices": []
+      },
+      {
+        "label": "Distance",
+        "itemMeta": "distance",
+        "choices": [
+          {
+            "label": "Distance to city center",
+            "value": "DISTANCE_FROM_LANDMARK",
+            "selected": false
+          }
+        ],
+        "enhancedChoices": [
+          {
+            "label": "Landmarks",
+            "itemMeta": "landmarks",
+            "choices": [
+              {
+                "label": "City center",
+                "id": 529015
+              },
+              {
+                "label": "Academy of Equestrian Arts",
+                "id": 10613877
+              },
+              {
+                "label": "Carriage Museum",
+                "id": 10613882
+              },
+              {
+                "label": "Cathedrale Saint Louis",
+                "id": 10613875
+              },
+              {
+                "label": "Château de Versailles Gardens & Park",
+                "id": 10654800
+              },
+              {
+                "label": "Domaine de Marie-Antoinette",
+                "id": 10654805
+              },
+              {
+                "label": "Eglise Notre Dame",
+                "id": 10613884
+              },
+              {
+                "label": "Grand Trianon",
+                "id": 10654797
+              },
+              {
+                "label": "Hameau de la Reine",
+                "id": 10654806
+              },
+              {
+                "label": "Jeu de Paume",
+                "id": 10613876
+              },
+              {
+                "label": "Musée Lambinet",
+                "id": 10613883
+              },
+              {
+                "label": "Palace of Versailles",
+                "id": 10234702
+              },
+              {
+                "label": "Parc du Domaine de Madame Elisabeth",
+                "id": 10613927
+              },
+              {
+                "label": "Paris France Temple",
+                "id": 10891180
+              },
+              {
+                "label": "Petit Trianon",
+                "id": 10654804
+              },
+              {
+                "label": "Petites Écuries",
+                "id": 10654801
+              },
+              {
+                "label": "Potager du Roi",
+                "id": 10654798
+              },
+              {
+                "label": "Temple of Love",
+                "id": 10613879
+              },
+              {
+                "label": "The Grand Canal",
+                "id": 10613880
+              },
+              {
+                "label": "The Royal Opera (L'Opera Royal)",
+                "id": 10613881
+              }
+            ]
+          },
+          {
+            "label": "Train stations",
+            "itemMeta": "stations",
+            "choices": [
+              {
+                "label": "Porchefontaine Station",
+                "id": 1701051
+              },
+              {
+                "label": "Versailles Château Rive Gauche RER Station",
+                "id": 1701035
+              },
+              {
+                "label": "Versailles Montreuil Station",
+                "id": 1701048
+              },
+              {
+                "label": "Versailles-Chantiers Station",
+                "id": 1701026
+              },
+              {
+                "label": "Versailles-Rive-Droite Station",
+                "id": 1701027
+              }
+            ]
+          },
+          {
+            "label": "Airports",
+            "itemMeta": "airports",
+            "choices": [
+              {
+                "label": "Orly Airport (ORY)",
+                "id": 485292
+              },
+              {
+                "label": "Roissy - Charles de Gaulle Airport (CDG)",
+                "id": 485293
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Guest rating",
+        "itemMeta": "rating",
+        "choices": [
+          {
+            "label": "Guest rating",
+            "value": "GUEST_RATING",
+            "selected": false
+          }
+        ],
+        "enhancedChoices": []
+      },
+      {
+        "label": "Price",
+        "itemMeta": "price",
+        "choices": [
+          {
+            "label": "Price (high to low)",
+            "value": "PRICE_HIGHEST_FIRST",
+            "selected": false
+          },
+          {
+            "label": "Price (low to high)",
+            "value": "PRICE",
+            "selected": false
+          }
+        ],
+        "enhancedChoices": []
+      }
+    ],
+    "distanceOptionLandmarkId": 529015
+  },
+  "filters": {
+    "applied": true,
+    "name": {
+      "item": {
+        "value": ""
+      },
+      "autosuggest": {
+        "additionalUrlParams": {
+          "resolved-location": "CITY:529015:UNKNOWN:UNKNOWN",
+          "q-destination": "Versailles, Yvelines, France",
+          "destination-id": "529015"
+        }
+      }
+    },
+    "starRating": {
+      "applied": true,
+      "items": [
+        {
+          "value": 5,
+          "applied": true
+        },
+        {
+          "value": 4,
+          "applied": true
+        },
+        {
+          "value": 3,
+          "applied": true
+        },
+        {
+          "value": 2
+        },
+        {
+          "value": 1,
+          "disabled": true
+        }
+      ]
+    },
+    "guestRating": {
+      "applied": true,
+      "range": {
+        "min": {
+          "defaultValue": 0,
+          "value": 4
+        },
+        "max": {
+          "defaultValue": 5
+        }
+      }
+    },
+    "landmarks": {
+      "selectedOrder": [],
+      "items": [
+        {
+          "label": "City center",
+          "value": "529015"
+        },
+        {
+          "label": "Roissy - Charles de Gaulle Airport (CDG)",
+          "value": "485293"
+        },
+        {
+          "label": "Orly Airport (ORY)",
+          "value": "485292"
+        },
+        {
+          "label": "Palace of Versailles",
+          "value": "10234702"
+        },
+        {
+          "label": "Paris France Temple",
+          "value": "10891180"
+        },
+        {
+          "label": "Versailles-Chantiers Station",
+          "value": "1701026"
+        },
+        {
+          "label": "Château de Versailles Gardens & Park",
+          "value": "10654800"
+        },
+        {
+          "label": "Versailles Château Rive Gauche RER Station",
+          "value": "1701035"
+        },
+        {
+          "label": "Grand Trianon",
+          "value": "10654797"
+        },
+        {
+          "label": "Versailles-Rive-Droite Station",
+          "value": "1701027"
+        },
+        {
+          "label": "Petit Trianon",
+          "value": "10654804"
+        },
+        {
+          "label": "Versailles Montreuil Station",
+          "value": "1701048"
+        },
+        {
+          "label": "Porchefontaine Station",
+          "value": "1701051"
+        },
+        {
+          "label": "Domaine de Marie-Antoinette",
+          "value": "10654805"
+        },
+        {
+          "label": "Eglise Notre Dame",
+          "value": "10613884"
+        },
+        {
+          "label": "Temple of Love",
+          "value": "10613879"
+        },
+        {
+          "label": "Parc du Domaine de Madame Elisabeth",
+          "value": "10613927"
+        },
+        {
+          "label": "Cathedrale Saint Louis",
+          "value": "10613875"
+        },
+        {
+          "label": "Jeu de Paume",
+          "value": "10613876"
+        },
+        {
+          "label": "The Royal Opera (L'Opera Royal)",
+          "value": "10613881"
+        }
+      ],
+      "distance": []
+    },
+    "neighbourhood": {
+      "applied": false,
+      "items": [
+        {
+          "label": "Saint-Louis",
+          "value": "11117882",
+          "disabled": true
+        },
+        {
+          "label": "Notre-Dame",
+          "value": "11117864"
+        },
+        {
+          "label": "Porchefontaine",
+          "value": "11117459",
+          "disabled": true
+        },
+        {
+          "label": "Chantiers",
+          "value": "11117917",
+          "disabled": true
+        }
+      ]
+    },
+    "accommodationType": {
+      "applied": true,
+      "items": [
+        {
+          "label": "Apart-hotels",
+          "value": "20",
+          "applied": true
+        },
+        {
+          "label": "Apartments",
+          "value": "15",
+          "applied": true
+        },
+        {
+          "label": "B&Bs",
+          "value": "5",
+          "applied": true
+        },
+        {
+          "label": "Caravan parks",
+          "value": "21",
+          "disabled": true
+        },
+        {
+          "label": "Castles",
+          "value": "27",
+          "disabled": true
+        },
+        {
+          "label": "Country houses",
+          "value": "24",
+          "disabled": true
+        },
+        {
+          "label": "Guest houses",
+          "value": "30",
+          "disabled": true
+        },
+        {
+          "label": "Hostels",
+          "value": "12",
+          "disabled": true
+        },
+        {
+          "label": "Hotels",
+          "value": "1",
+          "applied": true
+        },
+        {
+          "label": "Houseboats",
+          "value": "16",
+          "disabled": true
+        },
+        {
+          "label": "Inns",
+          "value": "8",
+          "applied": true
+        },
+        {
+          "label": "Palaces",
+          "value": "29"
+        },
+        {
+          "label": "Vacation homes",
+          "value": "4"
+        },
+        {
+          "label": "Villas",
+          "value": "14",
+          "disabled": true
+        }
+      ]
+    },
+    "facilities": {
+      "applied": true,
+      "items": [
+        {
+          "label": "24-hour front desk",
+          "value": "2063",
+          "applied": true
+        },
+        {
+          "label": "Airport transfers",
+          "value": "513"
+        },
+        {
+          "label": "Bar",
+          "value": "515"
+        },
+        {
+          "label": "Bathtub in room",
+          "value": "517"
+        },
+        {
+          "label": "Breakfast included",
+          "value": "2048"
+        },
+        {
+          "label": "Business facilities",
+          "value": "519"
+        },
+        {
+          "label": "Casino",
+          "value": "2112"
+        },
+        {
+          "label": "Childcare",
+          "value": "521"
+        },
+        {
+          "label": "Connecting rooms available",
+          "value": "523"
+        },
+        {
+          "label": "Cribs available",
+          "value": "525"
+        },
+        {
+          "label": "Electric vehicle charging point",
+          "value": "1073743315"
+        },
+        {
+          "label": "Gym",
+          "value": "2"
+        },
+        {
+          "label": "Internet Access",
+          "value": "8"
+        },
+        {
+          "label": "Kitchen",
+          "value": "32",
+          "disabled": true
+        },
+        {
+          "label": "Meeting Facilities",
+          "value": "1"
+        },
+        {
+          "label": "Non-smoking",
+          "value": "529"
+        },
+        {
+          "label": "Parking",
+          "value": "134234112"
+        },
+        {
+          "label": "Pet Friendly",
+          "value": "64"
+        },
+        {
+          "label": "Pool",
+          "value": "128"
+        },
+        {
+          "label": "Restaurant",
+          "value": "256"
+        },
+        {
+          "label": "Ski storage",
+          "value": "533",
+          "disabled": true
+        },
+        {
+          "label": "Smoking areas",
+          "value": "537"
+        },
+        {
+          "label": "Spa",
+          "value": "539"
+        },
+        {
+          "label": "WiFi included",
+          "value": "527",
+          "applied": true
+        }
+      ]
+    },
+    "accessibility": {
+      "applied": false,
+      "items": [
+        {
+          "label": "Accessibility equipment for the deaf",
+          "value": "2097152"
+        },
+        {
+          "label": "Accessible bathroom",
+          "value": "131072"
+        },
+        {
+          "label": "Accessible parking",
+          "value": "524288"
+        },
+        {
+          "label": "Accessible path of travel",
+          "value": "65536"
+        },
+        {
+          "label": "Braille or raised signage",
+          "value": "4194304"
+        },
+        {
+          "label": "In-room accessibility",
+          "value": "1048576"
+        },
+        {
+          "label": "Roll-in shower",
+          "value": "262144"
+        },
+        {
+          "label": "Wheelchair accessible rooms",
+          "value": "541"
+        }
+      ]
+    },
+    "themesAndTypes": {
+      "applied": true,
+      "items": [
+        {
+          "label": "Adventure",
+          "value": "18",
+          "disabled": true
+        },
+        {
+          "label": "Boutique",
+          "value": "4"
+        },
+        {
+          "label": "Business",
+          "value": "14",
+          "applied": true
+        },
+        {
+          "label": "Casino",
+          "value": "8"
+        },
+        {
+          "label": "Family-friendly",
+          "value": "25",
+          "applied": true
+        },
+        {
+          "label": "Golf",
+          "value": "26"
+        },
+        {
+          "label": "Historic",
+          "value": "2"
+        },
+        {
+          "label": "Hot Springs",
+          "value": "22"
+        },
+        {
+          "label": "LGBTQ Welcoming",
+          "value": "21"
+        },
+        {
+          "label": "Luxury",
+          "value": "15"
+        },
+        {
+          "label": "Shopping",
+          "value": "17"
+        },
+        {
+          "label": "Ski",
+          "value": "28",
+          "disabled": true
+        },
+        {
+          "label": "Spa Hotel",
+          "value": "27",
+          "applied": true
+        }
+      ]
+    },
+    "price": {
+      "label": "Nightly Price",
+      "range": {
+        "min": {
+          "defaultValue": 0,
+          "value": 10
+        },
+        "max": {
+          "defaultValue": 500,
+          "value": 500
+        },
+        "increments": 5
+      },
+      "multiplier": 1,
+      "applied": true
+    },
+    "paymentPreference": {
+      "items": [
+        {
+          "label": "Fully refundable",
+          "value": "fc"
+        },
+        {
+          "label": "Pay with Hotels.com gift card",
+          "value": "gc"
+        }
+      ]
+    },
+    "welcomeRewards": {
+      "label": "Hotels.com® Rewards",
+      "items": [
+        {
+          "label": "Collect stamps",
+          "value": "collect"
+        },
+        {
+          "label": "Redeem reward* nights",
+          "value": "redeem"
+        }
+      ]
+    }
+  },
+  "pointOfSale": {
+    "currency": {
+      "code": "EUR",
+      "symbol": "€",
+      "separators": ".,",
+      "format": "{0}€"
+    }
+  }
+}

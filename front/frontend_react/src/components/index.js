@@ -8,3 +8,4 @@ export { default as ErrorPage } from './ErrorPage/ErrorPage';
 export { default as InfoCard } from './InfoCard/InfoCard';
 export { default as Loading } from './Loading/Loading';
 export { default as Stars } from './Stars/Stars';
+export { default as ActivityCard } from './ActivityCard/ActivityCard';

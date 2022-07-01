@@ -1,14 +1,60 @@
+// export type Activity = {
+// 	address: string;
+// 	distance: number;
+// 	id: string;
+// 	location: {
+// 		lat: number;
+// 		lng: number;
+// 	};
+// 	name: string;
+// 	phone_number: string;
+// 	types: string[];
+// };
+
 export type Activity = {
+	title: string;
+	description: string;
+	venueName: string;
 	address: string;
-	distance: number;
+	phoneNumber?: string;
+	labels: string[];
+};
+
+export type EnjoyActivity = {
 	id: string;
+	title: string;
+	description: string;
+	labels: string[];
+	location: number[];
+	venue_name: string;
+	address: string;
+	country: string;
+	start: string;
+	end: string;
+	timezone: string;
+};
+
+export type EnjoyResults = {
+	count: number;
+	events: EnjoyActivity[];
+};
+
+export type DrinkActivity = {
+	id: string;
+	name: string;
+	address: string;
+	phone_number: string;
+	website: string;
 	location: {
 		lat: number;
 		lng: number;
 	};
-	name: string;
-	phone_number: string;
 	types: string[];
+	distance: number;
+};
+
+export type DrinkResults = {
+	results: DrinkActivity[];
 };
 
 export type Hotel = {

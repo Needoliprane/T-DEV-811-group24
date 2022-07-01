@@ -1,0 +1,3472 @@
+{
+    "count": 5000,
+    "overflow": true,
+    "next": "https://api.predicthq.com/v1/events/?country=FR&limit=50&location_around.offset=10km&location_around.origin=46.56570595418568%2C0.30907630920410156&offset=100&start.gte=2022-06-24",
+    "previous": "https://api.predicthq.com/v1/events/?country=FR&limit=50&location_around.offset=10km&location_around.origin=46.56570595418568%2C0.30907630920410156&start.gte=2022-06-24",
+    "results": [
+        {
+            "relevance": 0.56957686,
+            "id": "AWBfUKA3EW6eBpXrGY",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-22T18:00:00Z",
+            "end": "2022-07-22T18:00:00Z",
+            "updated": "2022-05-21T03:33:35Z",
+            "first_seen": "2022-04-22T00:15:25Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "E4Wb5HZ9sxBgX8EaFe",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-21T18:00:00Z",
+            "end": "2022-07-21T18:00:00Z",
+            "updated": "2022-05-21T03:26:26Z",
+            "first_seen": "2022-04-22T01:48:19Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "7jPumtw6w9tCN4qxHF",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-20T18:00:00Z",
+            "end": "2022-07-20T18:00:00Z",
+            "updated": "2022-05-21T03:57:29Z",
+            "first_seen": "2022-04-22T01:54:30Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "HfTqiKigUCJ947jVyH",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-20T14:30:00Z",
+            "end": "2022-07-20T14:30:00Z",
+            "updated": "2022-05-21T06:35:48Z",
+            "first_seen": "2022-04-22T00:18:15Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "HMPSTJS377gvV6up5R",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-19T18:00:00Z",
+            "end": "2022-07-19T18:00:00Z",
+            "updated": "2022-05-21T04:17:47Z",
+            "first_seen": "2022-04-22T00:14:50Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "CsC9kHVQrk3Ybhtbfo",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-19T14:30:00Z",
+            "end": "2022-07-19T14:30:00Z",
+            "updated": "2022-05-21T04:00:54Z",
+            "first_seen": "2022-04-22T01:48:19Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "FWUqpc4ug6yPb77UKu",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-17T14:30:00Z",
+            "end": "2022-07-17T14:30:00Z",
+            "updated": "2022-05-21T03:19:29Z",
+            "first_seen": "2022-04-22T01:54:30Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "DKyLDJmPW8xkShteE8",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-16T18:00:00Z",
+            "end": "2022-07-16T18:00:00Z",
+            "updated": "2022-05-21T03:06:21Z",
+            "first_seen": "2022-04-22T00:22:04Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "GLo39bdaiBnaA59wjr",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-15T18:00:00Z",
+            "end": "2022-07-15T18:00:00Z",
+            "updated": "2022-05-21T04:32:44Z",
+            "first_seen": "2022-04-22T00:14:51Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "EFQzcLosiavQfjUZuG",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-14T18:00:00Z",
+            "end": "2022-07-14T18:00:00Z",
+            "updated": "2022-05-21T02:29:55Z",
+            "first_seen": "2022-04-22T00:18:15Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "A5HqsJWwx3c8SBBpp2",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-13T18:00:00Z",
+            "end": "2022-07-13T18:00:00Z",
+            "updated": "2022-05-21T06:28:45Z",
+            "first_seen": "2022-04-22T00:08:28Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "Ce8SWBCXUsSijiq2Yy",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-13T14:30:00Z",
+            "end": "2022-07-13T14:30:00Z",
+            "updated": "2022-05-21T05:07:03Z",
+            "first_seen": "2022-04-22T00:24:38Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "7seLtzpz9CJn3Gx5qM",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-12T18:00:00Z",
+            "end": "2022-07-12T18:00:00Z",
+            "updated": "2022-05-21T05:49:35Z",
+            "first_seen": "2022-04-22T00:05:46Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.56957686,
+            "id": "GuJ7H5cgJ7v3TsvSJs",
+            "title": "SLAVA'S SNOWSHOW - SLAVA'S SNOW SHOW",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "music",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "wmPSfLe27JerJAUcNSxfE6",
+                    "name": "ARENA FUTUROSCOPE",
+                    "formatted_address": "AVENUE DU FUTUROSCOPE\n86360 Chasseneuil Du Poitou\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-07-12T14:30:00Z",
+            "end": "2022-07-12T14:30:00Z",
+            "updated": "2022-05-21T04:16:59Z",
+            "first_seen": "2022-04-22T00:26:09Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3658221,
+                46.6644299
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3658221,
+                        46.6644299
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "DF3ftsZhXVzVNLtWc9",
+            "title": "FUTUROSCOPE - BILLET DATE 1 JOUR",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-18T08:00:00Z",
+            "end": "2022-09-18T08:00:00Z",
+            "updated": "2022-05-31T00:27:19Z",
+            "first_seen": "2022-01-07T00:19:23Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "CiXistHpKJpt7BT5Ki",
+            "title": "FUTUROSCOPE - BILLET DATE 1 JOUR",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-17T08:00:00Z",
+            "end": "2022-09-17T08:00:00Z",
+            "updated": "2022-05-31T00:28:15Z",
+            "first_seen": "2022-01-07T00:18:50Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "6EXuhLKMh8RyzJA9n8",
+            "title": "FUTUROSCOPE - BILLET DATE 1 JOUR",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-16T08:00:00Z",
+            "end": "2022-09-16T08:00:00Z",
+            "updated": "2022-05-31T00:26:32Z",
+            "first_seen": "2022-01-07T00:12:09Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "EomtXPXVCj9VY7jq4n",
+            "title": "FUTUROSCOPE - BILLET DATE 1 JOUR",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-15T08:00:00Z",
+            "end": "2022-09-15T08:00:00Z",
+            "updated": "2022-05-31T00:27:57Z",
+            "first_seen": "2022-01-07T00:12:18Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "3d4oNTqvsAGQHe7gyU",
+            "title": "FUTUROSCOPE - BILLET DATE 1 JOUR",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-11T08:00:00Z",
+            "end": "2022-09-11T08:00:00Z",
+            "updated": "2022-05-31T00:27:19Z",
+            "first_seen": "2022-01-07T00:05:39Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "BR5r3pnLPpsznZGYrz",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-10T08:00:00Z",
+            "end": "2022-09-10T08:00:00Z",
+            "updated": "2022-05-31T00:26:19Z",
+            "first_seen": "2022-01-07T00:05:32Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "8ZAenMvamukYYVZUfA",
+            "title": "FUTUROSCOPE - BILLET DATE 3 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-09T08:00:00Z",
+            "end": "2022-09-09T08:00:00Z",
+            "updated": "2022-05-31T00:26:35Z",
+            "first_seen": "2022-01-07T00:10:10Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "GmQyxwJyqqAZmFQtrR",
+            "title": "FUTUROSCOPE - BILLET DATE 1 JOUR",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-08T08:00:00Z",
+            "end": "2022-09-08T08:00:00Z",
+            "updated": "2022-05-31T00:27:28Z",
+            "first_seen": "2022-01-07T00:12:09Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "6tdMrt7e2qxjGHoDZt",
+            "title": "FUTUROSCOPE - BILLET DATE 3 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-07T08:00:00Z",
+            "end": "2022-09-07T08:00:00Z",
+            "updated": "2022-05-31T00:27:04Z",
+            "first_seen": "2022-01-07T00:05:17Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "E6UNXByfmh2DW8BjCc",
+            "title": "FUTUROSCOPE - BILLET DATE 3 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-06T08:00:00Z",
+            "end": "2022-09-06T08:00:00Z",
+            "updated": "2022-05-31T00:27:10Z",
+            "first_seen": "2022-01-07T00:10:11Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "DgfABKbsexJSM3LSM3",
+            "title": "FUTUROSCOPE - BILLET DATE 3 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-05T08:00:00Z",
+            "end": "2022-09-05T08:00:00Z",
+            "updated": "2022-05-31T00:26:48Z",
+            "first_seen": "2022-01-07T00:08:39Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "G7U92J7MDYifjK3nEM",
+            "title": "FUTUROSCOPE - BILLET DATE 3 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-04T08:00:00Z",
+            "end": "2022-09-04T08:00:00Z",
+            "updated": "2022-05-31T00:26:31Z",
+            "first_seen": "2022-01-07T00:16:55Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "CdVFDxnKoeMtEK56Bo",
+            "title": "FUTUROSCOPE - BILLET DATE 1 JOUR",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-03T08:00:00Z",
+            "end": "2022-09-03T08:00:00Z",
+            "updated": "2022-05-31T00:26:48Z",
+            "first_seen": "2022-01-07T00:12:15Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "FRc5rXjnSPyY8vsEDq",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-02T08:00:00Z",
+            "end": "2022-09-02T08:00:00Z",
+            "updated": "2022-05-31T00:26:43Z",
+            "first_seen": "2022-01-07T00:17:09Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "WJs4n73QUbk7nR4M7v",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-01T08:00:00Z",
+            "end": "2022-09-01T08:00:00Z",
+            "updated": "2022-05-31T00:27:59Z",
+            "first_seen": "2022-01-07T00:10:41Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "HhUoF3GwP78Qp45d6v",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-31T08:00:00Z",
+            "end": "2022-08-31T08:00:00Z",
+            "updated": "2022-05-31T00:27:09Z",
+            "first_seen": "2022-01-07T00:08:47Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "8v5om6DLwPENFTb2AE",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-30T08:00:00Z",
+            "end": "2022-08-30T08:00:00Z",
+            "updated": "2022-05-31T00:26:24Z",
+            "first_seen": "2022-01-07T00:05:33Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "9Vv7EHsFyboQzLgnK5",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-29T08:00:00Z",
+            "end": "2022-08-29T08:00:00Z",
+            "updated": "2022-05-31T00:26:38Z",
+            "first_seen": "2022-01-07T00:05:32Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "87sQmjJ7WQs3ibJh3S",
+            "title": "FUTUROSCOPE - BILLET DATE 3 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-28T08:00:00Z",
+            "end": "2022-08-28T08:00:00Z",
+            "updated": "2022-05-31T00:28:10Z",
+            "first_seen": "2022-01-07T00:09:29Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "GRZfPPMNpNHRqFwSJP",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-27T08:00:00Z",
+            "end": "2022-08-27T08:00:00Z",
+            "updated": "2022-05-31T00:27:09Z",
+            "first_seen": "2022-01-07T00:10:21Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "3aZTK5GCPEPJMBvjGX",
+            "title": "FUTUROSCOPE - BILLET DATE 3 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-26T08:00:00Z",
+            "end": "2022-08-26T08:00:00Z",
+            "updated": "2022-05-31T00:26:49Z",
+            "first_seen": "2022-01-07T00:05:16Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "A5fvv6PoPnvJELsiuj",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-25T08:00:00Z",
+            "end": "2022-08-25T08:00:00Z",
+            "updated": "2022-05-31T00:27:21Z",
+            "first_seen": "2022-01-07T00:05:22Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "AiWB7jXDuCo9d9firc",
+            "title": "FUTUROSCOPE - BILLET DATE 3 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-24T08:00:00Z",
+            "end": "2022-08-24T08:00:00Z",
+            "updated": "2022-05-31T00:26:45Z",
+            "first_seen": "2022-01-07T00:08:40Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "8B2PjNjQZQwo6mm7GC",
+            "title": "FUTUROSCOPE - BILLET DATE 3 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-23T08:00:00Z",
+            "end": "2022-08-23T08:00:00Z",
+            "updated": "2022-05-31T00:26:56Z",
+            "first_seen": "2022-01-07T00:31:35Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "Earv7nNAT6HmB5JdSX",
+            "title": "FUTUROSCOPE - BILLET DATE 1 JOUR",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-22T08:00:00Z",
+            "end": "2022-08-22T08:00:00Z",
+            "updated": "2022-05-31T00:28:11Z",
+            "first_seen": "2022-01-07T00:11:10Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "9d3GDDHBD7dxVoaFy8",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-21T08:00:00Z",
+            "end": "2022-08-21T08:00:00Z",
+            "updated": "2022-05-31T00:26:53Z",
+            "first_seen": "2022-01-07T00:10:41Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "VDnvSGwcNwVHcKuwcG",
+            "title": "FUTUROSCOPE - BILLET DATE 3 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-20T08:00:00Z",
+            "end": "2022-08-20T08:00:00Z",
+            "updated": "2022-05-31T00:26:41Z",
+            "first_seen": "2022-01-07T00:10:13Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "HuDm6NfGKansWa9w7K",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-19T08:00:00Z",
+            "end": "2022-08-19T08:00:00Z",
+            "updated": "2022-05-31T00:26:19Z",
+            "first_seen": "2022-01-07T00:05:33Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "BbXsNokmemJq8AvTac",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-18T08:00:00Z",
+            "end": "2022-08-18T08:00:00Z",
+            "updated": "2022-05-31T00:26:03Z",
+            "first_seen": "2022-01-07T00:15:32Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "abMsaiVV7ugwzwHRgL",
+            "title": "FUTUROSCOPE - BILLET DATE 1 JOUR",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-17T08:00:00Z",
+            "end": "2022-08-17T08:00:00Z",
+            "updated": "2022-05-31T00:27:32Z",
+            "first_seen": "2022-01-07T00:06:55Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "DUdwR7pcVg85cA8hRQ",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-16T08:00:00Z",
+            "end": "2022-08-16T08:00:00Z",
+            "updated": "2022-05-31T00:27:48Z",
+            "first_seen": "2022-01-07T00:10:44Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "55UWi5K4iB3Fu5EJYe",
+            "title": "FUTUROSCOPE - BILLET DATE 1 JOUR",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-15T08:00:00Z",
+            "end": "2022-08-15T08:00:00Z",
+            "updated": "2022-05-31T00:26:32Z",
+            "first_seen": "2022-01-07T00:05:41Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "6QKXsRs2eYiWACSKnD",
+            "title": "FUTUROSCOPE - BILLET DATE 1 JOUR",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-14T08:00:00Z",
+            "end": "2022-08-14T08:00:00Z",
+            "updated": "2022-05-31T00:27:11Z",
+            "first_seen": "2022-01-07T00:05:42Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "4vWRGvJy295fLCqgKV",
+            "title": "FUTUROSCOPE - BILLET DATE 2 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-13T08:00:00Z",
+            "end": "2022-08-13T08:00:00Z",
+            "updated": "2022-05-31T00:26:45Z",
+            "first_seen": "2022-01-07T00:15:33Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "Bt6FwjeJLMqnKbWmhw",
+            "title": "FUTUROSCOPE - BILLET DATE 3 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-12T08:00:00Z",
+            "end": "2022-08-12T08:00:00Z",
+            "updated": "2022-05-31T00:26:30Z",
+            "first_seen": "2022-01-07T00:08:41Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.4746229,
+            "id": "HhLHb2FrMhu59CrYmT",
+            "title": "FUTUROSCOPE - BILLET DATE 3 JOURS",
+            "description": "",
+            "category": "community",
+            "labels": [
+                "community",
+                "family"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "entity_id": "NnLAb5eXuD8TNXrrDd9qhS",
+                    "name": "PARC DU FUTUROSCOPE",
+                    "formatted_address": "BP 2000\n86130 Jaunay Marigny\nFrance",
+                    "type": "venue"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-08-11T08:00:00Z",
+            "end": "2022-08-11T08:00:00Z",
+            "updated": "2022-05-31T00:26:38Z",
+            "first_seen": "2022-01-07T00:05:09Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3674498,
+                46.6666138
+            ],
+            "geo": {
+                "geometry": {
+                    "coordinates": [
+                        0.3674498,
+                        46.6666138
+                    ],
+                    "type": "Point"
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451663",
+                    "3026391"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        }
+    ]
+}

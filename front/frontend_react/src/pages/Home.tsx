@@ -1,8 +1,61 @@
 import axios from 'axios';
 import { Helmet } from 'react-helmet';
+import { createSearchParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import styles from 'styles/Home.module.css';
 import { Banner, Collection, Header, LargeCard, SmallCard } from '../components';
+
+const getUrl = (location: string) => {
+	const params = createSearchParams({
+		location,
+		startDate: new Date().toDateString() || '',
+		endDate: new Date().toDateString() || '',
+		numberOfGuests: '1',
+	});
+
+	return `/search?${params}`;
+};
+
+const DEFAULT_CITIES = [
+	{
+		name: 'Paris',
+		description: 'City of love',
+		image:
+			'https://www.hoteldesgrandshommes.com/uploads/images/monuments/xhc-a-eu-france-paris-eiffel-tower.jpg.pagespeed.ic.yhN88MFsAe.jpg',
+		link: getUrl('Paris'),
+		location: 'France',
+	},
+	{
+		name: 'London',
+		description: 'Captial of the United Kingdom',
+		image:
+			'https://a.cdn-hotels.com/gdcs/production27/d274/43014cca-c88c-4061-ace8-58edc24531ee.jpg',
+		link: getUrl('London'),
+		location: 'United Kingdom',
+	},
+	{
+		name: 'New York',
+		description: 'City of lights',
+		image: 'http://www.godominicanrepublic.com/wp-content/uploads/2018/03/newyork-64819822_xxl.jpg',
+		link: getUrl('New York'),
+		location: 'United States',
+	},
+	{
+		name: 'Tokyo',
+		description: 'City of culture',
+		image:
+			'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4b/5d/10/caption.jpg?w=500&h=300&s=1&cx=1005&cy=690&chk=v1_2ed86f729380ea073850',
+		link: getUrl('Tokyo'),
+		location: 'Japan',
+	},
+	{
+		name: 'Rome',
+		description: 'City of history',
+		image: 'https://res.klook.com/image/upload/Mobile/City/afmqgg5h0jl9wnr1dfmf.jpg',
+		link: getUrl('Rome'),
+		location: 'Italy',
+	},
+];
 
 const Home = () => {
 	const citiesGridStyle = {
@@ -65,18 +118,16 @@ const Home = () => {
 			<Header />
 			<Banner onClick={handlePermission} />
 			<Collection title="Explore the cities nearby" style={citiesGridStyle}>
-				{Array(8)
-					.fill(null)
-					.map((_, key) => (
-						<SmallCard
-							city="Paris"
-							description="The city of love"
-							distance={10}
-							image="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-							link="/"
-							key={key}
-						/>
-					))}
+				{DEFAULT_CITIES.map((city, key) => (
+					<SmallCard
+						city={city.name}
+						description={city.description}
+						location={city.location}
+						image={city.image}
+						link={city.link}
+						key={key + city.name + city.description}
+					/>
+				))}
 			</Collection>
 			<LargeCard
 				image="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"

@@ -1,0 +1,3318 @@
+{
+    "count": 147,
+    "overflow": false,
+    "next": "https://api.predicthq.com/v1/events/?category=academic%2Cconferences%2Cexpos%2Cconcerts%2Cfestivals%2Cperforming-arts%2Csports%2Ccommunity&limit=50&offset=50&within=10km%4046.56570595418568%2C0.30907630920410156",
+    "previous": null,
+    "results": [
+        {
+            "relevance": 0.0,
+            "id": "BbQ3YmwRNSFZQMrXCq",
+            "title": "BOODER",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "comedy",
+                "entertainment",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "LA HUNE",
+                    "formatted_address": "1 av. du Champ de la Caille\n86280 St Benoit\nFrance",
+                    "entity_id": "L68yyPwnFHrSkVaC2aFuAy"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-09-08T18:30:00Z",
+            "end": "2022-09-08T18:30:00Z",
+            "updated": "2022-06-24T00:56:17Z",
+            "first_seen": "2022-01-26T00:10:21Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.343553,
+                46.557567
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.343553,
+                        46.557567
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "57bk4wc4Coxr3THPRa",
+            "title": "Ekiden - Poitiers",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [],
+            "duration": 86399,
+            "start": "2022-06-25T22:00:00Z",
+            "end": "2022-06-26T21:59:59Z",
+            "updated": "2022-04-14T03:28:55Z",
+            "first_seen": "2021-12-18T16:51:26Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.340375,
+                46.580224
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.340375,
+                        46.580224
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "6VqdLwMmq6ao2ppGqv",
+            "title": "Les Foulées de Mignaloux",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "outdoor",
+                "running",
+                "sport"
+            ],
+            "rank": 38,
+            "local_rank": 62,
+            "aviation_rank": 0,
+            "phq_attendance": 251,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-06-25T16:30:00Z",
+            "end": "2022-06-25T16:30:00Z",
+            "updated": "2022-04-22T05:44:47Z",
+            "first_seen": "2021-12-19T03:53:55Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.414171,
+                46.543425
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.414171,
+                        46.543425
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445300",
+                    "2993921"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "HjhgU2kck5dujjdKKW",
+            "title": "Stellar Festival",
+            "description": "",
+            "category": "festivals",
+            "labels": [
+                "concert",
+                "festival",
+                "music"
+            ],
+            "rank": 63,
+            "local_rank": 83,
+            "aviation_rank": 0,
+            "phq_attendance": 4639,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Parc des Expositions",
+                    "formatted_address": "11 Rue Salvador Allende\n86000 Poitiers\nFrance",
+                    "entity_id": "BpqbaCy7JGbpNbRwvXC4QD"
+                }
+            ],
+            "duration": 122400,
+            "start": "2022-06-10T20:00:00Z",
+            "end": "2022-06-12T06:00:00Z",
+            "updated": "2022-04-04T06:01:25Z",
+            "first_seen": "2022-04-04T00:20:34Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.373747,
+                46.582742
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.373747,
+                        46.582742
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "CUtt3Xyxdw7CqP9VH7",
+            "title": "Pelada, Chris Imler",
+            "description": "",
+            "category": "concerts",
+            "labels": [
+                "concert",
+                "music"
+            ],
+            "rank": 38,
+            "local_rank": 57,
+            "aviation_rank": 0,
+            "phq_attendance": 260,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Le Confort Moderne",
+                    "formatted_address": "185 Rue du Faubourg du Pont Neuf\n86000 Poitiers\nFrance",
+                    "entity_id": "3AbVX4yKfHBUPQZbQV77fDe"
+                }
+            ],
+            "duration": 12600,
+            "start": "2022-05-25T20:30:00Z",
+            "end": "2022-05-26T00:00:00Z",
+            "updated": "2022-05-16T12:44:24Z",
+            "first_seen": "2022-05-16T12:44:14Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3597409,
+                46.5727523
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.3597409,
+                        46.5727523
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "D6dLhnJHgH8C5ojYyd",
+            "title": "National 3 - Nouvelle-Aquitaine - Stade Poitevin vs Anglet Genets",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "soccer",
+                "sport"
+            ],
+            "rank": 54,
+            "local_rank": 73,
+            "aviation_rank": 0,
+            "phq_attendance": 1516,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Stade Michel-Amand",
+                    "formatted_address": "2, avenue de la Fraternité, Poitiers\n86180 Buxerolles\nFrance",
+                    "entity_id": "RDipFpNNEX7P6fPtTdJENh"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-05-21T16:00:00Z",
+            "end": "2022-05-21T16:00:00Z",
+            "predicted_end": "2022-05-21T17:50:00Z",
+            "updated": "2022-06-23T13:26:57Z",
+            "first_seen": "2021-07-29T01:14:08Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3651505708694458,
+                46.595077856097234
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.3651505708694458,
+                        46.595077856097234
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451650",
+                    "3005815"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "Bb9nJZzhAfoHGGXySp",
+            "title": "HAPPY HOUR",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "comedy",
+                "entertainment",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "SALLE R2B",
+                    "formatted_address": "4 ESPACE RIVES DE BOIVRE\n86580 Vouneuil Sous Biard\nFrance",
+                    "entity_id": "PSFLnnUz25rwMrcffJyaYt"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-05-14T18:30:00Z",
+            "end": "2022-05-14T18:30:00Z",
+            "updated": "2022-04-02T08:18:56Z",
+            "first_seen": "2021-12-02T00:12:50Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.2718127,
+                46.5778777
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.2718127,
+                        46.5778777
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445392",
+                    "2967628"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "CA5EAPEWYBNdd5AfmL",
+            "title": "Ligue A - 9th-14th Place Round - Poitiers vs Cambrai",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport",
+                "volleyball"
+            ],
+            "rank": 45,
+            "local_rank": 64,
+            "aviation_rank": null,
+            "phq_attendance": 562,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-05-14T18:00:00Z",
+            "end": "2022-05-14T18:00:00Z",
+            "updated": "2022-04-27T14:17:55Z",
+            "first_seen": "2022-03-23T14:01:22Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.36870449781417847,
+                46.56992319764471
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.36870449781417847,
+                        46.56992319764471
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "HEbwLiqq5ENGhEw45b",
+            "title": "Nationale 1 - Quarter-finals - Poitiers 86 vs Caen",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "basketball",
+                "sport"
+            ],
+            "rank": 56,
+            "local_rank": 78,
+            "aviation_rank": 0,
+            "phq_attendance": 1904,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Salle Saint-Eloi",
+                    "formatted_address": "86000 Poitiers\nFrance",
+                    "entity_id": "kZxntrxA9nH5DN74MTpCa9"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-05-13T18:00:00Z",
+            "end": "2022-05-13T18:00:00Z",
+            "predicted_end": "2022-05-13T19:45:00Z",
+            "updated": "2022-06-24T01:25:50Z",
+            "first_seen": "2022-05-02T08:03:11Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.385189,
+                46.590852
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.385189,
+                        46.590852
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "GRuFxQvz7XTE4K8M4G",
+            "title": "Ligue A - 9th-14th Place Round - Poitiers vs Nantes Rezé",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport",
+                "volleyball"
+            ],
+            "rank": 45,
+            "local_rank": 64,
+            "aviation_rank": null,
+            "phq_attendance": 562,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-05-07T17:30:00Z",
+            "end": "2022-05-07T17:30:00Z",
+            "updated": "2022-04-27T08:24:44Z",
+            "first_seen": "2022-03-23T14:01:15Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.36870449781417847,
+                46.56992319764471
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.36870449781417847,
+                        46.56992319764471
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "4CyAeREXSQoN65q5GG",
+            "title": "National 3 - Nouvelle-Aquitaine - Stade Poitevin vs Libourne",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "soccer",
+                "sport"
+            ],
+            "rank": 54,
+            "local_rank": 73,
+            "aviation_rank": 0,
+            "phq_attendance": 1516,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Stade Michel-Amand",
+                    "formatted_address": "2, avenue de la Fraternité, Poitiers\n86180 Buxerolles\nFrance",
+                    "entity_id": "RDipFpNNEX7P6fPtTdJENh"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-05-07T16:00:00Z",
+            "end": "2022-05-07T16:00:00Z",
+            "predicted_end": "2022-05-07T17:50:00Z",
+            "updated": "2022-06-24T00:16:21Z",
+            "first_seen": "2021-07-29T01:14:08Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3651505708694458,
+                46.595077856097234
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.3651505708694458,
+                        46.595077856097234
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451650",
+                    "3005815"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "8CmJ7hFb5wtRWAEvsg",
+            "title": "Nationale 1 - Round of 16 - Poitiers 86 vs Union Tarbes Lourdes",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "basketball",
+                "sport"
+            ],
+            "rank": 49,
+            "local_rank": 71,
+            "aviation_rank": 0,
+            "phq_attendance": 917,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Salle Saint-Eloi",
+                    "formatted_address": "86000 Poitiers\nFrance",
+                    "entity_id": "kZxntrxA9nH5DN74MTpCa9"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-05-01T15:00:00Z",
+            "end": "2022-05-01T15:00:00Z",
+            "predicted_end": "2022-05-01T16:45:00Z",
+            "updated": "2022-06-24T02:34:39Z",
+            "first_seen": "2022-04-19T20:02:39Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.385189,
+                46.590852
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.385189,
+                        46.590852
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "9aaqf3vr9sS6qqaAwH",
+            "title": "Nationale 1 - Round of 16 - Poitiers 86 vs Union Tarbes Lourdes",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "basketball",
+                "sport"
+            ],
+            "rank": 51,
+            "local_rank": 73,
+            "aviation_rank": 0,
+            "phq_attendance": 1153,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Salle Saint-Eloi",
+                    "formatted_address": "86000 Poitiers\nFrance",
+                    "entity_id": "kZxntrxA9nH5DN74MTpCa9"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-04-29T18:00:00Z",
+            "end": "2022-04-29T18:00:00Z",
+            "predicted_end": "2022-04-29T19:45:00Z",
+            "updated": "2022-06-24T04:32:34Z",
+            "first_seen": "2022-04-19T20:02:39Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.385189,
+                46.590852
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.385189,
+                        46.590852
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "HgwJVtTC4B3tS2BTQT",
+            "title": "Ligue A - 9th-14th Place Round - Poitiers vs Plessis Robinson",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport",
+                "volleyball"
+            ],
+            "rank": 45,
+            "local_rank": 64,
+            "aviation_rank": null,
+            "phq_attendance": 562,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-04-20T18:00:00Z",
+            "end": "2022-04-20T18:00:00Z",
+            "updated": "2022-03-24T14:05:20Z",
+            "first_seen": "2022-03-23T14:00:59Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.36870449781417847,
+                46.56992319764471
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.36870449781417847,
+                        46.56992319764471
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "BkuKPkjzwvDxkurkhS",
+            "title": "Ligue A - 9th-14th Place Round - Poitiers vs AS Cannes",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport",
+                "volleyball"
+            ],
+            "rank": 45,
+            "local_rank": 64,
+            "aviation_rank": null,
+            "phq_attendance": 562,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-04-13T18:00:00Z",
+            "end": "2022-04-13T18:00:00Z",
+            "updated": "2022-03-24T14:05:20Z",
+            "first_seen": "2022-03-23T14:01:15Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.36870449781417847,
+                46.56992319764471
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.36870449781417847,
+                        46.56992319764471
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "FTJCbzDpjnwWQRtrgS",
+            "title": "Nationale 1 - Stage 2 - Group A - Poitiers 86 vs Lyonso",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "basketball",
+                "sport"
+            ],
+            "rank": 47,
+            "local_rank": 69,
+            "aviation_rank": 0,
+            "phq_attendance": 728,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Salle Saint-Eloi",
+                    "formatted_address": "86000 Poitiers\nFrance",
+                    "entity_id": "kZxntrxA9nH5DN74MTpCa9"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-04-12T18:00:00Z",
+            "end": "2022-04-12T18:00:00Z",
+            "predicted_end": "2022-04-12T19:45:00Z",
+            "updated": "2022-06-23T04:34:37Z",
+            "first_seen": "2022-03-05T15:35:01Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.385189,
+                46.590852
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.385189,
+                        46.590852
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "Cz7UuWKvqH5zMfTDNm",
+            "title": "Ligue A - 9th-14th Place Round - Poitiers vs Toulouse",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport",
+                "volleyball"
+            ],
+            "rank": 45,
+            "local_rank": 64,
+            "aviation_rank": null,
+            "phq_attendance": 562,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-04-09T17:30:00Z",
+            "end": "2022-04-09T17:30:00Z",
+            "updated": "2022-03-24T14:05:20Z",
+            "first_seen": "2022-03-23T14:01:03Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.36870449781417847,
+                46.56992319764471
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.36870449781417847,
+                        46.56992319764471
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "3Mqh59uA9qY8oiiAsz",
+            "title": "National 3 - Nouvelle-Aquitaine - Stade Poitevin vs CA Neuville",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "soccer",
+                "sport"
+            ],
+            "rank": 54,
+            "local_rank": 74,
+            "aviation_rank": 0,
+            "phq_attendance": 1617,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Stade Michel-Amand",
+                    "formatted_address": "2, avenue de la Fraternité, Poitiers\n86180 Buxerolles\nFrance",
+                    "entity_id": "RDipFpNNEX7P6fPtTdJENh"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-04-09T16:30:00Z",
+            "end": "2022-04-09T16:30:00Z",
+            "predicted_end": "2022-04-09T18:20:00Z",
+            "updated": "2022-06-23T04:52:37Z",
+            "first_seen": "2021-07-29T01:14:08Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3651505708694458,
+                46.595077856097234
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.3651505708694458,
+                        46.595077856097234
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451650",
+                    "3005815"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "DLU4KPsG8NLeALU2pF",
+            "title": "SANDRINE SARROCHE",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "comedy",
+                "entertainment",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "LA HUNE",
+                    "formatted_address": "1 av. du Champ de la Caille\n86280 St Benoit\nFrance",
+                    "entity_id": "L68yyPwnFHrSkVaC2aFuAy"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-04-08T18:45:00Z",
+            "end": "2022-04-08T18:45:00Z",
+            "updated": "2022-06-24T00:59:04Z",
+            "first_seen": "2021-10-13T00:19:30Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.343553,
+                46.557567
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.343553,
+                        46.557567
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "5nnDz96puCkvqUnkKo",
+            "title": "LE CARNAVAL DES ANIMAUX",
+            "description": "",
+            "category": "concerts",
+            "labels": [
+                "concert",
+                "music"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "SALLE R2B",
+                    "formatted_address": "4 ESPACE RIVES DE BOIVRE\n86580 Vouneuil Sous Biard\nFrance",
+                    "entity_id": "PSFLnnUz25rwMrcffJyaYt"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-04-08T17:30:00Z",
+            "end": "2022-04-08T17:30:00Z",
+            "updated": "2022-04-02T02:56:48Z",
+            "first_seen": "2021-12-02T00:15:01Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.2718127,
+                46.5778777
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.2718127,
+                        46.5778777
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445392",
+                    "2967628"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "HzkaGU3dgbkXC4RbRo",
+            "title": "Nationale 1 - Stage 2 - Group A - Poitiers 86 vs Mulhouse",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "basketball",
+                "sport"
+            ],
+            "rank": 47,
+            "local_rank": 69,
+            "aviation_rank": 0,
+            "phq_attendance": 728,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Salle Saint-Eloi",
+                    "formatted_address": "86000 Poitiers\nFrance",
+                    "entity_id": "kZxntrxA9nH5DN74MTpCa9"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-04-05T18:00:00Z",
+            "end": "2022-04-05T18:00:00Z",
+            "predicted_end": "2022-04-05T19:45:00Z",
+            "updated": "2022-06-23T06:09:40Z",
+            "first_seen": "2022-03-05T15:35:01Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.385189,
+                46.590852
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.385189,
+                        46.590852
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "FUp3TAzd4nbGDm6nXT",
+            "title": "ANTOINE HERVIER - ANTOINE HERVIER FEAT MAXIME PLISSON",
+            "description": "",
+            "category": "concerts",
+            "labels": [
+                "concert",
+                "music"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "SALLE R2B",
+                    "formatted_address": "4 ESPACE RIVES DE BOIVRE\n86580 Vouneuil Sous Biard\nFrance",
+                    "entity_id": "PSFLnnUz25rwMrcffJyaYt"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-04-02T18:30:00Z",
+            "end": "2022-04-02T18:30:00Z",
+            "updated": "2022-04-02T02:06:13Z",
+            "first_seen": "2021-12-02T00:12:19Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.2718127,
+                46.5778777
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.2718127,
+                        46.5778777
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445392",
+                    "2967628"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "6rdny3ecKLYCi9hhdJ",
+            "title": "SI ON SAVAIT",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "comedy",
+                "entertainment",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "LA HUNE",
+                    "formatted_address": "1 av. du Champ de la Caille\n86280 St Benoit\nFrance",
+                    "entity_id": "L68yyPwnFHrSkVaC2aFuAy"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-03-31T18:45:00Z",
+            "end": "2022-03-31T18:45:00Z",
+            "updated": "2022-06-24T00:58:33Z",
+            "first_seen": "2021-10-13T00:49:27Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.343553,
+                46.557567
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.343553,
+                        46.557567
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "4MMVccPfeng4UxWnJA",
+            "title": "Coupe de France - Quarter-finals - Poitiers vs Plessis Robinson",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport",
+                "volleyball"
+            ],
+            "rank": 45,
+            "local_rank": 64,
+            "aviation_rank": null,
+            "phq_attendance": 562,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-03-28T18:00:00Z",
+            "end": "2022-03-28T18:00:00Z",
+            "updated": "2022-03-26T08:49:41Z",
+            "first_seen": "2022-03-03T14:45:52Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.36870449781417847,
+                46.56992319764471
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.36870449781417847,
+                        46.56992319764471
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "3Pe4PFx6sqpqZv7QXU",
+            "title": "Nationale 1 - Stage 2 - Group A - Poitiers 86 vs Le Havre",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "basketball",
+                "sport"
+            ],
+            "rank": 50,
+            "local_rank": 72,
+            "aviation_rank": 0,
+            "phq_attendance": 1005,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Salle Saint-Eloi",
+                    "formatted_address": "86000 Poitiers\nFrance",
+                    "entity_id": "kZxntrxA9nH5DN74MTpCa9"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-03-26T19:00:00Z",
+            "end": "2022-03-26T19:00:00Z",
+            "predicted_end": "2022-03-26T20:45:00Z",
+            "updated": "2022-06-23T04:21:15Z",
+            "first_seen": "2022-03-05T15:35:01Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.385189,
+                46.590852
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.385189,
+                        46.590852
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "Exr5vvX6thZm8RzfsV",
+            "title": "REGIS MAILHOT - NOUVELLES PIGEONNADES",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "comedy",
+                "entertainment",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "SALLE R2B",
+                    "formatted_address": "4 ESPACE RIVES DE BOIVRE\n86580 Vouneuil Sous Biard\nFrance",
+                    "entity_id": "PSFLnnUz25rwMrcffJyaYt"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-03-19T19:30:00Z",
+            "end": "2022-03-19T19:30:00Z",
+            "updated": "2022-04-03T01:58:58Z",
+            "first_seen": "2021-12-02T00:15:56Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.2718127,
+                46.5778777
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.2718127,
+                        46.5778777
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445392",
+                    "2967628"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "4oyVbKcVjUMC36HtzX",
+            "title": "Nationale 1 - Stage 2 - Group A - Poitiers 86 vs Caen",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "basketball",
+                "sport"
+            ],
+            "rank": 49,
+            "local_rank": 71,
+            "aviation_rank": 0,
+            "phq_attendance": 905,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Salle Saint-Eloi",
+                    "formatted_address": "86000 Poitiers\nFrance",
+                    "entity_id": "kZxntrxA9nH5DN74MTpCa9"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-03-19T18:00:00Z",
+            "end": "2022-03-19T18:00:00Z",
+            "predicted_end": "2022-03-19T19:45:00Z",
+            "updated": "2022-06-23T15:40:04Z",
+            "first_seen": "2022-03-05T15:35:00Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.385189,
+                46.590852
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.385189,
+                        46.590852
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "9ibcYQr3oriHtLTVY6",
+            "title": "HORS SERIE #2 - AFDS - PASS 1 JOUR - HORS SERIE #2",
+            "description": "",
+            "category": "concerts",
+            "labels": [
+                "concert",
+                "music"
+            ],
+            "rank": 61,
+            "local_rank": 81,
+            "aviation_rank": null,
+            "phq_attendance": 3711,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Parc des Expositions",
+                    "formatted_address": "11 Rue Salvador Allende\n86000 Poitiers\nFrance",
+                    "entity_id": "BpqbaCy7JGbpNbRwvXC4QD"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-03-18T19:00:00Z",
+            "end": "2022-03-18T19:00:00Z",
+            "updated": "2022-02-01T23:36:00Z",
+            "first_seen": "2021-12-16T00:11:57Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.373747,
+                46.582742
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.373747,
+                        46.582742
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "A9zwGUcXLqQdKbQUEz",
+            "title": "Festival au Fil du Son 2022 - Hors série #2",
+            "description": "",
+            "category": "festivals",
+            "labels": [
+                "festival"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [],
+            "duration": 259199,
+            "start": "2022-03-17T23:00:00Z",
+            "end": "2022-03-20T22:59:59Z",
+            "updated": "2021-12-14T03:11:37Z",
+            "first_seen": "2021-12-14T03:02:13Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3744747,
+                46.5826372
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.3744747,
+                        46.5826372
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "HAMgLrFw53GJSTg5CB",
+            "title": "VERINO - VERINO FOCUS",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "comedy",
+                "entertainment",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "LA HUNE",
+                    "formatted_address": "1 av. du Champ de la Caille\n86280 St Benoit\nFrance",
+                    "entity_id": "L68yyPwnFHrSkVaC2aFuAy"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-03-17T19:45:00Z",
+            "end": "2022-03-17T19:45:00Z",
+            "updated": "2022-06-24T00:58:13Z",
+            "first_seen": "2021-10-15T00:05:19Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.343553,
+                46.557567
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.343553,
+                        46.557567
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "FHCJAktbc93z2vEyzS",
+            "title": "MES HEROINES - MES HÉROÏNES",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "SALLE R2B",
+                    "formatted_address": "4 ESPACE RIVES DE BOIVRE\n86580 Vouneuil Sous Biard\nFrance",
+                    "entity_id": "PSFLnnUz25rwMrcffJyaYt"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-03-12T19:30:00Z",
+            "end": "2022-03-12T19:30:00Z",
+            "updated": "2022-04-03T02:11:19Z",
+            "first_seen": "2021-12-02T00:15:56Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.2718127,
+                46.5778777
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.2718127,
+                        46.5778777
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445392",
+                    "2967628"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "D58DRXDG5GTYu56zw9",
+            "title": "Ligue A - Poitiers vs Cambrai",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport",
+                "volleyball"
+            ],
+            "rank": 45,
+            "local_rank": 64,
+            "aviation_rank": null,
+            "phq_attendance": 562,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-03-12T18:30:00Z",
+            "end": "2022-03-12T18:30:00Z",
+            "updated": "2022-02-23T20:00:59Z",
+            "first_seen": "2021-09-02T14:07:01Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.36870449781417847,
+                46.56992319764471
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.36870449781417847,
+                        46.56992319764471
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "Bp6Zr2y3rmmbXPNg4B",
+            "title": "Nationale 1 - Stage 2 - Group A - Poitiers 86 vs Chartres",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "basketball",
+                "sport"
+            ],
+            "rank": 49,
+            "local_rank": 71,
+            "aviation_rank": 0,
+            "phq_attendance": 922,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Salle Saint-Eloi",
+                    "formatted_address": "86000 Poitiers\nFrance",
+                    "entity_id": "kZxntrxA9nH5DN74MTpCa9"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-03-11T19:00:00Z",
+            "end": "2022-03-11T19:00:00Z",
+            "predicted_end": "2022-03-11T20:45:00Z",
+            "updated": "2022-06-23T15:39:48Z",
+            "first_seen": "2022-03-05T15:35:00Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.385189,
+                46.590852
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.385189,
+                        46.590852
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "HFSiXpMpuPexqjTSpK",
+            "title": "SNOW THÉRAPIE",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "comedy",
+                "entertainment",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "LA HUNE",
+                    "formatted_address": "1 av. du Champ de la Caille\n86280 St Benoit\nFrance",
+                    "entity_id": "L68yyPwnFHrSkVaC2aFuAy"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-03-10T19:45:00Z",
+            "end": "2022-03-10T19:45:00Z",
+            "updated": "2022-06-24T00:58:35Z",
+            "first_seen": "2021-10-15T00:22:26Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.343553,
+                46.557567
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.343553,
+                        46.557567
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "CCJk74VK9e9wzdhhoX",
+            "title": "French Speaking Section: Doctoral Student Conference of ASRDLF",
+            "description": "",
+            "category": "conferences",
+            "labels": [
+                "conference",
+                "education"
+            ],
+            "rank": 42,
+            "local_rank": 61,
+            "aviation_rank": 0,
+            "phq_attendance": 400,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "University of Poitiers",
+                    "formatted_address": "15 Rue de l&#039;Hôtel Dieu\n86000 Poitiers\nFrance",
+                    "entity_id": "EDnHaB4zeQ2zsYzPuLxmgz"
+                }
+            ],
+            "duration": 118800,
+            "start": "2022-03-10T08:00:00Z",
+            "end": "2022-03-11T17:00:00Z",
+            "updated": "2022-02-01T23:43:12Z",
+            "first_seen": "2021-12-19T08:49:20Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.346048,
+                46.585991
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.346048,
+                        46.585991
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "Spw3QGfM8YUz7kLLcQ",
+            "title": "Ligue A - Poitiers vs Nice",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport",
+                "volleyball"
+            ],
+            "rank": 45,
+            "local_rank": 64,
+            "aviation_rank": null,
+            "phq_attendance": 562,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-03-05T19:00:00Z",
+            "end": "2022-03-05T19:00:00Z",
+            "updated": "2022-02-16T08:01:30Z",
+            "first_seen": "2021-09-02T14:07:01Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.36870449781417847,
+                46.56992319764471
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.36870449781417847,
+                        46.56992319764471
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "E84282jAeKuCdnzXZN",
+            "title": "National 3 - Nouvelle-Aquitaine - Stade Poitevin vs Aviron Bayonnais",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "soccer",
+                "sport"
+            ],
+            "rank": 52,
+            "local_rank": 71,
+            "aviation_rank": 0,
+            "phq_attendance": 1212,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Stade Michel-Amand",
+                    "formatted_address": "2, avenue de la Fraternité, Poitiers\n86180 Buxerolles\nFrance",
+                    "entity_id": "RDipFpNNEX7P6fPtTdJENh"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-03-05T17:00:00Z",
+            "end": "2022-03-05T17:00:00Z",
+            "predicted_end": "2022-03-05T18:50:00Z",
+            "updated": "2022-06-23T15:40:37Z",
+            "first_seen": "2021-07-29T01:14:06Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3651505708694458,
+                46.595077856097234
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.3651505708694458,
+                        46.595077856097234
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451650",
+                    "3005815"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "CQSEioZqkCLcSkseNz",
+            "title": "Ligue A - Poitiers vs Montpellier",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport",
+                "volleyball"
+            ],
+            "rank": 45,
+            "local_rank": 64,
+            "aviation_rank": null,
+            "phq_attendance": 562,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-03-01T18:30:00Z",
+            "end": "2022-03-01T18:30:00Z",
+            "updated": "2022-06-23T15:36:40Z",
+            "first_seen": "2021-09-02T14:07:00Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.36870449781417847,
+                46.56992319764471
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.36870449781417847,
+                        46.56992319764471
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "qKR7fdN9DYNCeRptxT",
+            "title": "Trail des Buis - Buxerolles",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "outdoor",
+                "running",
+                "sport"
+            ],
+            "rank": 36,
+            "local_rank": 56,
+            "aviation_rank": 0,
+            "phq_attendance": 203,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-02-27T08:00:00Z",
+            "end": "2022-02-27T08:00:00Z",
+            "updated": "2022-06-23T04:31:38Z",
+            "first_seen": "2021-12-08T08:27:38Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.353031,
+                46.597823
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.353031,
+                        46.597823
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "meANk8c2EMMQo7QwFm",
+            "title": "POITIERS POKER - Championnat Roller coaster #3 - 25/02/2022 - Licencié(e)s",
+            "description": "*** Tournoi PPC Réservé aux licencié(e)s ***",
+            "category": "community",
+            "labels": [
+                "community",
+                "sport"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [],
+            "duration": 27000,
+            "start": "2022-02-25T18:30:00Z",
+            "end": "2022-02-26T02:00:00Z",
+            "updated": "2022-04-01T21:26:22Z",
+            "first_seen": "2022-04-01T21:12:08Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.2751111000000037,
+                46.5282929
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.2751111000000037,
+                        46.5282929
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445257",
+                    "3018043"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": false,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "DiCqyHypEiMcH5ZiXo",
+            "title": "Ligue A - Poitiers vs Chaumont",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport",
+                "volleyball"
+            ],
+            "rank": 45,
+            "local_rank": 64,
+            "aviation_rank": null,
+            "phq_attendance": 562,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-02-19T18:30:00Z",
+            "end": "2022-02-19T18:30:00Z",
+            "updated": "2022-01-27T08:00:51Z",
+            "first_seen": "2021-09-02T14:07:00Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.36870449781417847,
+                46.56992319764471
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.36870449781417847,
+                        46.56992319764471
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "5EzzP443GP36T9faAw",
+            "title": "National 3 - Nouvelle-Aquitaine - Stade Poitevin vs Bordeaux  II",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "soccer",
+                "sport"
+            ],
+            "rank": 52,
+            "local_rank": 72,
+            "aviation_rank": 0,
+            "phq_attendance": 1294,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Stade Michel-Amand",
+                    "formatted_address": "2, avenue de la Fraternité, Poitiers\n86180 Buxerolles\nFrance",
+                    "entity_id": "RDipFpNNEX7P6fPtTdJENh"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-02-12T17:30:00Z",
+            "end": "2022-02-12T17:30:00Z",
+            "predicted_end": "2022-02-12T19:20:00Z",
+            "updated": "2022-06-23T10:57:01Z",
+            "first_seen": "2021-07-29T01:14:08Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3651505708694458,
+                46.595077856097234
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.3651505708694458,
+                        46.595077856097234
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451650",
+                    "3005815"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "7XsaG4YSttm8poUfVF",
+            "title": "Ligue A (W) - Evreux vs France Avenir",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport",
+                "volleyball"
+            ],
+            "rank": 45,
+            "local_rank": 64,
+            "aviation_rank": null,
+            "phq_attendance": 562,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-02-12T17:30:00Z",
+            "end": "2022-02-12T17:30:00Z",
+            "updated": "2022-01-19T14:03:37Z",
+            "first_seen": "2021-09-02T15:19:24Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.36419034004211426,
+                46.59407889767766
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.36419034004211426,
+                        46.59407889767766
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451650",
+                    "3005815"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "8vNZgKhFMwZ7b4W3WN",
+            "title": "Nationale 1 - Group A - Poitiers 86 vs Bordeaux",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "basketball",
+                "sport"
+            ],
+            "rank": 48,
+            "local_rank": 70,
+            "aviation_rank": 0,
+            "phq_attendance": 784,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Salle Saint-Eloi",
+                    "formatted_address": "86000 Poitiers\nFrance",
+                    "entity_id": "kZxntrxA9nH5DN74MTpCa9"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-02-11T19:00:00Z",
+            "end": "2022-02-11T19:00:00Z",
+            "predicted_end": "2022-02-11T20:45:00Z",
+            "updated": "2022-06-23T13:30:13Z",
+            "first_seen": "2021-07-28T10:37:44Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.385189,
+                46.590852
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.385189,
+                        46.590852
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "7UkQHBP73cHtQxUqG8",
+            "title": "Ligue A - Poitiers vs Paris",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "sport",
+                "volleyball"
+            ],
+            "rank": 45,
+            "local_rank": 64,
+            "aviation_rank": null,
+            "phq_attendance": 562,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-02-05T18:30:00Z",
+            "end": "2022-02-05T18:30:00Z",
+            "updated": "2022-01-12T08:02:12Z",
+            "first_seen": "2021-09-02T14:07:00Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.36870449781417847,
+                46.56992319764471
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.36870449781417847,
+                        46.56992319764471
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "HtZvGZCwkBhxaU2EdX",
+            "title": "'CHUT(E)!'",
+            "description": "",
+            "category": "performing-arts",
+            "labels": [
+                "entertainment",
+                "performing-arts"
+            ],
+            "rank": 0,
+            "local_rank": 0,
+            "aviation_rank": null,
+            "phq_attendance": null,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "SALLE R2B",
+                    "formatted_address": "4 ESPACE RIVES DE BOIVRE\n86580 Vouneuil Sous Biard\nFrance",
+                    "entity_id": "PSFLnnUz25rwMrcffJyaYt"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-02-05T14:00:00Z",
+            "end": "2022-02-05T14:00:00Z",
+            "updated": "2022-04-02T02:56:47Z",
+            "first_seen": "2021-12-02T00:17:45Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.2718127,
+                46.5778777
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.2718127,
+                        46.5778777
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445392",
+                    "2967628"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "GEk63tC285PqjuSsRU",
+            "title": "Nationale 1 - Group A - Poitiers 86 vs Vendeé Challans",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "basketball",
+                "sport"
+            ],
+            "rank": 48,
+            "local_rank": 70,
+            "aviation_rank": 0,
+            "phq_attendance": 784,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Salle Saint-Eloi",
+                    "formatted_address": "86000 Poitiers\nFrance",
+                    "entity_id": "kZxntrxA9nH5DN74MTpCa9"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-02-04T19:00:00Z",
+            "end": "2022-02-04T19:00:00Z",
+            "predicted_end": "2022-02-04T20:45:00Z",
+            "updated": "2022-06-23T15:47:37Z",
+            "first_seen": "2021-07-28T10:37:44Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.385189,
+                46.590852
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.385189,
+                        46.590852
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "s2VxiMQeEUphfdxGd4",
+            "title": "Trail du Miosson",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "outdoor",
+                "running",
+                "sport"
+            ],
+            "rank": 43,
+            "local_rank": 66,
+            "aviation_rank": 0,
+            "phq_attendance": 455,
+            "entities": [],
+            "duration": 0,
+            "start": "2022-01-30T08:30:00Z",
+            "end": "2022-01-30T08:30:00Z",
+            "updated": "2022-01-31T08:30:38Z",
+            "first_seen": "2021-02-11T23:12:40Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.339989,
+                46.549591
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.339989,
+                        46.549591
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445342",
+                    "2981408"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "ATD3bnYE5kn98KW4wo",
+            "title": "Nationale 1 - Group A - Poitiers 86 vs Toulouse",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "basketball",
+                "sport"
+            ],
+            "rank": 51,
+            "local_rank": 73,
+            "aviation_rank": 0,
+            "phq_attendance": 1186,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Salle Saint-Eloi",
+                    "formatted_address": "86000 Poitiers\nFrance",
+                    "entity_id": "kZxntrxA9nH5DN74MTpCa9"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-01-29T19:00:00Z",
+            "end": "2022-01-29T19:00:00Z",
+            "predicted_end": "2022-01-29T20:45:00Z",
+            "updated": "2022-06-23T11:32:54Z",
+            "first_seen": "2021-07-28T10:37:44Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.385189,
+                46.590852
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.385189,
+                        46.590852
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "3004985"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        },
+        {
+            "relevance": 0.0,
+            "id": "3AdfwHBaKtZ5qeXSbj",
+            "title": "National 3 - Nouvelle-Aquitaine - Stade Poitevin vs Lège-Cap-Ferret",
+            "description": "",
+            "category": "sports",
+            "labels": [
+                "soccer",
+                "sport"
+            ],
+            "rank": 54,
+            "local_rank": 74,
+            "aviation_rank": 0,
+            "phq_attendance": 1618,
+            "entities": [
+                {
+                    "type": "venue",
+                    "name": "Stade Michel-Amand",
+                    "formatted_address": "2, avenue de la Fraternité, Poitiers\n86180 Buxerolles\nFrance",
+                    "entity_id": "RDipFpNNEX7P6fPtTdJENh"
+                }
+            ],
+            "duration": 0,
+            "start": "2022-01-22T17:30:00Z",
+            "end": "2022-01-22T17:30:00Z",
+            "predicted_end": "2022-01-22T19:20:00Z",
+            "updated": "2022-06-23T10:46:07Z",
+            "first_seen": "2021-07-29T01:14:08Z",
+            "timezone": "Europe/Paris",
+            "location": [
+                0.3651505708694458,
+                46.595077856097234
+            ],
+            "geo": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.3651505708694458,
+                        46.595077856097234
+                    ]
+                }
+            },
+            "scope": "locality",
+            "country": "FR",
+            "place_hierarchies": [
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6451650",
+                    "3005815"
+                ],
+                [
+                    "6295630",
+                    "6255148",
+                    "3017382",
+                    "11071620",
+                    "2969280",
+                    "2986494",
+                    "6445329",
+                    "2986495"
+                ]
+            ],
+            "state": "active",
+            "brand_safe": true,
+            "private": false
+        }
+    ]
+}

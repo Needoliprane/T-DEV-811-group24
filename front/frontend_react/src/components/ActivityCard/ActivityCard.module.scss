@@ -1,0 +1,43 @@
+@import 'styles/colors';
+
+.container {
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 300px;
+	flex-shrink: 0;
+}
+
+.title {
+	font-size: 16px;
+	font-weight: bold;
+	color: $gray-9;
+}
+
+.tagContainer {
+	display: flex;
+	flex-wrap: wrap;
+
+	column-gap: 10px;
+	@apply hidden md:flex;
+	margin-top: 15px;
+}
+
+.tag {
+	border: 1px solid $gray-1;
+	border-radius: 15px;
+	padding: 5px 10px;
+	margin: 5px 0;
+}
+
+.infoContainer {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin: 5px 0;
+}
+.icon {
+	height: 1rem;
+	width: 1rem;
+}

@@ -1,6 +1,6 @@
 // eslint-disable-line import/no-webpack-loader-syntax
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { Header, InfoCard } from 'components';
+import { Header, InfoCard, Loading } from 'components';
 import styles from 'styles/Search.module.scss';
 import MultiSelect from 'components/MultiSelect/MultiSelect';
 import axios from 'axios';
@@ -9,11 +9,12 @@ import useSearch from 'hooks/useSearch';
 import moment from 'moment';
 import { Hotel, HotelResults } from 'lib/data.types';
 import Map from 'components/Map/Map';
-import { useSearchParams } from 'react-router-dom';
+import { createSearchParams, useSearchParams } from 'react-router-dom';
 import { mockedHotelResult } from '__mocks__/dataMock';
 
 const Search = () => {
 	const [Hotels, setHotels] = useState<HotelResults>(mockedHotelResult.data);
+	const [isLoading, setIsLoading] = useState(true);
 	const filters = useMemo(
 		() =>
 			mockedHotelResult.data.filters.themesAndTypes.items.map((filter) => ({
@@ -51,12 +52,23 @@ const Search = () => {
 
 	const getResults = useCallback(async () => {
 		if (!queryParams.location) return;
+		const format = 'YYYY-MM-DD';
+		let checkinDate = moment(queryParams.startDate).format(format);
+		if (checkinDate === 'Invalid date') checkinDate = moment().format(format);
+		let checkoutDate = moment(queryParams.endDate).format(format);
+		if (checkoutDate === 'Invalid date') checkoutDate = moment().format(format);
 		try {
 			const hostelIdResult = await axios.get(
-				`${process.env.REACT_APP_API_URI}/hotel/autocomplete/${queryParams.location}`
+				`${process.env.REACT_APP_API_URI}/sleep/hotels/?search=${
+					queryParams.location
+				}&adults_number=${
+					queryParams.numberOfGuests || 1
+				}&checkin_date=${checkinDate}&checkout_date=${checkoutDate}`
 			);
+			setHotels(hostelIdResult.data);
 		} catch (err) {}
-	}, [queryParams.location]);
+		setIsLoading(false);
+	}, [queryParams]);
 
 	useEffect(() => {
 		getResults();
@@ -105,6 +117,29 @@ const Search = () => {
 		return pos === -1 ? undefined : pos + 1;
 	};
 
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
+	if (isLoading) {
+		return (
+			<div>
+				<Header locationValue={queryParams.location as string} />
+				<Loading />
+			</div>
+		);
+	}
+
+	const getUrl = (id: number) => {
+		const params = createSearchParams({
+			startDate: queryParams.startDate || new Date().toDateString(),
+			endDate: queryParams.endDate || new Date().toDateString(),
+			numberOfGuests: queryParams.numberOfGuests || '1',
+		});
+
+		return `/hotels/${id}?${params}`;
+	};
+
 	return (
 		<div>
 			<Header locationValue={queryParams.location as string} />
@@ -127,7 +162,7 @@ const Search = () => {
 						/>
 					</div>
 					<div className={styles.infoCardContainer}>
-						{selectedLocations && (
+						{selectedLocations && selectedLocations.length > 0 && (
 							<>
 								<h3 className={styles.selectedTitle}>Selected places</h3>
 								{hotelsToDisplay
@@ -140,6 +175,7 @@ const Search = () => {
 											onOrderClick={() => handleInfoCardOrderClick(hotel)}
 											isActivated={true}
 											order={getPosition(hotel)}
+											url={getUrl(hotel.id)}
 										/>
 									))}
 								<div className={styles.delimiter}></div>
@@ -154,6 +190,7 @@ const Search = () => {
 									onOrderClick={() => handleInfoCardOrderClick(hotel)}
 									isActivated={false}
 									order={getPosition(hotel)}
+									url={getUrl(hotel.id)}
 								/>
 							))}
 					</div>

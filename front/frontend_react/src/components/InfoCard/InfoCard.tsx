@@ -20,6 +20,7 @@ type Props = {
 	onOrderClick?: () => void;
 	isActivated?: boolean;
 	order?: number;
+	url?: string;
 };
 
 const InfoCard = ({
@@ -28,7 +29,9 @@ const InfoCard = ({
 	onOrderClick: handleOrderClick,
 	isActivated,
 	order,
+	url,
 }: Props) => {
+	console.log(hotel);
 	return (
 		<div
 			className={cn(utilsStyles.card, styles.container, { [styles.activated]: isActivated })}
@@ -40,11 +43,11 @@ const InfoCard = ({
 				className={styles.preview}
 			/>
 			<div style={{ flex: 1 }}>
-				<Link to={`/hotels/${hotel.id}`} className={styles.name} target="_blank">
+				<Link to={url || `/hotels/${hotel.id}`} className={styles.name} target="_blank">
 					{hotel.name}
 				</Link>
 				<div className={styles.infoContainer}>
-					<Stars rate={hotel.starRating} hasIcon />
+					<Stars rate={Math.floor(hotel.starRating)} hasIcon />
 				</div>
 				<div className={styles.infoContainer}>
 					<LocationMarkerIcon className={styles.icon} />
@@ -56,16 +59,18 @@ const InfoCard = ({
 					<HomeIcon className={styles.icon} />
 					<p className={styles.address}>{hotel.address.streetAddress}</p>
 				</div>
-				<div className={styles.infoContainer}>
-					<UserGroupIcon className={styles.icon} />
-					<p className={styles.reviewsContainer}>
-						<span
-							className={styles.reviews}
-						>{`${hotel.guestReviews.unformattedRating}/${hotel.guestReviews.scale} `}</span>
-						{hotel.guestReviews.badgeText}
-						{` (${hotel.guestReviews.total} reviews)`}
-					</p>
-				</div>
+				{hotel.guestReviews && (
+					<div className={styles.infoContainer}>
+						<UserGroupIcon className={styles.icon} />
+						<p className={styles.reviewsContainer}>
+							<span
+								className={styles.reviews}
+							>{`${hotel.guestReviews.unformattedRating}/${hotel.guestReviews.scale} `}</span>
+							{hotel.guestReviews.badgeText}
+							{` (${hotel.guestReviews.total} reviews)`}
+						</p>
+					</div>
+				)}
 				<p className={styles.price}>{hotel.ratePlan.price.current}</p>
 				<p className={styles.priceInfos}>
 					{hotel.ratePlan.price.fullyBundledPricePerStay}(VAT incl.)
