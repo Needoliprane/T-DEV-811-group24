@@ -161,14 +161,6 @@ const Search = () => {
 					</p>
 					<h1 className={styles.title}>Stays in {queryParams.location}</h1>
 					<input placeholder="Name of place" onChange={handleSearch} className={styles.searchbar} />
-					<ReactToPrint
-						trigger={() => (
-							<button className={styles.button} ref={printBtnRef}>
-								Print selected results
-							</button>
-						)}
-						content={() => pageToPrintRef.current}
-					/>
 					<div className={styles.filtersContainer}>
 						<MultiSelect
 							onSearch={handleFiltersSearch}
@@ -196,6 +188,23 @@ const Search = () => {
 											url={getUrl(hotel.id)}
 										/>
 									))}
+								<ReactToPrint
+									trigger={() => (
+										<button className={styles.button} ref={printBtnRef}>
+											Print selected results
+										</button>
+									)}
+									content={() => pageToPrintRef.current}
+								/>
+								<div style={{ display: 'none' }}>
+									<PageToPrint
+										hotels={hotelsToDisplay
+											.filter((hotel) => selectedLocations?.some((a) => a.id === hotel.id))
+											.sort((a, b) => (getPosition(a) || -1) - (getPosition(b) || -1))}
+										onGetPosition={getPosition}
+										ref={pageToPrintRef}
+									/>
+								</div>
 								<div className={styles.delimiter}></div>
 							</>
 						)}
@@ -229,15 +238,6 @@ const Search = () => {
 					/>
 				</section>
 			</main>
-			<div style={{ display: 'none' }}>
-				<PageToPrint
-					hotels={hotelsToDisplay
-						.filter((hotel) => selectedLocations?.some((a) => a.id === hotel.id))
-						.sort((a, b) => (getPosition(a) || -1) - (getPosition(b) || -1))}
-					onGetPosition={getPosition}
-					ref={pageToPrintRef}
-				/>
-			</div>
 		</div>
 	);
 };
