@@ -65,6 +65,27 @@ const PageToPrint = React.forwardRef<HTMLDivElement, Props>(
 			<div ref={ref} className={styles.container}>
 				<img src={Logo} alt="Epic trip logo" />
 				<h1 className={styles.title}>Recap</h1>
+				<div>
+					<h2 className={styles.listTitle}>Prices</h2>
+					<ul className={styles.list}>
+						{hotels.map((hotel) => (
+							<li key={hotel.id} className={styles.hotelRow}>
+								<span className={styles.label}>{hotel.name}</span>
+								<span className={styles.price}>
+									{hotel.ratePlan.price.fullyBundledPricePerStay || hotel.ratePlan.price.current}
+								</span>
+							</li>
+						))}
+						<li className={styles.hotelRow} style={{ margin: '1px 0' }}>
+							<span className={styles.label}>Total</span>
+							<span className={styles.price}>
+								{hotels.reduce((acc, hotel) => acc + hotel.ratePlan.price.exactCurrent, 0)}€
+							</span>
+						</li>
+					</ul>
+				</div>
+				<div className={styles.separator} />
+				<h2 className={styles.listTitle}>Map</h2>
 				<img src={mapImgUrl} className={styles.map} alt="map" />
 				<div className={styles.cardCollection}>
 					{hotels.map((hotel) => (
