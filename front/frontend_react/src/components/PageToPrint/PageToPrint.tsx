@@ -33,9 +33,9 @@ const PageToPrint = React.forwardRef<HTMLDivElement, Props>(
 		);
 
 		const polyline = false; // || encode(mapSteps, 5);
-		console.log(mapSteps);
+		// console.log(mapSteps);
 		const path = polyline ? `path(${encodeURIComponent(polyline)}),` : '';
-		console.log('polyline', polyline);
+		// console.log('polyline', polyline);
 
 		const zoom = center
 			? `${center.longitude.toFixed(4)},${center.latitude.toFixed(4)},13,0`

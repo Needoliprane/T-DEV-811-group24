@@ -1,6 +1,6 @@
 // eslint-disable-line import/no-webpack-loader-syntax
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { Header, InfoCard, Loading } from 'components';
+import { Header, InfoCard, Loading, RangeSlider } from 'components';
 import styles from 'styles/Search.module.scss';
 import MultiSelect from 'components/MultiSelect/MultiSelect';
 import axios from 'axios';
@@ -16,7 +16,8 @@ import ReactToPrint from 'react-to-print';
 import PageToPrint from 'components/PageToPrint/PageToPrint';
 
 const Search = () => {
-	const [Hotels, setHotels] = useState<HotelResults>(mockedHotelResult.data);
+	const [Hotels, setHotels] = useState<HotelResults>();
+	const [priceFilter, setPriceFilter] = useState<number[]>([0, 1000]);
 	const pageToPrintRef = React.useRef<HTMLDivElement>(null);
 	const printBtnRef = React.useRef<HTMLButtonElement>(null);
 	const [isLoading, setIsLoading] = useState(true);
@@ -45,23 +46,42 @@ const Search = () => {
 		)
 	);
 
-	const queryParams = useMemo(
-		() => ({
-			startDate: searchParams.get('startDate'),
-			endDate: searchParams.get('endDate'),
-			location: searchParams.get('location'),
-			numberOfGuests: searchParams.get('numberOfGuests'),
-		}),
-		[searchParams]
-	);
+	const getCorrectDates = (checkin: string | null, checkout: string | null) => {
+		const format = 'YYYY-MM-DD';
+		const now = moment();
+		let checkinDate = moment(checkin).format(format);
+		if (checkinDate === 'Invalid date' || now.diff(moment(checkinDate)) > 0)
+			checkinDate = moment().format(format);
+		let checkoutDate = moment(checkout).format(format);
+		if (checkoutDate === 'Invalid date' || now.diff(moment(checkoutDate)) > 0)
+			checkoutDate = moment().format(format);
+		return { checkinDate, checkoutDate };
+	};
+
+	const queryParams = useMemo(() => {
+		const { checkinDate: startDate, checkoutDate: endDate } = getCorrectDates(
+			searchParams.get('startDate'),
+			searchParams.get('endDate')
+		);
+		const location = searchParams.get('location');
+		const numberOfGuests = searchParams.get('numberOfGuests');
+		const selectedHotels = searchParams.getAll('selectedHotels');
+
+		return {
+			startDate,
+			endDate,
+			location,
+			numberOfGuests: numberOfGuests ? Math.abs(parseInt(numberOfGuests)).toString() : '1',
+			selectedHotels,
+		};
+	}, [searchParams]);
 
 	const getResults = useCallback(async () => {
 		if (!queryParams.location) return;
-		const format = 'YYYY-MM-DD';
-		let checkinDate = moment(queryParams.startDate).format(format);
-		if (checkinDate === 'Invalid date') checkinDate = moment().format(format);
-		let checkoutDate = moment(queryParams.endDate).format(format);
-		if (checkoutDate === 'Invalid date') checkoutDate = moment().format(format);
+
+		const checkinDate = queryParams.startDate;
+		const checkoutDate = queryParams.endDate;
+
 		try {
 			const hostelIdResult = await axios.get(
 				`${process.env.REACT_APP_API_URI}/sleep/hotels/?search=${
@@ -71,26 +91,62 @@ const Search = () => {
 				}&checkin_date=${checkinDate}&checkout_date=${checkoutDate}`
 			);
 			setHotels(hostelIdResult.data);
+			setPriceFilter([0, 1000]);
 		} catch (err) {}
 		setIsLoading(false);
 	}, [queryParams]);
+
+	useEffect(() => {
+		const selectedHotels = queryParams.selectedHotels;
+		if (selectedHotels.length > 0 && Hotels && Hotels.searchResults.results.length > 0) {
+			setSelectedLocations(
+				Hotels.searchResults.results.filter((hotel) => {
+					return selectedHotels.includes(hotel.id.toString());
+				})
+			);
+		}
+	}, [Hotels, queryParams]);
+
+	const maxPrice = useMemo(
+		() =>
+			Math.max(
+				...(Hotels?.searchResults.results.map((hotel) => hotel.ratePlan.price.exactCurrent) || [0])
+			),
+		[Hotels]
+	);
+	const minPrice = useMemo(
+		() =>
+			Math.min(
+				...(Hotels?.searchResults.results.map((hotel) => hotel.ratePlan.price.exactCurrent) || [0])
+			),
+		[Hotels]
+	);
+
+	useEffect(() => {
+		if (Hotels && Hotels?.searchResults.results.length > 0) {
+			setPriceFilter([minPrice, maxPrice]);
+		}
+	}, [Hotels, minPrice, maxPrice]);
 
 	useEffect(() => {
 		getResults();
 	}, [getResults]);
 
 	useEffect(() => {
+		const selectedHotels =
+			selectedLocations?.map((hotel) => hotel.id.toString()) || queryParams.selectedHotels || [];
 		setSearchParams({
 			location: queryParams.location as string,
-			startDate: queryParams.startDate as string,
-			endDate: queryParams.endDate as string,
-			numberOfGuests: queryParams.numberOfGuests as string,
+			startDate: queryParams.startDate,
+			endDate: queryParams.endDate,
+			numberOfGuests: queryParams.numberOfGuests,
 			selectedActivities,
+			selectedHotels,
 		});
-	}, [selectedActivities, setSearchParams, queryParams]);
+	}, [selectedActivities, selectedLocations, setSearchParams, queryParams]);
 
-	const fomatedStartDate = moment(queryParams.startDate as string).format('dd MMM yyyy');
-	const formatedEndDate = moment(queryParams.endDate as string).format('dd MMM yyyy');
+	const fomatedStartDate = moment(queryParams.startDate).format('dd. DD of MMM yyyy');
+	const formatedEndDate = moment(queryParams.endDate).format('dd. DD of MMM yyyy');
 
 	const handleSelectActivities = (selected: string) => {
 		setSelectedActivities((prev) =>
@@ -98,12 +154,18 @@ const Search = () => {
 		);
 	};
 
-	const { results: hotelsToDisplay, handleSearch } = useSearch<Hotel[]>((search) =>
-		Hotels.searchResults.results.filter(
-			(hotel) =>
-				search === '' ||
-				hotel.name.toLowerCase().match(search.toLowerCase().trim().replace(/\s/g, ''))
-		)
+	const matchPrice = (price: number) => {
+		return price >= priceFilter[0] && price <= priceFilter[1];
+	};
+
+	const { results: hotelsToDisplay, handleSearch } = useSearch<Hotel[]>(
+		(search) =>
+			Hotels?.searchResults?.results?.filter(
+				(hotel) =>
+					(search === '' ||
+						hotel.name.toLowerCase().match(search.toLowerCase().trim().replace(/\s/g, ''))) &&
+					matchPrice(hotel.ratePlan.price.exactCurrent)
+			) || []
 	);
 
 	const handleInfoCardOrderClick = (hotel: Hotel) => {
@@ -169,6 +231,13 @@ const Search = () => {
 							onSelect={handleSelectActivities}
 							options={filtersToDisplay}
 							className={styles.activitiesList}
+						/>
+						<RangeSlider
+							label="Price"
+							max={maxPrice}
+							min={minPrice}
+							selection={priceFilter}
+							onSelect={(val) => setPriceFilter(val as number[])}
 						/>
 					</div>
 					<div className={styles.infoCardContainer}>
