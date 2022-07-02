@@ -1,6 +1,6 @@
 // eslint-disable-line import/no-webpack-loader-syntax
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { Header, InfoCard, Loading } from 'components';
+import { Header, InfoCard, Loading, RangeSlider } from 'components';
 import styles from 'styles/Search.module.scss';
 import MultiSelect from 'components/MultiSelect/MultiSelect';
 import axios from 'axios';
@@ -17,6 +17,7 @@ import PageToPrint from 'components/PageToPrint/PageToPrint';
 
 const Search = () => {
 	const [Hotels, setHotels] = useState<HotelResults>();
+	const [priceFilter, setPriceFilter] = useState<number[]>([0, 1000]);
 	const pageToPrintRef = React.useRef<HTMLDivElement>(null);
 	const printBtnRef = React.useRef<HTMLButtonElement>(null);
 	const [isLoading, setIsLoading] = useState(true);
@@ -90,6 +91,7 @@ const Search = () => {
 				}&checkin_date=${checkinDate}&checkout_date=${checkoutDate}`
 			);
 			setHotels(hostelIdResult.data);
+			setPriceFilter([0, 1000]);
 		} catch (err) {}
 		setIsLoading(false);
 	}, [queryParams]);
@@ -104,6 +106,27 @@ const Search = () => {
 			);
 		}
 	}, [Hotels, queryParams]);
+
+	const maxPrice = useMemo(
+		() =>
+			Math.max(
+				...(Hotels?.searchResults.results.map((hotel) => hotel.ratePlan.price.exactCurrent) || [0])
+			),
+		[Hotels]
+	);
+	const minPrice = useMemo(
+		() =>
+			Math.min(
+				...(Hotels?.searchResults.results.map((hotel) => hotel.ratePlan.price.exactCurrent) || [0])
+			),
+		[Hotels]
+	);
+
+	useEffect(() => {
+		if (Hotels && Hotels?.searchResults.results.length > 0) {
+			setPriceFilter([minPrice, maxPrice]);
+		}
+	}, [Hotels, minPrice, maxPrice]);
 
 	useEffect(() => {
 		getResults();
@@ -131,12 +154,17 @@ const Search = () => {
 		);
 	};
 
+	const matchPrice = (price: number) => {
+		return price >= priceFilter[0] && price <= priceFilter[1];
+	};
+
 	const { results: hotelsToDisplay, handleSearch } = useSearch<Hotel[]>(
 		(search) =>
 			Hotels?.searchResults?.results?.filter(
 				(hotel) =>
-					search === '' ||
-					hotel.name.toLowerCase().match(search.toLowerCase().trim().replace(/\s/g, ''))
+					(search === '' ||
+						hotel.name.toLowerCase().match(search.toLowerCase().trim().replace(/\s/g, ''))) &&
+					matchPrice(hotel.ratePlan.price.exactCurrent)
 			) || []
 	);
 
@@ -203,6 +231,13 @@ const Search = () => {
 							onSelect={handleSelectActivities}
 							options={filtersToDisplay}
 							className={styles.activitiesList}
+						/>
+						<RangeSlider
+							label="Price"
+							max={maxPrice}
+							min={minPrice}
+							selection={priceFilter}
+							onSelect={(val) => setPriceFilter(val as number[])}
 						/>
 					</div>
 					<div className={styles.infoCardContainer}>
