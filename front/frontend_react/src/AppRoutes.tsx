@@ -47,6 +47,7 @@ const AppRoutes = () => {
 					<Route path="/hotels">
 						<Route path=":id" element={<HotelDetailsPage />} />
 					</Route>
+					<Route path="*" element={<NotFoundPage />} />
 				</Routes>
 			</Suspense>
 		</SWRConfig>
