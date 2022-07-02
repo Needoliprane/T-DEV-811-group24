@@ -19,7 +19,7 @@ const Stars = ({ rate, hasIcon, className: customClass }: Props) => {
 					<StarIcon key={index} className={styles.star} />
 				))}
 				{new Array(5 - rate).fill(0).map((_, index) => (
-					<StarIcon key={index} className={styles.star} />
+					<StarIcon key={index} className={styles.noStar} />
 				))}
 			</div>
 		</div>

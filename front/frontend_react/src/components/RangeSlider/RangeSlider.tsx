@@ -30,8 +30,8 @@ const RangeSlider = ({ label, selection, onSelect: handleSelect, min, max, class
 			{isActive && (
 				<div role="list" className={cn(styles.overlay, className)} ref={ref}>
 					<div style={{ display: 'flex', justifyContent: 'space-between' }}>
-						<p>Min: {selection[0]}€</p>
-						<p>Max: {selection[1]}€</p>
+						<p aria-label="MinPrice">Min: {selection[0]}€</p>
+						<p aria-label="MaxPrice">Max: {selection[1]}€</p>
 					</div>
 					<Slider
 						range

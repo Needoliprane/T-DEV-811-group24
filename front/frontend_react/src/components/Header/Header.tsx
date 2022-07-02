@@ -49,16 +49,6 @@ const Header = ({ locationValue }: Props) => {
 		setDates({ startDate, endDate });
 	};
 
-	// const handleSearch = () => {
-	//   router.push({
-	//     pathname: "/search",
-	//     query: {
-	//       ...getValues(),
-	//       startDate: dates.startDate?.toDateString(),
-	//       endDate: dates.endDate?.toDateString(),
-	//     },
-	//   });
-	// };
 	const handleSearch = () => {
 		const { location, numberOfGuests } = getValues();
 
@@ -115,12 +105,6 @@ const Header = ({ locationValue }: Props) => {
 						<ul>
 							<li className={styles.btn}>
 								<Link to="/login">Login</Link>
-							</li>
-							<li className={styles.btn}>
-								<Link to="/login">Login</Link>
-							</li>
-							<li className={styles.btn}>
-								<Link to="/login">Bonjour</Link>
 							</li>
 						</ul>
 					</Popover>
