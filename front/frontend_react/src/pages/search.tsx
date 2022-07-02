@@ -3,19 +3,20 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { Header, InfoCard, Loading, RangeSlider } from 'components';
 import styles from 'styles/Search.module.scss';
 import MultiSelect from 'components/MultiSelect/MultiSelect';
-import axios from 'axios';
+import axios, { Axios, AxiosError } from 'axios';
 import { getRandomColor } from 'lib/utils';
 import useSearch from 'hooks/useSearch';
 import moment from 'moment';
 import { Hotel, HotelResults } from 'lib/data.types';
 import Map from 'components/Map/Map';
-import { createSearchParams, useSearchParams } from 'react-router-dom';
+import { createSearchParams, Navigate, useNavigate, useSearchParams } from 'react-router-dom';
 import { mockedHotelResult } from '__mocks__/dataMock';
 import { Helmet } from 'react-helmet-async';
 import ReactToPrint from 'react-to-print';
 import PageToPrint from 'components/PageToPrint/PageToPrint';
 
 const Search = () => {
+	const navigate = useNavigate();
 	const [Hotels, setHotels] = useState<HotelResults>();
 	const [priceFilter, setPriceFilter] = useState<number[]>([0, 1000]);
 	const pageToPrintRef = React.useRef<HTMLDivElement>(null);
@@ -92,9 +93,12 @@ const Search = () => {
 			);
 			setHotels(hostelIdResult.data);
 			setPriceFilter([0, 1000]);
-		} catch (err) {}
+		} catch (err) {
+			const error = err as AxiosError;
+			if (error.response?.status === 500) navigate('/500');
+		}
 		setIsLoading(false);
-	}, [queryParams]);
+	}, [queryParams, navigate]);
 
 	useEffect(() => {
 		const selectedHotels = queryParams.selectedHotels;

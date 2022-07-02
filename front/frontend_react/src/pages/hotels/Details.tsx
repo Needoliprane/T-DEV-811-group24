@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Map from 'components/Map/Map';
 import moment from 'moment';
-import axios from 'axios';
+import axios, { AxiosError } from 'axios';
 import { Helmet } from 'react-helmet-async';
 
 const Details = () => {
@@ -66,9 +66,12 @@ const Details = () => {
 				}&checkin_date=${checkinDate}&checkout_date=${checkoutDate}`
 			);
 			setHotelDetails(hostelIdResult.data);
-		} catch (err) {}
+		} catch (err) {
+			const error = err as AxiosError;
+			if (error.response?.status === 500) navigate('/500');
+		}
 		setIsLoading(false);
-	}, [queryParams, id]);
+	}, [queryParams, id, navigate]);
 
 	useEffect(() => {
 		getResults();
