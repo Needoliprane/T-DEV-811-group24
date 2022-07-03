@@ -11,9 +11,6 @@ const SleepRepository = {
         }
 
         const params = {locale: 'en_US', currency: 'EUR', query: search}
-        console.log('ici?')
-        console.log("headers: ", headers)
-        console.log("params:", params)
         try {
             const responseHotelsCom = await axios.get(
                 urlHotelsCom,
@@ -52,8 +49,6 @@ const SleepRepository = {
             sort_order:"STAR_RATING_HIGHEST_FIRST"
         }
         
-        console.log("headers: ", headers)
-        console.log("params:", params)
         try {
             const responseHotelsCom = await axios.get(
                 urlHotelsCom,
@@ -64,8 +59,8 @@ const SleepRepository = {
             )
             return responseHotelsCom.data
         } catch (e) {
-            console.log('sleep getHotels hotels com error:',e.message)
-            return e.message
+            console.log('sleep getHotels hotels com error:',e.response.data.message)
+            throw e
         }
 
 	},
@@ -134,8 +129,8 @@ const SleepRepository = {
                 hotel_photo: photosResponseHotelsCom
             }
         } catch (e) {
-            console.log('sleep getHotelInfo hotels com error:',e.message)
-            return e.message
+            console.log('sleep getHotelInfo hotels com error:',e.response.data.message)
+            throw e
         }
 
 	},
